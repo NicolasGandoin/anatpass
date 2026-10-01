@@ -4,7 +4,20 @@ Application interactive conçue pour l'apprentissage par cœur et la révision r
 
 ---
 
-## 🚀 Comment lancer l'application sur Mac ?
+## 🌐 Accès en ligne direct (iPad, Tablettes & Navigateur)
+
+L'application est disponible 24h/24 en ligne :
+👉 **[https://nicolasgandoin.github.io/anatpass/](https://nicolasgandoin.github.io/anatpass/)**
+
+Sur votre iPad :
+1. Ouvrez ce lien dans **Safari**.
+2. Touchez le bouton **Partager ⎋** *(en haut à droite)*.
+3. Touchez **« Sur l'écran d'accueil »** puis **« Ajouter »**.
+4. L'application est installée sur votre iPad, en plein écran !
+
+---
+
+## 🚀 Comment lancer l'application en local sur Mac ?
 
 1. Dans le dossier `anatomie`, **double-cliquez simplement sur le fichier `Lancer_AnatPASS.command`**.
 2. L'application s'ouvre automatiquement dans votre navigateur (Safari, Chrome, etc.).
