@@ -1,0 +1,22551 @@
+window.PLANCHES_DATA = [
+  {
+    "id": 1,
+    "number": "Planche 1",
+    "title": "Le corps humain",
+    "subtitle": "Vues générale et repères anatomiques de base",
+    "image": "images/planche_001.webp",
+    "sections": [
+      {
+        "name": "A : Vue de face",
+        "items": [
+          {
+            "id": "p1-a-1",
+            "num": 1,
+            "label": "tête",
+            "accepted": [
+              "tête",
+              "tete",
+              "la tête"
+            ]
+          },
+          {
+            "id": "p1-a-2",
+            "num": 2,
+            "label": "cou",
+            "accepted": [
+              "cou",
+              "le cou"
+            ]
+          },
+          {
+            "id": "p1-a-5",
+            "num": 5,
+            "label": "thorax",
+            "accepted": [
+              "thorax",
+              "le thorax"
+            ]
+          },
+          {
+            "id": "p1-a-6",
+            "num": 6,
+            "label": "abdomen",
+            "accepted": [
+              "abdomen",
+              "l'abdomen"
+            ]
+          },
+          {
+            "id": "p1-a-7",
+            "num": 7,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme",
+              "le diaphragme"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : La position anatomique de référence",
+        "note": "Noter que la tête est à l'horizontale (le regard porte vers l'horizon), que le pouce est dirigé en dehors et que les talons sont joints.",
+        "items": []
+      },
+      {
+        "name": "C : Coupe sagittale médiane",
+        "items": [
+          {
+            "id": "p1-c-1",
+            "num": 1,
+            "label": "tête",
+            "accepted": [
+              "tête",
+              "tete",
+              "la tête"
+            ]
+          },
+          {
+            "id": "p1-c-2",
+            "num": 2,
+            "label": "cou",
+            "accepted": [
+              "cou",
+              "le cou"
+            ]
+          },
+          {
+            "id": "p1-c-5",
+            "num": 5,
+            "label": "thorax",
+            "accepted": [
+              "thorax",
+              "le thorax"
+            ]
+          },
+          {
+            "id": "p1-c-6",
+            "num": 6,
+            "label": "abdomen",
+            "accepted": [
+              "abdomen",
+              "l'abdomen"
+            ]
+          },
+          {
+            "id": "p1-c-7",
+            "num": 7,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme",
+              "le diaphragme"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Vue de profil",
+        "items": [
+          {
+            "id": "p1-d-1",
+            "num": 1,
+            "label": "tête",
+            "accepted": [
+              "tête",
+              "tete",
+              "la tête"
+            ]
+          },
+          {
+            "id": "p1-d-2",
+            "num": 2,
+            "label": "cou",
+            "accepted": [
+              "cou",
+              "le cou"
+            ]
+          },
+          {
+            "id": "p1-d-3",
+            "num": 3,
+            "label": "tronc",
+            "accepted": [
+              "tronc",
+              "le tronc"
+            ]
+          },
+          {
+            "id": "p1-d-4",
+            "num": 4,
+            "label": "membre pelvien",
+            "accepted": [
+              "membre pelvien",
+              "le membre pelvien",
+              "membre inférieur",
+              "le membre inferieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "number": "Planche 2",
+    "title": "Coupe sagittale du tronc",
+    "subtitle": "Cavités et délimitations séreuses",
+    "image": "images/planche_002.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p2-1",
+            "num": 1,
+            "label": "région du cou",
+            "accepted": [
+              "région du cou",
+              "region du cou",
+              "cou",
+              "le cou"
+            ]
+          },
+          {
+            "id": "p2-2",
+            "num": 2,
+            "label": "plan de l'orifice supérieur du thorax",
+            "hint": "joignant plateau supérieur TH1 au bord sup du manubrium",
+            "accepted": [
+              "plan de l'orifice supérieur du thorax",
+              "orifice supérieur du thorax",
+              "orifice superieur du thorax",
+              "plan de l'orifice superieur du thorax",
+              "orifice supérieur"
+            ]
+          },
+          {
+            "id": "p2-3",
+            "num": 3,
+            "label": "cavité thoracique",
+            "accepted": [
+              "cavité thoracique",
+              "cavite thoracique",
+              "la cavité thoracique"
+            ]
+          },
+          {
+            "id": "p2-4",
+            "num": 4,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme",
+              "le diaphragme"
+            ]
+          },
+          {
+            "id": "p2-5",
+            "num": 5,
+            "label": "cavité péritonéale",
+            "hint": "déborde en haut vers la cavité thoracique",
+            "accepted": [
+              "cavité péritonéale",
+              "cavite peritoneale",
+              "la cavité péritonéale"
+            ]
+          },
+          {
+            "id": "p2-6",
+            "num": 6,
+            "label": "péritoine",
+            "accepted": [
+              "péritoine",
+              "peritoine",
+              "le péritoine"
+            ]
+          },
+          {
+            "id": "p2-7",
+            "num": 7,
+            "label": "ombilic",
+            "hint": "projection en regard de L4",
+            "accepted": [
+              "ombilic",
+              "l'ombilic"
+            ]
+          },
+          {
+            "id": "p2-8",
+            "num": 8,
+            "label": "espace rétro péritonéal",
+            "accepted": [
+              "espace rétro péritonéal",
+              "espace rétropéritonéal",
+              "espace retro peritoneale",
+              "espace rétro-péritonéal",
+              "rétropéritoine"
+            ]
+          },
+          {
+            "id": "p2-9",
+            "num": 9,
+            "label": "plan du détroit supérieur du bassin",
+            "hint": "sépare cavité abdominale et cavité pelvienne",
+            "accepted": [
+              "plan du détroit supérieur du bassin",
+              "détroit supérieur du bassin",
+              "détroit supérieur",
+              "detroit superieur",
+              "plan du detroit superieur du bassin"
+            ]
+          },
+          {
+            "id": "p2-10",
+            "num": 10,
+            "label": "espace sous péritonéal",
+            "hint": "en continuité avec l'espace rétro péritonéal",
+            "accepted": [
+              "espace sous péritonéal",
+              "espace sous-péritonéal",
+              "espace sous peritoneale",
+              "sous péritoine"
+            ]
+          },
+          {
+            "id": "p2-11",
+            "num": 11,
+            "label": "plan du périnée",
+            "hint": "formations musculo-aponévrotiques",
+            "accepted": [
+              "plan du périnée",
+              "plan du perinee",
+              "périnée",
+              "perinee",
+              "le périnée"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "number": "Planche 3",
+    "title": "Le squelette",
+    "subtitle": "Observé de face (vue antérieure)",
+    "note": "Authentique squelette humain (corps donné à la science)",
+    "image": "images/planche_003.webp",
+    "sections": [
+      {
+        "name": "Légende du squelette",
+        "items": [
+          {
+            "id": "p3-1",
+            "num": 1,
+            "label": "tête",
+            "accepted": [
+              "tête",
+              "tete",
+              "la tête"
+            ]
+          },
+          {
+            "id": "p3-2",
+            "num": 2,
+            "label": "clavicule",
+            "accepted": [
+              "clavicule",
+              "la clavicule"
+            ]
+          },
+          {
+            "id": "p3-3",
+            "num": 3,
+            "label": "sternum",
+            "accepted": [
+              "sternum",
+              "le sternum"
+            ]
+          },
+          {
+            "id": "p3-4",
+            "num": 4,
+            "label": "côte",
+            "accepted": [
+              "côte",
+              "cote",
+              "les côtes",
+              "la côte",
+              "côtes"
+            ]
+          },
+          {
+            "id": "p3-5",
+            "num": 5,
+            "label": "humérus",
+            "accepted": [
+              "humérus",
+              "humerus",
+              "l'humérus"
+            ]
+          },
+          {
+            "id": "p3-6",
+            "num": 6,
+            "label": "radius",
+            "accepted": [
+              "radius",
+              "le radius"
+            ]
+          },
+          {
+            "id": "p3-7",
+            "num": 7,
+            "label": "ulna (cubitus)",
+            "accepted": [
+              "ulna",
+              "cubitus",
+              "l'ulna",
+              "le cubitus"
+            ]
+          },
+          {
+            "id": "p3-8",
+            "num": 8,
+            "label": "carpe",
+            "accepted": [
+              "carpe",
+              "le carpe"
+            ]
+          },
+          {
+            "id": "p3-9",
+            "num": 9,
+            "label": "métacarpe",
+            "accepted": [
+              "métacarpe",
+              "metacarpe",
+              "le métacarpe"
+            ]
+          },
+          {
+            "id": "p3-10",
+            "num": 10,
+            "label": "phalanges",
+            "accepted": [
+              "phalanges",
+              "les phalanges",
+              "phalange"
+            ]
+          },
+          {
+            "id": "p3-11",
+            "num": 11,
+            "label": "colonne vertébrale (rachis)",
+            "accepted": [
+              "colonne vertébrale",
+              "colonne vertebrale",
+              "rachis",
+              "la colonne vertébrale",
+              "le rachis"
+            ]
+          },
+          {
+            "id": "p3-12",
+            "num": 12,
+            "label": "os coxal",
+            "accepted": [
+              "os coxal",
+              "coxal",
+              "l'os coxal",
+              "os iliaque"
+            ]
+          },
+          {
+            "id": "p3-13",
+            "num": 13,
+            "label": "fémur",
+            "accepted": [
+              "fémur",
+              "femur",
+              "le fémur"
+            ]
+          },
+          {
+            "id": "p3-14",
+            "num": 14,
+            "label": "patella (rotule)",
+            "accepted": [
+              "patella",
+              "rotule",
+              "la patella",
+              "la rotule"
+            ]
+          },
+          {
+            "id": "p3-15",
+            "num": 15,
+            "label": "fibula (péroné)",
+            "accepted": [
+              "fibula",
+              "péroné",
+              "perone",
+              "la fibula",
+              "le péroné"
+            ]
+          },
+          {
+            "id": "p3-16",
+            "num": 16,
+            "label": "tarse",
+            "accepted": [
+              "tarse",
+              "le tarse"
+            ]
+          },
+          {
+            "id": "p3-17",
+            "num": 17,
+            "label": "métatarse",
+            "accepted": [
+              "métatarse",
+              "metatarse",
+              "le métatarse"
+            ]
+          },
+          {
+            "id": "p3-18",
+            "num": 18,
+            "label": "phalanges (orteils)",
+            "accepted": [
+              "phalanges",
+              "orteils",
+              "les orteils",
+              "les phalanges",
+              "phalanges des orteils"
+            ]
+          },
+          {
+            "id": "p3-19",
+            "num": 19,
+            "label": "tibia",
+            "accepted": [
+              "tibia",
+              "le tibia"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "number": "Planche 4",
+    "title": "Squelette de la tête",
+    "subtitle": "Vue de face et vue de profil",
+    "image": "images/planche_004.webp",
+    "sections": [
+      {
+        "name": "A : Vue de face",
+        "items": [
+          {
+            "id": "p4-a-1",
+            "num": 1,
+            "label": "frontal",
+            "accepted": [
+              "frontal",
+              "os frontal",
+              "l'os frontal"
+            ]
+          },
+          {
+            "id": "p4-a-2",
+            "num": 2,
+            "label": "pariétal",
+            "accepted": [
+              "pariétal",
+              "parietal",
+              "os pariétal",
+              "l'os parietal"
+            ]
+          },
+          {
+            "id": "p4-a-3",
+            "num": 3,
+            "label": "os nasal",
+            "accepted": [
+              "os nasal",
+              "nasal",
+              "l'os nasal",
+              "os propre du nez"
+            ]
+          },
+          {
+            "id": "p4-a-4",
+            "num": 4,
+            "label": "sphénoïde",
+            "accepted": [
+              "sphénoïde",
+              "sphenoide",
+              "os sphénoïde",
+              "l'os sphenoide"
+            ]
+          },
+          {
+            "id": "p4-a-5",
+            "num": 5,
+            "label": "temporal",
+            "accepted": [
+              "temporal",
+              "os temporal",
+              "l'os temporal"
+            ]
+          },
+          {
+            "id": "p4-a-6",
+            "num": 6,
+            "label": "rebord de l'orbite",
+            "accepted": [
+              "rebord de l'orbite",
+              "rebord orbitaire",
+              "orbite",
+              "l'orbite"
+            ]
+          },
+          {
+            "id": "p4-a-7",
+            "num": 7,
+            "label": "os zygomatique (malaire)",
+            "accepted": [
+              "os zygomatique",
+              "zygomatique",
+              "malaire",
+              "os malaire",
+              "l'os zygomatique"
+            ]
+          },
+          {
+            "id": "p4-a-8",
+            "num": 8,
+            "label": "maxillaire",
+            "accepted": [
+              "maxillaire",
+              "os maxillaire",
+              "l'os maxillaire",
+              "maxillaire supérieur"
+            ]
+          },
+          {
+            "id": "p4-a-9",
+            "num": 9,
+            "label": "mandibule",
+            "accepted": [
+              "mandibule",
+              "la mandibule",
+              "maxillaire inférieur"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue de profil",
+        "items": [
+          {
+            "id": "p4-b-1",
+            "num": 1,
+            "label": "frontal",
+            "accepted": [
+              "frontal",
+              "os frontal"
+            ]
+          },
+          {
+            "id": "p4-b-2",
+            "num": 2,
+            "label": "sphénoïde",
+            "accepted": [
+              "sphénoïde",
+              "sphenoide",
+              "os sphénoïde"
+            ]
+          },
+          {
+            "id": "p4-b-3",
+            "num": 3,
+            "label": "orbite",
+            "accepted": [
+              "orbite",
+              "l'orbite"
+            ]
+          },
+          {
+            "id": "p4-b-4",
+            "num": 4,
+            "label": "os nasal",
+            "accepted": [
+              "os nasal",
+              "nasal",
+              "os propre du nez"
+            ]
+          },
+          {
+            "id": "p4-b-5",
+            "num": 5,
+            "label": "os zygomatique",
+            "accepted": [
+              "os zygomatique",
+              "zygomatique",
+              "malaire",
+              "os malaire"
+            ]
+          },
+          {
+            "id": "p4-b-6",
+            "num": 6,
+            "label": "maxillaire",
+            "accepted": [
+              "maxillaire",
+              "os maxillaire"
+            ]
+          },
+          {
+            "id": "p4-b-7",
+            "num": 7,
+            "label": "mandibule",
+            "accepted": [
+              "mandibule",
+              "la mandibule"
+            ]
+          },
+          {
+            "id": "p4-b-8",
+            "num": 8,
+            "label": "processus mastoïde",
+            "accepted": [
+              "processus mastoïde",
+              "processus mastoide",
+              "mastoïde",
+              "apophyse mastoïde"
+            ]
+          },
+          {
+            "id": "p4-b-9",
+            "num": 9,
+            "label": "méat acoustique externe",
+            "hint": "conduit auditif externe",
+            "accepted": [
+              "méat acoustique externe",
+              "meat acoustique externe",
+              "conduit auditif externe",
+              "conduit auditif"
+            ]
+          },
+          {
+            "id": "p4-b-10",
+            "num": 10,
+            "label": "temporal",
+            "accepted": [
+              "temporal",
+              "os temporal"
+            ]
+          },
+          {
+            "id": "p4-b-11",
+            "num": 11,
+            "label": "occipital",
+            "accepted": [
+              "occipital",
+              "os occipital"
+            ]
+          },
+          {
+            "id": "p4-b-12",
+            "num": 12,
+            "label": "pariétal",
+            "accepted": [
+              "pariétal",
+              "parietal",
+              "os pariétal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "number": "Planche 5",
+    "title": "La tête en vue supérieure",
+    "subtitle": "Chez l'adulte et chez le nouveau-né",
+    "image": "images/planche_005.webp",
+    "sections": [
+      {
+        "name": "A : Chez l'adulte",
+        "items": [
+          {
+            "id": "p5-a-1",
+            "num": 1,
+            "label": "frontal",
+            "accepted": [
+              "frontal",
+              "os frontal"
+            ]
+          },
+          {
+            "id": "p5-a-2",
+            "num": 2,
+            "label": "os nasal",
+            "accepted": [
+              "os nasal",
+              "nasal",
+              "os propre du nez"
+            ]
+          },
+          {
+            "id": "p5-a-3",
+            "num": 3,
+            "label": "suture coronale",
+            "accepted": [
+              "suture coronale",
+              "la suture coronale",
+              "coronale"
+            ]
+          },
+          {
+            "id": "p5-a-4",
+            "num": 4,
+            "label": "pariétal",
+            "accepted": [
+              "pariétal",
+              "parietal",
+              "os pariétal"
+            ]
+          },
+          {
+            "id": "p5-a-5",
+            "num": 5,
+            "label": "suture sagittale",
+            "accepted": [
+              "suture sagittale",
+              "la suture sagittale",
+              "sagittale"
+            ]
+          },
+          {
+            "id": "p5-a-6",
+            "num": 6,
+            "label": "occipital",
+            "accepted": [
+              "occipital",
+              "os occipital"
+            ]
+          },
+          {
+            "id": "p5-a-7",
+            "num": 7,
+            "label": "suture lambdoïde",
+            "accepted": [
+              "suture lambdoïde",
+              "suture lambdoide",
+              "la suture lambdoïde",
+              "lambdoïde"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Chez le nouveau-né",
+        "items": [
+          {
+            "id": "p5-b-1",
+            "num": 1,
+            "label": "fontanelle antérieure",
+            "hint": "bregma",
+            "accepted": [
+              "fontanelle antérieure",
+              "fontanelle anterieure",
+              "la fontanelle antérieure",
+              "bregma",
+              "fontanelle bregmatique"
+            ]
+          },
+          {
+            "id": "p5-b-2",
+            "num": 2,
+            "label": "suture sagittale",
+            "accepted": [
+              "suture sagittale",
+              "la suture sagittale",
+              "sagittale"
+            ]
+          },
+          {
+            "id": "p5-b-3",
+            "num": 3,
+            "label": "fontanelle postérieure",
+            "hint": "lambda",
+            "accepted": [
+              "fontanelle postérieure",
+              "fontanelle posterieure",
+              "la fontanelle postérieure",
+              "lambda",
+              "fontanelle lambdatique"
+            ]
+          },
+          {
+            "id": "p5-b-4",
+            "num": 4,
+            "label": "suture coronale",
+            "accepted": [
+              "suture coronale",
+              "la suture coronale",
+              "coronale"
+            ]
+          },
+          {
+            "id": "p5-b-5",
+            "num": 5,
+            "label": "suture lambdoïde",
+            "accepted": [
+              "suture lambdoïde",
+              "suture lambdoide",
+              "la suture lambdoïde",
+              "lambdoïde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "number": "Planche 6",
+    "title": "Coupe frontale de la tête",
+    "subtitle": "Passant par le massif facial",
+    "image": "images/planche_006.webp",
+    "sections": [
+      {
+        "name": "Légende de la coupe frontale",
+        "items": [
+          {
+            "id": "p6-1",
+            "num": 1,
+            "label": "crâne",
+            "accepted": [
+              "crâne",
+              "crane",
+              "le crâne"
+            ]
+          },
+          {
+            "id": "p6-2",
+            "num": 2,
+            "label": "os frontal",
+            "accepted": [
+              "os frontal",
+              "frontal",
+              "l'os frontal"
+            ]
+          },
+          {
+            "id": "p6-4",
+            "num": 4,
+            "label": "os ethmoïde",
+            "accepted": [
+              "os ethmoïde",
+              "os ethmoide",
+              "ethmoïde",
+              "ethmoide",
+              "l'os ethmoïde"
+            ]
+          },
+          {
+            "id": "p6-5",
+            "num": 5,
+            "label": "os zygomatique",
+            "accepted": [
+              "os zygomatique",
+              "zygomatique",
+              "malaire",
+              "os malaire"
+            ]
+          },
+          {
+            "id": "p6-6",
+            "num": 6,
+            "label": "sinus maxillaire",
+            "accepted": [
+              "sinus maxillaire",
+              "le sinus maxillaire"
+            ]
+          },
+          {
+            "id": "p6-7",
+            "num": 7,
+            "label": "cavité nasale",
+            "accepted": [
+              "cavité nasale",
+              "cavite nasale",
+              "cavités nasales",
+              "fosses nasales",
+              "fosse nasale"
+            ]
+          },
+          {
+            "id": "p6-8",
+            "num": 8,
+            "label": "septum nasal (cloison nasale)",
+            "accepted": [
+              "septum nasal",
+              "cloison nasale",
+              "septum",
+              "le septum nasal",
+              "la cloison nasale"
+            ]
+          },
+          {
+            "id": "p6-9",
+            "num": 9,
+            "label": "os maxillaire",
+            "accepted": [
+              "os maxillaire",
+              "maxillaire",
+              "l'os maxillaire"
+            ]
+          },
+          {
+            "id": "p6-10",
+            "num": 10,
+            "label": "mandibule",
+            "accepted": [
+              "mandibule",
+              "la mandibule"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "number": "Planche 7",
+    "title": "Coupe sagittale de la tête",
+    "subtitle": "Boîte crânienne et massif facial",
+    "image": "images/planche_007.webp",
+    "sections": [
+      {
+        "name": "Légende de la coupe sagittale",
+        "items": [
+          {
+            "id": "p7-1",
+            "num": 1,
+            "label": "voûte du crâne",
+            "accepted": [
+              "voûte du crâne",
+              "voute du crane",
+              "la voûte du crâne",
+              "calvaria"
+            ]
+          },
+          {
+            "id": "p7-2",
+            "num": 2,
+            "label": "sphénoïde",
+            "hint": "appartient à la base du crâne",
+            "accepted": [
+              "sphénoïde",
+              "sphenoide",
+              "os sphénoïde"
+            ]
+          },
+          {
+            "id": "p7-3",
+            "num": 3,
+            "label": "occipital",
+            "hint": "appartient en partie à la base du crâne",
+            "accepted": [
+              "occipital",
+              "os occipital"
+            ]
+          },
+          {
+            "id": "p7-4",
+            "num": 4,
+            "label": "ethmoïde",
+            "hint": "appartient à la base du crâne",
+            "accepted": [
+              "ethmoïde",
+              "ethmoide",
+              "os ethmoïde"
+            ]
+          },
+          {
+            "id": "p7-5",
+            "num": 5,
+            "label": "os nasal",
+            "accepted": [
+              "os nasal",
+              "nasal",
+              "os propre du nez"
+            ]
+          },
+          {
+            "id": "p7-6",
+            "num": 6,
+            "label": "maxillaire",
+            "accepted": [
+              "maxillaire",
+              "os maxillaire"
+            ]
+          },
+          {
+            "id": "p7-7",
+            "num": 7,
+            "label": "neurocrâne (boîte crânienne)",
+            "accepted": [
+              "neurocrâne",
+              "neurocrane",
+              "boîte crânienne",
+              "boite cranienne",
+              "le neurocrâne"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "number": "Planche 8",
+    "title": "Classification des os",
+    "subtitle": "Exemple d'os long : l'humérus et autres types",
+    "image": "images/planche_008.webp",
+    "sections": [
+      {
+        "name": "A : Un exemple d'os long : l'humérus",
+        "items": [
+          {
+            "id": "p8-a-1",
+            "num": 1,
+            "label": "épiphyse",
+            "accepted": [
+              "épiphyse",
+              "epiphyse",
+              "l'épiphyse",
+              "épiphyse proximale"
+            ]
+          },
+          {
+            "id": "p8-a-2",
+            "num": 2,
+            "label": "métaphyse",
+            "accepted": [
+              "métaphyse",
+              "metaphyse",
+              "la métaphyse"
+            ]
+          },
+          {
+            "id": "p8-a-3",
+            "num": 3,
+            "label": "diaphyse (ou corps)",
+            "accepted": [
+              "diaphyse",
+              "la diaphyse",
+              "corps",
+              "le corps"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Autres vues de référence",
+        "note": "B : Coupe longitudinale d'un os long | C : Coupes transversales | D & E : Scapula (omoplate) face et profil | F : Coupe d'os de la voûte",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "number": "Planche 9",
+    "title": "Classification et croissance des os",
+    "subtitle": "Os court et croissance de l'os long",
+    "image": "images/planche_009.webp",
+    "sections": [
+      {
+        "name": "C : Coupe longitudinale d'un os long chez le nouveau-né",
+        "items": [
+          {
+            "id": "p9-c-1",
+            "num": 1,
+            "label": "noyau d'ossification métaphysaire",
+            "accepted": [
+              "noyau d'ossification métaphysaire",
+              "noyau métaphysaire",
+              "point d'ossification métaphysaire",
+              "noyau d'ossification metaphysaire"
+            ]
+          },
+          {
+            "id": "p9-c-2",
+            "num": 2,
+            "label": "périoste",
+            "accepted": [
+              "périoste",
+              "perioste",
+              "le périoste"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Coupe longitudinale d'un os long chez l'enfant",
+        "items": [
+          {
+            "id": "p9-d-1",
+            "num": 1,
+            "label": "noyau d'ossification épiphysaire",
+            "accepted": [
+              "noyau d'ossification épiphysaire",
+              "noyau épiphysaire",
+              "point d'ossification épiphysaire",
+              "noyau d'ossification epiphysaire"
+            ]
+          },
+          {
+            "id": "p9-d-2",
+            "num": 2,
+            "label": "noyau d'ossification diaphysaire",
+            "accepted": [
+              "noyau d'ossification diaphysaire",
+              "noyau diaphysaire",
+              "point d'ossification diaphysaire",
+              "noyau d'ossification diaphysaire"
+            ]
+          },
+          {
+            "id": "p9-d-3",
+            "num": 3,
+            "label": "cartilage de croissance (cartilage de conjugaison)",
+            "accepted": [
+              "cartilage de croissance",
+              "cartilage de conjugaison",
+              "le cartilage de croissance"
+            ]
+          },
+          {
+            "id": "p9-d-4",
+            "num": 4,
+            "label": "périoste",
+            "accepted": [
+              "périoste",
+              "perioste",
+              "le périoste"
+            ]
+          },
+          {
+            "id": "p9-d-5",
+            "num": 5,
+            "label": "canal médullaire",
+            "accepted": [
+              "canal médullaire",
+              "canal medullaire",
+              "le canal médullaire"
+            ]
+          },
+          {
+            "id": "p9-d-6",
+            "num": 6,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse",
+              "la diaphyse"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "number": "Planche 10",
+    "title": "La colonne vertébrale (rachis)",
+    "subtitle": "Vue latérale",
+    "image": "images/planche_010.webp",
+    "sections": [
+      {
+        "name": "Étages du rachis",
+        "items": [
+          {
+            "id": "p10-1",
+            "num": 1,
+            "label": "colonne vertébrale cervicale (rachis cervical)",
+            "accepted": [
+              "colonne vertébrale cervicale",
+              "rachis cervical",
+              "colonne cervicale"
+            ]
+          },
+          {
+            "id": "p10-2",
+            "num": 2,
+            "label": "colonne vertébrale thoracique (rachis dorsal)",
+            "accepted": [
+              "colonne vertébrale thoracique",
+              "rachis dorsal",
+              "rachis thoracique",
+              "colonne thoracique",
+              "colonne dorsale"
+            ]
+          },
+          {
+            "id": "p10-3",
+            "num": 3,
+            "label": "colonne vertébrale lombaire (rachis lombaire)",
+            "accepted": [
+              "colonne vertébrale lombaire",
+              "rachis lombaire",
+              "colonne lombaire"
+            ]
+          },
+          {
+            "id": "p10-4",
+            "num": 4,
+            "label": "sacrum",
+            "accepted": [
+              "sacrum",
+              "le sacrum"
+            ]
+          },
+          {
+            "id": "p10-5",
+            "num": 5,
+            "label": "coccyx",
+            "accepted": [
+              "coccyx",
+              "le coccyx"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "number": "Planche 11",
+    "title": "Le thorax osseux",
+    "subtitle": "Vue de face et profil droit",
+    "image": "images/planche_011.webp",
+    "sections": [
+      {
+        "name": "A : Vue de face",
+        "items": [
+          {
+            "id": "p11-a-1",
+            "num": 1,
+            "label": "première vertèbre thoracique (Th1)",
+            "accepted": [
+              "première vertèbre thoracique",
+              "premiere vertebre thoracique",
+              "1ere vertèbre thoracique",
+              "th1",
+              "t1"
+            ]
+          },
+          {
+            "id": "p11-a-2",
+            "num": 2,
+            "label": "première côte",
+            "accepted": [
+              "première côte",
+              "premiere cote",
+              "1ere côte",
+              "la première côte"
+            ]
+          },
+          {
+            "id": "p11-a-3",
+            "num": 3,
+            "label": "manubrium sternal",
+            "accepted": [
+              "manubrium sternal",
+              "manubrium",
+              "le manubrium sternal"
+            ]
+          },
+          {
+            "id": "p11-a-4",
+            "num": 4,
+            "label": "corps du sternum",
+            "accepted": [
+              "corps du sternum",
+              "corps sternal",
+              "le corps du sternum"
+            ]
+          },
+          {
+            "id": "p11-a-5",
+            "num": 5,
+            "label": "processus xiphoïde",
+            "accepted": [
+              "processus xiphoïde",
+              "processus xiphoide",
+              "appendice xiphoïde",
+              "xiphoïde"
+            ]
+          },
+          {
+            "id": "p11-a-6",
+            "num": 6,
+            "label": "11º vertèbre thoracique (Th11)",
+            "accepted": [
+              "11e vertèbre thoracique",
+              "11ème vertèbre thoracique",
+              "th11",
+              "t11",
+              "onzième vertèbre thoracique"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue latérale droite (profil)",
+        "items": [
+          {
+            "id": "p11-b-1",
+            "num": 1,
+            "label": "côte",
+            "accepted": [
+              "côte",
+              "cote",
+              "la côte"
+            ]
+          },
+          {
+            "id": "p11-b-2",
+            "num": 2,
+            "label": "sternum",
+            "accepted": [
+              "sternum",
+              "le sternum"
+            ]
+          },
+          {
+            "id": "p11-b-3",
+            "num": 3,
+            "label": "vertèbre thoracique",
+            "accepted": [
+              "vertèbre thoracique",
+              "vertebre thoracique",
+              "la vertèbre thoracique"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "number": "Planche 12",
+    "title": "La côte et le sternum",
+    "subtitle": "Articulation costovertébrale et pièces du sternum",
+    "image": "images/planche_012.webp",
+    "sections": [
+      {
+        "name": "A : Côte et sa vertèbre en vue supérieure",
+        "items": [
+          {
+            "id": "p12-a-1",
+            "num": 1,
+            "label": "vertèbre thoracique",
+            "accepted": [
+              "vertèbre thoracique",
+              "vertebre thoracique"
+            ]
+          },
+          {
+            "id": "p12-a-2",
+            "num": 2,
+            "label": "sternum",
+            "accepted": [
+              "sternum",
+              "le sternum"
+            ]
+          },
+          {
+            "id": "p12-a-3",
+            "num": 3,
+            "label": "côte osseuse (proprement dite)",
+            "accepted": [
+              "côte osseuse",
+              "côte proprement dite",
+              "côte",
+              "cote osseuse",
+              "cote"
+            ]
+          },
+          {
+            "id": "p12-a-4",
+            "num": 4,
+            "label": "cartilage costal",
+            "accepted": [
+              "cartilage costal",
+              "le cartilage costal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Le sternum vu de face",
+        "items": [
+          {
+            "id": "p12-b-1",
+            "num": 1,
+            "label": "manubrium",
+            "accepted": [
+              "manubrium",
+              "le manubrium",
+              "manubrium sternal"
+            ]
+          },
+          {
+            "id": "p12-b-2",
+            "num": 2,
+            "label": "corps",
+            "accepted": [
+              "corps",
+              "le corps",
+              "corps du sternum"
+            ]
+          },
+          {
+            "id": "p12-b-3",
+            "num": 3,
+            "label": "processus (appendice) xiphoïde",
+            "accepted": [
+              "processus xiphoïde",
+              "processus xiphoide",
+              "appendice xiphoïde",
+              "xiphoïde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "number": "Planche 13",
+    "title": "les articulations synoviales",
+    "subtitle": "",
+    "image": "images/planche_013.webp",
+    "sections": [
+      {
+        "name": "A : Coupe longitudinale d'une articulation synoviale type",
+        "items": [
+          {
+            "id": "p13-1-1",
+            "num": 1,
+            "label": "capsule articulaire",
+            "accepted": [
+              "capsule articulaire"
+            ]
+          },
+          {
+            "id": "p13-1-2",
+            "num": 2,
+            "label": "cartilage articulaire",
+            "accepted": [
+              "cartilage articulaire"
+            ]
+          },
+          {
+            "id": "p13-1-3",
+            "num": 3,
+            "label": "os",
+            "accepted": [
+              "os"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe longitudinale d'une articulation synoviale avec",
+        "items": []
+      },
+      {
+        "name": "C : Vue latérale de la scapula droite",
+        "items": [
+          {
+            "id": "p13-3-1",
+            "num": 1,
+            "label": "cavité glénoïdale",
+            "accepted": [
+              "cavite glenoidale",
+              "cavité glénoïdale"
+            ]
+          },
+          {
+            "id": "p13-3-2",
+            "num": 2,
+            "label": "bourrelet glénoïdal",
+            "accepted": [
+              "bourrelet glénoïdal",
+              "bourrelet glenoidal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D: Coupe longitudinale d'une articulation synoviale avec",
+        "items": []
+      },
+      {
+        "name": "E : Vue supérieure d'un ménisque",
+        "items": []
+      },
+      {
+        "name": "F : Coupe longitudinale d'une articulation synoviale avec",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "number": "Planche 14",
+    "title": "les muscles striés",
+    "subtitle": "",
+    "image": "images/planche_014.webp",
+    "sections": [
+      {
+        "name": "A : Muscle long simple",
+        "items": []
+      },
+      {
+        "name": "B : Muscle plat",
+        "items": [
+          {
+            "id": "p14-2-1",
+            "num": 1,
+            "label": "partie musculaire",
+            "accepted": [
+              "partie musculaire"
+            ]
+          },
+          {
+            "id": "p14-2-2",
+            "num": 2,
+            "label": "aponévrose d'insertion",
+            "accepted": [
+              "aponévrose d'insertion",
+              "aponevrose d'insertion"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Coupe transversale de l'avant-bras droit (au niveau de",
+        "items": [
+          {
+            "id": "p14-3-1",
+            "num": 1,
+            "label": "radius",
+            "accepted": [
+              "radius"
+            ]
+          },
+          {
+            "id": "p14-3-2",
+            "num": 2,
+            "label": "ulna",
+            "accepted": [
+              "ulna"
+            ]
+          },
+          {
+            "id": "p14-3-3",
+            "num": 3,
+            "label": "membrane interosseuse",
+            "accepted": [
+              "membrane interosseuse"
+            ]
+          },
+          {
+            "id": "p14-3-4",
+            "num": 4,
+            "label": "septum intermusculaire",
+            "accepted": [
+              "septum intermusculaire"
+            ]
+          },
+          {
+            "id": "p14-3-5",
+            "num": 5,
+            "label": "fascia antébrachial (aponévrose superficielle)",
+            "accepted": [
+              "fascia antebrachial (aponevrose superficielle)",
+              "fascia antébrachial",
+              "fascia antébrachial (aponévrose superficielle)",
+              "aponévrose superficielle",
+              "aponevrose superficielle",
+              "fascia antebrachial"
+            ],
+            "hint": "fascia antébrachial (aponévrose superficielle)"
+          },
+          {
+            "id": "p14-3-6",
+            "num": 6,
+            "label": "peau",
+            "accepted": [
+              "peau"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Vue latérale d'un doigt avec son tendon extenseur",
+        "items": [
+          {
+            "id": "p14-4-1",
+            "num": 1,
+            "label": "tendon",
+            "accepted": [
+              "tendon"
+            ]
+          },
+          {
+            "id": "p14-4-2",
+            "num": 2,
+            "label": "os",
+            "accepted": [
+              "os"
+            ]
+          },
+          {
+            "id": "p14-4-3",
+            "num": 3,
+            "label": "gaine fibreuse (poulie)",
+            "accepted": [
+              "gaine fibreuse (poulie)",
+              "gaine fibreuse",
+              "poulie"
+            ]
+          },
+          {
+            "id": "p14-4-4",
+            "num": 4,
+            "label": "gaine synoviale",
+            "accepted": [
+              "gaine synoviale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E : Coupe transversale d'un doigt",
+        "items": [
+          {
+            "id": "p14-5-1",
+            "num": 1,
+            "label": "tendon extenseur entouré de la gaine synoviale à double feuillet (pariétal et viscéral)",
+            "accepted": [
+              "tendon extenseur entouré de la gaine synoviale à double feuillet (pariétal et viscéral)",
+              "tendon extenseur entoure de la gaine synoviale a double feuillet",
+              "parietal et visceral",
+              "pariétal et viscéral",
+              "tendon extenseur entoure de la gaine synoviale a double feuillet (parietal et visceral)",
+              "tendon extenseur entouré de la gaine synoviale à double feuillet"
+            ],
+            "hint": "tendon extenseur entouré de la gaine synoviale à double feuillet (pariétal et viscéral)"
+          },
+          {
+            "id": "p14-5-2",
+            "num": 2,
+            "label": "gaine fibreuse",
+            "accepted": [
+              "gaine fibreuse"
+            ]
+          },
+          {
+            "id": "p14-5-3",
+            "num": 3,
+            "label": "os",
+            "accepted": [
+              "os"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "number": "Planche 15",
+    "title": "le coeur",
+    "subtitle": "",
+    "image": "images/planche_015.webp",
+    "sections": [
+      {
+        "name": "A : Le grand axe du cœur, obliquement dirigé en bas, en avant et à gauche",
+        "items": []
+      },
+      {
+        "name": "B : Représentation schématique du cœur en vue antérieure, tel qu'il est",
+        "items": [
+          {
+            "id": "p15-2-1",
+            "num": 1,
+            "label": "atrium droit",
+            "accepted": [
+              "atrium droit"
+            ]
+          },
+          {
+            "id": "p15-2-2",
+            "num": 2,
+            "label": "ventricule droit",
+            "accepted": [
+              "ventricule droit"
+            ]
+          },
+          {
+            "id": "p15-2-3",
+            "num": 3,
+            "label": "atrium gauche",
+            "accepted": [
+              "atrium gauche"
+            ]
+          },
+          {
+            "id": "p15-2-4",
+            "num": 4,
+            "label": "ventricule gauche",
+            "accepted": [
+              "ventricule gauche"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Vue antérieure du cœur",
+        "items": [
+          {
+            "id": "p15-3-1",
+            "num": 1,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          },
+          {
+            "id": "p15-3-2",
+            "num": 2,
+            "label": "tronc (artériel) brachio-céphalique",
+            "accepted": [
+              "tronc (artériel) brachio-céphalique",
+              "arteriel",
+              "artériel",
+              "tronc (arteriel) brachio-cephalique",
+              "tronc"
+            ]
+          },
+          {
+            "id": "p15-3-3",
+            "num": 3,
+            "label": "artère carotide commune gauche",
+            "accepted": [
+              "artere carotide commune gauche",
+              "artère carotide commune gauche"
+            ]
+          },
+          {
+            "id": "p15-3-4",
+            "num": 4,
+            "label": "artère subclavière (sous clavière) gauche",
+            "accepted": [
+              "sous clavière",
+              "sous claviere",
+              "artere subclaviere",
+              "artère subclavière",
+              "artère subclavière (sous clavière) gauche",
+              "artere subclaviere (sous claviere) gauche"
+            ],
+            "hint": "artère subclavière (sous clavière) gauche"
+          },
+          {
+            "id": "p15-3-5",
+            "num": 5,
+            "label": "are de l'aorte (crosse aortique)",
+            "accepted": [
+              "are de l'aorte (crosse aortique)",
+              "are de l'aorte",
+              "crosse aortique"
+            ]
+          },
+          {
+            "id": "p15-3-6",
+            "num": 6,
+            "label": "artère pulmonaire gauche",
+            "accepted": [
+              "artère pulmonaire gauche",
+              "artere pulmonaire gauche"
+            ]
+          },
+          {
+            "id": "p15-3-7",
+            "num": 7,
+            "label": "tronc pulmonaire",
+            "accepted": [
+              "tronc pulmonaire"
+            ]
+          },
+          {
+            "id": "p15-3-8",
+            "num": 8,
+            "label": "auricule gauche",
+            "accepted": [
+              "auricule gauche",
+              "ricule gauche"
+            ]
+          },
+          {
+            "id": "p15-3-9",
+            "num": 9,
+            "label": "artère coronaire (dans le sillon inter ventriculaire antérieur)",
+            "accepted": [
+              "artere coronaire (dans le sillon inter ventriculaire anterieur)",
+              "artere coronaire",
+              "dans le sillon inter ventriculaire anterieur",
+              "artère coronaire",
+              "artère coronaire (dans le sillon inter ventriculaire antérieur)",
+              "dans le sillon inter ventriculaire antérieur"
+            ],
+            "hint": "artère coronaire (dans le sillon inter ventriculaire antérieur)"
+          },
+          {
+            "id": "p15-3-10",
+            "num": 10,
+            "label": "ventricule droit",
+            "accepted": [
+              "ventricule droit"
+            ]
+          },
+          {
+            "id": "p15-3-11",
+            "num": 11,
+            "label": "apex (pointe) du cœur",
+            "accepted": [
+              "apex (pointe) du cœur",
+              "pointe",
+              "apex"
+            ]
+          },
+          {
+            "id": "p15-3-12",
+            "num": 12,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p15-3-13",
+            "num": 13,
+            "label": "auricule droite",
+            "accepted": [
+              "auricule droite",
+              "ricule droite"
+            ]
+          },
+          {
+            "id": "p15-3-14",
+            "num": 14,
+            "label": "atrium droit",
+            "accepted": [
+              "atrium droit"
+            ]
+          },
+          {
+            "id": "p15-3-15",
+            "num": 15,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p15-3-16",
+            "num": 16,
+            "label": "bronche principale (souche) gauche",
+            "accepted": [
+              "souche",
+              "bronche principale (souche) gauche",
+              "bronche principale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Vue postéro inférieure du coeur",
+        "items": [
+          {
+            "id": "p15-4-1",
+            "num": 1,
+            "label": "artère subelavière (sous clavière) gauche",
+            "accepted": [
+              "sous clavière",
+              "artère subelavière (sous clavière) gauche",
+              "artere subelaviere (sous claviere) gauche",
+              "sous claviere",
+              "artere subelaviere",
+              "artère subelavière"
+            ],
+            "hint": "artère subelavière (sous clavière) gauche"
+          },
+          {
+            "id": "p15-4-2",
+            "num": 2,
+            "label": "artère carotide commune gauche",
+            "accepted": [
+              "artere carotide commune gauche",
+              "artère carotide commune gauche"
+            ]
+          },
+          {
+            "id": "p15-4-3",
+            "num": 3,
+            "label": "tronc (artériel) brachio-céphalique",
+            "accepted": [
+              "tronc (artériel) brachio-céphalique",
+              "arteriel",
+              "artériel",
+              "tronc (arteriel) brachio-cephalique",
+              "tronc"
+            ]
+          },
+          {
+            "id": "p15-4-4",
+            "num": 4,
+            "label": "arc (crosse) de l'aorte",
+            "accepted": [
+              "crosse",
+              "arc (crosse) de l'aorte"
+            ]
+          },
+          {
+            "id": "p15-4-5",
+            "num": 5,
+            "label": "artère pulmonaire gauche",
+            "accepted": [
+              "artère pulmonaire gauche",
+              "artere pulmonaire gauche"
+            ]
+          },
+          {
+            "id": "p15-4-6",
+            "num": 6,
+            "label": "auricule gauche",
+            "accepted": [
+              "auricule gauche",
+              "ricule gauche"
+            ]
+          },
+          {
+            "id": "p15-4-7",
+            "num": 7,
+            "label": "veine pulmonaire inférieure gauche",
+            "accepted": [
+              "veine pulmonaire inférieure gauche",
+              "veine pulmonaire inferieure gauche"
+            ]
+          },
+          {
+            "id": "p15-4-8",
+            "num": 8,
+            "label": "ventricule gauche",
+            "accepted": [
+              "ventricule gauche"
+            ]
+          },
+          {
+            "id": "p15-4-9",
+            "num": 9,
+            "label": "sillon inter ventriculaire inférieur",
+            "accepted": [
+              "sillon inter ventriculaire inférieur",
+              "sillon inter ventriculaire inferieur"
+            ]
+          },
+          {
+            "id": "p15-4-10",
+            "num": 10,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p15-4-11",
+            "num": 11,
+            "label": "artère pulmonaire droite",
+            "accepted": [
+              "artère pulmonaire droite",
+              "artere pulmonaire droite"
+            ]
+          },
+          {
+            "id": "p15-4-12",
+            "num": 12,
+            "label": "veine pulmonaire supérieure droite",
+            "accepted": [
+              "veine pulmonaire supérieure droite",
+              "veine pulmonaire superieure droite"
+            ]
+          },
+          {
+            "id": "p15-4-13",
+            "num": 13,
+            "label": "atrium gauche",
+            "accepted": [
+              "atrium gauche"
+            ]
+          },
+          {
+            "id": "p15-4-14",
+            "num": 14,
+            "label": "atrium droit",
+            "accepted": [
+              "atrium droit"
+            ]
+          },
+          {
+            "id": "p15-4-15",
+            "num": 15,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "number": "Planche 16",
+    "title": "coupe longitudinale du cœur",
+    "subtitle": "(selon le grand axe du cœur)",
+    "image": "images/planche_016.webp",
+    "sections": [
+      {
+        "name": "A : coupe passant par les cavités droites (cœur droit)",
+        "items": [
+          {
+            "id": "p16-1-1",
+            "num": 1,
+            "label": "artère pulmonaire droite",
+            "accepted": [
+              "artère pulmonaire droite",
+              "artere pulmonaire droite"
+            ]
+          },
+          {
+            "id": "p16-1-2",
+            "num": 2,
+            "label": "artère pulmonaire gauche",
+            "accepted": [
+              "artère pulmonaire gauche",
+              "artere pulmonaire gauche"
+            ]
+          },
+          {
+            "id": "p16-1-3",
+            "num": 3,
+            "label": "tronc pulmonaire valvule sigmoïd valve médiale de la valvule tricuspic",
+            "accepted": [
+              "tronc pulmonaire valvule sigmoid valve mediale de la valvule tricuspic",
+              "tronc pulmonaire valvule sigmoïd valve médiale de la valvule tricuspic"
+            ]
+          },
+          {
+            "id": "p16-1-6",
+            "num": 6,
+            "label": "cavité ventriculaire droite",
+            "accepted": [
+              "cavité ventriculaire droite",
+              "cavite ventriculaire droite"
+            ]
+          },
+          {
+            "id": "p16-1-7",
+            "num": 7,
+            "label": "paroi musculaire (myocarde) du ventricule droit",
+            "accepted": [
+              "paroi musculaire (myocarde) du ventricule droit",
+              "myocarde",
+              "paroi musculaire"
+            ],
+            "hint": "paroi musculaire (myocarde) du ventricule droit"
+          },
+          {
+            "id": "p16-1-8",
+            "num": 8,
+            "label": "cordages tendineux reliant la face inférieure de la valve au muscle papillaire",
+            "accepted": [
+              "cordages tendineux reliant la face inférieure de la valve au muscle papillaire",
+              "cordages tendineux reliant la face inferieure de la valve au muscle papillaire"
+            ]
+          },
+          {
+            "id": "p16-1-9",
+            "num": 9,
+            "label": "valve latérale de la valvule tricuspide",
+            "accepted": [
+              "valve latérale de la valvule tricuspide",
+              "valve laterale de la valvule tricuspide"
+            ]
+          },
+          {
+            "id": "p16-1-10",
+            "num": 10,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p16-1-11",
+            "num": 11,
+            "label": "valvule d'Eustachi, située sur l'orifice d'abouchement de la veine cave inférieure",
+            "accepted": [
+              "valvule d'eustachi, situee sur l'orifice d'abouchement de la veine cave inferieure",
+              "valvule d'Eustachi, située sur l'orifice d'abouchement de la veine cave inférieure",
+              "valvule d'eustachi, située sur l'orifice d'abouchement de la veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p16-1-12",
+            "num": 12,
+            "label": "valve postérieure (représentée en pointillés car située dans un plan plus postérieur) de la valve tricuspide",
+            "accepted": [
+              "valve posterieure (representee en pointilles car situee dans un plan plus posterieur) de la valve tricuspide",
+              "representee en pointilles car situee dans un plan plus posterieur",
+              "valve posterieure",
+              "valve postérieure",
+              "valve postérieure (représentée en pointillés car située dans un plan plus postérieur) de la valve tricuspide",
+              "représentée en pointillés car située dans un plan plus postérieur"
+            ],
+            "hint": "valve postérieure (représentée en pointillés car située dans un plan plus postérieur) de la valve tricuspide"
+          },
+          {
+            "id": "p16-1-13",
+            "num": 13,
+            "label": "cavité atriale droite",
+            "accepted": [
+              "cavite atriale droite",
+              "cavité atriale droite"
+            ]
+          },
+          {
+            "id": "p16-1-14",
+            "num": 14,
+            "label": "fosse ovale (trou de Botal)",
+            "accepted": [
+              "fosse ovale",
+              "trou de botal",
+              "foramen ovale"
+            ],
+            "hint": "fosse ovale, située sur la paroi médiale de l'atrium droit (reliquat embryonnaire de l'orifice de communication entre atrium droit et atrium gauche ou trou de"
+          },
+          {
+            "id": "p16-1-15",
+            "num": 15,
+            "label": "auricule droite",
+            "accepted": [
+              "auricule droite",
+              "ricule droite"
+            ]
+          },
+          {
+            "id": "p16-1-16",
+            "num": 16,
+            "label": "veine cave supérieure (non munie de valvule)",
+            "accepted": [
+              "non munie de valvule",
+              "veine cave supérieure (non munie de valvule)",
+              "veine cave superieure (non munie de valvule)",
+              "veine cave superieure",
+              "veine cave supérieure"
+            ],
+            "hint": "veine cave supérieure (non munie de valvule)"
+          },
+          {
+            "id": "p16-1-17",
+            "num": 17,
+            "label": "muscle papillaire",
+            "accepted": [
+              "muscle papillaire"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : coupe passant par les cavités gauches (cœur gauche)",
+        "items": [
+          {
+            "id": "p16-2-1",
+            "num": 1,
+            "label": "aorte thoracique ascendante (ou segment ascendant de l'aorte thoracique)",
+            "accepted": [
+              "ou segment ascendant de l'aorte thoracique",
+              "aorte thoracique ascendante (ou segment ascendant de l'aorte thoracique)",
+              "aorte thoracique ascendante"
+            ],
+            "hint": "aorte thoracique ascendante (ou segment ascendant de l'aorte thoracique)"
+          },
+          {
+            "id": "p16-2-2",
+            "num": 2,
+            "label": "are de l'aorte (crosse aortique). La flèche transversale marque la délimitation entre les deux segments aortiques",
+            "accepted": [
+              "are de l'aorte (crosse aortique). La flèche transversale marque la délimitation entre les deux segments aortiques",
+              "are de l'aorte (crosse aortique). la fleche transversale marque la delimitation entre les deux segments aortiques",
+              "are de l'aorte (crosse aortique). la flèche transversale marque la délimitation entre les deux segments aortiques",
+              "are de l'aorte",
+              "crosse aortique"
+            ],
+            "hint": "are de l'aorte (crosse aortique). La flèche transversale marque la délimitation entre les deux segments aortiques"
+          },
+          {
+            "id": "p16-2-3",
+            "num": 3,
+            "label": "cavité atriale gauche",
+            "accepted": [
+              "cavité atriale gauche",
+              "cavite atriale gauche"
+            ]
+          },
+          {
+            "id": "p16-2-4",
+            "num": 4,
+            "label": "veine pulmonaire supérieure gauche",
+            "accepted": [
+              "veine pulmonaire supérieure gauche",
+              "veine pulmonaire superieure gauche"
+            ]
+          },
+          {
+            "id": "p16-2-5",
+            "num": 5,
+            "label": "veine pulmonaire inférieure gauche",
+            "accepted": [
+              "veine pulmonaire inférieure gauche",
+              "veine pulmonaire inferieure gauche"
+            ]
+          },
+          {
+            "id": "p16-2-6",
+            "num": 6,
+            "label": "grande valve de la valvule mitrale",
+            "accepted": [
+              "grande valve de la valvule mitrale"
+            ]
+          },
+          {
+            "id": "p16-2-7",
+            "num": 7,
+            "label": "petite valve de la valvule mitrale",
+            "accepted": [
+              "petite valve de la valvule mitrale"
+            ]
+          },
+          {
+            "id": "p16-2-8",
+            "num": 8,
+            "label": "cordages tendineux",
+            "accepted": [
+              "cordages tendineux"
+            ]
+          },
+          {
+            "id": "p16-2-9",
+            "num": 9,
+            "label": "cavité ventriculaire gauche",
+            "accepted": [
+              "cavite ventriculaire gauche",
+              "cavité ventriculaire gauche"
+            ]
+          },
+          {
+            "id": "p16-2-10",
+            "num": 10,
+            "label": "paroi musculaire (myocarde) du ventricule gauche (noter son épaisseur par rapport au ventricule droit)",
+            "accepted": [
+              "paroi musculaire (myocarde) du ventricule gauche (noter son épaisseur par rapport au ventricule droit)",
+              "myocarde",
+              "paroi musculaire (myocarde) du ventricule gauche (noter son epaisseur par rapport au ventricule droit)",
+              "paroi musculaire"
+            ],
+            "hint": "paroi musculaire (myocarde) du ventricule gauche (noter son épaisseur par rapport au ventricule droit)"
+          },
+          {
+            "id": "p16-2-11",
+            "num": 11,
+            "label": "muscle papillaire",
+            "accepted": [
+              "muscle papillaire"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "number": "Planche 17",
+    "title": "17",
+    "subtitle": "",
+    "image": "images/planche_017.webp",
+    "sections": [
+      {
+        "name": "A : Le tissu cardionecteur",
+        "items": [
+          {
+            "id": "p17-1-1",
+            "num": 1,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p17-1-2",
+            "num": 2,
+            "label": "septum (ou cloison) inter auriculaire",
+            "accepted": [
+              "septum (ou cloison) inter auriculaire",
+              "septum",
+              "ou cloison"
+            ]
+          },
+          {
+            "id": "p17-1-3",
+            "num": 3,
+            "label": "atrium droit",
+            "accepted": [
+              "atrium droit"
+            ]
+          },
+          {
+            "id": "p17-1-4",
+            "num": 4,
+            "label": "veine pulmonaire supérieure gauche",
+            "accepted": [
+              "veine pulmonaire supérieure gauche",
+              "veine pulmonaire superieure gauche"
+            ]
+          },
+          {
+            "id": "p17-1-5",
+            "num": 5,
+            "label": "veine pulmonaire inférieure gauche",
+            "accepted": [
+              "veine pulmonaire inférieure gauche",
+              "veine pulmonaire inferieure gauche"
+            ]
+          },
+          {
+            "id": "p17-1-6",
+            "num": 6,
+            "label": "atrium gauche",
+            "accepted": [
+              "atrium gauche"
+            ]
+          },
+          {
+            "id": "p17-1-7",
+            "num": 7,
+            "label": "nœud sinu-atrial (de Keith et Flack)",
+            "accepted": [
+              "de keith et flack",
+              "nœud sinu-atrial (de Keith et Flack)",
+              "nœud sinu-atrial",
+              "nœud sinu-atrial (de keith et flack)"
+            ]
+          },
+          {
+            "id": "p17-1-8",
+            "num": 8,
+            "label": "nœud atrio-ventriculaire (de Tawara)",
+            "accepted": [
+              "nœud atrio-ventriculaire (de tawara)",
+              "nœud atrio-ventriculaire (de Tawara)",
+              "nœud atrio-ventriculaire",
+              "de tawara"
+            ]
+          },
+          {
+            "id": "p17-1-9",
+            "num": 9,
+            "label": "tronc du faisceau atrio-ventriculaire (de His)",
+            "accepted": [
+              "tronc du faisceau atrio-ventriculaire",
+              "tronc du faisceau atrio-ventriculaire (de His)",
+              "de his",
+              "tronc du faisceau atrio-ventriculaire (de his)"
+            ],
+            "hint": "tronc du faisceau atrio-ventriculaire (de His)"
+          },
+          {
+            "id": "p17-1-10",
+            "num": 10,
+            "label": "branche droite du faisceau atrio-ventriculaire",
+            "accepted": [
+              "branche droite du faisceau atrio-ventriculaire"
+            ]
+          },
+          {
+            "id": "p17-1-11",
+            "num": 11,
+            "label": "branche gauche du faisceau atrio-ventriculaire",
+            "accepted": [
+              "branche gauche du faisceau atrio-ventriculaire"
+            ]
+          },
+          {
+            "id": "p17-1-12",
+            "num": 12,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe transversale du cœur, passant par les cavités",
+        "items": [
+          {
+            "id": "p17-2-1",
+            "num": 1,
+            "label": "cavité ventriculaire droite",
+            "accepted": [
+              "cavité ventriculaire droite",
+              "cavite ventriculaire droite"
+            ]
+          },
+          {
+            "id": "p17-2-2",
+            "num": 2,
+            "label": "cavité ventriculaire gauche",
+            "accepted": [
+              "cavite ventriculaire gauche",
+              "cavité ventriculaire gauche"
+            ]
+          },
+          {
+            "id": "p17-2-3",
+            "num": 3,
+            "label": "vaisseau coronaire",
+            "accepted": [
+              "vaisseau coronaire"
+            ]
+          },
+          {
+            "id": "p17-2-4",
+            "num": 4,
+            "label": "péricarde séreux",
+            "accepted": [
+              "péricarde séreux",
+              "pericarde sereux"
+            ]
+          },
+          {
+            "id": "p17-2-5",
+            "num": 5,
+            "label": "septum inter ventriculaire",
+            "accepted": [
+              "septum inter ventriculaire"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Orifice aortique sectionné longitudinalement, montrant",
+        "items": []
+      },
+      {
+        "name": "D: Vue supérieure de l'orifice aortique montrant les",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "number": "Planche 18",
+    "title": "vue latérale droite du médiastin",
+    "subtitle": "",
+    "image": "images/planche_018.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p18-1-1",
+            "num": 1,
+            "label": "artère subclavière (et la veine subclavière située au-dessous)",
+            "accepted": [
+              "et la veine subclaviere situee au-dessous",
+              "et la veine subclavière située au-dessous",
+              "artere subclaviere",
+              "artere subclaviere (et la veine subclaviere situee au-dessous)",
+              "artère subclavière (et la veine subclavière située au-dessous)",
+              "artère subclavière"
+            ],
+            "hint": "artère subclavière (et la veine subclavière située au-dessous)"
+          },
+          {
+            "id": "p18-1-2",
+            "num": 2,
+            "label": "clavicule",
+            "accepted": [
+              "clavicule"
+            ]
+          },
+          {
+            "id": "p18-1-3",
+            "num": 3,
+            "label": "première côte",
+            "accepted": [
+              "première côte",
+              "premiere cote"
+            ]
+          },
+          {
+            "id": "p18-1-6",
+            "num": 6,
+            "label": "are de l'aorte",
+            "accepted": [
+              "are de l'aorte"
+            ]
+          },
+          {
+            "id": "p18-1-7",
+            "num": 7,
+            "label": "double feuillet séreux de la plèvre entourant le pédicule pulmonaire",
+            "accepted": [
+              "double feuillet sereux de la plevre entourant le pedicule pulmonaire",
+              "double feuillet séreux de la plèvre entourant le pédicule pulmonaire"
+            ]
+          },
+          {
+            "id": "p18-1-8",
+            "num": 8,
+            "label": "nerf phrénique droit",
+            "accepted": [
+              "nerf phrénique droit",
+              "nerf phrenique droit"
+            ]
+          },
+          {
+            "id": "p18-1-9",
+            "num": 9,
+            "label": "péricarde",
+            "accepted": [
+              "péricarde",
+              "pericarde"
+            ]
+          },
+          {
+            "id": "p18-1-10",
+            "num": 10,
+            "label": "coupole diaphragmatique droite",
+            "accepted": [
+              "coupole diaphragmatique droite"
+            ]
+          },
+          {
+            "id": "p18-1-11",
+            "num": 11,
+            "label": "osophage",
+            "accepted": [
+              "osophage"
+            ]
+          },
+          {
+            "id": "p18-1-12",
+            "num": 12,
+            "label": "nerf sympathique droit",
+            "accepted": [
+              "nerf sympathique droit"
+            ]
+          },
+          {
+            "id": "p18-1-13",
+            "num": 13,
+            "label": "veine azygos (grande veine azygos)",
+            "accepted": [
+              "veine azygos (grande veine azygos)",
+              "grande veine azygos",
+              "veine azygos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "number": "Planche 19",
+    "title": "vue latérale gauche du médiastin",
+    "subtitle": "",
+    "image": "images/planche_019.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p19-1-1",
+            "num": 1,
+            "label": "nerf phrénique gauche",
+            "accepted": [
+              "nerf phrénique gauche",
+              "nerf phrenique gauche"
+            ]
+          },
+          {
+            "id": "p19-1-2",
+            "num": 2,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p19-1-3",
+            "num": 3,
+            "label": "arc de l'aorte",
+            "accepted": [
+              "arc de l'aorte"
+            ]
+          },
+          {
+            "id": "p19-1-4",
+            "num": 4,
+            "label": "artère pulmonaire",
+            "accepted": [
+              "artere pulmonaire",
+              "artère pulmonaire"
+            ]
+          },
+          {
+            "id": "p19-1-5",
+            "num": 5,
+            "label": "péricarde",
+            "accepted": [
+              "péricarde",
+              "pericarde"
+            ]
+          },
+          {
+            "id": "p19-1-6",
+            "num": 6,
+            "label": "ganglion de la chaîne sympathique latérovertébrale",
+            "accepted": [
+              "ganglion de la chaine sympathique laterovertebrale",
+              "ganglion de la chaîne sympathique latérovertébrale"
+            ]
+          },
+          {
+            "id": "p19-1-7",
+            "num": 7,
+            "label": "nerf pneumogastrique gauche",
+            "accepted": [
+              "nerf pneumogastrique gauche"
+            ]
+          },
+          {
+            "id": "p19-1-8",
+            "num": 8,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          },
+          {
+            "id": "p19-1-9",
+            "num": 9,
+            "label": "double feuillet séreux de la plèvre entourant le pédicule pulmonaire",
+            "accepted": [
+              "double feuillet sereux de la plevre entourant le pedicule pulmonaire",
+              "double feuillet séreux de la plèvre entourant le pédicule pulmonaire"
+            ]
+          },
+          {
+            "id": "p19-1-10",
+            "num": 10,
+            "label": "aorte thoracique descendante",
+            "accepted": [
+              "aorte thoracique descendante"
+            ]
+          },
+          {
+            "id": "p19-1-11",
+            "num": 11,
+            "label": "coupole diaphragmatique gauche",
+            "accepted": [
+              "coupole diaphragmatique gauche"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "number": "Planche 20",
+    "title": "contenu du médiastin postérieur",
+    "subtitle": "(vue postérieure des éléments anatomiques)",
+    "image": "images/planche_020.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p20-1-1",
+            "num": 1,
+            "label": "œsophage thoracique",
+            "accepted": [
+              "œsophage thoracique"
+            ]
+          },
+          {
+            "id": "p20-1-2",
+            "num": 2,
+            "label": "arc de l'aorte",
+            "accepted": [
+              "arc de l'aorte"
+            ]
+          },
+          {
+            "id": "p20-1-3",
+            "num": 3,
+            "label": "conduit (canal) thoracique",
+            "accepted": [
+              "conduit (canal) thoracique",
+              "canal",
+              "conduit"
+            ]
+          },
+          {
+            "id": "p20-1-4",
+            "num": 4,
+            "label": "aorte thoracique descendante",
+            "accepted": [
+              "aorte thoracique descendante"
+            ]
+          },
+          {
+            "id": "p20-1-5",
+            "num": 5,
+            "label": "veine hémi-azygos supérieure gauche",
+            "accepted": [
+              "veine hemi-azygos superieure gauche",
+              "veine hémi-azygos supérieure gauche"
+            ]
+          },
+          {
+            "id": "p20-1-6",
+            "num": 6,
+            "label": "veine hémi-azygos inférieure gauche",
+            "accepted": [
+              "veine hémi-azygos inférieure gauche",
+              "veine hemi-azygos inferieure gauche"
+            ]
+          },
+          {
+            "id": "p20-1-7",
+            "num": 7,
+            "label": "nerf pneumogastrique droit",
+            "accepted": [
+              "nerf pneumogastrique droit"
+            ]
+          },
+          {
+            "id": "p20-1-8",
+            "num": 8,
+            "label": "veine azygos (grande veine azygos)",
+            "accepted": [
+              "veine azygos (grande veine azygos)",
+              "grande veine azygos",
+              "veine azygos"
+            ]
+          },
+          {
+            "id": "p20-1-9",
+            "num": 9,
+            "label": "veine communicante",
+            "accepted": [
+              "veine communicante"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "number": "Planche 21",
+    "title": "Planche 21",
+    "subtitle": "",
+    "image": "images/planche_021.webp",
+    "sections": [
+      {
+        "name": "A : Distribution d'une artère",
+        "items": [
+          {
+            "id": "p21-1-1",
+            "num": 1,
+            "label": "tronc de l'artère",
+            "accepted": [
+              "tronc de l'artère",
+              "tronc de l'artere"
+            ]
+          },
+          {
+            "id": "p21-1-2",
+            "num": 2,
+            "label": "branche collatérale",
+            "accepted": [
+              "branche collatérale",
+              "branche collaterale"
+            ]
+          },
+          {
+            "id": "p21-1-3",
+            "num": 3,
+            "label": "collatérale d'une branche terminale",
+            "accepted": [
+              "collatérale d'une branche terminale",
+              "collaterale d'une branche terminale"
+            ]
+          },
+          {
+            "id": "p21-1-4",
+            "num": 4,
+            "label": "branche collatérale récurrente",
+            "accepted": [
+              "branche collatérale récurrente",
+              "branche collaterale recurrente"
+            ]
+          },
+          {
+            "id": "p21-1-5",
+            "num": 5,
+            "label": "branche terminale",
+            "accepted": [
+              "branche terminale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C et C' : Coupe transversale d'une artère (C) et d'une veine (C')",
+        "items": [
+          {
+            "id": "p21-2-1",
+            "num": 1,
+            "label": "adventice",
+            "accepted": [
+              "adventice"
+            ]
+          },
+          {
+            "id": "p21-2-2",
+            "num": 2,
+            "label": "lumière vasculaire",
+            "accepted": [
+              "lumière vasculaire",
+              "lumiere vasculaire"
+            ]
+          },
+          {
+            "id": "p21-2-3",
+            "num": 3,
+            "label": "intima",
+            "accepted": [
+              "intima"
+            ]
+          },
+          {
+            "id": "p21-2-4",
+            "num": 4,
+            "label": "média",
+            "accepted": [
+              "média",
+              "media"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Distribution artérielle de type condensé",
+        "items": [
+          {
+            "id": "p21-3-1",
+            "num": 1,
+            "label": "tronc artériel",
+            "accepted": [
+              "tronc artériel",
+              "tronc arteriel"
+            ]
+          },
+          {
+            "id": "p21-3-2",
+            "num": 2,
+            "label": "branche collatérale soulevant une lame vasculaire",
+            "accepted": [
+              "branche collatérale soulevant une lame vasculaire",
+              "branche collaterale soulevant une lame vasculaire"
+            ]
+          },
+          {
+            "id": "p21-3-3",
+            "num": 3,
+            "label": "lame vasculaire",
+            "accepted": [
+              "lame vasculaire",
+              "me vasculaire"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E : Coupe transversale d'un paquet vasculo-nerveux",
+        "items": [
+          {
+            "id": "p21-4-1",
+            "num": 1,
+            "label": "artère",
+            "accepted": [
+              "artère",
+              "artere"
+            ]
+          },
+          {
+            "id": "p21-4-2",
+            "num": 2,
+            "label": "nerf",
+            "accepted": [
+              "nerf"
+            ]
+          },
+          {
+            "id": "p21-4-3",
+            "num": 3,
+            "label": "cloison sagittale",
+            "accepted": [
+              "cloison sagittale"
+            ]
+          },
+          {
+            "id": "p21-4-4",
+            "num": 4,
+            "label": "veine",
+            "accepted": [
+              "veine"
+            ]
+          },
+          {
+            "id": "p21-4-5",
+            "num": 5,
+            "label": "gaine périphérique",
+            "accepted": [
+              "gaine périphérique",
+              "gaine peripherique"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "number": "Planche 22",
+    "title": "Planche 22",
+    "subtitle": "",
+    "image": "images/planche_022.webp",
+    "sections": [
+      {
+        "name": "A : Coupe d'un nœud lymphatique",
+        "items": [
+          {
+            "id": "p22-1-1",
+            "num": 1,
+            "label": "vaisseau lymphatique",
+            "accepted": [
+              "vaisseau lymphatique"
+            ]
+          },
+          {
+            "id": "p22-1-2",
+            "num": 2,
+            "label": "sinus lymphatique",
+            "accepted": [
+              "sinus lymphatique"
+            ]
+          },
+          {
+            "id": "p22-1-3",
+            "num": 3,
+            "label": "capsule envoyant des prolongements à l'intérieur du nœud lymphatique (septums)",
+            "accepted": [
+              "capsule envoyant des prolongements a l'interieur du nœud lymphatique (septums)",
+              "capsule envoyant des prolongements a l'interieur du nœud lymphatique",
+              "septums",
+              "capsule envoyant des prolongements à l'intérieur du nœud lymphatique",
+              "capsule envoyant des prolongements à l'intérieur du nœud lymphatique (septums)"
+            ],
+            "hint": "capsule envoyant des prolongements à l'intérieur du nœud lymphatique (septums)"
+          },
+          {
+            "id": "p22-1-4",
+            "num": 4,
+            "label": "hile",
+            "accepted": [
+              "hile"
+            ]
+          },
+          {
+            "id": "p22-1-5",
+            "num": 5,
+            "label": "vaisseau lymphatique efférent",
+            "accepted": [
+              "vaisseau lymphatique efférent",
+              "vaisseau lymphatique efferent"
+            ]
+          },
+          {
+            "id": "p22-1-6",
+            "num": 6,
+            "label": "médulla (cordons lymphatiques)",
+            "accepted": [
+              "medulla",
+              "médulla (cordons lymphatiques)",
+              "cordons lymphatiques",
+              "medulla (cordons lymphatiques)",
+              "médulla"
+            ]
+          },
+          {
+            "id": "p22-1-7",
+            "num": 7,
+            "label": "centre germinal du follicule",
+            "accepted": [
+              "centre germinal du follicule"
+            ]
+          },
+          {
+            "id": "p22-1-8",
+            "num": 8,
+            "label": "zone marginale du follicule",
+            "accepted": [
+              "zone marginale du follicule"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Drainage lymphatique d'un viscère",
+        "items": [
+          {
+            "id": "p22-2-1",
+            "num": 1,
+            "label": "lymphocentre",
+            "accepted": [
+              "lymphocentre"
+            ]
+          },
+          {
+            "id": "p22-2-2",
+            "num": 2,
+            "label": "nœud lymphatique",
+            "accepted": [
+              "nœud lymphatique"
+            ]
+          },
+          {
+            "id": "p22-2-3",
+            "num": 3,
+            "label": "veine drainant le viscère",
+            "accepted": [
+              "veine drainant le viscère",
+              "veine drainant le viscere"
+            ]
+          },
+          {
+            "id": "p22-2-4",
+            "num": 4,
+            "label": "conduits lymphatiques",
+            "accepted": [
+              "conduits lymphatiques"
+            ]
+          },
+          {
+            "id": "p22-2-5",
+            "num": 5,
+            "label": "artère irriguant le viscère",
+            "accepted": [
+              "artère irriguant le viscère",
+              "artere irriguant le viscere"
+            ]
+          },
+          {
+            "id": "p22-2-6",
+            "num": 6,
+            "label": "hile de l'organe",
+            "accepted": [
+              "hile de l'organe"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Conduit lymphatique vu en transparence",
+        "items": [
+          {
+            "id": "p22-3-1",
+            "num": 1,
+            "label": "dilatation correspondant à l'attache d'une valvule",
+            "accepted": [
+              "dilatation correspondant à l'attache d'une valvule",
+              "dilatation correspondant a l'attache d'une valvule"
+            ]
+          },
+          {
+            "id": "p22-3-2",
+            "num": 2,
+            "label": "valvule",
+            "accepted": [
+              "valvule"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "number": "Planche 23",
+    "title": "le système aortique",
+    "subtitle": "",
+    "image": "images/planche_023.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p23-1-1",
+            "num": 1,
+            "label": "artère carotide commune gauche",
+            "accepted": [
+              "artere carotide commune gauche",
+              "artère carotide commune gauche"
+            ]
+          },
+          {
+            "id": "p23-1-2",
+            "num": 2,
+            "label": "artère humérale",
+            "accepted": [
+              "artere humerale",
+              "artère humérale"
+            ]
+          },
+          {
+            "id": "p23-1-3",
+            "num": 3,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          },
+          {
+            "id": "p23-1-4",
+            "num": 4,
+            "label": "artère iliaque commune (primitive)",
+            "accepted": [
+              "artère iliaque commune (primitive)",
+              "artère iliaque commune",
+              "artere iliaque commune (primitive)",
+              "artere iliaque commune",
+              "primitive"
+            ]
+          },
+          {
+            "id": "p23-1-5",
+            "num": 5,
+            "label": "artère iliaque interne (hypogastrique",
+            "accepted": [
+              "artère iliaque interne (hypogastrique",
+              "artere iliaque interne (hypogastrique"
+            ]
+          },
+          {
+            "id": "p23-1-6",
+            "num": 6,
+            "label": "artère iliaque externe",
+            "accepted": [
+              "artere iliaque externe",
+              "artère iliaque externe"
+            ]
+          },
+          {
+            "id": "p23-1-7",
+            "num": 7,
+            "label": "artère fémorale",
+            "accepted": [
+              "artere femorale",
+              "artère fémorale"
+            ]
+          },
+          {
+            "id": "p23-1-8",
+            "num": 8,
+            "label": "artère poplitée",
+            "accepted": [
+              "artère poplitée",
+              "artere poplitee"
+            ]
+          },
+          {
+            "id": "p23-1-9",
+            "num": 9,
+            "label": "artère tibiale antérieure",
+            "accepted": [
+              "artere tibiale anterieure",
+              "artère tibiale antérieure"
+            ]
+          },
+          {
+            "id": "p23-1-10",
+            "num": 10,
+            "label": "artère tibiale postérieure",
+            "accepted": [
+              "artère tibiale postérieure",
+              "artere tibiale posterieure"
+            ]
+          },
+          {
+            "id": "p23-1-11",
+            "num": 11,
+            "label": "artères pédieuses",
+            "accepted": [
+              "artères pédieuses",
+              "arteres pedieuses"
+            ]
+          },
+          {
+            "id": "p23-1-12",
+            "num": 12,
+            "label": "artère subclavière (sous clavière)",
+            "accepted": [
+              "sous clavière",
+              "sous claviere",
+              "artère subclavière (sous clavière)",
+              "artere subclaviere",
+              "artère subclavière",
+              "artere subclaviere (sous claviere)"
+            ]
+          },
+          {
+            "id": "p23-1-13",
+            "num": 13,
+            "label": "artère ulnaire",
+            "accepted": [
+              "artere ulnaire",
+              "artère ulnaire"
+            ]
+          },
+          {
+            "id": "p23-1-14",
+            "num": 14,
+            "label": "artère radiale",
+            "accepted": [
+              "artere radiale",
+              "artère radiale"
+            ]
+          },
+          {
+            "id": "p23-1-15",
+            "num": 15,
+            "label": "arcade palmaire profonde",
+            "accepted": [
+              "arcade palmaire profonde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "number": "Planche 24",
+    "title": "les voies de drainage veineux",
+    "subtitle": "Sur les membres (thoracique et pelvien) droits sont représentes les réseaux veineux",
+    "image": "images/planche_024.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p24-1-1",
+            "num": 1,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p24-1-2",
+            "num": 2,
+            "label": "veine azygos (grande veine azygos)",
+            "accepted": [
+              "veine azygos (grande veine azygos)",
+              "grande veine azygos",
+              "veine azygos"
+            ]
+          },
+          {
+            "id": "p24-1-3",
+            "num": 3,
+            "label": "veine céphalique",
+            "accepted": [
+              "veine céphalique",
+              "veine cephalique"
+            ]
+          },
+          {
+            "id": "p24-1-4",
+            "num": 4,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p24-1-5",
+            "num": 5,
+            "label": "réseau veineux superficiel de l'avant-bras",
+            "accepted": [
+              "reseau veineux superficiel de l'avant-bras",
+              "réseau veineux superficiel de l'avant-bras"
+            ]
+          },
+          {
+            "id": "p24-1-6",
+            "num": 6,
+            "label": "veine saphène (grande saphène)",
+            "accepted": [
+              "grande saphene",
+              "veine saphène (grande saphène)",
+              "veine saphène",
+              "veine saphene",
+              "grande saphène",
+              "veine saphene (grande saphene)"
+            ]
+          },
+          {
+            "id": "p24-1-7",
+            "num": 7,
+            "label": "veine subclavière (sous clavière)",
+            "accepted": [
+              "sous clavière",
+              "veine subclavière (sous clavière)",
+              "veine subclavière",
+              "sous claviere",
+              "veine subclaviere (sous claviere)",
+              "veine subclaviere"
+            ]
+          },
+          {
+            "id": "p24-1-8",
+            "num": 8,
+            "label": "veine humérale",
+            "accepted": [
+              "veine humerale",
+              "veine humérale"
+            ]
+          },
+          {
+            "id": "p24-1-9",
+            "num": 9,
+            "label": "veine radiale",
+            "accepted": [
+              "veine radiale"
+            ]
+          },
+          {
+            "id": "p24-1-10",
+            "num": 10,
+            "label": "veine ulnaire",
+            "accepted": [
+              "veine ulnaire"
+            ]
+          },
+          {
+            "id": "p24-1-11",
+            "num": 11,
+            "label": "veine fémorale",
+            "accepted": [
+              "veine femorale",
+              "veine fémorale"
+            ]
+          },
+          {
+            "id": "p24-1-12",
+            "num": 12,
+            "label": "veine poplitée",
+            "accepted": [
+              "veine poplitee",
+              "veine poplitée"
+            ]
+          },
+          {
+            "id": "p24-1-13",
+            "num": 13,
+            "label": "veine tibiale antérieure",
+            "accepted": [
+              "veine tibiale antérieure",
+              "veine tibiale anterieure"
+            ]
+          },
+          {
+            "id": "p24-1-14",
+            "num": 14,
+            "label": "veine tibiale postérieure",
+            "accepted": [
+              "veine tibiale postérieure",
+              "veine tibiale posterieure"
+            ]
+          },
+          {
+            "id": "p24-1-15",
+            "num": 15,
+            "label": "veine rénale gauche",
+            "accepted": [
+              "veine renale gauche",
+              "veine rénale gauche"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "number": "Planche 25",
+    "title": "le système veineux porte",
+    "subtitle": "Il s'agit de la voie de drainage du sang vers le foie, en provenance du tube",
+    "image": "images/planche_025.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p25-1-1",
+            "num": 1,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p25-1-2",
+            "num": 2,
+            "label": "veine hémi-azygos inférieure gauche, drainant les veines oesophagiennes",
+            "accepted": [
+              "veine hémi-azygos inférieure gauche, drainant les veines oesophagiennes",
+              "veine hemi-azygos inferieure gauche, drainant les veines oesophagiennes"
+            ]
+          },
+          {
+            "id": "p25-1-3",
+            "num": 3,
+            "label": "veine azygos",
+            "accepted": [
+              "veine azygos"
+            ]
+          },
+          {
+            "id": "p25-1-4",
+            "num": 4,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          },
+          {
+            "id": "p25-1-5",
+            "num": 5,
+            "label": "veines hépatiques (sus-hépatiques), se drainant dans la VCI",
+            "accepted": [
+              "sus-hépatiques",
+              "veines hepatiques",
+              "veines hépatiques (sus-hépatiques), se drainant dans la vci",
+              "veines hépatiques",
+              "veines hépatiques (sus-hépatiques), se drainant dans la VCI",
+              "veines hepatiques (sus-hepatiques), se drainant dans la vci",
+              "sus-hepatiques"
+            ],
+            "hint": "veines hépatiques (sus-hépatiques), se drainant dans la VCI"
+          },
+          {
+            "id": "p25-1-6",
+            "num": 6,
+            "label": "foie",
+            "accepted": [
+              "foie"
+            ]
+          },
+          {
+            "id": "p25-1-7",
+            "num": 7,
+            "label": "veine splénique",
+            "accepted": [
+              "veine splénique",
+              "veine splenique"
+            ]
+          },
+          {
+            "id": "p25-1-8",
+            "num": 8,
+            "label": "veine gastrique droite",
+            "accepted": [
+              "veine gastrique droite"
+            ]
+          },
+          {
+            "id": "p25-1-9",
+            "num": 9,
+            "label": "veine porte",
+            "accepted": [
+              "veine porte"
+            ]
+          },
+          {
+            "id": "p25-1-10",
+            "num": 10,
+            "label": "veine gastro-épiploïque gauche",
+            "accepted": [
+              "veine gastro-epiploique gauche",
+              "veine gastro-épiploïque gauche"
+            ]
+          },
+          {
+            "id": "p25-1-11",
+            "num": 11,
+            "label": "tronc spléno-mésaraïque",
+            "accepted": [
+              "tronc spleno-mesaraique",
+              "tronc spléno-mésaraïque"
+            ]
+          },
+          {
+            "id": "p25-1-12",
+            "num": 12,
+            "label": "arcade veineuse bordant le colon descendant",
+            "accepted": [
+              "arcade veineuse bordant le colon descendant"
+            ]
+          },
+          {
+            "id": "p25-1-13",
+            "num": 13,
+            "label": "veine mésentérique supérieure",
+            "accepted": [
+              "veine mésentérique supérieure",
+              "veine mesenterique superieure"
+            ]
+          },
+          {
+            "id": "p25-1-14",
+            "num": 14,
+            "label": "veine mésentérique inférieure",
+            "accepted": [
+              "veine mesenterique inferieure",
+              "veine mésentérique inférieure"
+            ]
+          },
+          {
+            "id": "p25-1-15",
+            "num": 15,
+            "label": "arcade veineuse bordant le colon ascendant",
+            "accepted": [
+              "arcade veineuse bordant le colon ascendant"
+            ]
+          },
+          {
+            "id": "p25-1-16",
+            "num": 16,
+            "label": "branche droite de la veine hémorroïdale supérieure",
+            "accepted": [
+              "branche droite de la veine hemorroidale superieure",
+              "branche droite de la veine hémorroïdale supérieure"
+            ]
+          },
+          {
+            "id": "p25-1-17",
+            "num": 17,
+            "label": "branche gauche de la veine hémorroïdale supérieure",
+            "accepted": [
+              "branche gauche de la veine hemorroidale superieure",
+              "branche gauche de la veine hémorroïdale supérieure"
+            ]
+          },
+          {
+            "id": "p25-1-18",
+            "num": 18,
+            "label": "veine hypogastrique (iliaque interne)",
+            "accepted": [
+              "veine hypogastrique",
+              "iliaque interne",
+              "veine hypogastrique (iliaque interne)"
+            ]
+          },
+          {
+            "id": "p25-1-19",
+            "num": 19,
+            "label": "anastomoses porto-cave en situation oesophagienne",
+            "accepted": [
+              "anastomoses porto-cave en situation oesophagienne"
+            ]
+          },
+          {
+            "id": "p25-1-20",
+            "num": 20,
+            "label": "anastomoses porto-cave en situation rectale",
+            "accepted": [
+              "anastomoses porto-cave en situation rectale"
+            ]
+          },
+          {
+            "id": "p25-1-21",
+            "num": 21,
+            "label": "veine cave inférieure (VCI)",
+            "accepted": [
+              "veine cave inférieure (vci)",
+              "veine cave inférieure",
+              "vci",
+              "veine cave inférieure (VCI)",
+              "veine cave inferieure",
+              "veine cave inferieure (vci)"
+            ]
+          },
+          {
+            "id": "p25-1-22",
+            "num": 22,
+            "label": "oesophage",
+            "accepted": [
+              "oesophage"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "number": "Planche 26",
+    "title": "situation du larynx",
+    "subtitle": "",
+    "image": "images/planche_026.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p26-1-1",
+            "num": 1,
+            "label": "os hyoïde",
+            "accepted": [
+              "os hyoïde",
+              "os hyoide"
+            ]
+          },
+          {
+            "id": "p26-1-2",
+            "num": 2,
+            "label": "cartilage thyroïde",
+            "accepted": [
+              "cartilage thyroïde",
+              "cartilage thyroide"
+            ]
+          },
+          {
+            "id": "p26-1-3",
+            "num": 3,
+            "label": "cartilage cricoïde",
+            "accepted": [
+              "cartilage cricoïde",
+              "cartilage cricoide"
+            ]
+          },
+          {
+            "id": "p26-1-4",
+            "num": 4,
+            "label": "glande thyroïde",
+            "accepted": [
+              "glande thyroïde",
+              "glande thyroide"
+            ]
+          },
+          {
+            "id": "p26-1-5",
+            "num": 5,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          },
+          {
+            "id": "p26-1-6",
+            "num": 6,
+            "label": "nerf sympathique",
+            "accepted": [
+              "nerf sympathique"
+            ]
+          },
+          {
+            "id": "p26-1-7",
+            "num": 7,
+            "label": "artère carotide commune (primitive)",
+            "accepted": [
+              "artere carotide commune",
+              "artere carotide commune (primitive)",
+              "artère carotide commune",
+              "artère carotide commune (primitive)",
+              "primitive"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "number": "Planche 27",
+    "title": "le larynx - constitution",
+    "subtitle": "",
+    "image": "images/planche_027.webp",
+    "sections": [
+      {
+        "name": "A : Le larynx en vue de face",
+        "items": [
+          {
+            "id": "p27-1-1",
+            "num": 1,
+            "label": "épiglotte",
+            "accepted": [
+              "epiglotte",
+              "épiglotte"
+            ]
+          },
+          {
+            "id": "p27-1-2",
+            "num": 2,
+            "label": "os hyoïde",
+            "accepted": [
+              "os hyoïde",
+              "os hyoide"
+            ]
+          },
+          {
+            "id": "p27-1-3",
+            "num": 3,
+            "label": "cartilage tritice",
+            "accepted": [
+              "cartilage tritice"
+            ]
+          },
+          {
+            "id": "p27-1-4",
+            "num": 4,
+            "label": "membrane thyro-hyoïdienne",
+            "accepted": [
+              "membrane thyro-hyoidienne",
+              "membrane thyro-hyoïdienne"
+            ]
+          },
+          {
+            "id": "p27-1-5",
+            "num": 5,
+            "label": "cartilage thyroïde",
+            "accepted": [
+              "cartilage thyroïde",
+              "cartilage thyroide"
+            ]
+          },
+          {
+            "id": "p27-1-6",
+            "num": 6,
+            "label": "membrane crico-thyroïdienne",
+            "accepted": [
+              "membrane crico-thyroïdienne",
+              "membrane crico-thyroidienne"
+            ]
+          },
+          {
+            "id": "p27-1-7",
+            "num": 7,
+            "label": "cartilage cricoïde",
+            "accepted": [
+              "cartilage cricoïde",
+              "cartilage cricoide"
+            ]
+          },
+          {
+            "id": "p27-1-8",
+            "num": 8,
+            "label": "premier anneau trachéal",
+            "accepted": [
+              "premier anneau trachéal",
+              "premier anneau tracheal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Le larynx en vue de profil",
+        "items": [
+          {
+            "id": "p27-2-1",
+            "num": 1,
+            "label": "épiglotte",
+            "accepted": [
+              "epiglotte",
+              "épiglotte"
+            ]
+          },
+          {
+            "id": "p27-2-2",
+            "num": 2,
+            "label": "os hyoide",
+            "accepted": [
+              "os hyoide"
+            ]
+          },
+          {
+            "id": "p27-2-5",
+            "num": 5,
+            "label": "membrane yayro-lyoidienne",
+            "accepted": [
+              "membrane yayro-lyoidienne"
+            ]
+          },
+          {
+            "id": "p27-2-6",
+            "num": 6,
+            "label": "membrane crico-thyroïdienne",
+            "accepted": [
+              "membrane crico-thyroïdienne",
+              "membrane crico-thyroidienne"
+            ]
+          },
+          {
+            "id": "p27-2-8",
+            "num": 8,
+            "label": "premier anneau trachéal",
+            "accepted": [
+              "premier anneau trachéal",
+              "premier anneau tracheal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Le larynx en coupe frontale",
+        "items": [
+          {
+            "id": "p27-3-1",
+            "num": 1,
+            "label": "épiglotte",
+            "accepted": [
+              "epiglotte",
+              "épiglotte"
+            ]
+          },
+          {
+            "id": "p27-3-2",
+            "num": 2,
+            "label": "os hyoïde (grande corne)",
+            "accepted": [
+              "os hyoide",
+              "grande corne",
+              "os hyoïde (grande corne)",
+              "os hyoïde",
+              "os hyoide (grande corne)"
+            ]
+          },
+          {
+            "id": "p27-3-3",
+            "num": 3,
+            "label": "membrane thyro-hyoïdienne",
+            "accepted": [
+              "membrane thyro-hyoidienne",
+              "membrane thyro-hyoïdienne"
+            ]
+          },
+          {
+            "id": "p27-3-4",
+            "num": 4,
+            "label": "vestibule",
+            "accepted": [
+              "vestibule"
+            ]
+          },
+          {
+            "id": "p27-3-5",
+            "num": 5,
+            "label": "cartilage thyroïde",
+            "accepted": [
+              "cartilage thyroïde",
+              "cartilage thyroide"
+            ]
+          },
+          {
+            "id": "p27-3-6",
+            "num": 6,
+            "label": "pli vestibulaire (corde vocale supérieure)",
+            "accepted": [
+              "pli vestibulaire",
+              "corde vocale superieure",
+              "corde vocale supérieure",
+              "pli vestibulaire (corde vocale superieure)",
+              "pli vestibulaire (corde vocale supérieure)"
+            ],
+            "hint": "pli vestibulaire (corde vocale supérieure)"
+          },
+          {
+            "id": "p27-3-7",
+            "num": 7,
+            "label": "pli vocal (corde vocale inférieure)",
+            "accepted": [
+              "pli vocal",
+              "corde vocale inferieure",
+              "pli vocal (corde vocale inférieure)",
+              "corde vocale inférieure",
+              "pli vocal (corde vocale inferieure)"
+            ]
+          },
+          {
+            "id": "p27-3-8",
+            "num": 8,
+            "label": "cavité infra glottique",
+            "accepted": [
+              "cavité infra glottique",
+              "cavite infra glottique"
+            ]
+          },
+          {
+            "id": "p27-3-9",
+            "num": 9,
+            "label": "cartilage cricoïde",
+            "accepted": [
+              "cartilage cricoïde",
+              "cartilage cricoide"
+            ]
+          },
+          {
+            "id": "p27-3-10",
+            "num": 10,
+            "label": "premier anneau trachéal",
+            "accepted": [
+              "premier anneau trachéal",
+              "premier anneau tracheal"
+            ]
+          },
+          {
+            "id": "p27-3-11",
+            "num": 11,
+            "label": "fente vestibulaire",
+            "accepted": [
+              "fente vestibulaire"
+            ]
+          },
+          {
+            "id": "p27-3-12",
+            "num": 12,
+            "label": "fente glottique",
+            "accepted": [
+              "fente glottique"
+            ]
+          },
+          {
+            "id": "p27-3-13",
+            "num": 13,
+            "label": "lumière trachéale",
+            "accepted": [
+              "lumiere tracheale",
+              "lumière trachéale"
+            ]
+          },
+          {
+            "id": "p27-3-14",
+            "num": 14,
+            "label": "ventricule du larynx.",
+            "accepted": [
+              "ventricule du larynx."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "number": "Planche 28",
+    "title": "Planche 28",
+    "subtitle": "",
+    "image": "images/planche_028.webp",
+    "sections": [
+      {
+        "name": "A : Coupe sagittale médiane du thorax",
+        "items": [
+          {
+            "id": "p28-1-1",
+            "num": 1,
+            "label": "l'axe trachéal délimite les deux médiastins : antérieur et postérieur",
+            "accepted": [
+              "l'axe trachéal délimite les deux médiastins : antérieur et postérieur",
+              "axe tracheal delimite les deux mediastins : anterieur et posterieur",
+              "l'axe tracheal delimite les deux mediastins : anterieur et posterieur",
+              "axe trachéal délimite les deux médiastins : antérieur et postérieur"
+            ]
+          },
+          {
+            "id": "p28-1-2",
+            "num": 2,
+            "label": "plan de l'orifice supérieur du thorax",
+            "accepted": [
+              "plan de l'orifice superieur du thorax",
+              "plan de l'orifice supérieur du thorax"
+            ]
+          },
+          {
+            "id": "p28-1-3",
+            "num": 3,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          },
+          {
+            "id": "p28-1-4",
+            "num": 4,
+            "label": "sternum",
+            "accepted": [
+              "sternum"
+            ]
+          },
+          {
+            "id": "p28-1-5",
+            "num": 5,
+            "label": "masse cardiaque (médiastin antérieur)",
+            "accepted": [
+              "médiastin antérieur",
+              "masse cardiaque (mediastin anterieur)",
+              "masse cardiaque",
+              "mediastin anterieur",
+              "masse cardiaque (médiastin antérieur)"
+            ]
+          },
+          {
+            "id": "p28-1-6",
+            "num": 6,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p28-1-7",
+            "num": 7,
+            "label": "cavité abdominale",
+            "accepted": [
+              "cavité abdominale",
+              "cavite abdominale"
+            ]
+          },
+          {
+            "id": "p28-1-8",
+            "num": 8,
+            "label": "médiastin postérieur",
+            "accepted": [
+              "mediastin posterieur",
+              "médiastin postérieur"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Conception schématique des feuillets pleuraux",
+        "items": [
+          {
+            "id": "p28-2-1",
+            "num": 1,
+            "label": "ballon (face périphérique, correspondant à la plèvre pariétale)",
+            "accepted": [
+              "ballon (face peripherique, correspondant a la plevre parietale)",
+              "face périphérique, correspondant à la plèvre pariétale",
+              "ballon (face périphérique, correspondant à la plèvre pariétale)",
+              "ballon",
+              "face peripherique, correspondant a la plevre parietale"
+            ],
+            "hint": "ballon (face périphérique, correspondant à la plèvre pariétale)"
+          },
+          {
+            "id": "p28-2-2",
+            "num": 2,
+            "label": "partie du ballon invaginée par le poing (correspondant à la plèvre viscérale)",
+            "accepted": [
+              "partie du ballon invaginee par le poing (correspondant a la plevre viscerale)",
+              "correspondant a la plevre viscerale",
+              "partie du ballon invaginée par le poing",
+              "correspondant à la plèvre viscérale",
+              "partie du ballon invaginee par le poing",
+              "partie du ballon invaginée par le poing (correspondant à la plèvre viscérale)"
+            ],
+            "hint": "partie du ballon invaginée par le poing (correspondant à la plèvre viscérale)"
+          },
+          {
+            "id": "p28-2-3",
+            "num": 3,
+            "label": "zone de pénétration du poing dans le ballon (correspondant au hile du poumon",
+            "accepted": [
+              "zone de pénétration du poing dans le ballon (correspondant au hile du poumon",
+              "zone de penetration du poing dans le ballon (correspondant au hile du poumon"
+            ],
+            "hint": "zone de pénétration du poing dans le ballon (correspondant au hile du poumon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "number": "Planche 29",
+    "title": "Planche 29",
+    "subtitle": "",
+    "image": "images/planche_029.webp",
+    "sections": [
+      {
+        "name": "A : L'arbre trachéo-bronchique (vu de face)",
+        "items": [
+          {
+            "id": "p29-1-1",
+            "num": 1,
+            "label": "larynx (cartilage thyroïde)",
+            "accepted": [
+              "rynx (cartilage thyroïde)",
+              "larynx",
+              "cartilage thyroide",
+              "rynx (cartilage thyroide)",
+              "cartilage thyroïde",
+              "larynx (cartilage thyroide)",
+              "larynx (cartilage thyroïde)"
+            ]
+          },
+          {
+            "id": "p29-1-2",
+            "num": 2,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          },
+          {
+            "id": "p29-1-3",
+            "num": 3,
+            "label": "bronche principale gauche",
+            "accepted": [
+              "bronche principale gauche"
+            ]
+          },
+          {
+            "id": "p29-1-4",
+            "num": 4,
+            "label": "bronche lobaire supérieure gauche",
+            "accepted": [
+              "bronche lobaire superieure gauche",
+              "bronche lobaire supérieure gauche"
+            ]
+          },
+          {
+            "id": "p29-1-5",
+            "num": 5,
+            "label": "bronche segmentaire",
+            "accepted": [
+              "bronche segmentaire"
+            ]
+          },
+          {
+            "id": "p29-1-6",
+            "num": 6,
+            "label": "caréna (ou carina)",
+            "accepted": [
+              "carena",
+              "carena (ou carina)",
+              "ou carina",
+              "caréna (ou carina)",
+              "caréna"
+            ]
+          },
+          {
+            "id": "p29-1-7",
+            "num": 7,
+            "label": "bronche principale droite",
+            "accepted": [
+              "bronche principale droite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Le lobule pulmonaire",
+        "items": [
+          {
+            "id": "p29-2-1",
+            "num": 1,
+            "label": "bronchiole terminale",
+            "accepted": [
+              "bronchiole terminale"
+            ]
+          },
+          {
+            "id": "p29-2-2",
+            "num": 2,
+            "label": "branche de l'artère pulmonaire",
+            "accepted": [
+              "branche de l'artere pulmonaire",
+              "branche de l'artère pulmonaire"
+            ]
+          },
+          {
+            "id": "p29-2-3",
+            "num": 3,
+            "label": "cloison et veine inter lobulaire",
+            "accepted": [
+              "cloison et veine inter lobulaire"
+            ]
+          },
+          {
+            "id": "p29-2-4",
+            "num": 4,
+            "label": "canal alvéolaire",
+            "accepted": [
+              "canal alveolaire",
+              "canal alvéolaire"
+            ]
+          },
+          {
+            "id": "p29-2-5",
+            "num": 5,
+            "label": "alvéole pulmonaire",
+            "accepted": [
+              "alveole pulmonaire",
+              "alvéole pulmonaire"
+            ]
+          },
+          {
+            "id": "p29-2-6",
+            "num": 6,
+            "label": "veine péri alvéolaire",
+            "accepted": [
+              "veine peri alveolaire",
+              "veine péri alvéolaire"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "number": "Planche 30",
+    "title": "le poumon",
+    "subtitle": "",
+    "image": "images/planche_030.webp",
+    "sections": [
+      {
+        "name": "A : Poumon droit en vue latérale",
+        "items": [
+          {
+            "id": "p30-1-1",
+            "num": 1,
+            "label": "apex (ou sommet)",
+            "accepted": [
+              "apex (ou sommet)",
+              "apex",
+              "ou sommet"
+            ]
+          },
+          {
+            "id": "p30-1-2",
+            "num": 2,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p30-1-3",
+            "num": 3,
+            "label": "lobe supérieur",
+            "accepted": [
+              "lobe supérieur",
+              "lobe superieur"
+            ]
+          },
+          {
+            "id": "p30-1-4",
+            "num": 4,
+            "label": "petite fissure (scissure)",
+            "accepted": [
+              "petite fissure (scissure)",
+              "petite fissure",
+              "scissure"
+            ]
+          },
+          {
+            "id": "p30-1-5",
+            "num": 5,
+            "label": "lobe moyen",
+            "accepted": [
+              "lobe moyen"
+            ]
+          },
+          {
+            "id": "p30-1-6",
+            "num": 6,
+            "label": "base",
+            "accepted": [
+              "base"
+            ]
+          },
+          {
+            "id": "p30-1-7",
+            "num": 7,
+            "label": "lobe inférieur",
+            "accepted": [
+              "lobe inférieur",
+              "lobe inferieur"
+            ]
+          },
+          {
+            "id": "p30-1-8",
+            "num": 8,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord postérieur",
+              "bord posterieur"
+            ]
+          },
+          {
+            "id": "p30-1-9",
+            "num": 9,
+            "label": "grande fissure (scissure)",
+            "accepted": [
+              "grande fissure (scissure)",
+              "grande fissure",
+              "scissure"
+            ]
+          },
+          {
+            "id": "p30-1-10",
+            "num": 10,
+            "label": "empreintes costales",
+            "accepted": [
+              "empreintes costales"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Poumon gauche en vue latérale",
+        "items": [
+          {
+            "id": "p30-2-1",
+            "num": 1,
+            "label": "apex (ou sommet)",
+            "accepted": [
+              "apex (ou sommet)",
+              "apex",
+              "ou sommet"
+            ]
+          },
+          {
+            "id": "p30-2-2",
+            "num": 2,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p30-2-3",
+            "num": 3,
+            "label": "fissure (scissure) principale",
+            "accepted": [
+              "fissure (scissure) principale",
+              "fissure",
+              "scissure"
+            ]
+          },
+          {
+            "id": "p30-2-4",
+            "num": 4,
+            "label": "base",
+            "accepted": [
+              "base"
+            ]
+          },
+          {
+            "id": "p30-2-5",
+            "num": 5,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord postérieur",
+              "bord posterieur"
+            ]
+          },
+          {
+            "id": "p30-2-6",
+            "num": 6,
+            "label": "lobe inférieur",
+            "accepted": [
+              "lobe inférieur",
+              "lobe inferieur"
+            ]
+          },
+          {
+            "id": "p30-2-7",
+            "num": 7,
+            "label": "lobe supérieur",
+            "accepted": [
+              "lobe supérieur",
+              "lobe superieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "number": "Planche 31",
+    "title": "Planche 31",
+    "subtitle": "",
+    "image": "images/planche_031.webp",
+    "sections": [
+      {
+        "name": "A : Coupe frontale du thorax",
+        "items": [
+          {
+            "id": "p31-1-1",
+            "num": 1,
+            "label": "côte",
+            "accepted": [
+              "cote",
+              "côte"
+            ]
+          },
+          {
+            "id": "p31-1-2",
+            "num": 2,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p31-1-3",
+            "num": 3,
+            "label": "fissure (scissure)",
+            "accepted": [
+              "scissure",
+              "fissure (scissure)",
+              "fissure"
+            ]
+          },
+          {
+            "id": "p31-1-4",
+            "num": 4,
+            "label": "plèvre viscérale (feuillet viscéral de la plèvre)",
+            "accepted": [
+              "plevre viscerale (feuillet visceral de la plevre)",
+              "plèvre viscérale",
+              "plèvre viscérale (feuillet viscéral de la plèvre)",
+              "plevre viscerale",
+              "feuillet visceral de la plevre",
+              "feuillet viscéral de la plèvre"
+            ],
+            "hint": "plèvre viscérale (feuillet viscéral de la plèvre)"
+          },
+          {
+            "id": "p31-1-5",
+            "num": 5,
+            "label": "ivre parica (grenie suiétal de la plèvre)",
+            "accepted": [
+              "ivre parica (grenie suiétal de la plèvre)",
+              "grenie suiétal de la plèvre",
+              "ivre parica (grenie suietal de la plevre)",
+              "ivre parica",
+              "grenie suietal de la plevre"
+            ],
+            "hint": "ivre parica (grenie suiétal de la plèvre)"
+          },
+          {
+            "id": "p31-1-7",
+            "num": 7,
+            "label": "fissure horizontale (petite scissure)",
+            "accepted": [
+              "fissure horizontale",
+              "petite scissure",
+              "fissure horizontale (petite scissure)"
+            ]
+          },
+          {
+            "id": "p31-1-8",
+            "num": 8,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe transversale du thorax",
+        "items": [
+          {
+            "id": "p31-2-1",
+            "num": 1,
+            "label": "côte",
+            "accepted": [
+              "cote",
+              "côte"
+            ]
+          },
+          {
+            "id": "p31-2-2",
+            "num": 2,
+            "label": "sternum",
+            "accepted": [
+              "sternum"
+            ]
+          },
+          {
+            "id": "p31-2-3",
+            "num": 3,
+            "label": "caréna",
+            "accepted": [
+              "carena",
+              "caréna"
+            ]
+          },
+          {
+            "id": "p31-2-4",
+            "num": 4,
+            "label": "poumon",
+            "accepted": [
+              "poumon"
+            ]
+          },
+          {
+            "id": "p31-2-5",
+            "num": 5,
+            "label": "plèvre pariétale (feuillet pariétal de la plèvre) plèvre viscérale (feuillet viscéral de la plèvre fissure pulmonaire (scissur",
+            "accepted": [
+              "plèvre pariétale (feuillet pariétal de la plèvre) plèvre viscérale (feuillet viscéral de la plèvre fissure pulmonaire (scissur",
+              "plèvre pariétale",
+              "feuillet pariétal de la plèvre",
+              "plevre parietale",
+              "plevre parietale (feuillet parietal de la plevre) plevre viscerale (feuillet visceral de la plevre fissure pulmonaire (scissur",
+              "feuillet parietal de la plevre"
+            ],
+            "hint": "plèvre pariétale (feuillet pariétal de la plèvre) plèvre viscérale (feuillet viscéral de la plèvre fissure pulmonaire (scissur"
+          },
+          {
+            "id": "p31-2-8",
+            "num": 8,
+            "label": "bronche principale",
+            "accepted": [
+              "bronche principale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "number": "Planche 32",
+    "title": "coupe transversale",
+    "subtitle": "du thorax en Th8",
+    "image": "images/planche_032.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p32-1-1",
+            "num": 1,
+            "label": "septum inter atrial",
+            "accepted": [
+              "septum inter atrial"
+            ]
+          },
+          {
+            "id": "p32-1-2",
+            "num": 2,
+            "label": "septum inter ventriculaire (partie musculaire)",
+            "accepted": [
+              "partie musculaire",
+              "septum inter ventriculaire",
+              "septum inter ventriculaire (partie musculaire)"
+            ],
+            "hint": "septum inter ventriculaire (partie musculaire)"
+          },
+          {
+            "id": "p32-1-3",
+            "num": 3,
+            "label": "corps du sternum",
+            "accepted": [
+              "corps du sternum"
+            ]
+          },
+          {
+            "id": "p32-1-4",
+            "num": 4,
+            "label": "ventricule droit",
+            "accepted": [
+              "ventricule droit"
+            ]
+          },
+          {
+            "id": "p32-1-5",
+            "num": 5,
+            "label": "ventricule gauche",
+            "accepted": [
+              "ventricule gauche"
+            ]
+          },
+          {
+            "id": "p32-1-6",
+            "num": 6,
+            "label": "cavité péricardique (délimitée par le feuillet viscéral et le feuillet pariétal du péricarde séreux)",
+            "accepted": [
+              "cavité péricardique",
+              "cavite pericardique",
+              "cavité péricardique (délimitée par le feuillet viscéral et le feuillet pariétal du péricarde séreux)",
+              "délimitée par le feuillet viscéral et le feuillet pariétal du péricarde séreux",
+              "delimitee par le feuillet visceral et le feuillet parietal du pericarde sereux",
+              "cavite pericardique (delimitee par le feuillet visceral et le feuillet parietal du pericarde sereux)"
+            ],
+            "hint": "cavité péricardique (délimitée par le feuillet viscéral et le feuillet pariétal du péricarde séreux)"
+          },
+          {
+            "id": "p32-1-7",
+            "num": 7,
+            "label": "lobe pulmonaire supérieur gauche",
+            "accepted": [
+              "lobe pulmonaire supérieur gauche",
+              "lobe pulmonaire superieur gauche"
+            ]
+          },
+          {
+            "id": "p32-1-8",
+            "num": 8,
+            "label": "lobe pulmonaire supérieur droit",
+            "accepted": [
+              "lobe pulmonaire superieur droit",
+              "lobe pulmonaire supérieur droit"
+            ]
+          },
+          {
+            "id": "p32-1-9",
+            "num": 9,
+            "label": "fissure horizontale (petite scissure)",
+            "accepted": [
+              "fissure horizontale",
+              "petite scissure",
+              "fissure horizontale (petite scissure)"
+            ]
+          },
+          {
+            "id": "p32-1-10",
+            "num": 10,
+            "label": "atrium droit",
+            "accepted": [
+              "atrium droit"
+            ]
+          },
+          {
+            "id": "p32-1-11",
+            "num": 11,
+            "label": "Jobe pulmonaire moyen droit",
+            "accepted": [
+              "jobe pulmonaire moyen droit",
+              "Jobe pulmonaire moyen droit"
+            ]
+          },
+          {
+            "id": "p32-1-12",
+            "num": 12,
+            "label": "atrium gauche",
+            "accepted": [
+              "atrium gauche"
+            ]
+          },
+          {
+            "id": "p32-1-13",
+            "num": 13,
+            "label": "fissure oblique (grande scissure)",
+            "accepted": [
+              "fissure oblique (grande scissure)",
+              "fissure oblique",
+              "grande scissure"
+            ]
+          },
+          {
+            "id": "p32-1-14",
+            "num": 14,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          },
+          {
+            "id": "p32-1-15",
+            "num": 15,
+            "label": "lobe pulmonaire inférieur droit",
+            "accepted": [
+              "lobe pulmonaire inférieur droit",
+              "lobe pulmonaire inferieur droit"
+            ]
+          },
+          {
+            "id": "p32-1-16",
+            "num": 16,
+            "label": "muscles intercostaux",
+            "accepted": [
+              "muscles intercostaux"
+            ]
+          },
+          {
+            "id": "p32-1-17",
+            "num": 17,
+            "label": "8° côte droite",
+            "accepted": [
+              "8° côte droite",
+              "8° cote droite"
+            ]
+          },
+          {
+            "id": "p32-1-18",
+            "num": 18,
+            "label": "muscles dorsaux",
+            "accepted": [
+              "muscles dorsaux"
+            ]
+          },
+          {
+            "id": "p32-1-19",
+            "num": 19,
+            "label": "lobe pulmonaire inférieur gauche",
+            "accepted": [
+              "lobe pulmonaire inférieur gauche",
+              "lobe pulmonaire inferieur gauche"
+            ]
+          },
+          {
+            "id": "p32-1-20",
+            "num": 20,
+            "label": "aorte thoracique descendante",
+            "accepted": [
+              "aorte thoracique descendante"
+            ]
+          },
+          {
+            "id": "p32-1-21",
+            "num": 21,
+            "label": "septum inter ventriculaire (partie fibreuse)",
+            "accepted": [
+              "partie fibreuse",
+              "septum inter ventriculaire",
+              "septum inter ventriculaire (partie fibreuse)"
+            ],
+            "hint": "septum inter ventriculaire (partie fibreuse)"
+          },
+          {
+            "id": "p32-1-22",
+            "num": 22,
+            "label": "veine pulmonaire inférieure gauche",
+            "accepted": [
+              "veine pulmonaire inférieure gauche",
+              "veine pulmonaire inferieure gauche"
+            ]
+          },
+          {
+            "id": "p32-1-23",
+            "num": 23,
+            "label": "espace pleural",
+            "accepted": [
+              "espace pleural"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "number": "Planche 33",
+    "title": "projection du diaphragme",
+    "subtitle": "sur le thorax osseux",
+    "image": "images/planche_033.webp",
+    "sections": [
+      {
+        "name": "A : Vue de face",
+        "items": [
+          {
+            "id": "p33-1-1",
+            "num": 1,
+            "label": "première côte, limitant l'orifice supérieur du thorax (avec la côte opposée, la première vertèbre thoracique et le manubrium sternal)",
+            "accepted": [
+              "première côte, limitant l'orifice supérieur du thorax (avec la côte opposée, la première vertèbre thoracique et le manubrium sternal)",
+              "avec la cote opposee, la premiere vertebre thoracique et le manubrium sternal",
+              "premiere cote, limitant l'orifice superieur du thorax",
+              "première côte, limitant l'orifice supérieur du thorax",
+              "avec la côte opposée, la première vertèbre thoracique et le manubrium sternal",
+              "premiere cote, limitant l'orifice superieur du thorax (avec la cote opposee, la premiere vertebre thoracique et le manubrium sternal)"
+            ],
+            "hint": "première côte, limitant l'orifice supérieur du thorax (avec la côte opposée, la première vertèbre thoracique et le manubrium sternal)"
+          },
+          {
+            "id": "p33-1-2",
+            "num": 2,
+            "label": "coupole diaphragmatique droite",
+            "accepted": [
+              "coupole diaphragmatique droite"
+            ]
+          },
+          {
+            "id": "p33-1-3",
+            "num": 3,
+            "label": "coupole diaphragmatique gauche",
+            "accepted": [
+              "coupole diaphragmatique gauche"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue latérale droite",
+        "items": [
+          {
+            "id": "p33-2-1",
+            "num": 1,
+            "label": "première côte",
+            "accepted": [
+              "première côte",
+              "premiere cote"
+            ]
+          },
+          {
+            "id": "p33-2-2",
+            "num": 2,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "number": "Planche 34",
+    "title": "coupe frontale de la cavité",
+    "subtitle": "abdominale",
+    "image": "images/planche_034.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p34-1-1",
+            "num": 1,
+            "label": "paroi thoracique (côtes + museles intercostaux)",
+            "accepted": [
+              "cotes + museles intercostaux",
+              "paroi thoracique",
+              "côtes + museles intercostaux",
+              "paroi thoracique (cotes + museles intercostaux)",
+              "paroi thoracique (côtes + museles intercostaux)"
+            ],
+            "hint": "paroi thoracique (côtes + museles intercostaux)"
+          },
+          {
+            "id": "p34-1-2",
+            "num": 2,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p34-1-3",
+            "num": 3,
+            "label": "cavité abdominale",
+            "accepted": [
+              "cavité abdominale",
+              "cavite abdominale"
+            ]
+          },
+          {
+            "id": "p34-1-4",
+            "num": 4,
+            "label": "paroi latérale de l'abdomen (sangle abdominale) comportant, de dehors en dedans : les muscles oblique externe, oblique interne et transverse",
+            "accepted": [
+              "paroi laterale de l'abdomen (sangle abdominale) comportant, de dehors en dedans : les muscles oblique externe, oblique interne et transverse",
+              "paroi latérale de l'abdomen (sangle abdominale) comportant, de dehors en dedans : les muscles oblique externe, oblique interne et transverse",
+              "sangle abdominale",
+              "paroi laterale de l'abdomen",
+              "paroi latérale de l'abdomen"
+            ],
+            "hint": "paroi latérale de l'abdomen (sangle abdominale) comportant, de dehors en dedans : les muscles oblique externe, oblique interne et transverse"
+          },
+          {
+            "id": "p34-1-5",
+            "num": 5,
+            "label": "os coxal (crête iliaque)",
+            "accepted": [
+              "crête iliaque",
+              "os coxal (crête iliaque)",
+              "crete iliaque",
+              "os coxal (crete iliaque)",
+              "os coxal"
+            ]
+          },
+          {
+            "id": "p34-1-6",
+            "num": 6,
+            "label": "muscle grand glutéal (grand fessier)",
+            "accepted": [
+              "muscle grand gluteal (grand fessier)",
+              "muscle grand glutéal (grand fessier)",
+              "muscle grand glutéal",
+              "grand fessier",
+              "muscle grand gluteal"
+            ]
+          },
+          {
+            "id": "p34-1-7",
+            "num": 7,
+            "label": "muscle moyen glutéal (moyen fessier)",
+            "accepted": [
+              "muscle moyen glutéal (moyen fessier)",
+              "muscle moyen gluteal",
+              "muscle moyen glutéal",
+              "moyen fessier",
+              "muscle moyen gluteal (moyen fessier)"
+            ]
+          },
+          {
+            "id": "p34-1-8",
+            "num": 8,
+            "label": "muscle petit glutéal (petit fessier)",
+            "accepted": [
+              "muscle petit glutéal (petit fessier)",
+              "muscle petit gluteal (petit fessier)",
+              "muscle petit gluteal",
+              "petit fessier",
+              "muscle petit glutéal"
+            ]
+          },
+          {
+            "id": "p34-1-9",
+            "num": 9,
+            "label": "fémur (grand trochanter)",
+            "accepted": [
+              "grand trochanter",
+              "fémur",
+              "femur (grand trochanter)",
+              "fémur (grand trochanter)",
+              "femur"
+            ]
+          },
+          {
+            "id": "p34-1-10",
+            "num": 10,
+            "label": "muscle Levator Ani (releveur de l'anus)",
+            "accepted": [
+              "releveur de l'anus",
+              "muscle Levator Ani (releveur de l'anus)",
+              "muscle levator ani",
+              "muscle levator ani (releveur de l'anus)"
+            ]
+          },
+          {
+            "id": "p34-1-11",
+            "num": 11,
+            "label": "muscle iliaque",
+            "accepted": [
+              "muscle iliaque"
+            ]
+          },
+          {
+            "id": "p34-1-12",
+            "num": 12,
+            "label": "muscle grand psoas (psoas)",
+            "accepted": [
+              "muscle grand psoas",
+              "muscle grand psoas (psoas)",
+              "psoas"
+            ]
+          },
+          {
+            "id": "p34-1-13",
+            "num": 13,
+            "label": "muscle obturateur externe",
+            "accepted": [
+              "muscle obturateur externe"
+            ]
+          },
+          {
+            "id": "p34-1-14",
+            "num": 14,
+            "label": "branche ischio-pubienne",
+            "accepted": [
+              "branche ischio-pubienne"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "number": "Planche 35",
+    "title": "coupe sagittale médiane",
+    "subtitle": "de la cavité abdominale",
+    "image": "images/planche_035.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p35-1-1",
+            "num": 1,
+            "label": "sternum",
+            "accepted": [
+              "sternum"
+            ]
+          },
+          {
+            "id": "p35-1-2",
+            "num": 2,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p35-1-3",
+            "num": 3,
+            "label": "orifice oesophagien du diaphragme",
+            "accepted": [
+              "orifice oesophagien du diaphragme"
+            ]
+          },
+          {
+            "id": "p35-1-4",
+            "num": 4,
+            "label": "orifice aortique du diaphragme",
+            "accepted": [
+              "orifice aortique du diaphragme"
+            ]
+          },
+          {
+            "id": "p35-1-5",
+            "num": 5,
+            "label": "ombilic",
+            "accepted": [
+              "ombilic"
+            ]
+          },
+          {
+            "id": "p35-1-6",
+            "num": 6,
+            "label": "cavité abdominale",
+            "accepted": [
+              "cavité abdominale",
+              "cavite abdominale"
+            ]
+          },
+          {
+            "id": "p35-1-7",
+            "num": 7,
+            "label": "ligne blanche de l'abdomen (partie médiane de la paroi abdominale)",
+            "accepted": [
+              "partie mediane de la paroi abdominale",
+              "ligne blanche de l'abdomen (partie médiane de la paroi abdominale)",
+              "ligne blanche de l'abdomen (partie mediane de la paroi abdominale)",
+              "partie médiane de la paroi abdominale",
+              "ligne blanche de l'abdomen"
+            ],
+            "hint": "ligne blanche de l'abdomen (partie médiane de la paroi abdominale)"
+          },
+          {
+            "id": "p35-1-8",
+            "num": 8,
+            "label": "symphyse pubienne",
+            "accepted": [
+              "symphyse pubienne"
+            ]
+          },
+          {
+            "id": "p35-1-9",
+            "num": 9,
+            "label": "périnée",
+            "accepted": [
+              "perinee",
+              "périnée"
+            ]
+          },
+          {
+            "id": "p35-1-10",
+            "num": 10,
+            "label": "canal spinal ou rachidien",
+            "accepted": [
+              "canal spinal ou rachidien"
+            ]
+          },
+          {
+            "id": "p35-1-11",
+            "num": 11,
+            "label": "sacrum",
+            "accepted": [
+              "sacrum"
+            ]
+          },
+          {
+            "id": "p35-1-12",
+            "num": 12,
+            "label": "cavité thoracique",
+            "accepted": [
+              "cavite thoracique",
+              "cavité thoracique"
+            ]
+          },
+          {
+            "id": "p35-1-13",
+            "num": 13,
+            "label": "étage sus mésocolique de la cavité péritonéale",
+            "accepted": [
+              "étage sus mésocolique de la cavité péritonéale",
+              "etage sus mesocolique de la cavite peritoneale"
+            ]
+          },
+          {
+            "id": "p35-1-14",
+            "num": 14,
+            "label": "colon transverse",
+            "accepted": [
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p35-1-15",
+            "num": 15,
+            "label": "étage sous mésocolique de la cavité péritonéale",
+            "accepted": [
+              "etage sous mesocolique de la cavite peritoneale",
+              "étage sous mésocolique de la cavité péritonéale"
+            ]
+          },
+          {
+            "id": "p35-1-16",
+            "num": 16,
+            "label": "péritoine pariétal",
+            "accepted": [
+              "péritoine pariétal",
+              "peritoine parietal"
+            ]
+          },
+          {
+            "id": "p35-1-17",
+            "num": 17,
+            "label": "espace sous péritonéal",
+            "accepted": [
+              "espace sous peritoneal",
+              "espace sous péritonéal"
+            ]
+          },
+          {
+            "id": "p35-1-18",
+            "num": 18,
+            "label": "espace rétro péritonéal",
+            "accepted": [
+              "espace rétro péritonéal",
+              "espace retro peritoneal"
+            ]
+          },
+          {
+            "id": "p35-1-19",
+            "num": 19,
+            "label": "méso colon transverse",
+            "accepted": [
+              "méso colon transverse",
+              "meso colon transverse"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "number": "Planche 36",
+    "title": "coupe transversale de la",
+    "subtitle": "cavité abdominale",
+    "image": "images/planche_036.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p36-1-1",
+            "num": 1,
+            "label": "ligne blanche de l'abdomen",
+            "accepted": [
+              "ligne blanche de l'abdomen"
+            ]
+          },
+          {
+            "id": "p36-1-2",
+            "num": 2,
+            "label": "muscle grand droit",
+            "accepted": [
+              "muscle grand droit"
+            ]
+          },
+          {
+            "id": "p36-1-3",
+            "num": 3,
+            "label": "cavité péritonéale",
+            "accepted": [
+              "cavite peritoneale",
+              "cavité péritonéale"
+            ]
+          },
+          {
+            "id": "p36-1-4",
+            "num": 4,
+            "label": "muscle grand psoas (psoas)",
+            "accepted": [
+              "muscle grand psoas",
+              "muscle grand psoas (psoas)",
+              "psoas"
+            ]
+          },
+          {
+            "id": "p36-1-5",
+            "num": 5,
+            "label": "espace rétro péritonéal",
+            "accepted": [
+              "espace rétro péritonéal",
+              "espace retro peritoneal"
+            ]
+          },
+          {
+            "id": "p36-1-6",
+            "num": 6,
+            "label": "muscle carré des lombes",
+            "accepted": [
+              "muscle carré des lombes",
+              "muscle carre des lombes"
+            ]
+          },
+          {
+            "id": "p36-1-7",
+            "num": 7,
+            "label": "vertèbre lombaire",
+            "accepted": [
+              "vertèbre lombaire",
+              "vertebre lombaire"
+            ]
+          },
+          {
+            "id": "p36-1-8",
+            "num": 8,
+            "label": "muscles des gouttières para vertébrales (érecteurs du rachis)",
+            "accepted": [
+              "muscles des gouttières para vertébrales (érecteurs du rachis)",
+              "muscles des gouttieres para vertebrales",
+              "muscles des gouttières para vertébrales",
+              "érecteurs du rachis",
+              "muscles des gouttieres para vertebrales (erecteurs du rachis)",
+              "erecteurs du rachis"
+            ],
+            "hint": "muscles des gouttières para vertébrales (érecteurs du rachis)"
+          },
+          {
+            "id": "p36-1-9",
+            "num": 9,
+            "label": "muscle oblique externe (grand oblique)",
+            "accepted": [
+              "muscle oblique externe (grand oblique)",
+              "muscle oblique externe",
+              "grand oblique"
+            ]
+          },
+          {
+            "id": "p36-1-10",
+            "num": 10,
+            "label": "muscle oblique interne (petit oblique)",
+            "accepted": [
+              "muscle oblique interne (petit oblique)",
+              "petit oblique",
+              "muscle oblique interne"
+            ]
+          },
+          {
+            "id": "p36-1-11",
+            "num": 11,
+            "label": "muscle transverse de l'abdomen",
+            "accepted": [
+              "muscle transverse de l'abdomen"
+            ]
+          },
+          {
+            "id": "p36-1-12",
+            "num": 12,
+            "label": "péritoine pariétal",
+            "accepted": [
+              "péritoine pariétal",
+              "peritoine parietal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "number": "Planche 37",
+    "title": "Planche 37",
+    "subtitle": "Coupe frontale de l'abdomen et du petit bassin",
+    "image": "images/planche_037.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p37-1-1",
+            "num": 1,
+            "label": "muscle transverse de l'abdomen",
+            "accepted": [
+              "muscle transverse de l'abdomen"
+            ]
+          },
+          {
+            "id": "p37-1-2",
+            "num": 2,
+            "label": "muscle oblique interne de l'abdomen",
+            "accepted": [
+              "muscle oblique interne de l'abdomen"
+            ]
+          },
+          {
+            "id": "p37-1-3",
+            "num": 3,
+            "label": "muscle oblique externe de l'abdomen",
+            "accepted": [
+              "muscle oblique externe de l'abdomen"
+            ]
+          },
+          {
+            "id": "p37-1-4",
+            "num": 4,
+            "label": "crête iliaque",
+            "accepted": [
+              "crête iliaque",
+              "crete iliaque"
+            ]
+          },
+          {
+            "id": "p37-1-5",
+            "num": 5,
+            "label": "muscle grand fessier (grand glutéal)",
+            "accepted": [
+              "grand glutéal",
+              "muscle grand fessier",
+              "muscle grand fessier (grand glutéal)",
+              "grand gluteal",
+              "muscle grand fessier (grand gluteal)"
+            ]
+          },
+          {
+            "id": "p37-1-6",
+            "num": 6,
+            "label": "muscle petit fessier (petit glutéal)",
+            "accepted": [
+              "muscle petit fessier (petit gluteal)",
+              "muscle petit fessier (petit glutéal)",
+              "muscle petit fessier",
+              "petit glutéal",
+              "petit gluteal"
+            ]
+          },
+          {
+            "id": "p37-1-7",
+            "num": 7,
+            "label": "muscle moyen fessier (moyen glutéal)",
+            "accepted": [
+              "moyen gluteal",
+              "muscle moyen fessier (moyen gluteal)",
+              "muscle moyen fessier",
+              "muscle moyen fessier (moyen glutéal)",
+              "moyen glutéal"
+            ]
+          },
+          {
+            "id": "p37-1-8",
+            "num": 8,
+            "label": "muscle obturateur externe",
+            "accepted": [
+              "muscle obturateur externe"
+            ]
+          },
+          {
+            "id": "p37-1-9",
+            "num": 9,
+            "label": "branche ischio-pubienne (bord inférieur du foramen obturé)",
+            "accepted": [
+              "branche ischio-pubienne",
+              "bord inferieur du foramen obture",
+              "bord inférieur du foramen obturé",
+              "branche ischio-pubienne (bord inferieur du foramen obture)",
+              "branche ischio-pubienne (bord inférieur du foramen obturé)"
+            ],
+            "hint": "branche ischio-pubienne (bord inférieur du foramen obturé)"
+          },
+          {
+            "id": "p37-1-10",
+            "num": 10,
+            "label": "muscle iliaque",
+            "accepted": [
+              "muscle iliaque"
+            ]
+          },
+          {
+            "id": "p37-1-11",
+            "num": 11,
+            "label": "ligne innominée (détroit supérieur du petit bassin)",
+            "accepted": [
+              "ligne innominée (détroit supérieur du petit bassin)",
+              "ligne innominee",
+              "ligne innominee (detroit superieur du petit bassin)",
+              "détroit supérieur du petit bassin",
+              "detroit superieur du petit bassin",
+              "ligne innominée"
+            ],
+            "hint": "ligne innominée (détroit supérieur du petit bassin)"
+          },
+          {
+            "id": "p37-1-12",
+            "num": 12,
+            "label": "muscle grand psoas",
+            "accepted": [
+              "muscle grand psoas"
+            ]
+          },
+          {
+            "id": "p37-1-13",
+            "num": 13,
+            "label": "vaisseaux iliaques externes",
+            "accepted": [
+              "vaisseaux iliaques externes"
+            ]
+          },
+          {
+            "id": "p37-1-14",
+            "num": 14,
+            "label": "muscle obturateur interne",
+            "accepted": [
+              "muscle obturateur interne"
+            ]
+          },
+          {
+            "id": "p37-1-15",
+            "num": 15,
+            "label": "petit trochanter",
+            "accepted": [
+              "petit trochanter"
+            ]
+          },
+          {
+            "id": "p37-1-16",
+            "num": 16,
+            "label": "muscle releveur de l'anus (levator ani)",
+            "accepted": [
+              "muscle releveur de l'anus (levator ani)",
+              "muscle releveur de l'anus",
+              "levator ani"
+            ]
+          },
+          {
+            "id": "p37-1-17",
+            "num": 17,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "P : cavité pelvienne",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "number": "Planche 38",
+    "title": "Planche 38",
+    "subtitle": "",
+    "image": "images/planche_038.webp",
+    "sections": [
+      {
+        "name": "A : Appareil digestif",
+        "items": [
+          {
+            "id": "p38-1-1",
+            "num": 1,
+            "label": "cavité orale",
+            "accepted": [
+              "cavité orale",
+              "cavite orale"
+            ]
+          },
+          {
+            "id": "p38-1-2",
+            "num": 2,
+            "label": "pharynx",
+            "accepted": [
+              "pharynx"
+            ]
+          },
+          {
+            "id": "p38-1-3",
+            "num": 3,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          },
+          {
+            "id": "p38-1-4",
+            "num": 4,
+            "label": "estomac",
+            "accepted": [
+              "estomac"
+            ]
+          },
+          {
+            "id": "p38-1-5",
+            "num": 5,
+            "label": "duodénum",
+            "accepted": [
+              "odénum",
+              "odenum",
+              "duodenum",
+              "duodénum"
+            ]
+          },
+          {
+            "id": "p38-1-6",
+            "num": 6,
+            "label": "jéjunum",
+            "accepted": [
+              "jéjunum",
+              "jejunum"
+            ]
+          },
+          {
+            "id": "p38-1-7",
+            "num": 7,
+            "label": "ileum",
+            "accepted": [
+              "ileum"
+            ]
+          },
+          {
+            "id": "p38-1-8",
+            "num": 8,
+            "label": "appendice vermiforme",
+            "accepted": [
+              "appendice vermiforme"
+            ]
+          },
+          {
+            "id": "p38-1-9",
+            "num": 9,
+            "label": "caecum",
+            "accepted": [
+              "caecum"
+            ]
+          },
+          {
+            "id": "p38-1-10",
+            "num": 10,
+            "label": "côlon ascendant",
+            "accepted": [
+              "colon ascendant",
+              "côlon ascendant"
+            ]
+          },
+          {
+            "id": "p38-1-11",
+            "num": 11,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p38-1-12",
+            "num": 12,
+            "label": "côlon descendant",
+            "accepted": [
+              "colon descendant",
+              "côlon descendant"
+            ]
+          },
+          {
+            "id": "p38-1-13",
+            "num": 13,
+            "label": "côlon sigmoïde",
+            "accepted": [
+              "côlon sigmoïde",
+              "colon sigmoide"
+            ]
+          },
+          {
+            "id": "p38-1-14",
+            "num": 14,
+            "label": "rectum",
+            "accepted": [
+              "rectum"
+            ]
+          },
+          {
+            "id": "p38-1-15",
+            "num": 15,
+            "label": "foie",
+            "accepted": [
+              "foie"
+            ]
+          },
+          {
+            "id": "p38-1-16",
+            "num": 16,
+            "label": "vésicule biliaire",
+            "accepted": [
+              "vesicule biliaire",
+              "vésicule biliaire"
+            ]
+          },
+          {
+            "id": "p38-1-17",
+            "num": 17,
+            "label": "pancréas",
+            "accepted": [
+              "pancréas",
+              "pancreas"
+            ]
+          },
+          {
+            "id": "p38-1-18",
+            "num": 18,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe transversale schématique du jéjuno-iléum",
+        "items": [
+          {
+            "id": "p38-2-1",
+            "num": 1,
+            "label": "muqueuse",
+            "accepted": [
+              "muqueuse"
+            ]
+          },
+          {
+            "id": "p38-2-2",
+            "num": 2,
+            "label": "muscularis mucosae",
+            "accepted": [
+              "muscularis mucosae"
+            ]
+          },
+          {
+            "id": "p38-2-3",
+            "num": 3,
+            "label": "sous-muqueuse",
+            "accepted": [
+              "sous-muqueuse"
+            ]
+          },
+          {
+            "id": "p38-2-4",
+            "num": 4,
+            "label": "musculeuse (couche circulaire)",
+            "accepted": [
+              "musculeuse (couche circulaire)",
+              "musculeuse",
+              "couche circulaire"
+            ]
+          },
+          {
+            "id": "p38-2-5",
+            "num": 5,
+            "label": "musculeuse (couche longitudinale)",
+            "accepted": [
+              "couche longitudinale",
+              "musculeuse",
+              "musculeuse (couche longitudinale)"
+            ]
+          },
+          {
+            "id": "p38-2-6",
+            "num": 6,
+            "label": "péritoine",
+            "accepted": [
+              "péritoine",
+              "peritoine"
+            ]
+          },
+          {
+            "id": "p38-2-7",
+            "num": 7,
+            "label": "vaisseaux",
+            "accepted": [
+              "vaisseaux"
+            ]
+          },
+          {
+            "id": "p38-2-8",
+            "num": 8,
+            "label": "mésentère",
+            "accepted": [
+              "mesentere",
+              "mésentère"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Coupe sagittale de l'abdomen et du petit bassin",
+        "items": [
+          {
+            "id": "p38-3-1",
+            "num": 1,
+            "label": "cavité péritonéale",
+            "accepted": [
+              "cavite peritoneale",
+              "cavité péritonéale"
+            ]
+          },
+          {
+            "id": "p38-3-2",
+            "num": 2,
+            "label": "espace rétro-péritonéal",
+            "accepted": [
+              "espace retro-peritoneal",
+              "espace rétro-péritonéal"
+            ]
+          },
+          {
+            "id": "p38-3-3",
+            "num": 3,
+            "label": "espace sous-péritonéal",
+            "accepted": [
+              "espace sous-péritonéal",
+              "espace sous-peritoneal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Constitution schématique d'un méso",
+        "items": [
+          {
+            "id": "p38-4-1",
+            "num": 1,
+            "label": "péritoine pariétal",
+            "accepted": [
+              "péritoine pariétal",
+              "peritoine parietal"
+            ]
+          },
+          {
+            "id": "p38-4-2",
+            "num": 2,
+            "label": "artère nourricière de l'intestin",
+            "accepted": [
+              "artère nourricière de l'intestin",
+              "artere nourriciere de l'intestin"
+            ]
+          },
+          {
+            "id": "p38-4-3",
+            "num": 3,
+            "label": "intestin",
+            "accepted": [
+              "intestin"
+            ]
+          },
+          {
+            "id": "p38-4-4",
+            "num": 4,
+            "label": "péritoine viscéral",
+            "accepted": [
+              "péritoine viscéral",
+              "peritoine visceral"
+            ]
+          },
+          {
+            "id": "p38-4-5",
+            "num": 5,
+            "label": "méso",
+            "accepted": [
+              "meso",
+              "méso"
+            ]
+          },
+          {
+            "id": "p38-4-6",
+            "num": 6,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "number": "Planche 39",
+    "title": "Planche 39",
+    "subtitle": "",
+    "image": "images/planche_039.webp",
+    "sections": [
+      {
+        "name": "A : Coupe frontale de la cavité orale",
+        "items": [
+          {
+            "id": "p39-1-1",
+            "num": 1,
+            "label": "cavité orale propre",
+            "accepted": [
+              "cavité orale propre",
+              "cavite orale propre"
+            ]
+          },
+          {
+            "id": "p39-1-2",
+            "num": 2,
+            "label": "vestibule oral",
+            "accepted": [
+              "vestibule oral"
+            ]
+          },
+          {
+            "id": "p39-1-3",
+            "num": 3,
+            "label": "joue",
+            "accepted": [
+              "joue"
+            ]
+          },
+          {
+            "id": "p39-1-4",
+            "num": 4,
+            "label": "muscle buccinateur",
+            "accepted": [
+              "muscle buccinateur"
+            ]
+          },
+          {
+            "id": "p39-1-5",
+            "num": 5,
+            "label": "sillon alvéolo-lingual",
+            "accepted": [
+              "sillon alvéolo-lingual",
+              "sillon alveolo-lingual"
+            ]
+          },
+          {
+            "id": "p39-1-6",
+            "num": 6,
+            "label": "mandibule",
+            "accepted": [
+              "mandibule"
+            ]
+          },
+          {
+            "id": "p39-1-7",
+            "num": 7,
+            "label": "muscle mylo-hyoïdien",
+            "accepted": [
+              "muscle mylo-hyoidien",
+              "muscle mylo-hyoïdien"
+            ]
+          },
+          {
+            "id": "p39-1-8",
+            "num": 8,
+            "label": "muscle digastrique",
+            "accepted": [
+              "muscle digastrique"
+            ]
+          },
+          {
+            "id": "p39-1-9",
+            "num": 9,
+            "label": "muscle génio-hyoïdien",
+            "accepted": [
+              "muscle génio-hyoïdien",
+              "muscle genio-hyoidien"
+            ]
+          },
+          {
+            "id": "p39-1-10",
+            "num": 10,
+            "label": "glande submandibulaire",
+            "accepted": [
+              "glande submandibulaire"
+            ]
+          },
+          {
+            "id": "p39-1-11",
+            "num": 11,
+            "label": "glande sublinguale",
+            "accepted": [
+              "glande sublinguale"
+            ]
+          },
+          {
+            "id": "p39-1-12",
+            "num": 12,
+            "label": "pli sublingual",
+            "accepted": [
+              "pli sublingual"
+            ]
+          },
+          {
+            "id": "p39-1-13",
+            "num": 13,
+            "label": "septum lingual",
+            "accepted": [
+              "septum lingual"
+            ]
+          },
+          {
+            "id": "p39-1-15",
+            "num": 15,
+            "label": "maxillaire",
+            "accepted": [
+              "maxillaire"
+            ]
+          },
+          {
+            "id": "p39-1-16",
+            "num": 16,
+            "label": "cavité nasale",
+            "accepted": [
+              "cavité nasale",
+              "cavite nasale"
+            ]
+          },
+          {
+            "id": "p39-1-18",
+            "num": 18,
+            "label": "palais osseux",
+            "accepted": [
+              "palais osseux"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : La cavité orale",
+        "items": [
+          {
+            "id": "p39-2-1",
+            "num": 1,
+            "label": "lèvre supérieure",
+            "accepted": [
+              "levre superieure",
+              "lèvre supérieure",
+              "vre superieure"
+            ]
+          },
+          {
+            "id": "p39-2-2",
+            "num": 2,
+            "label": "arcade dentaire supérieure",
+            "accepted": [
+              "arcade dentaire supérieure",
+              "arcade dentaire superieure"
+            ]
+          },
+          {
+            "id": "p39-2-3",
+            "num": 3,
+            "label": "palais",
+            "accepted": [
+              "palais"
+            ]
+          },
+          {
+            "id": "p39-2-4",
+            "num": 4,
+            "label": "are palato-glosse",
+            "accepted": [
+              "are palato-glosse"
+            ]
+          },
+          {
+            "id": "p39-2-5",
+            "num": 5,
+            "label": "tonsille palatine",
+            "accepted": [
+              "tonsille palatine"
+            ]
+          },
+          {
+            "id": "p39-2-6",
+            "num": 6,
+            "label": "arcade dentaire inférieure",
+            "accepted": [
+              "arcade dentaire inferieure",
+              "arcade dentaire inférieure"
+            ]
+          },
+          {
+            "id": "p39-2-7",
+            "num": 7,
+            "label": "lèvre inférieure",
+            "accepted": [
+              "vre inferieure",
+              "levre inferieure",
+              "lèvre inférieure"
+            ]
+          },
+          {
+            "id": "p39-2-8",
+            "num": 8,
+            "label": "langue",
+            "accepted": [
+              "ngue",
+              "langue"
+            ]
+          },
+          {
+            "id": "p39-2-9",
+            "num": 9,
+            "label": "isthme du gosier",
+            "accepted": [
+              "isthme du gosier"
+            ]
+          },
+          {
+            "id": "p39-2-10",
+            "num": 10,
+            "label": "arc palato-pharyngien",
+            "accepted": [
+              "arc palato-pharyngien"
+            ]
+          },
+          {
+            "id": "p39-2-11",
+            "num": 11,
+            "label": "luette ou uvule palatine",
+            "accepted": [
+              "luette ou uvule palatine"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "number": "Planche 40",
+    "title": "Planche 40",
+    "subtitle": "",
+    "image": "images/planche_040.webp",
+    "sections": [
+      {
+        "name": "A : La face dorsale de la langue",
+        "items": [
+          {
+            "id": "p40-1-1",
+            "num": 1,
+            "label": "épiglotte",
+            "accepted": [
+              "epiglotte",
+              "épiglotte"
+            ]
+          },
+          {
+            "id": "p40-1-2",
+            "num": 2,
+            "label": "vallécule épiglottique",
+            "accepted": [
+              "vallécule épiglottique",
+              "vallecule epiglottique"
+            ]
+          },
+          {
+            "id": "p40-1-3",
+            "num": 3,
+            "label": "tonsille palatine",
+            "accepted": [
+              "tonsille palatine"
+            ]
+          },
+          {
+            "id": "p40-1-5",
+            "num": 5,
+            "label": "sillon terminal",
+            "accepted": [
+              "sillon terminal"
+            ]
+          },
+          {
+            "id": "p40-1-6",
+            "num": 6,
+            "label": "sillon médian",
+            "accepted": [
+              "sillon median",
+              "sillon médian"
+            ]
+          },
+          {
+            "id": "p40-1-7",
+            "num": 7,
+            "label": "partie orale",
+            "accepted": [
+              "partie orale"
+            ]
+          },
+          {
+            "id": "p40-1-8",
+            "num": 8,
+            "label": "bord latéral",
+            "accepted": [
+              "bord latéral",
+              "bord lateral"
+            ]
+          },
+          {
+            "id": "p40-1-9",
+            "num": 9,
+            "label": "pointe",
+            "accepted": [
+              "pointe"
+            ]
+          },
+          {
+            "id": "p40-1-10",
+            "num": 10,
+            "label": "papille circumvalée",
+            "accepted": [
+              "papille circumvalee",
+              "papille circumvalée"
+            ]
+          },
+          {
+            "id": "p40-1-11",
+            "num": 11,
+            "label": "foramen caecum",
+            "accepted": [
+              "foramen caecum"
+            ]
+          },
+          {
+            "id": "p40-1-12",
+            "num": 12,
+            "label": "are palato-glosse",
+            "accepted": [
+              "are palato-glosse"
+            ]
+          },
+          {
+            "id": "p40-1-13",
+            "num": 13,
+            "label": "tonsilles linguales",
+            "accepted": [
+              "tonsilles linguales"
+            ]
+          },
+          {
+            "id": "p40-1-14",
+            "num": 14,
+            "label": "are palato-pharyngien",
+            "accepted": [
+              "are palato-pharyngien"
+            ]
+          },
+          {
+            "id": "p40-1-15",
+            "num": 15,
+            "label": "pli glosso-épiglottique médian",
+            "accepted": [
+              "pli glosso-epiglottique median",
+              "pli glosso-épiglottique médian"
+            ]
+          },
+          {
+            "id": "p40-1-16",
+            "num": 16,
+            "label": "pli glosso-épiglottique latéral",
+            "accepted": [
+              "pli glosso-épiglottique latéral",
+              "pli glosso-epiglottique lateral"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe sagittale schématique de la langue",
+        "items": [
+          {
+            "id": "p40-2-1",
+            "num": 1,
+            "label": "partie orale",
+            "accepted": [
+              "partie orale"
+            ]
+          },
+          {
+            "id": "p40-2-2",
+            "num": 2,
+            "label": "partie pharyngienne",
+            "accepted": [
+              "partie pharyngienne"
+            ]
+          },
+          {
+            "id": "p40-2-3",
+            "num": 3,
+            "label": "épiglotte",
+            "accepted": [
+              "epiglotte",
+              "épiglotte"
+            ]
+          },
+          {
+            "id": "p40-2-4",
+            "num": 4,
+            "label": "vallécule épiglottique",
+            "accepted": [
+              "vallécule épiglottique",
+              "vallecule epiglottique"
+            ]
+          },
+          {
+            "id": "p40-2-5",
+            "num": 5,
+            "label": "os hyoïde",
+            "accepted": [
+              "os hyoïde",
+              "os hyoide"
+            ]
+          },
+          {
+            "id": "p40-2-6",
+            "num": 6,
+            "label": "racine",
+            "accepted": [
+              "racine"
+            ]
+          },
+          {
+            "id": "p40-2-7",
+            "num": 7,
+            "label": "mandibule",
+            "accepted": [
+              "mandibule"
+            ]
+          },
+          {
+            "id": "p40-2-8",
+            "num": 8,
+            "label": "face inférieure",
+            "accepted": [
+              "face inferieure",
+              "face inférieure"
+            ]
+          },
+          {
+            "id": "p40-2-9",
+            "num": 9,
+            "label": "pointe",
+            "accepted": [
+              "pointe"
+            ]
+          },
+          {
+            "id": "p40-2-10",
+            "num": 10,
+            "label": "corps",
+            "accepted": [
+              "corps"
+            ]
+          },
+          {
+            "id": "p40-2-11",
+            "num": 11,
+            "label": "sillon terminal",
+            "accepted": [
+              "sillon terminal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Coupe longitudinale d'une dent et de son alvéole",
+        "items": [
+          {
+            "id": "p40-3-1",
+            "num": 1,
+            "label": "couronne",
+            "accepted": [
+              "couronne"
+            ]
+          },
+          {
+            "id": "p40-3-2",
+            "num": 2,
+            "label": "collet",
+            "accepted": [
+              "collet"
+            ]
+          },
+          {
+            "id": "p40-3-3",
+            "num": 3,
+            "label": "gencive",
+            "accepted": [
+              "gencive"
+            ]
+          },
+          {
+            "id": "p40-3-4",
+            "num": 4,
+            "label": "racine",
+            "accepted": [
+              "racine"
+            ]
+          },
+          {
+            "id": "p40-3-5",
+            "num": 5,
+            "label": "périodonte",
+            "accepted": [
+              "périodonte",
+              "periodonte"
+            ]
+          },
+          {
+            "id": "p40-3-6",
+            "num": 6,
+            "label": "apex",
+            "accepted": [
+              "apex"
+            ]
+          },
+          {
+            "id": "p40-3-7",
+            "num": 7,
+            "label": "nerf dentaire",
+            "accepted": [
+              "nerf dentaire"
+            ]
+          },
+          {
+            "id": "p40-3-8",
+            "num": 8,
+            "label": "canal de la racine",
+            "accepted": [
+              "canal de la racine"
+            ]
+          },
+          {
+            "id": "p40-3-9",
+            "num": 9,
+            "label": "os alvéolaire",
+            "accepted": [
+              "os alvéolaire",
+              "os alveolaire"
+            ]
+          },
+          {
+            "id": "p40-3-10",
+            "num": 10,
+            "label": "cément",
+            "accepted": [
+              "cément",
+              "cement"
+            ]
+          },
+          {
+            "id": "p40-3-11",
+            "num": 11,
+            "label": "cavité dentaire",
+            "accepted": [
+              "cavité dentaire",
+              "cavite dentaire"
+            ]
+          },
+          {
+            "id": "p40-3-12",
+            "num": 12,
+            "label": "dentine",
+            "accepted": [
+              "dentine"
+            ]
+          },
+          {
+            "id": "p40-3-13",
+            "num": 13,
+            "label": "émail",
+            "accepted": [
+              "email",
+              "émail"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "number": "Planche 41",
+    "title": "Planche 41",
+    "subtitle": "",
+    "image": "images/planche_041.webp",
+    "sections": [
+      {
+        "name": "A : Coupe sagittale médiane de la face et du cou",
+        "items": [
+          {
+            "id": "p41-1-1",
+            "num": 1,
+            "label": "palais dur",
+            "accepted": [
+              "palais dur"
+            ]
+          },
+          {
+            "id": "p41-1-2",
+            "num": 2,
+            "label": "sinus frontal",
+            "accepted": [
+              "sinus frontal"
+            ]
+          },
+          {
+            "id": "p41-1-3",
+            "num": 3,
+            "label": "cavité nasale",
+            "accepted": [
+              "cavité nasale",
+              "cavite nasale"
+            ]
+          },
+          {
+            "id": "p41-1-4",
+            "num": 4,
+            "label": "cavité orale propre",
+            "accepted": [
+              "cavité orale propre",
+              "cavite orale propre"
+            ]
+          },
+          {
+            "id": "p41-1-5",
+            "num": 5,
+            "label": "arcade alvéolo-dentaire supérieure",
+            "accepted": [
+              "arcade alvéolo-dentaire supérieure",
+              "arcade alveolo-dentaire superieure"
+            ]
+          },
+          {
+            "id": "p41-1-6",
+            "num": 6,
+            "label": "lèvre supérieure",
+            "accepted": [
+              "lèvre supérieure",
+              "levre superieure",
+              "vre superieure"
+            ]
+          },
+          {
+            "id": "p41-1-7",
+            "num": 7,
+            "label": "vestibule oral",
+            "accepted": [
+              "vestibule oral"
+            ]
+          },
+          {
+            "id": "p41-1-8",
+            "num": 8,
+            "label": "fente orale",
+            "accepted": [
+              "fente orale"
+            ]
+          },
+          {
+            "id": "p41-1-9",
+            "num": 9,
+            "label": "langue",
+            "accepted": [
+              "langue",
+              "ngue"
+            ]
+          },
+          {
+            "id": "p41-1-10",
+            "num": 10,
+            "label": "lèvre inférieure",
+            "accepted": [
+              "lèvre inférieure",
+              "levre inferieure",
+              "vre inferieure"
+            ]
+          },
+          {
+            "id": "p41-1-11",
+            "num": 11,
+            "label": "arcade alvéolo-dentaire inférieure",
+            "accepted": [
+              "arcade alvéolo-dentaire inférieure",
+              "arcade alveolo-dentaire inferieure"
+            ]
+          },
+          {
+            "id": "p41-1-12",
+            "num": 12,
+            "label": "muscle génio-hyoïdien",
+            "accepted": [
+              "muscle génio-hyoïdien",
+              "muscle genio-hyoidien"
+            ]
+          },
+          {
+            "id": "p41-1-13",
+            "num": 13,
+            "label": "os hyoïde",
+            "accepted": [
+              "os hyoïde",
+              "os hyoide"
+            ]
+          },
+          {
+            "id": "p41-1-14",
+            "num": 14,
+            "label": "membrane thyrohyoïdienne",
+            "accepted": [
+              "membrane thyrohyoïdienne",
+              "membrane thyrohyoidienne"
+            ]
+          },
+          {
+            "id": "p41-1-15",
+            "num": 15,
+            "label": "larynx",
+            "accepted": [
+              "larynx",
+              "rynx"
+            ]
+          },
+          {
+            "id": "p41-1-16",
+            "num": 16,
+            "label": "cartilage thyroïde",
+            "accepted": [
+              "cartilage thyroïde",
+              "cartilage thyroide"
+            ]
+          },
+          {
+            "id": "p41-1-17",
+            "num": 17,
+            "label": "cartilage cricoïde",
+            "accepted": [
+              "cartilage cricoïde",
+              "cartilage cricoide"
+            ]
+          },
+          {
+            "id": "p41-1-18",
+            "num": 18,
+            "label": "trachée",
+            "accepted": [
+              "trachée",
+              "trachee"
+            ]
+          },
+          {
+            "id": "p41-1-19",
+            "num": 19,
+            "label": "glande thyroïde",
+            "accepted": [
+              "glande thyroïde",
+              "glande thyroide"
+            ]
+          },
+          {
+            "id": "p41-1-20",
+            "num": 20,
+            "label": "selle turcique",
+            "accepted": [
+              "selle turcique"
+            ]
+          },
+          {
+            "id": "p41-1-21",
+            "num": 21,
+            "label": "sinus sphénoïdal",
+            "accepted": [
+              "sinus sphénoïdal",
+              "sinus sphenoidal"
+            ]
+          },
+          {
+            "id": "p41-1-22",
+            "num": 22,
+            "label": "naso-pharynx",
+            "accepted": [
+              "naso-pharynx"
+            ]
+          },
+          {
+            "id": "p41-1-23",
+            "num": 23,
+            "label": "atlas",
+            "accepted": [
+              "atlas"
+            ]
+          },
+          {
+            "id": "p41-1-24",
+            "num": 24,
+            "label": "palais mou et luette",
+            "accepted": [
+              "palais mou et luette"
+            ]
+          },
+          {
+            "id": "p41-1-25",
+            "num": 25,
+            "label": "axis",
+            "accepted": [
+              "axis"
+            ]
+          },
+          {
+            "id": "p41-1-26",
+            "num": 26,
+            "label": "oropharynx",
+            "accepted": [
+              "oropharynx"
+            ]
+          },
+          {
+            "id": "p41-1-27",
+            "num": 27,
+            "label": "épiglotte",
+            "accepted": [
+              "épiglotte",
+              "epiglotte"
+            ]
+          },
+          {
+            "id": "p41-1-28",
+            "num": 28,
+            "label": "laryngo-pharynx",
+            "accepted": [
+              "laryngo-pharynx",
+              "ryngo-pharynx"
+            ]
+          },
+          {
+            "id": "p41-1-29",
+            "num": 29,
+            "label": "sixième vertèbre cervicale",
+            "accepted": [
+              "sixième vertèbre cervicale",
+              "sixieme vertebre cervicale"
+            ]
+          },
+          {
+            "id": "p41-1-30",
+            "num": 30,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B: Représentation schématique d'une coupe sagittale",
+        "items": [
+          {
+            "id": "p41-2-1",
+            "num": 1,
+            "label": "cavité nasale",
+            "accepted": [
+              "cavité nasale",
+              "cavite nasale"
+            ]
+          },
+          {
+            "id": "p41-2-2",
+            "num": 2,
+            "label": "cavité orale",
+            "accepted": [
+              "cavité orale",
+              "cavite orale"
+            ]
+          },
+          {
+            "id": "p41-2-3",
+            "num": 3,
+            "label": "nasopharynx",
+            "accepted": [
+              "nasopharynx"
+            ]
+          },
+          {
+            "id": "p41-2-4",
+            "num": 4,
+            "label": "oropharynx",
+            "accepted": [
+              "oropharynx"
+            ]
+          },
+          {
+            "id": "p41-2-5",
+            "num": 5,
+            "label": "laryngopharynx",
+            "accepted": [
+              "ryngopharynx",
+              "laryngopharynx"
+            ]
+          },
+          {
+            "id": "p41-2-6",
+            "num": 6,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          },
+          {
+            "id": "p41-2-7",
+            "num": 7,
+            "label": "larynx",
+            "accepted": [
+              "rynx",
+              "larynx"
+            ]
+          },
+          {
+            "id": "p41-2-8",
+            "num": 8,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "number": "Planche 42",
+    "title": "vue antérieure de l'œsophage",
+    "subtitle": "",
+    "image": "images/planche_042.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p42-1-1",
+            "num": 1,
+            "label": "pharynx",
+            "accepted": [
+              "pharynx"
+            ]
+          },
+          {
+            "id": "p42-1-2",
+            "num": 2,
+            "label": "cartilage cricoïde",
+            "accepted": [
+              "cartilage cricoïde",
+              "cartilage cricoide"
+            ]
+          },
+          {
+            "id": "p42-1-3",
+            "num": 3,
+            "label": "œsophage cervical",
+            "accepted": [
+              "œsophage cervical"
+            ]
+          },
+          {
+            "id": "p42-1-4",
+            "num": 4,
+            "label": "repère de l'orifice supérieur du thorax",
+            "accepted": [
+              "repère de l'orifice supérieur du thorax",
+              "repere de l'orifice superieur du thorax"
+            ]
+          },
+          {
+            "id": "p42-1-5",
+            "num": 5,
+            "label": "trachée",
+            "accepted": [
+              "trachee",
+              "trachée"
+            ]
+          },
+          {
+            "id": "p42-1-6",
+            "num": 6,
+            "label": "are de l'aorte",
+            "accepted": [
+              "are de l'aorte"
+            ]
+          },
+          {
+            "id": "p42-1-7",
+            "num": 7,
+            "label": "bronche principale gauche",
+            "accepted": [
+              "bronche principale gauche"
+            ]
+          },
+          {
+            "id": "p42-1-8",
+            "num": 8,
+            "label": "œsophage thoracique",
+            "accepted": [
+              "œsophage thoracique"
+            ]
+          },
+          {
+            "id": "p42-1-9",
+            "num": 9,
+            "label": "aorte thoracique",
+            "accepted": [
+              "aorte thoracique"
+            ]
+          },
+          {
+            "id": "p42-1-10",
+            "num": 10,
+            "label": "muscle diaphragme",
+            "accepted": [
+              "muscle diaphragme"
+            ]
+          },
+          {
+            "id": "p42-1-11",
+            "num": 11,
+            "label": "estomac",
+            "accepted": [
+              "estomac"
+            ]
+          },
+          {
+            "id": "p42-1-12",
+            "num": 12,
+            "label": "osophage abdominal",
+            "accepted": [
+              "osophage abdominal"
+            ]
+          },
+          {
+            "id": "p42-1-13",
+            "num": 13,
+            "label": "bronche principale droite",
+            "accepted": [
+              "bronche principale droite"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "number": "Planche 43",
+    "title": "situation de l'estomac",
+    "subtitle": "",
+    "image": "images/planche_043.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p43-1-1",
+            "num": 1,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          },
+          {
+            "id": "p43-1-2",
+            "num": 2,
+            "label": "processus (appendice) xiphoïde",
+            "accepted": [
+              "processus (appendice) xiphoide",
+              "processus (appendice) xiphoïde",
+              "processus",
+              "appendice"
+            ]
+          },
+          {
+            "id": "p43-1-3",
+            "num": 3,
+            "label": "bord droit de l'estomac (petite courbure)",
+            "accepted": [
+              "petite courbure",
+              "bord droit de l'estomac (petite courbure)",
+              "bord droit de l'estomac"
+            ],
+            "hint": "bord droit de l'estomac (petite courbure)"
+          },
+          {
+            "id": "p43-1-4",
+            "num": 4,
+            "label": "deuxième duodénum",
+            "accepted": [
+              "deuxieme duodenum",
+              "deuxième duodénum"
+            ]
+          },
+          {
+            "id": "p43-1-5",
+            "num": 5,
+            "label": "fundus (grosse tubérosité)",
+            "accepted": [
+              "grosse tubérosité",
+              "fundus",
+              "grosse tuberosite",
+              "fundus (grosse tuberosite)",
+              "fundus (grosse tubérosité)"
+            ]
+          },
+          {
+            "id": "p43-1-6",
+            "num": 6,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          },
+          {
+            "id": "p43-1-7",
+            "num": 7,
+            "label": "bord gauche de l'estomac (grande courbure)",
+            "accepted": [
+              "bord gauche de l'estomac",
+              "grande courbure",
+              "bord gauche de l'estomac (grande courbure)"
+            ],
+            "hint": "bord gauche de l'estomac (grande courbure)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "number": "Planche 44",
+    "title": "vue antérieure de l'estomac",
+    "subtitle": "",
+    "image": "images/planche_044.webp",
+    "sections": [
+      {
+        "name": "A : Vue antérieure et projections osseuses",
+        "items": [
+          {
+            "id": "p44-1-1",
+            "num": 1,
+            "label": "cardia",
+            "accepted": [
+              "cardia"
+            ]
+          },
+          {
+            "id": "p44-1-2",
+            "num": 2,
+            "label": "pylore",
+            "accepted": [
+              "pylore"
+            ]
+          },
+          {
+            "id": "p44-1-3",
+            "num": 3,
+            "label": "canal pylorique",
+            "accepted": [
+              "canal pylorique"
+            ]
+          },
+          {
+            "id": "p44-1-4",
+            "num": 4,
+            "label": "pôle supérieur ou fundus (ou grosse tubérosité)",
+            "accepted": [
+              "pole superieur ou fundus",
+              "ou grosse tuberosite",
+              "ou grosse tubérosité",
+              "pole superieur ou fundus (ou grosse tuberosite)",
+              "pôle supérieur ou fundus",
+              "pôle supérieur ou fundus (ou grosse tubérosité)"
+            ],
+            "hint": "pôle supérieur ou fundus (ou grosse tubérosité)"
+          },
+          {
+            "id": "p44-1-5",
+            "num": 5,
+            "label": "corps",
+            "accepted": [
+              "corps"
+            ]
+          },
+          {
+            "id": "p44-1-6",
+            "num": 6,
+            "label": "antre pylorique",
+            "accepted": [
+              "antre pylorique"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue antérieure et zones sécrétoires",
+        "items": [
+          {
+            "id": "p44-2-1",
+            "num": 1,
+            "label": "zone à sécrétion acide",
+            "accepted": [
+              "zone à sécrétion acide",
+              "zone a secretion acide"
+            ]
+          },
+          {
+            "id": "p44-2-2",
+            "num": 2,
+            "label": "zone à sécrétion alcaline",
+            "accepted": [
+              "zone a secretion alcaline",
+              "zone à sécrétion alcaline"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "number": "Planche 45",
+    "title": "les orifices de l'estomac",
+    "subtitle": "",
+    "image": "images/planche_045.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p45-1-1",
+            "num": 1,
+            "label": "angle de His (= adossement du fundus au bord gauche de l'œsophage",
+            "accepted": [
+              "angle de his (= adossement du fundus au bord gauche de l'œsophage",
+              "angle de His (= adossement du fundus au bord gauche de l'œsophage"
+            ],
+            "hint": "angle de His (= adossement du fundus au bord gauche de l'œsophage"
+          },
+          {
+            "id": "p45-1-2",
+            "num": 2,
+            "label": "fundus (grosse tubérosité)",
+            "accepted": [
+              "grosse tubérosité",
+              "fundus",
+              "grosse tuberosite",
+              "fundus (grosse tuberosite)",
+              "fundus (grosse tubérosité)"
+            ]
+          },
+          {
+            "id": "p45-1-3",
+            "num": 3,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          },
+          {
+            "id": "p45-1-4",
+            "num": 4,
+            "label": "pli muqueux réalisant une valve anti-reflux",
+            "accepted": [
+              "pli muqueux realisant une valve anti-reflux",
+              "pli muqueux réalisant une valve anti-reflux"
+            ]
+          },
+          {
+            "id": "p45-1-5",
+            "num": 5,
+            "label": "corps de l'estomac",
+            "accepted": [
+              "corps de l'estomac"
+            ]
+          },
+          {
+            "id": "p45-1-6",
+            "num": 6,
+            "label": "canal pylorique",
+            "accepted": [
+              "canal pylorique"
+            ]
+          },
+          {
+            "id": "p45-1-7",
+            "num": 7,
+            "label": "sphincter pylorique",
+            "accepted": [
+              "sphincter pylorique"
+            ]
+          },
+          {
+            "id": "p45-1-8",
+            "num": 8,
+            "label": "lumière duodénale",
+            "accepted": [
+              "lumière duodénale",
+              "lumiere duodenale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "number": "Planche 46",
+    "title": "vue antérieure des viscères situés",
+    "subtitle": "dans l'étage supra mésocolique",
+    "image": "images/planche_046.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p46-1-1",
+            "num": 1,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          },
+          {
+            "id": "p46-1-2",
+            "num": 2,
+            "label": "corps de l'estomac",
+            "accepted": [
+              "corps de l'estomac"
+            ]
+          },
+          {
+            "id": "p46-1-3",
+            "num": 3,
+            "label": "angle duodéno-jéjunal (en pointillés, car situé en arrière de l'estomac)",
+            "accepted": [
+              "angle duodéno-jéjunal (en pointillés, car situé en arrière de l'estomac)",
+              "angle duodéno-jéjunal",
+              "en pointillés, car situé en arrière de l'estomac",
+              "en pointilles, car situe en arriere de l'estomac",
+              "angle duodeno-jejunal",
+              "angle duodeno-jejunal (en pointilles, car situe en arriere de l'estomac)"
+            ],
+            "hint": "angle duodéno-jéjunal (en pointillés, car situé en arrière de l'estomac)"
+          },
+          {
+            "id": "p46-1-4",
+            "num": 4,
+            "label": "côlon descendant",
+            "accepted": [
+              "colon descendant",
+              "côlon descendant"
+            ]
+          },
+          {
+            "id": "p46-1-5",
+            "num": 5,
+            "label": "jéjunum",
+            "accepted": [
+              "jéjunum",
+              "jejunum"
+            ]
+          },
+          {
+            "id": "p46-1-6",
+            "num": 6,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p46-1-7",
+            "num": 7,
+            "label": "côlon ascendant",
+            "accepted": [
+              "colon ascendant",
+              "côlon ascendant"
+            ]
+          },
+          {
+            "id": "p46-1-8",
+            "num": 8,
+            "label": "pancréas",
+            "accepted": [
+              "pancréas",
+              "pancreas"
+            ]
+          },
+          {
+            "id": "p46-1-9",
+            "num": 9,
+            "label": "duodénum",
+            "accepted": [
+              "odénum",
+              "odenum",
+              "duodenum",
+              "duodénum"
+            ]
+          },
+          {
+            "id": "p46-1-10",
+            "num": 10,
+            "label": "ligament gastro-hépatique (petit épiploon)",
+            "accepted": [
+              "ligament gastro-hepatique (petit epiploon)",
+              "ligament gastro-hépatique (petit épiploon)",
+              "petit epiploon",
+              "petit épiploon",
+              "ligament gastro-hepatique",
+              "ligament gastro-hépatique"
+            ],
+            "hint": "ligament gastro-hépatique (petit épiploon)"
+          },
+          {
+            "id": "p46-1-11",
+            "num": 11,
+            "label": "lobe droit du foie",
+            "accepted": [
+              "lobe droit du foie"
+            ]
+          },
+          {
+            "id": "p46-1-12",
+            "num": 12,
+            "label": "vésicule biliaire",
+            "accepted": [
+              "vesicule biliaire",
+              "vésicule biliaire"
+            ]
+          },
+          {
+            "id": "p46-1-13",
+            "num": 13,
+            "label": "ligament rond",
+            "accepted": [
+              "ligament rond"
+            ]
+          },
+          {
+            "id": "p46-1-14",
+            "num": 14,
+            "label": "bord antérieur du foie récliné vers le haut",
+            "accepted": [
+              "bord antérieur du foie récliné vers le haut",
+              "bord anterieur du foie recline vers le haut"
+            ]
+          },
+          {
+            "id": "p46-1-15",
+            "num": 15,
+            "label": "muscle diaphragme",
+            "accepted": [
+              "muscle diaphragme"
+            ]
+          },
+          {
+            "id": "p46-1-16",
+            "num": 16,
+            "label": "insertion du ligament falciforme",
+            "accepted": [
+              "insertion du ligament falciforme"
+            ]
+          },
+          {
+            "id": "p46-1-17",
+            "num": 17,
+            "label": "œsophage abdominal (en pointillés, car situé en arrière du foie)",
+            "accepted": [
+              "œsophage abdominal",
+              "en pointillés, car situé en arrière du foie",
+              "en pointilles, car situe en arriere du foie",
+              "œsophage abdominal (en pointilles, car situe en arriere du foie)",
+              "œsophage abdominal (en pointillés, car situé en arrière du foie)"
+            ],
+            "hint": "œsophage abdominal (en pointillés, car situé en arrière du foie)"
+          },
+          {
+            "id": "p46-1-18",
+            "num": 18,
+            "label": "lobe gauche du foie",
+            "accepted": [
+              "lobe gauche du foie"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "number": "Planche 47",
+    "title": "coupe para sagittale de l'abdomen",
+    "subtitle": "Cette coupe verticale passe à gauche de la ligne médiane",
+    "image": "images/planche_047.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p47-1-1",
+            "num": 1,
+            "label": "poumon gauche",
+            "accepted": [
+              "poumon gauche"
+            ]
+          },
+          {
+            "id": "p47-1-2",
+            "num": 2,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p47-1-3",
+            "num": 3,
+            "label": "cul de sac pleural costo-diaphragmatique",
+            "accepted": [
+              "cul de sac pleural costo-diaphragmatique"
+            ]
+          },
+          {
+            "id": "p47-1-4",
+            "num": 4,
+            "label": "rein gauche",
+            "accepted": [
+              "rein gauche"
+            ]
+          },
+          {
+            "id": "p47-1-5",
+            "num": 5,
+            "label": "corps du pancréas",
+            "accepted": [
+              "corps du pancreas",
+              "corps du pancréas"
+            ]
+          },
+          {
+            "id": "p47-1-6",
+            "num": 6,
+            "label": "paroi lombaire",
+            "accepted": [
+              "paroi lombaire"
+            ]
+          },
+          {
+            "id": "p47-1-7",
+            "num": 7,
+            "label": "péritoine pariétal postérieur",
+            "accepted": [
+              "peritoine parietal posterieur",
+              "péritoine pariétal postérieur"
+            ]
+          },
+          {
+            "id": "p47-1-8",
+            "num": 8,
+            "label": "méso colon transverse",
+            "accepted": [
+              "méso colon transverse",
+              "meso colon transverse"
+            ]
+          },
+          {
+            "id": "p47-1-9",
+            "num": 9,
+            "label": "grand épiploon (grand omentum)",
+            "accepted": [
+              "grand omentum",
+              "grand épiploon (grand omentum)",
+              "grand epiploon (grand omentum)",
+              "grand épiploon",
+              "grand epiploon"
+            ]
+          },
+          {
+            "id": "p47-1-10",
+            "num": 10,
+            "label": "colon transverse",
+            "accepted": [
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p47-1-11",
+            "num": 11,
+            "label": "arrière cavité des épiploons (bourse omentale)",
+            "accepted": [
+              "arrière cavité des épiploons (bourse omentale)",
+              "arriere cavite des epiploons",
+              "arrière cavité des épiploons",
+              "bourse omentale",
+              "arriere cavite des epiploons (bourse omentale)"
+            ],
+            "hint": "arrière cavité des épiploons (bourse omentale)"
+          },
+          {
+            "id": "p47-1-12",
+            "num": 12,
+            "label": "estomac",
+            "accepted": [
+              "estomac"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "number": "Planche 48",
+    "title": "le tronc coeliaque et",
+    "subtitle": "l'artère mésentérique supérieure",
+    "image": "images/planche_048.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p48-1-1",
+            "num": 1,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          },
+          {
+            "id": "p48-1-2",
+            "num": 2,
+            "label": "artère gastrique gauche (coronaire stomachique)",
+            "accepted": [
+              "artere gastrique gauche",
+              "artere gastrique gauche (coronaire stomachique)",
+              "artère gastrique gauche",
+              "coronaire stomachique",
+              "artère gastrique gauche (coronaire stomachique)"
+            ],
+            "hint": "artère gastrique gauche (coronaire stomachique)"
+          },
+          {
+            "id": "p48-1-3",
+            "num": 3,
+            "label": "artère splénique",
+            "accepted": [
+              "artere splenique",
+              "artère splénique"
+            ]
+          },
+          {
+            "id": "p48-1-4",
+            "num": 4,
+            "label": "tronc coeliaque",
+            "accepted": [
+              "tronc coeliaque"
+            ]
+          },
+          {
+            "id": "p48-1-5",
+            "num": 5,
+            "label": "artère hépatique propre",
+            "accepted": [
+              "artere hepatique propre",
+              "artère hépatique propre"
+            ]
+          },
+          {
+            "id": "p48-1-6",
+            "num": 6,
+            "label": "veine porte",
+            "accepted": [
+              "veine porte"
+            ]
+          },
+          {
+            "id": "p48-1-7",
+            "num": 7,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          },
+          {
+            "id": "p48-1-8",
+            "num": 8,
+            "label": "artère mésentérique supérieure",
+            "accepted": [
+              "artere mesenterique superieure",
+              "artère mésentérique supérieure"
+            ]
+          },
+          {
+            "id": "p48-1-9",
+            "num": 9,
+            "label": "tronc veineux spléno-mésaraïque",
+            "accepted": [
+              "tronc veineux spleno-mesaraique",
+              "tronc veineux spléno-mésaraïque"
+            ]
+          },
+          {
+            "id": "p48-1-10",
+            "num": 10,
+            "label": "jejunum",
+            "accepted": [
+              "jejunum"
+            ]
+          },
+          {
+            "id": "p48-1-11",
+            "num": 11,
+            "label": "arcade bordante",
+            "accepted": [
+              "arcade bordante"
+            ]
+          },
+          {
+            "id": "p48-1-12",
+            "num": 12,
+            "label": "portion terminale de l'iléum (dernière anse iléale)",
+            "accepted": [
+              "portion terminale de l'iléum (dernière anse iléale)",
+              "dernière anse iléale",
+              "portion terminale de l'ileum",
+              "derniere anse ileale",
+              "portion terminale de l'ileum (derniere anse ileale)",
+              "portion terminale de l'iléum"
+            ],
+            "hint": "portion terminale de l'iléum (dernière anse iléale)"
+          },
+          {
+            "id": "p48-1-13",
+            "num": 13,
+            "label": "arcade bordante du colon ascendant",
+            "accepted": [
+              "arcade bordante du colon ascendant"
+            ]
+          },
+          {
+            "id": "p48-1-14",
+            "num": 14,
+            "label": "artère hépatique commune",
+            "accepted": [
+              "artere hepatique commune",
+              "artère hépatique commune"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "number": "Planche 49",
+    "title": "vascularisation artérielle",
+    "subtitle": "de l'estomac",
+    "image": "images/planche_049.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p49-1-1",
+            "num": 1,
+            "label": "artère gastrique gauche (coronaire stomachique)",
+            "accepted": [
+              "artere gastrique gauche",
+              "artere gastrique gauche (coronaire stomachique)",
+              "artère gastrique gauche",
+              "coronaire stomachique",
+              "artère gastrique gauche (coronaire stomachique)"
+            ],
+            "hint": "artère gastrique gauche (coronaire stomachique)"
+          },
+          {
+            "id": "p49-1-2",
+            "num": 2,
+            "label": "artère hépatique commune",
+            "accepted": [
+              "artere hepatique commune",
+              "artère hépatique commune"
+            ]
+          },
+          {
+            "id": "p49-1-3",
+            "num": 3,
+            "label": "artère hépatique propre",
+            "accepted": [
+              "artere hepatique propre",
+              "artère hépatique propre"
+            ]
+          },
+          {
+            "id": "p49-1-4",
+            "num": 4,
+            "label": "artère gastrique droite (pylorique)",
+            "accepted": [
+              "artere gastrique droite",
+              "artère gastrique droite (pylorique)",
+              "artère gastrique droite",
+              "artere gastrique droite (pylorique)",
+              "pylorique"
+            ]
+          },
+          {
+            "id": "p49-1-5",
+            "num": 5,
+            "label": "artère gastro-duodénale",
+            "accepted": [
+              "artere gastro-duodenale",
+              "artère gastro-duodénale"
+            ]
+          },
+          {
+            "id": "p49-1-6",
+            "num": 6,
+            "label": "cercle arteriel de la grande courbure",
+            "accepted": [
+              "cercle arteriel de la grande courbure"
+            ]
+          },
+          {
+            "id": "p49-1-7",
+            "num": 7,
+            "label": "artères gastriques nées de l'artère splénique",
+            "accepted": [
+              "artères gastriques nées de l'artère splénique",
+              "arteres gastriques nees de l'artere splenique"
+            ]
+          },
+          {
+            "id": "p49-1-8",
+            "num": 8,
+            "label": "cercle artériel de la petite courbure",
+            "accepted": [
+              "cercle artériel de la petite courbure",
+              "cercle arteriel de la petite courbure"
+            ]
+          },
+          {
+            "id": "p49-1-9",
+            "num": 9,
+            "label": "artère splénique",
+            "accepted": [
+              "artere splenique",
+              "artère splénique"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "number": "Planche 50",
+    "title": "duodénum et pancréas",
+    "subtitle": "",
+    "image": "images/planche_050.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p50-1-1",
+            "num": 1,
+            "label": "première vertèbre lombaire (L1)",
+            "accepted": [
+              "première vertèbre lombaire (l1)",
+              "première vertèbre lombaire (L1)",
+              "premiere vertebre lombaire",
+              "premiere vertebre lombaire (l1)",
+              "première vertèbre lombaire",
+              "l1"
+            ]
+          },
+          {
+            "id": "p50-1-2",
+            "num": 2,
+            "label": "premier duodénum",
+            "accepted": [
+              "premier duodénum",
+              "premier duodenum"
+            ]
+          },
+          {
+            "id": "p50-1-3",
+            "num": 3,
+            "label": "rein droit",
+            "accepted": [
+              "rein droit"
+            ]
+          },
+          {
+            "id": "p50-1-4",
+            "num": 4,
+            "label": "deuxième duodénum",
+            "accepted": [
+              "deuxieme duodenum",
+              "deuxième duodénum"
+            ]
+          },
+          {
+            "id": "p50-1-5",
+            "num": 5,
+            "label": "quatrième vertèbre lombaire (L4)",
+            "accepted": [
+              "quatrième vertèbre lombaire (L4)",
+              "l4",
+              "quatrième vertèbre lombaire (l4)",
+              "quatrieme vertebre lombaire (l4)",
+              "quatrieme vertebre lombaire",
+              "quatrième vertèbre lombaire"
+            ]
+          },
+          {
+            "id": "p50-1-6",
+            "num": 6,
+            "label": "troisième duodénum",
+            "accepted": [
+              "troisieme duodenum",
+              "troisième duodénum"
+            ]
+          },
+          {
+            "id": "p50-1-7",
+            "num": 7,
+            "label": "quatrième duodénum",
+            "accepted": [
+              "quatrième duodénum",
+              "quatrieme duodenum"
+            ]
+          },
+          {
+            "id": "p50-1-8",
+            "num": 8,
+            "label": "processus uncinatus",
+            "accepted": [
+              "processus uncinatus"
+            ]
+          },
+          {
+            "id": "p50-1-9",
+            "num": 9,
+            "label": "angle duodéno-jéjunal sectionné",
+            "accepted": [
+              "angle duodéno-jéjunal sectionné",
+              "angle duodeno-jejunal sectionne"
+            ]
+          },
+          {
+            "id": "p50-1-10",
+            "num": 10,
+            "label": "rein gauche",
+            "accepted": [
+              "rein gauche"
+            ]
+          },
+          {
+            "id": "p50-1-11",
+            "num": 11,
+            "label": "queue du pancréas",
+            "accepted": [
+              "queue du pancreas",
+              "queue du pancréas"
+            ]
+          },
+          {
+            "id": "p50-1-12",
+            "num": 12,
+            "label": "corps du pancréas",
+            "accepted": [
+              "corps du pancreas",
+              "corps du pancréas"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "number": "Planche 51",
+    "title": "Planche 51",
+    "subtitle": "",
+    "image": "images/planche_051.webp",
+    "sections": [
+      {
+        "name": "A : Vue antérieure du duodénum et du pancréas",
+        "items": [
+          {
+            "id": "p51-1-1",
+            "num": 1,
+            "label": "queue du pancréas",
+            "accepted": [
+              "queue du pancreas",
+              "queue du pancréas"
+            ]
+          },
+          {
+            "id": "p51-1-2",
+            "num": 2,
+            "label": "corps du pancréas",
+            "accepted": [
+              "corps du pancreas",
+              "corps du pancréas"
+            ]
+          },
+          {
+            "id": "p51-1-3",
+            "num": 3,
+            "label": "angle duodéno-jéjunal",
+            "accepted": [
+              "angle duodéno-jéjunal",
+              "angle duodeno-jejunal"
+            ]
+          },
+          {
+            "id": "p51-1-4",
+            "num": 4,
+            "label": "quatrième duodénum",
+            "accepted": [
+              "quatrième duodénum",
+              "quatrieme duodenum"
+            ]
+          },
+          {
+            "id": "p51-1-5",
+            "num": 5,
+            "label": "quatrième vertèbre lombaire",
+            "accepted": [
+              "quatrième vertèbre lombaire",
+              "quatrieme vertebre lombaire"
+            ]
+          },
+          {
+            "id": "p51-1-6",
+            "num": 6,
+            "label": "troisième duodénum",
+            "accepted": [
+              "troisieme duodenum",
+              "troisième duodénum"
+            ]
+          },
+          {
+            "id": "p51-1-7",
+            "num": 7,
+            "label": "angle duodénal inférieur (genu inférius)",
+            "accepted": [
+              "angle duodénal inférieur",
+              "angle duodenal inferieur (genu inferius)",
+              "angle duodenal inferieur",
+              "genu inferius",
+              "genu inférius",
+              "angle duodénal inférieur (genu inférius)"
+            ]
+          },
+          {
+            "id": "p51-1-8",
+            "num": 8,
+            "label": "deuxième duodénum",
+            "accepted": [
+              "deuxieme duodenum",
+              "deuxième duodénum"
+            ]
+          },
+          {
+            "id": "p51-1-9",
+            "num": 9,
+            "label": "tête du pancréas",
+            "accepted": [
+              "tête du pancréas",
+              "tete du pancreas"
+            ]
+          },
+          {
+            "id": "p51-1-10",
+            "num": 10,
+            "label": "premier duodénum",
+            "accepted": [
+              "premier duodénum",
+              "premier duodenum"
+            ]
+          },
+          {
+            "id": "p51-1-11",
+            "num": 11,
+            "label": "angle duodénal supérieur (genu superius)",
+            "accepted": [
+              "angle duodenal superieur (genu superius)",
+              "angle duodénal supérieur (genu superius)",
+              "genu superius",
+              "angle duodénal supérieur",
+              "angle duodenal superieur"
+            ]
+          },
+          {
+            "id": "p51-1-12",
+            "num": 12,
+            "label": "pylore",
+            "accepted": [
+              "pylore"
+            ]
+          },
+          {
+            "id": "p51-1-13",
+            "num": 13,
+            "label": "douzième vertèbre thoracique",
+            "accepted": [
+              "douzième vertèbre thoracique",
+              "douzieme vertebre thoracique"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe de l'intestin grêle",
+        "items": [
+          {
+            "id": "p51-2-1",
+            "num": 1,
+            "label": "méso",
+            "accepted": [
+              "meso",
+              "méso"
+            ]
+          },
+          {
+            "id": "p51-2-2",
+            "num": 2,
+            "label": "plis circulaires (valvules conniventes)",
+            "accepted": [
+              "valvules conniventes",
+              "plis circulaires",
+              "plis circulaires (valvules conniventes)"
+            ]
+          },
+          {
+            "id": "p51-2-3",
+            "num": 3,
+            "label": "vaisseau",
+            "accepted": [
+              "vaisseau"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Vue antérieure de l'intestin grêle",
+        "items": [
+          {
+            "id": "p51-3-1",
+            "num": 1,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p51-3-2",
+            "num": 2,
+            "label": "côlon descendant",
+            "accepted": [
+              "colon descendant",
+              "côlon descendant"
+            ]
+          },
+          {
+            "id": "p51-3-3",
+            "num": 3,
+            "label": "angle duodéno-jéjunal",
+            "accepted": [
+              "angle duodéno-jéjunal",
+              "angle duodeno-jejunal"
+            ]
+          },
+          {
+            "id": "p51-3-4",
+            "num": 4,
+            "label": "jéjunum",
+            "accepted": [
+              "jéjunum",
+              "jejunum"
+            ]
+          },
+          {
+            "id": "p51-3-5",
+            "num": 5,
+            "label": "iléum",
+            "accepted": [
+              "iléum",
+              "ileum"
+            ]
+          },
+          {
+            "id": "p51-3-6",
+            "num": 6,
+            "label": "appendice vermiforme",
+            "accepted": [
+              "appendice vermiforme"
+            ]
+          },
+          {
+            "id": "p51-3-7",
+            "num": 7,
+            "label": "caecum",
+            "accepted": [
+              "caecum"
+            ]
+          },
+          {
+            "id": "p51-3-8",
+            "num": 8,
+            "label": "angle iléo-caecal",
+            "accepted": [
+              "angle iléo-caecal",
+              "angle ileo-caecal"
+            ]
+          },
+          {
+            "id": "p51-3-9",
+            "num": 9,
+            "label": "racine du mésentère",
+            "accepted": [
+              "racine du mesentere",
+              "racine du mésentère"
+            ]
+          },
+          {
+            "id": "p51-3-10",
+            "num": 10,
+            "label": "côlon ascendant",
+            "accepted": [
+              "colon ascendant",
+              "côlon ascendant"
+            ]
+          },
+          {
+            "id": "p51-3-11",
+            "num": 11,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p51-3-12",
+            "num": 12,
+            "label": "duodénum",
+            "accepted": [
+              "odénum",
+              "odenum",
+              "duodenum",
+              "duodénum"
+            ]
+          },
+          {
+            "id": "p51-3-13",
+            "num": 13,
+            "label": "première vertèbre lombaire",
+            "accepted": [
+              "premiere vertebre lombaire",
+              "première vertèbre lombaire"
+            ]
+          },
+          {
+            "id": "p51-3-14",
+            "num": 14,
+            "label": "racine du mésocôlon transverse",
+            "accepted": [
+              "racine du mésocôlon transverse",
+              "racine du mesocolon transverse"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "number": "Planche 52",
+    "title": "le cadre colique",
+    "subtitle": "",
+    "image": "images/planche_052.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p52-1-1",
+            "num": 1,
+            "label": "branche ischio-pubienne de l'os coxal sectionnée",
+            "accepted": [
+              "branche ischio-pubienne de l'os coxal sectionnee",
+              "branche ischio-pubienne de l'os coxal sectionnée"
+            ]
+          },
+          {
+            "id": "p52-1-2",
+            "num": 2,
+            "label": "branche ilio-pubienne de l'os coxal sectionnée",
+            "accepted": [
+              "branche ilio-pubienne de l'os coxal sectionnee",
+              "branche ilio-pubienne de l'os coxal sectionnée"
+            ]
+          },
+          {
+            "id": "p52-1-3",
+            "num": 3,
+            "label": "crête iliaque : épine iliaque antéro-supérieure",
+            "accepted": [
+              "crête iliaque : épine iliaque antéro-supérieure",
+              "crete iliaque : epine iliaque antero-superieure"
+            ]
+          },
+          {
+            "id": "p52-1-4",
+            "num": 4,
+            "label": "appendice vermiforme",
+            "accepted": [
+              "appendice vermiforme"
+            ]
+          },
+          {
+            "id": "p52-1-5",
+            "num": 5,
+            "label": "iléon (dernière anse iléale)",
+            "accepted": [
+              "ileon",
+              "dernière anse iléale",
+              "iléon (dernière anse iléale)",
+              "derniere anse ileale",
+              "ileon (derniere anse ileale)",
+              "iléon"
+            ]
+          },
+          {
+            "id": "p52-1-6",
+            "num": 6,
+            "label": "colon ascendant",
+            "accepted": [
+              "colon ascendant"
+            ]
+          },
+          {
+            "id": "p52-1-7",
+            "num": 7,
+            "label": "angle colique droit (angle hépatique)",
+            "accepted": [
+              "angle colique droit (angle hépatique)",
+              "angle hépatique",
+              "angle hepatique",
+              "angle colique droit (angle hepatique)",
+              "angle colique droit"
+            ]
+          },
+          {
+            "id": "p52-1-8",
+            "num": 8,
+            "label": "colon transverse",
+            "accepted": [
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p52-1-11",
+            "num": 11,
+            "label": "colon iliaque",
+            "accepted": [
+              "colon iliaque"
+            ]
+          },
+          {
+            "id": "p52-1-12",
+            "num": 12,
+            "label": "colon sigmoïde",
+            "accepted": [
+              "colon sigmoïde",
+              "colon sigmoide"
+            ]
+          },
+          {
+            "id": "p52-1-13",
+            "num": 13,
+            "label": "rectum",
+            "accepted": [
+              "rectum"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "number": "Planche 53",
+    "title": "le gros intestin",
+    "subtitle": "",
+    "image": "images/planche_053.webp",
+    "sections": [
+      {
+        "name": "A : Vue antérieure du gros intestin",
+        "items": [
+          {
+            "id": "p53-1-1",
+            "num": 1,
+            "label": "angle colique gauche",
+            "accepted": [
+              "angle colique gauche"
+            ]
+          },
+          {
+            "id": "p53-1-2",
+            "num": 2,
+            "label": "côlon descendant",
+            "accepted": [
+              "colon descendant",
+              "côlon descendant"
+            ]
+          },
+          {
+            "id": "p53-1-3",
+            "num": 3,
+            "label": "bandelette colique",
+            "accepted": [
+              "bandelette colique"
+            ]
+          },
+          {
+            "id": "p53-1-4",
+            "num": 4,
+            "label": "côlon ilio-pelvien",
+            "accepted": [
+              "colon ilio-pelvien",
+              "côlon ilio-pelvien"
+            ]
+          },
+          {
+            "id": "p53-1-5",
+            "num": 5,
+            "label": "rectum",
+            "accepted": [
+              "rectum"
+            ]
+          },
+          {
+            "id": "p53-1-6",
+            "num": 6,
+            "label": "angle iléo-caecal",
+            "accepted": [
+              "angle iléo-caecal",
+              "angle ileo-caecal"
+            ]
+          },
+          {
+            "id": "p53-1-7",
+            "num": 7,
+            "label": "iléum",
+            "accepted": [
+              "iléum",
+              "ileum"
+            ]
+          },
+          {
+            "id": "p53-1-8",
+            "num": 8,
+            "label": "appendice vermiforme",
+            "accepted": [
+              "appendice vermiforme"
+            ]
+          },
+          {
+            "id": "p53-1-9",
+            "num": 9,
+            "label": "caecum",
+            "accepted": [
+              "caecum"
+            ]
+          },
+          {
+            "id": "p53-1-10",
+            "num": 10,
+            "label": "incisure",
+            "accepted": [
+              "incisure"
+            ]
+          },
+          {
+            "id": "p53-1-11",
+            "num": 11,
+            "label": "bosselure",
+            "accepted": [
+              "bosselure"
+            ]
+          },
+          {
+            "id": "p53-1-12",
+            "num": 12,
+            "label": "côlon ascendant",
+            "accepted": [
+              "colon ascendant",
+              "côlon ascendant"
+            ]
+          },
+          {
+            "id": "p53-1-13",
+            "num": 13,
+            "label": "angle colique droit",
+            "accepted": [
+              "angle colique droit"
+            ]
+          },
+          {
+            "id": "p53-1-14",
+            "num": 14,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe frontale de la jonction iléo-caecale",
+        "items": [
+          {
+            "id": "p53-2-1",
+            "num": 1,
+            "label": "côlon ascendant",
+            "accepted": [
+              "colon ascendant",
+              "côlon ascendant"
+            ]
+          },
+          {
+            "id": "p53-2-2",
+            "num": 2,
+            "label": "jonction iléo-caecale",
+            "accepted": [
+              "jonction ileo-caecale",
+              "jonction iléo-caecale"
+            ]
+          },
+          {
+            "id": "p53-2-3",
+            "num": 3,
+            "label": "iléum",
+            "accepted": [
+              "iléum",
+              "ileum"
+            ]
+          },
+          {
+            "id": "p53-2-4",
+            "num": 4,
+            "label": "pli circulaire",
+            "accepted": [
+              "pli circulaire"
+            ]
+          },
+          {
+            "id": "p53-2-5",
+            "num": 5,
+            "label": "appendice vermiforme",
+            "accepted": [
+              "appendice vermiforme"
+            ]
+          },
+          {
+            "id": "p53-2-6",
+            "num": 6,
+            "label": "caecum",
+            "accepted": [
+              "caecum"
+            ]
+          },
+          {
+            "id": "p53-2-7",
+            "num": 7,
+            "label": "valvule iléo-caecale",
+            "accepted": [
+              "valvule iléo-caecale",
+              "valvule ileo-caecale"
+            ]
+          },
+          {
+            "id": "p53-2-8",
+            "num": 8,
+            "label": "bosselure",
+            "accepted": [
+              "bosselure"
+            ]
+          },
+          {
+            "id": "p53-2-9",
+            "num": 9,
+            "label": "incisure",
+            "accepted": [
+              "incisure"
+            ]
+          },
+          {
+            "id": "p53-2-10",
+            "num": 10,
+            "label": "pli semi-lunaire",
+            "accepted": [
+              "pli semi-lunaire"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Coupe transversale schématique du côlon",
+        "items": [
+          {
+            "id": "p53-3-1",
+            "num": 1,
+            "label": "méso côlon",
+            "accepted": [
+              "meso colon",
+              "méso côlon"
+            ]
+          },
+          {
+            "id": "p53-3-2",
+            "num": 2,
+            "label": "vaisseau",
+            "accepted": [
+              "vaisseau"
+            ]
+          },
+          {
+            "id": "p53-3-3",
+            "num": 3,
+            "label": "péritoine",
+            "accepted": [
+              "péritoine",
+              "peritoine"
+            ]
+          },
+          {
+            "id": "p53-3-4",
+            "num": 4,
+            "label": "musculeuse (couche longitudinale)",
+            "accepted": [
+              "couche longitudinale",
+              "musculeuse",
+              "musculeuse (couche longitudinale)"
+            ]
+          },
+          {
+            "id": "p53-3-5",
+            "num": 5,
+            "label": "musculeuse (couche circulaire)",
+            "accepted": [
+              "musculeuse (couche circulaire)",
+              "musculeuse",
+              "couche circulaire"
+            ]
+          },
+          {
+            "id": "p53-3-6",
+            "num": 6,
+            "label": "appendice épiploïque",
+            "accepted": [
+              "appendice epiploique",
+              "appendice épiploïque"
+            ]
+          },
+          {
+            "id": "p53-3-7",
+            "num": 7,
+            "label": "bandelette colique",
+            "accepted": [
+              "bandelette colique"
+            ]
+          },
+          {
+            "id": "p53-3-8",
+            "num": 8,
+            "label": "muqueuse",
+            "accepted": [
+              "muqueuse"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "number": "Planche 54",
+    "title": "vue antérieure du gros intestin",
+    "subtitle": "Le côlon transverse et le grand omentum (grand épiploon), sont réclinés vers le",
+    "image": "images/planche_054.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p54-1-1",
+            "num": 1,
+            "label": "angle colique gauche",
+            "accepted": [
+              "angle colique gauche"
+            ]
+          },
+          {
+            "id": "p54-1-2",
+            "num": 2,
+            "label": "jéjunum",
+            "accepted": [
+              "jéjunum",
+              "jejunum"
+            ]
+          },
+          {
+            "id": "p54-1-3",
+            "num": 3,
+            "label": "côlon descendant",
+            "accepted": [
+              "colon descendant",
+              "côlon descendant"
+            ]
+          },
+          {
+            "id": "p54-1-4",
+            "num": 4,
+            "label": "mésocôlon descendant",
+            "accepted": [
+              "mésocôlon descendant",
+              "mesocolon descendant"
+            ]
+          },
+          {
+            "id": "p54-1-5",
+            "num": 5,
+            "label": "racine du mésocôlon sigmoïde",
+            "accepted": [
+              "racine du mesocolon sigmoide",
+              "racine du mésocôlon sigmoïde"
+            ]
+          },
+          {
+            "id": "p54-1-6",
+            "num": 6,
+            "label": "mésocôlon sigmoïde",
+            "accepted": [
+              "mesocolon sigmoide",
+              "mésocôlon sigmoïde"
+            ]
+          },
+          {
+            "id": "p54-1-7",
+            "num": 7,
+            "label": "côlon sigmoïde",
+            "accepted": [
+              "côlon sigmoïde",
+              "colon sigmoide"
+            ]
+          },
+          {
+            "id": "p54-1-8",
+            "num": 8,
+            "label": "rectum",
+            "accepted": [
+              "rectum"
+            ]
+          },
+          {
+            "id": "p54-1-9",
+            "num": 9,
+            "label": "iléum",
+            "accepted": [
+              "iléum",
+              "ileum"
+            ]
+          },
+          {
+            "id": "p54-1-10",
+            "num": 10,
+            "label": "appendice vermiforme",
+            "accepted": [
+              "appendice vermiforme"
+            ]
+          },
+          {
+            "id": "p54-1-11",
+            "num": 11,
+            "label": "caecum",
+            "accepted": [
+              "caecum"
+            ]
+          },
+          {
+            "id": "p54-1-12",
+            "num": 12,
+            "label": "côlon ascendant",
+            "accepted": [
+              "colon ascendant",
+              "côlon ascendant"
+            ]
+          },
+          {
+            "id": "p54-1-13",
+            "num": 13,
+            "label": "mésentère (sectionné)",
+            "accepted": [
+              "mésentère (sectionné)",
+              "mésentère",
+              "mesentere (sectionne)",
+              "sectionné",
+              "mesentere",
+              "sectionne"
+            ]
+          },
+          {
+            "id": "p54-1-14",
+            "num": 14,
+            "label": "racine du mésentère",
+            "accepted": [
+              "racine du mesentere",
+              "racine du mésentère"
+            ]
+          },
+          {
+            "id": "p54-1-15",
+            "num": 15,
+            "label": "angle colique droit",
+            "accepted": [
+              "angle colique droit"
+            ]
+          },
+          {
+            "id": "p54-1-16",
+            "num": 16,
+            "label": "racine du mésocôlon transverse",
+            "accepted": [
+              "racine du mésocôlon transverse",
+              "racine du mesocolon transverse"
+            ]
+          },
+          {
+            "id": "p54-1-17",
+            "num": 17,
+            "label": "mésocôlon transverse",
+            "accepted": [
+              "mésocôlon transverse",
+              "mesocolon transverse"
+            ]
+          },
+          {
+            "id": "p54-1-18",
+            "num": 18,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p54-1-19",
+            "num": 19,
+            "label": "grand omentum (grand épiploom)",
+            "accepted": [
+              "grand omentum",
+              "grand epiploom",
+              "grand épiploom",
+              "grand omentum (grand épiploom)",
+              "grand omentum (grand epiploom)"
+            ]
+          },
+          {
+            "id": "p54-1-20",
+            "num": 20,
+            "label": "mésocôlon ascendant",
+            "accepted": [
+              "mesocolon ascendant",
+              "mésocôlon ascendant"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "number": "Planche 55",
+    "title": "l'aorte abdominale",
+    "subtitle": "et ses branches",
+    "image": "images/planche_055.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p55-1-1",
+            "num": 1,
+            "label": "artère phrénique (diaphragmatique)",
+            "accepted": [
+              "artere phrenique (diaphragmatique)",
+              "diaphragmatique",
+              "artere phrenique",
+              "artère phrénique",
+              "artère phrénique (diaphragmatique)"
+            ]
+          },
+          {
+            "id": "p55-1-2",
+            "num": 2,
+            "label": "artère gastrique gauche (coronaire stomachique)",
+            "accepted": [
+              "artere gastrique gauche",
+              "artere gastrique gauche (coronaire stomachique)",
+              "artère gastrique gauche",
+              "coronaire stomachique",
+              "artère gastrique gauche (coronaire stomachique)"
+            ],
+            "hint": "artère gastrique gauche (coronaire stomachique)"
+          },
+          {
+            "id": "p55-1-3",
+            "num": 3,
+            "label": "artère splénique",
+            "accepted": [
+              "artere splenique",
+              "artère splénique"
+            ]
+          },
+          {
+            "id": "p55-1-4",
+            "num": 4,
+            "label": "12° côte gauche",
+            "accepted": [
+              "12° côte gauche",
+              "12° cote gauche"
+            ]
+          },
+          {
+            "id": "p55-1-5",
+            "num": 5,
+            "label": "artère rénale gauche",
+            "accepted": [
+              "artere renale gauche",
+              "artère rénale gauche"
+            ]
+          },
+          {
+            "id": "p55-1-6",
+            "num": 6,
+            "label": "artère gonadique",
+            "accepted": [
+              "artère gonadique",
+              "artere gonadique"
+            ]
+          },
+          {
+            "id": "p55-1-7",
+            "num": 7,
+            "label": "artère mésentérique inférieure",
+            "accepted": [
+              "artère mésentérique inférieure",
+              "artere mesenterique inferieure"
+            ]
+          },
+          {
+            "id": "p55-1-8",
+            "num": 8,
+            "label": "artère iliaque externe",
+            "accepted": [
+              "artere iliaque externe",
+              "artère iliaque externe"
+            ]
+          },
+          {
+            "id": "p55-1-9",
+            "num": 9,
+            "label": "artère iliaque interne (hypogastrique)",
+            "accepted": [
+              "hypogastrique",
+              "artere iliaque interne",
+              "artère iliaque interne (hypogastrique)",
+              "artere iliaque interne (hypogastrique)",
+              "artère iliaque interne"
+            ]
+          },
+          {
+            "id": "p55-1-10",
+            "num": 10,
+            "label": "artère iliaque commune (primitive)",
+            "accepted": [
+              "artère iliaque commune (primitive)",
+              "artère iliaque commune",
+              "artere iliaque commune (primitive)",
+              "artere iliaque commune",
+              "primitive"
+            ]
+          },
+          {
+            "id": "p55-1-11",
+            "num": 11,
+            "label": "artère lombaire",
+            "accepted": [
+              "artère lombaire",
+              "artere lombaire"
+            ]
+          },
+          {
+            "id": "p55-1-12",
+            "num": 12,
+            "label": "artère rénale droite",
+            "accepted": [
+              "artere renale droite",
+              "artère rénale droite"
+            ]
+          },
+          {
+            "id": "p55-1-13",
+            "num": 13,
+            "label": "artère hépatique commune",
+            "accepted": [
+              "artere hepatique commune",
+              "artère hépatique commune"
+            ]
+          },
+          {
+            "id": "p55-1-14",
+            "num": 14,
+            "label": "tronc coeliaque",
+            "accepted": [
+              "tronc coeliaque"
+            ]
+          },
+          {
+            "id": "p55-1-15",
+            "num": 15,
+            "label": "artère mésentérique supérieure",
+            "accepted": [
+              "artere mesenterique superieure",
+              "artère mésentérique supérieure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55.5,
+    "number": "Planche 55bis",
+    "title": "drainage veineux du tube digestif",
+    "subtitle": "",
+    "image": "images/planche_055bis.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p55-1-1",
+            "num": 1,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave superieure",
+              "veine cave supérieure"
+            ]
+          },
+          {
+            "id": "p55-1-2",
+            "num": 2,
+            "label": "veine hémi azygos recevant les veines oesophagiennes",
+            "accepted": [
+              "veine hemi azygos recevant les veines oesophagiennes",
+              "veine hémi azygos recevant les veines oesophagiennes"
+            ]
+          },
+          {
+            "id": "p55-1-3",
+            "num": 3,
+            "label": "anastomoses porto caves en situation oesophagienne",
+            "accepted": [
+              "anastomoses porto caves en situation oesophagienne"
+            ]
+          },
+          {
+            "id": "p55-1-4",
+            "num": 4,
+            "label": "estomac",
+            "accepted": [
+              "estomac"
+            ]
+          },
+          {
+            "id": "p55-1-5",
+            "num": 5,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          },
+          {
+            "id": "p55-1-6",
+            "num": 6,
+            "label": "veine splénique",
+            "accepted": [
+              "veine splénique",
+              "veine splenique"
+            ]
+          },
+          {
+            "id": "p55-1-7",
+            "num": 7,
+            "label": "veine pylorique",
+            "accepted": [
+              "veine pylorique"
+            ]
+          },
+          {
+            "id": "p55-1-8",
+            "num": 8,
+            "label": "veine gastro épiploïque gauche",
+            "accepted": [
+              "veine gastro épiploïque gauche",
+              "veine gastro epiploique gauche"
+            ]
+          },
+          {
+            "id": "p55-1-9",
+            "num": 9,
+            "label": "arcade veineuse bordant le colon descendant",
+            "accepted": [
+              "arcade veineuse bordant le colon descendant"
+            ]
+          },
+          {
+            "id": "p55-1-10",
+            "num": 10,
+            "label": "veine mésentérique inférieure",
+            "accepted": [
+              "veine mesenterique inferieure",
+              "veine mésentérique inférieure"
+            ]
+          },
+          {
+            "id": "p55-1-11",
+            "num": 11,
+            "label": "branche gauche de la veine rectale (hémorroïdale) supérieure",
+            "accepted": [
+              "branche gauche de la veine rectale (hémorroïdale) supérieure",
+              "branche gauche de la veine rectale",
+              "hémorroïdale",
+              "hemorroidale",
+              "branche gauche de la veine rectale (hemorroidale) superieure"
+            ],
+            "hint": "branche gauche de la veine rectale (hémorroïdale) supérieure"
+          },
+          {
+            "id": "p55-1-12",
+            "num": 12,
+            "label": "branche droite de la veine rectale (hémorroïdale) supérieure",
+            "accepted": [
+              "branche droite de la veine rectale",
+              "hémorroïdale",
+              "hemorroidale",
+              "branche droite de la veine rectale (hémorroïdale) supérieure",
+              "branche droite de la veine rectale (hemorroidale) superieure"
+            ],
+            "hint": "branche droite de la veine rectale (hémorroïdale) supérieure"
+          },
+          {
+            "id": "p55-1-13",
+            "num": 13,
+            "label": "anastomoses porto caves en situation rectale",
+            "accepted": [
+              "anastomoses porto caves en situation rectale"
+            ]
+          },
+          {
+            "id": "p55-1-14",
+            "num": 14,
+            "label": "veine iliaque interne (hypogastrique)",
+            "accepted": [
+              "veine iliaque interne (hypogastrique)",
+              "hypogastrique",
+              "veine iliaque interne"
+            ]
+          },
+          {
+            "id": "p55-1-15",
+            "num": 15,
+            "label": "arcade veineuse bordant le colon ascendant",
+            "accepted": [
+              "arcade veineuse bordant le colon ascendant"
+            ]
+          },
+          {
+            "id": "p55-1-16",
+            "num": 16,
+            "label": "veine mésentérique supérieure",
+            "accepted": [
+              "veine mésentérique supérieure",
+              "veine mesenterique superieure"
+            ]
+          },
+          {
+            "id": "p55-1-17",
+            "num": 17,
+            "label": "tronc spléno mésaraïque",
+            "accepted": [
+              "tronc spleno mesaraique",
+              "tronc spléno mésaraïque"
+            ]
+          },
+          {
+            "id": "p55-1-18",
+            "num": 18,
+            "label": "veine porte",
+            "accepted": [
+              "veine porte"
+            ]
+          },
+          {
+            "id": "p55-1-19",
+            "num": 19,
+            "label": "foie",
+            "accepted": [
+              "foie"
+            ]
+          },
+          {
+            "id": "p55-1-20",
+            "num": 20,
+            "label": "veines hépatiques (sus hépatiques)",
+            "accepted": [
+              "sus hépatiques",
+              "sus hepatiques",
+              "veines hépatiques (sus hépatiques)",
+              "veines hepatiques",
+              "veines hepatiques (sus hepatiques)",
+              "veines hépatiques"
+            ]
+          },
+          {
+            "id": "p55-1-21",
+            "num": 21,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p55-1-22",
+            "num": 22,
+            "label": "veine azygos",
+            "accepted": [
+              "veine azygos"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "number": "Planche 56",
+    "title": "le rectum",
+    "subtitle": "",
+    "image": "images/planche_056.webp",
+    "sections": [
+      {
+        "name": "A : Coupe sagittale",
+        "items": [
+          {
+            "id": "p56-1-1",
+            "num": 1,
+            "label": "colon sigmoïde",
+            "accepted": [
+              "colon sigmoïde",
+              "colon sigmoide"
+            ]
+          },
+          {
+            "id": "p56-1-2",
+            "num": 2,
+            "label": "5 ème vertèbre lombaire",
+            "accepted": [
+              "5 ème vertèbre lombaire",
+              "5 eme vertebre lombaire"
+            ]
+          },
+          {
+            "id": "p56-1-3",
+            "num": 3,
+            "label": "sacrum",
+            "accepted": [
+              "sacrum"
+            ]
+          },
+          {
+            "id": "p56-1-4",
+            "num": 4,
+            "label": "canal anal",
+            "accepted": [
+              "canal anal"
+            ]
+          },
+          {
+            "id": "p56-1-5",
+            "num": 5,
+            "label": "sphincter strié de l'anus",
+            "accepted": [
+              "sphincter strié de l'anus",
+              "sphincter strie de l'anus"
+            ]
+          },
+          {
+            "id": "p56-1-6",
+            "num": 6,
+            "label": "ampoule rectale",
+            "accepted": [
+              "ampoule rectale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe frontale",
+        "items": [
+          {
+            "id": "p56-2-1",
+            "num": 1,
+            "label": "muqueuse",
+            "accepted": [
+              "muqueuse"
+            ]
+          },
+          {
+            "id": "p56-2-2",
+            "num": 2,
+            "label": "musculeuse",
+            "accepted": [
+              "musculeuse"
+            ]
+          },
+          {
+            "id": "p56-2-3",
+            "num": 3,
+            "label": "pli transverse de la muqueuse",
+            "accepted": [
+              "pli transverse de la muqueuse"
+            ]
+          },
+          {
+            "id": "p56-2-4",
+            "num": 4,
+            "label": "ampoule rectale",
+            "accepted": [
+              "ampoule rectale"
+            ]
+          },
+          {
+            "id": "p56-2-5",
+            "num": 5,
+            "label": "ligne ano-rectale",
+            "accepted": [
+              "ligne ano-rectale"
+            ]
+          },
+          {
+            "id": "p56-2-6",
+            "num": 6,
+            "label": "muscle releveur de l'anus (Levator ani)",
+            "accepted": [
+              "muscle releveur de l'anus (levator ani)",
+              "muscle releveur de l'anus (Levator ani)",
+              "levator ani",
+              "muscle releveur de l'anus"
+            ]
+          },
+          {
+            "id": "p56-2-7",
+            "num": 7,
+            "label": "sphincter strié de l'anus",
+            "accepted": [
+              "sphincter strié de l'anus",
+              "sphincter strie de l'anus"
+            ]
+          },
+          {
+            "id": "p56-2-8",
+            "num": 8,
+            "label": "marge de l'anus",
+            "accepted": [
+              "marge de l'anus"
+            ]
+          },
+          {
+            "id": "p56-2-9",
+            "num": 9,
+            "label": "ligne ano-cutanée",
+            "accepted": [
+              "ligne ano-cutanée",
+              "ligne ano-cutanee"
+            ]
+          },
+          {
+            "id": "p56-2-10",
+            "num": 10,
+            "label": "colonnes et sinus de l'anus",
+            "accepted": [
+              "colonnes et sinus de l'anus"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "number": "Planche 57",
+    "title": "vascularisation du rectum",
+    "subtitle": "",
+    "image": "images/planche_057.webp",
+    "sections": [
+      {
+        "name": "A : Vascularisation artérielle",
+        "items": [
+          {
+            "id": "p57-1-1",
+            "num": 1,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          },
+          {
+            "id": "p57-1-2",
+            "num": 2,
+            "label": "artère mésentérique inférieure",
+            "accepted": [
+              "artère mésentérique inférieure",
+              "artere mesenterique inferieure"
+            ]
+          },
+          {
+            "id": "p57-1-3",
+            "num": 3,
+            "label": "artère rectale supérieure (hémorroïdale supérieure)",
+            "accepted": [
+              "artère rectale supérieure (hémorroïdale supérieure)",
+              "artere rectale superieure",
+              "artère rectale supérieure",
+              "artere rectale superieure (hemorroidale superieure)",
+              "hémorroïdale supérieure",
+              "hemorroidale superieure"
+            ],
+            "hint": "artère rectale supérieure (hémorroïdale supérieure)"
+          },
+          {
+            "id": "p57-1-4",
+            "num": 4,
+            "label": "ampoule rectale",
+            "accepted": [
+              "ampoule rectale"
+            ]
+          },
+          {
+            "id": "p57-1-5",
+            "num": 5,
+            "label": "veine iliaque externe",
+            "accepted": [
+              "veine iliaque externe"
+            ]
+          },
+          {
+            "id": "p57-1-6",
+            "num": 6,
+            "label": "artère iliaque externe",
+            "accepted": [
+              "artere iliaque externe",
+              "artère iliaque externe"
+            ]
+          },
+          {
+            "id": "p57-1-7",
+            "num": 7,
+            "label": "nœud lymphatique",
+            "accepted": [
+              "nœud lymphatique"
+            ]
+          },
+          {
+            "id": "p57-1-8",
+            "num": 8,
+            "label": "artère iliaque commune (primitive)",
+            "accepted": [
+              "artère iliaque commune (primitive)",
+              "artère iliaque commune",
+              "artere iliaque commune (primitive)",
+              "artere iliaque commune",
+              "primitive"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Drainage veineux",
+        "items": [
+          {
+            "id": "p57-2-1",
+            "num": 1,
+            "label": "veine rectale supérieure (hémorroïdale supérieure)",
+            "accepted": [
+              "veine rectale supérieure",
+              "hémorroïdale supérieure",
+              "hemorroidale superieure",
+              "veine rectale superieure (hemorroidale superieure)",
+              "veine rectale supérieure (hémorroïdale supérieure)",
+              "veine rectale superieure"
+            ],
+            "hint": "veine rectale supérieure (hémorroïdale supérieure)"
+          },
+          {
+            "id": "p57-2-2",
+            "num": 2,
+            "label": "branches droite et gauche de la veine rectale supérieure",
+            "accepted": [
+              "branches droite et gauche de la veine rectale supérieure",
+              "branches droite et gauche de la veine rectale superieure"
+            ]
+          },
+          {
+            "id": "p57-2-3",
+            "num": 3,
+            "label": "en pointillés = zone d'anastomoses porto caves, c'est-à-dire entre : la veine rectale supérieure (dépendante de la veine mésentérique inférieure et donc de la veine porte) et",
+            "accepted": [
+              "dépendante de la veine mésentérique inférieure et donc de la veine porte",
+              "en pointillés = zone d'anastomoses porto caves, c'est-à-dire entre : la veine rectale supérieure",
+              "dependante de la veine mesenterique inferieure et donc de la veine porte",
+              "en pointillés = zone d'anastomoses porto caves, c'est-à-dire entre : la veine rectale supérieure (dépendante de la veine mésentérique inférieure et donc de la veine porte) et",
+              "en pointilles = zone d'anastomoses porto caves, c'est-a-dire entre : la veine rectale superieure (dependante de la veine mesenterique inferieure et donc de la veine porte) et",
+              "en pointilles = zone d'anastomoses porto caves, c'est-a-dire entre : la veine rectale superieure"
+            ],
+            "hint": "en pointillés = zone d'anastomoses porto caves, c'est-à-dire entre : la veine rectale supérieure (dépendante de la veine mésentérique inférieure et donc de la veine porte) et"
+          },
+          {
+            "id": "p57-2-4",
+            "num": 4,
+            "label": "veine rectale inférieure",
+            "accepted": [
+              "veine rectale inférieure",
+              "veine rectale inferieure"
+            ]
+          },
+          {
+            "id": "p57-2-5",
+            "num": 5,
+            "label": "veine rectale moyenne",
+            "accepted": [
+              "veine rectale moyenne"
+            ]
+          },
+          {
+            "id": "p57-2-6",
+            "num": 6,
+            "label": "veine hypogastrique (iliaque interne)",
+            "accepted": [
+              "veine hypogastrique",
+              "iliaque interne",
+              "veine hypogastrique (iliaque interne)"
+            ]
+          },
+          {
+            "id": "p57-2-7",
+            "num": 7,
+            "label": "veine iliaque externe",
+            "accepted": [
+              "veine iliaque externe"
+            ]
+          },
+          {
+            "id": "p57-2-8",
+            "num": 8,
+            "label": "veine iliaque commune (primitive)",
+            "accepted": [
+              "veine iliaque commune",
+              "veine iliaque commune (primitive)",
+              "primitive"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "number": "Planche 58",
+    "title": "coupe sagittale du",
+    "subtitle": "petit bassin chez l'homme",
+    "image": "images/planche_058.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p58-1-1",
+            "num": 1,
+            "label": "crête iliaque",
+            "accepted": [
+              "crête iliaque",
+              "crete iliaque"
+            ]
+          },
+          {
+            "id": "p58-1-2",
+            "num": 2,
+            "label": "ligament suspenseur de la vessie",
+            "accepted": [
+              "ligament suspenseur de la vessie"
+            ]
+          },
+          {
+            "id": "p58-1-3",
+            "num": 3,
+            "label": "ligne blanche de l'abdomen (partie aponévrotique de la sangle abdominale)",
+            "accepted": [
+              "ligne blanche de l'abdomen (partie aponévrotique de la sangle abdominale)",
+              "partie aponevrotique de la sangle abdominale",
+              "ligne blanche de l'abdomen (partie aponevrotique de la sangle abdominale)",
+              "partie aponévrotique de la sangle abdominale",
+              "ligne blanche de l'abdomen"
+            ],
+            "hint": "ligne blanche de l'abdomen (partie aponévrotique de la sangle abdominale)"
+          },
+          {
+            "id": "p58-1-4",
+            "num": 4,
+            "label": "vessie",
+            "accepted": [
+              "vessie"
+            ]
+          },
+          {
+            "id": "p58-1-5",
+            "num": 5,
+            "label": "symphyse pubienne",
+            "accepted": [
+              "symphyse pubienne"
+            ]
+          },
+          {
+            "id": "p58-1-6",
+            "num": 6,
+            "label": "prostate",
+            "accepted": [
+              "prostate"
+            ]
+          },
+          {
+            "id": "p58-1-7",
+            "num": 7,
+            "label": "ligament suspenseur de la verge",
+            "accepted": [
+              "ligament suspenseur de la verge"
+            ]
+          },
+          {
+            "id": "p58-1-8",
+            "num": 8,
+            "label": "urètre prostatique",
+            "accepted": [
+              "urètre prostatique",
+              "uretre prostatique"
+            ]
+          },
+          {
+            "id": "p58-1-9",
+            "num": 9,
+            "label": "urètre membraneux",
+            "accepted": [
+              "uretre membraneux",
+              "urètre membraneux"
+            ]
+          },
+          {
+            "id": "p58-1-10",
+            "num": 10,
+            "label": "urètre pénien",
+            "accepted": [
+              "uretre penien",
+              "urètre pénien"
+            ]
+          },
+          {
+            "id": "p58-1-11",
+            "num": 11,
+            "label": "racine de la bourse",
+            "accepted": [
+              "racine de la bourse"
+            ]
+          },
+          {
+            "id": "p58-1-12",
+            "num": 12,
+            "label": "bulbe de l'urètre",
+            "accepted": [
+              "bulbe de l'urètre",
+              "bulbe de l'uretre"
+            ]
+          },
+          {
+            "id": "p58-1-13",
+            "num": 13,
+            "label": "noyau fibreux central du périnée",
+            "accepted": [
+              "noyau fibreux central du périnée",
+              "noyau fibreux central du perinee"
+            ]
+          },
+          {
+            "id": "p58-1-14",
+            "num": 14,
+            "label": "canal anal",
+            "accepted": [
+              "canal anal"
+            ]
+          },
+          {
+            "id": "p58-1-15",
+            "num": 15,
+            "label": "sphincter strié de l'anus",
+            "accepted": [
+              "sphincter strié de l'anus",
+              "sphincter strie de l'anus"
+            ]
+          },
+          {
+            "id": "p58-1-16",
+            "num": 16,
+            "label": "raphé ano-coccygien",
+            "accepted": [
+              "raphé ano-coccygien",
+              "raphe ano-coccygien"
+            ]
+          },
+          {
+            "id": "p58-1-17",
+            "num": 17,
+            "label": "canal éjaculateur",
+            "accepted": [
+              "canal éjaculateur",
+              "canal ejaculateur"
+            ]
+          },
+          {
+            "id": "p58-1-18",
+            "num": 18,
+            "label": "cul de sac de Douglas",
+            "accepted": [
+              "cul de sac de douglas",
+              "cul de sac de Douglas"
+            ]
+          },
+          {
+            "id": "p58-1-19",
+            "num": 19,
+            "label": "vésicule séminale",
+            "accepted": [
+              "vésicule séminale",
+              "vesicule seminale"
+            ]
+          },
+          {
+            "id": "p58-1-20",
+            "num": 20,
+            "label": "coccyx",
+            "accepted": [
+              "coccyx"
+            ]
+          },
+          {
+            "id": "p58-1-21",
+            "num": 21,
+            "label": "ampoule rectale",
+            "accepted": [
+              "ampoule rectale"
+            ]
+          },
+          {
+            "id": "p58-1-22",
+            "num": 22,
+            "label": "péritoine viscéral",
+            "accepted": [
+              "péritoine viscéral",
+              "peritoine visceral"
+            ]
+          },
+          {
+            "id": "p58-1-23",
+            "num": 23,
+            "label": "canal du sacrum",
+            "accepted": [
+              "canal du sacrum"
+            ]
+          },
+          {
+            "id": "p58-1-24",
+            "num": 24,
+            "label": "colon sigmoïde",
+            "accepted": [
+              "colon sigmoïde",
+              "colon sigmoide"
+            ]
+          },
+          {
+            "id": "p58-1-25",
+            "num": 25,
+            "label": "crête sacrée",
+            "accepted": [
+              "crete sacree",
+              "crête sacrée"
+            ]
+          },
+          {
+            "id": "p58-1-26",
+            "num": 26,
+            "label": "disque intervertébral L5-S1",
+            "accepted": [
+              "disque intervertébral l5-s1",
+              "disque intervertébral L5-S1",
+              "disque intervertebral l5-s1"
+            ]
+          },
+          {
+            "id": "p58-1-27",
+            "num": 27,
+            "label": "péritoine pariétal",
+            "accepted": [
+              "péritoine pariétal",
+              "peritoine parietal"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "number": "Planche 59",
+    "title": "coupe sagittale du",
+    "subtitle": "Petit bassin chez la femme",
+    "image": "images/planche_059.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p59-1-1",
+            "num": 1,
+            "label": "crête iliaque",
+            "accepted": [
+              "crête iliaque",
+              "crete iliaque"
+            ]
+          },
+          {
+            "id": "p59-1-2",
+            "num": 2,
+            "label": "ombilic",
+            "accepted": [
+              "ombilic"
+            ]
+          },
+          {
+            "id": "p59-1-3",
+            "num": 3,
+            "label": "péritoine pariétal",
+            "accepted": [
+              "péritoine pariétal",
+              "peritoine parietal"
+            ]
+          },
+          {
+            "id": "p59-1-4",
+            "num": 4,
+            "label": "ligament suspenseur de la vessie",
+            "accepted": [
+              "ligament suspenseur de la vessie"
+            ]
+          },
+          {
+            "id": "p59-1-5",
+            "num": 5,
+            "label": "ligne blanche de l'abdomen",
+            "accepted": [
+              "ligne blanche de l'abdomen"
+            ]
+          },
+          {
+            "id": "p59-1-6",
+            "num": 6,
+            "label": "symphyse pubienne",
+            "accepted": [
+              "symphyse pubienne"
+            ]
+          },
+          {
+            "id": "p59-1-7",
+            "num": 7,
+            "label": "urètre",
+            "accepted": [
+              "uretre",
+              "urètre"
+            ]
+          },
+          {
+            "id": "p59-1-8",
+            "num": 8,
+            "label": "vulve (petite lèvre)",
+            "accepted": [
+              "vulve (petite levre)",
+              "petite levre",
+              "vulve (petite lèvre)",
+              "vulve",
+              "petite lèvre"
+            ]
+          },
+          {
+            "id": "p59-1-9",
+            "num": 9,
+            "label": "sphincter du vagin",
+            "accepted": [
+              "sphincter du vagin"
+            ]
+          },
+          {
+            "id": "p59-1-10",
+            "num": 10,
+            "label": "orifice inférieur du vagin",
+            "accepted": [
+              "orifice inferieur du vagin",
+              "orifice inférieur du vagin"
+            ]
+          },
+          {
+            "id": "p59-1-11",
+            "num": 11,
+            "label": "sphineter strié de l'anus",
+            "accepted": [
+              "sphineter strie de l'anus",
+              "sphineter strié de l'anus"
+            ]
+          },
+          {
+            "id": "p59-1-12",
+            "num": 12,
+            "label": "canal anal",
+            "accepted": [
+              "canal anal"
+            ]
+          },
+          {
+            "id": "p59-1-13",
+            "num": 13,
+            "label": "noyau fibreux central du périnée",
+            "accepted": [
+              "noyau fibreux central du périnée",
+              "noyau fibreux central du perinee"
+            ]
+          },
+          {
+            "id": "p59-1-14",
+            "num": 14,
+            "label": "cloison recto-vaginale",
+            "accepted": [
+              "cloison recto-vaginale"
+            ]
+          },
+          {
+            "id": "p59-1-15",
+            "num": 15,
+            "label": "vagin",
+            "accepted": [
+              "vagin"
+            ]
+          },
+          {
+            "id": "p59-1-16",
+            "num": 16,
+            "label": "cul de sac de Douglas",
+            "accepted": [
+              "cul de sac de douglas",
+              "cul de sac de Douglas"
+            ]
+          },
+          {
+            "id": "p59-1-17",
+            "num": 17,
+            "label": "utérus",
+            "accepted": [
+              "utérus",
+              "uterus"
+            ]
+          },
+          {
+            "id": "p59-1-18",
+            "num": 18,
+            "label": "coccyx",
+            "accepted": [
+              "coccyx"
+            ]
+          },
+          {
+            "id": "p59-1-19",
+            "num": 19,
+            "label": "ampoule rectale",
+            "accepted": [
+              "ampoule rectale"
+            ]
+          },
+          {
+            "id": "p59-1-20",
+            "num": 20,
+            "label": "péritoine viscéral",
+            "accepted": [
+              "péritoine viscéral",
+              "peritoine visceral"
+            ]
+          },
+          {
+            "id": "p59-1-21",
+            "num": 21,
+            "label": "canal sacré",
+            "accepted": [
+              "canal sacre",
+              "canal sacré"
+            ]
+          },
+          {
+            "id": "p59-1-22",
+            "num": 22,
+            "label": "colon sigmoïde",
+            "accepted": [
+              "colon sigmoïde",
+              "colon sigmoide"
+            ]
+          },
+          {
+            "id": "p59-1-23",
+            "num": 23,
+            "label": "crête sacrée",
+            "accepted": [
+              "crete sacree",
+              "crête sacrée"
+            ]
+          },
+          {
+            "id": "p59-1-24",
+            "num": 24,
+            "label": "disque inter vertébral L5-S1",
+            "accepted": [
+              "disque inter vertébral L5-S1",
+              "disque inter vertebral l5-s1",
+              "disque inter vertébral l5-s1"
+            ]
+          },
+          {
+            "id": "p59-1-25",
+            "num": 25,
+            "label": "clitoris",
+            "accepted": [
+              "clitoris"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "number": "Planche 60",
+    "title": "Planche 60",
+    "subtitle": "",
+    "image": "images/planche_060.webp",
+    "sections": [
+      {
+        "name": "A : Les glandes salivaires majeures : vue latérale de la face et du cou",
+        "items": [
+          {
+            "id": "p60-1-1",
+            "num": 1,
+            "label": "langue",
+            "accepted": [
+              "ngue",
+              "langue"
+            ]
+          },
+          {
+            "id": "p60-1-2",
+            "num": 2,
+            "label": "conduit parotidien",
+            "accepted": [
+              "conduit parotidien"
+            ]
+          },
+          {
+            "id": "p60-1-3",
+            "num": 3,
+            "label": "glande parotide",
+            "accepted": [
+              "glande parotide"
+            ]
+          },
+          {
+            "id": "p60-1-4",
+            "num": 4,
+            "label": "muscle masséter",
+            "accepted": [
+              "muscle masséter",
+              "muscle masseter"
+            ]
+          },
+          {
+            "id": "p60-1-5",
+            "num": 5,
+            "label": "muscle sterno-cléido-mastoïdien",
+            "accepted": [
+              "muscle sterno-cleido-mastoidien",
+              "muscle sterno-cléido-mastoïdien"
+            ]
+          },
+          {
+            "id": "p60-1-6",
+            "num": 6,
+            "label": "glande submandibulaire",
+            "accepted": [
+              "glande submandibulaire"
+            ]
+          },
+          {
+            "id": "p60-1-7",
+            "num": 7,
+            "label": "os hyoïde",
+            "accepted": [
+              "os hyoïde",
+              "os hyoide"
+            ]
+          },
+          {
+            "id": "p60-1-8",
+            "num": 8,
+            "label": "conduit submandibulaire",
+            "accepted": [
+              "conduit submandibulaire"
+            ]
+          },
+          {
+            "id": "p60-1-9",
+            "num": 9,
+            "label": "mandibule",
+            "accepted": [
+              "mandibule"
+            ]
+          },
+          {
+            "id": "p60-1-10",
+            "num": 10,
+            "label": "glande sublinguale",
+            "accepted": [
+              "glande sublinguale"
+            ]
+          },
+          {
+            "id": "p60-1-11",
+            "num": 11,
+            "label": "caroncule sublinguale",
+            "accepted": [
+              "caroncule sublinguale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue antérieure du foie",
+        "items": [
+          {
+            "id": "p60-2-1",
+            "num": 1,
+            "label": "muscle diaphragme",
+            "accepted": [
+              "muscle diaphragme"
+            ]
+          },
+          {
+            "id": "p60-2-2",
+            "num": 2,
+            "label": "lobe gauche",
+            "accepted": [
+              "lobe gauche"
+            ]
+          },
+          {
+            "id": "p60-2-3",
+            "num": 3,
+            "label": "bord inférieur (antérieur)",
+            "accepted": [
+              "bord inférieur",
+              "anterieur",
+              "antérieur",
+              "bord inferieur",
+              "bord inférieur (antérieur)",
+              "bord inferieur (anterieur)"
+            ]
+          },
+          {
+            "id": "p60-2-4",
+            "num": 4,
+            "label": "rebord chondro-costal",
+            "accepted": [
+              "rebord chondro-costal"
+            ]
+          },
+          {
+            "id": "p60-2-5",
+            "num": 5,
+            "label": "ligament rond",
+            "accepted": [
+              "ligament rond"
+            ]
+          },
+          {
+            "id": "p60-2-6",
+            "num": 6,
+            "label": "angle colique droit",
+            "accepted": [
+              "angle colique droit"
+            ]
+          },
+          {
+            "id": "p60-2-8",
+            "num": 8,
+            "label": "lobe droit",
+            "accepted": [
+              "lobe droit"
+            ]
+          },
+          {
+            "id": "p60-2-9",
+            "num": 9,
+            "label": "insertion du ligament falciforme",
+            "accepted": [
+              "insertion du ligament falciforme"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Coupe sagittale par le lobe droit du foie",
+        "items": [
+          {
+            "id": "p60-3-1",
+            "num": 1,
+            "label": "face diaphragmatique",
+            "accepted": [
+              "face diaphragmatique"
+            ]
+          },
+          {
+            "id": "p60-3-2",
+            "num": 2,
+            "label": "muscle diaphragme",
+            "accepted": [
+              "muscle diaphragme"
+            ]
+          },
+          {
+            "id": "p60-3-3",
+            "num": 3,
+            "label": "foie",
+            "accepted": [
+              "foie"
+            ]
+          },
+          {
+            "id": "p60-3-4",
+            "num": 4,
+            "label": "bord inférieur (antérieur)",
+            "accepted": [
+              "bord inférieur",
+              "anterieur",
+              "antérieur",
+              "bord inferieur",
+              "bord inférieur (antérieur)",
+              "bord inferieur (anterieur)"
+            ]
+          },
+          {
+            "id": "p60-3-5",
+            "num": 5,
+            "label": "côlon transverse",
+            "accepted": [
+              "côlon transverse",
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p60-3-6",
+            "num": 6,
+            "label": "face viscérale",
+            "accepted": [
+              "face viscérale",
+              "face viscerale"
+            ]
+          },
+          {
+            "id": "p60-3-7",
+            "num": 7,
+            "label": "rein droit",
+            "accepted": [
+              "rein droit"
+            ]
+          },
+          {
+            "id": "p60-3-8",
+            "num": 8,
+            "label": "glande surrénale droite",
+            "accepted": [
+              "glande surrénale droite",
+              "glande surrenale droite"
+            ]
+          },
+          {
+            "id": "p60-3-9",
+            "num": 9,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "number": "Planche 61",
+    "title": "situation et morphologie du foie",
+    "subtitle": "",
+    "image": "images/planche_061.webp",
+    "sections": [
+      {
+        "name": "A : Projection du foie sur la paroi thoracique",
+        "items": [
+          {
+            "id": "p61-1-1",
+            "num": 1,
+            "label": "extrémité supérieure du lobe droit du foie (dôme hépatique)",
+            "accepted": [
+              "extrémité supérieure du lobe droit du foie",
+              "extremite superieure du lobe droit du foie (dome hepatique)",
+              "dôme hépatique",
+              "extrémité supérieure du lobe droit du foie (dôme hépatique)",
+              "dome hepatique",
+              "extremite superieure du lobe droit du foie"
+            ],
+            "hint": "extrémité supérieure du lobe droit du foie (dôme hépatique)"
+          },
+          {
+            "id": "p61-1-2",
+            "num": 2,
+            "label": "lobe droit du foie",
+            "accepted": [
+              "lobe droit du foie"
+            ]
+          },
+          {
+            "id": "p61-1-3",
+            "num": 3,
+            "label": "bord antérieur du foie",
+            "accepted": [
+              "bord antérieur du foie",
+              "bord anterieur du foie"
+            ]
+          },
+          {
+            "id": "p61-1-4",
+            "num": 4,
+            "label": "estomac",
+            "accepted": [
+              "estomac"
+            ]
+          },
+          {
+            "id": "p61-1-5",
+            "num": 5,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue antérieure du foie",
+        "items": [
+          {
+            "id": "p61-2-1",
+            "num": 1,
+            "label": "lobe droit",
+            "accepted": [
+              "lobe droit"
+            ]
+          },
+          {
+            "id": "p61-2-2",
+            "num": 2,
+            "label": "bord antérieur (inférieur)",
+            "accepted": [
+              "inférieur",
+              "bord anterieur",
+              "bord anterieur (inferieur)",
+              "bord antérieur",
+              "bord antérieur (inférieur)",
+              "inferieur"
+            ]
+          },
+          {
+            "id": "p61-2-3",
+            "num": 3,
+            "label": "vésicule biliaire",
+            "accepted": [
+              "vesicule biliaire",
+              "vésicule biliaire"
+            ]
+          },
+          {
+            "id": "p61-2-4",
+            "num": 4,
+            "label": "ligament rond",
+            "accepted": [
+              "ligament rond"
+            ]
+          },
+          {
+            "id": "p61-2-5",
+            "num": 5,
+            "label": "lobe gauche",
+            "accepted": [
+              "lobe gauche"
+            ]
+          },
+          {
+            "id": "p61-2-6",
+            "num": 6,
+            "label": "insertion du ligament falciforme",
+            "accepted": [
+              "insertion du ligament falciforme"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "number": "Planche 62",
+    "title": "situation du foie",
+    "subtitle": "Sur cette coupe frontale du thorax (où la plèvre n'a pas été représentée) et de",
+    "image": "images/planche_062.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p62-1-1",
+            "num": 1,
+            "label": "cœur",
+            "accepted": [
+              "cœur"
+            ]
+          },
+          {
+            "id": "p62-1-2",
+            "num": 2,
+            "label": "poumon droit",
+            "accepted": [
+              "poumon droit"
+            ]
+          },
+          {
+            "id": "p62-1-3",
+            "num": 3,
+            "label": "muscles intercostaux",
+            "accepted": [
+              "muscles intercostaux"
+            ]
+          },
+          {
+            "id": "p62-1-4",
+            "num": 4,
+            "label": "rapports de l'espace pleural avec le foie",
+            "accepted": [
+              "rapports de l'espace pleural avec le foie"
+            ]
+          },
+          {
+            "id": "p62-1-5",
+            "num": 5,
+            "label": "sinus costo diaphragmatique",
+            "accepted": [
+              "sinus costo diaphragmatique"
+            ]
+          },
+          {
+            "id": "p62-1-6",
+            "num": 6,
+            "label": "foie",
+            "accepted": [
+              "foie"
+            ]
+          },
+          {
+            "id": "p62-1-7",
+            "num": 7,
+            "label": "angle colique droit",
+            "accepted": [
+              "angle colique droit"
+            ]
+          },
+          {
+            "id": "p62-1-8",
+            "num": 8,
+            "label": "paroi musculaire de l'abdomen (sangle abdominale)",
+            "accepted": [
+              "paroi musculaire de l'abdomen",
+              "sangle abdominale",
+              "paroi musculaire de l'abdomen (sangle abdominale)"
+            ],
+            "hint": "paroi musculaire de l'abdomen (sangle abdominale)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "number": "Planche 63",
+    "title": "vue inférieure du foie",
+    "subtitle": "",
+    "image": "images/planche_063.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p63-1-1",
+            "num": 1,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p63-1-2",
+            "num": 2,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          },
+          {
+            "id": "p63-1-3",
+            "num": 3,
+            "label": "lobe carré",
+            "accepted": [
+              "lobe carré",
+              "lobe carre"
+            ]
+          },
+          {
+            "id": "p63-1-4",
+            "num": 4,
+            "label": "ligament rond",
+            "accepted": [
+              "ligament rond"
+            ]
+          },
+          {
+            "id": "p63-1-5",
+            "num": 5,
+            "label": "vésicule biliaire",
+            "accepted": [
+              "vesicule biliaire",
+              "vésicule biliaire"
+            ]
+          },
+          {
+            "id": "p63-1-6",
+            "num": 6,
+            "label": "canal hépatique gauche",
+            "accepted": [
+              "canal hépatique gauche",
+              "canal hepatique gauche"
+            ]
+          },
+          {
+            "id": "p63-1-7",
+            "num": 7,
+            "label": "branche gauche de l'artère hépatique propre",
+            "accepted": [
+              "branche gauche de l'artere hepatique propre",
+              "branche gauche de l'artère hépatique propre"
+            ]
+          },
+          {
+            "id": "p63-1-8",
+            "num": 8,
+            "label": "branche gauche de la veine porte",
+            "accepted": [
+              "branche gauche de la veine porte"
+            ]
+          },
+          {
+            "id": "p63-1-9",
+            "num": 9,
+            "label": "hile",
+            "accepted": [
+              "hile"
+            ]
+          },
+          {
+            "id": "p63-1-10",
+            "num": 10,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p63-1-11",
+            "num": 11,
+            "label": "lobe caudé (de Spiegel)",
+            "accepted": [
+              "lobe caude (de spiegel)",
+              "lobe caudé (de spiegel)",
+              "lobe caudé",
+              "lobe caudé (de Spiegel)",
+              "de spiegel",
+              "lobe caude"
+            ]
+          },
+          {
+            "id": "p63-1-12",
+            "num": 12,
+            "label": "empreinte du rein droit",
+            "accepted": [
+              "empreinte du rein droit"
+            ]
+          },
+          {
+            "id": "p63-1-13",
+            "num": 13,
+            "label": "empreinte de l'angle colique droit",
+            "accepted": [
+              "empreinte de l'angle colique droit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "number": "Planche 64",
+    "title": "le pédicule hépatique",
+    "subtitle": "",
+    "image": "images/planche_064.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p64-1-1",
+            "num": 1,
+            "label": "limite antérieure du hile du foie",
+            "accepted": [
+              "limite antérieure du hile du foie",
+              "limite anterieure du hile du foie"
+            ]
+          },
+          {
+            "id": "p64-1-2",
+            "num": 2,
+            "label": "ligament rond du foie",
+            "accepted": [
+              "ligament rond du foie"
+            ]
+          },
+          {
+            "id": "p64-1-3",
+            "num": 3,
+            "label": "canal hépatique gauche",
+            "accepted": [
+              "canal hépatique gauche",
+              "canal hepatique gauche"
+            ]
+          },
+          {
+            "id": "p64-1-4",
+            "num": 4,
+            "label": "branche gauche de l'artère hépatique",
+            "accepted": [
+              "branche gauche de l'artère hépatique",
+              "branche gauche de l'artere hepatique"
+            ]
+          },
+          {
+            "id": "p64-1-5",
+            "num": 5,
+            "label": "artère hépatique propre",
+            "accepted": [
+              "artere hepatique propre",
+              "artère hépatique propre"
+            ]
+          },
+          {
+            "id": "p64-1-6",
+            "num": 6,
+            "label": "veine porte",
+            "accepted": [
+              "veine porte"
+            ]
+          },
+          {
+            "id": "p64-1-7",
+            "num": 7,
+            "label": "artère hépatique commune",
+            "accepted": [
+              "artere hepatique commune",
+              "artère hépatique commune"
+            ]
+          },
+          {
+            "id": "p64-1-8",
+            "num": 8,
+            "label": "tronc veineux spléno-mésaraïque",
+            "accepted": [
+              "tronc veineux spleno-mesaraique",
+              "tronc veineux spléno-mésaraïque"
+            ]
+          },
+          {
+            "id": "p64-1-9",
+            "num": 9,
+            "label": "veine splénique",
+            "accepted": [
+              "veine splénique",
+              "veine splenique"
+            ]
+          },
+          {
+            "id": "p64-1-10",
+            "num": 10,
+            "label": "corps du pancréas sectionné",
+            "accepted": [
+              "corps du pancréas sectionné",
+              "corps du pancreas sectionne"
+            ]
+          },
+          {
+            "id": "p64-1-11",
+            "num": 11,
+            "label": "veine mésentérique inférieure",
+            "accepted": [
+              "veine mesenterique inferieure",
+              "veine mésentérique inférieure"
+            ]
+          },
+          {
+            "id": "p64-1-12",
+            "num": 12,
+            "label": "jejunum",
+            "accepted": [
+              "jejunum"
+            ]
+          },
+          {
+            "id": "p64-1-13",
+            "num": 13,
+            "label": "veine mésentérique supérieure",
+            "accepted": [
+              "veine mésentérique supérieure",
+              "veine mesenterique superieure"
+            ]
+          },
+          {
+            "id": "p64-1-14",
+            "num": 14,
+            "label": "deuxième duodénum",
+            "accepted": [
+              "deuxieme duodenum",
+              "deuxième duodénum"
+            ]
+          },
+          {
+            "id": "p64-1-15",
+            "num": 15,
+            "label": "canal pancréatique principal (canal de Wirsung)",
+            "accepted": [
+              "canal pancréatique principal (canal de Wirsung)",
+              "canal pancréatique principal (canal de wirsung)",
+              "canal de wirsung",
+              "canal pancréatique principal",
+              "canal pancreatique principal (canal de wirsung)",
+              "canal pancreatique principal"
+            ],
+            "hint": "canal pancréatique principal (canal de Wirsung)"
+          },
+          {
+            "id": "p64-1-16",
+            "num": 16,
+            "label": "premier duodénum",
+            "accepted": [
+              "premier duodénum",
+              "premier duodenum"
+            ]
+          },
+          {
+            "id": "p64-1-17",
+            "num": 17,
+            "label": "canal (ou conduit) cholédoque",
+            "accepted": [
+              "canal (ou conduit) cholédoque",
+              "canal (ou conduit) choledoque",
+              "canal",
+              "ou conduit"
+            ]
+          },
+          {
+            "id": "p64-1-18",
+            "num": 18,
+            "label": "canal cystique",
+            "accepted": [
+              "canal cystique"
+            ]
+          },
+          {
+            "id": "p64-1-19",
+            "num": 19,
+            "label": "vésicule biliaire",
+            "accepted": [
+              "vesicule biliaire",
+              "vésicule biliaire"
+            ]
+          },
+          {
+            "id": "p64-1-20",
+            "num": 20,
+            "label": "bord antérieur du foie (soulevé par les deux crochets)",
+            "accepted": [
+              "bord antérieur du foie (soulevé par les deux crochets)",
+              "bord anterieur du foie (souleve par les deux crochets)",
+              "souleve par les deux crochets",
+              "bord antérieur du foie",
+              "soulevé par les deux crochets",
+              "bord anterieur du foie"
+            ],
+            "hint": "bord antérieur du foie (soulevé par les deux crochets)"
+          },
+          {
+            "id": "p64-1-21",
+            "num": 21,
+            "label": "branche droite de l'artère hépatique",
+            "accepted": [
+              "branche droite de l'artere hepatique",
+              "branche droite de l'artère hépatique"
+            ]
+          },
+          {
+            "id": "p64-1-22",
+            "num": 22,
+            "label": "canal hépatique droit",
+            "accepted": [
+              "canal hepatique droit",
+              "canal hépatique droit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "number": "Planche 65",
+    "title": "Planche 65",
+    "subtitle": "",
+    "image": "images/planche_065.webp",
+    "sections": [
+      {
+        "name": "A : Coupe para sagittale droite de l'abdomen passant par le",
+        "items": [
+          {
+            "id": "p65-1-1",
+            "num": 1,
+            "label": "muscles inter costaux",
+            "accepted": [
+              "muscles inter costaux"
+            ]
+          },
+          {
+            "id": "p65-1-2",
+            "num": 2,
+            "label": "côte",
+            "accepted": [
+              "cote",
+              "côte"
+            ]
+          },
+          {
+            "id": "p65-1-3",
+            "num": 3,
+            "label": "cul de sac costo-diaphragmatique (la plèvre n'a pas été représentée)",
+            "accepted": [
+              "la plevre n'a pas ete representee",
+              "cul de sac costo-diaphragmatique (la plevre n'a pas ete representee)",
+              "cul de sac costo-diaphragmatique (la plèvre n'a pas été représentée)",
+              "la plèvre n'a pas été représentée",
+              "cul de sac costo-diaphragmatique"
+            ],
+            "hint": "cul de sac costo-diaphragmatique (la plèvre n'a pas été représentée)"
+          },
+          {
+            "id": "p65-1-4",
+            "num": 4,
+            "label": "glande surrénale droite",
+            "accepted": [
+              "glande surrénale droite",
+              "glande surrenale droite"
+            ]
+          },
+          {
+            "id": "p65-1-5",
+            "num": 5,
+            "label": "bord postérieur du foie",
+            "accepted": [
+              "bord postérieur du foie",
+              "bord posterieur du foie"
+            ]
+          },
+          {
+            "id": "p65-1-6",
+            "num": 6,
+            "label": "rein droit",
+            "accepted": [
+              "rein droit"
+            ]
+          },
+          {
+            "id": "p65-1-7",
+            "num": 7,
+            "label": "angle colique droit",
+            "accepted": [
+              "angle colique droit"
+            ]
+          },
+          {
+            "id": "p65-1-8",
+            "num": 8,
+            "label": "paroi abdominale antérieure",
+            "accepted": [
+              "paroi abdominale anterieure",
+              "paroi abdominale antérieure"
+            ]
+          },
+          {
+            "id": "p65-1-9",
+            "num": 9,
+            "label": "foie (lobe droit)",
+            "accepted": [
+              "foie (lobe droit)",
+              "lobe droit",
+              "foie"
+            ]
+          },
+          {
+            "id": "p65-1-10",
+            "num": 10,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p65-1-11",
+            "num": 11,
+            "label": "cartilage costal",
+            "accepted": [
+              "cartilage costal"
+            ]
+          },
+          {
+            "id": "p65-1-12",
+            "num": 12,
+            "label": "poumon droit",
+            "accepted": [
+              "poumon droit"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue postérieure du foie",
+        "items": [
+          {
+            "id": "p65-2-1",
+            "num": 1,
+            "label": "aréa nuda",
+            "accepted": [
+              "area nuda",
+              "aréa nuda"
+            ]
+          },
+          {
+            "id": "p65-2-2",
+            "num": 2,
+            "label": "ligament triangulaire gauche",
+            "accepted": [
+              "ligament triangulaire gauche"
+            ]
+          },
+          {
+            "id": "p65-2-3",
+            "num": 3,
+            "label": "coupole diaphragmatique gauche",
+            "accepted": [
+              "coupole diaphragmatique gauche"
+            ]
+          },
+          {
+            "id": "p65-2-5",
+            "num": 5,
+            "label": "ligament coronaire gauche",
+            "accepted": [
+              "ligament coronaire gauche"
+            ]
+          },
+          {
+            "id": "p65-2-6",
+            "num": 6,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p65-2-7",
+            "num": 7,
+            "label": "ligament coronaire droit",
+            "accepted": [
+              "ligament coronaire droit"
+            ]
+          },
+          {
+            "id": "p65-2-8",
+            "num": 8,
+            "label": "coupole diaphragmatique droite",
+            "accepted": [
+              "coupole diaphragmatique droite"
+            ]
+          },
+          {
+            "id": "p65-2-9",
+            "num": 9,
+            "label": "ligament triangulaire droit",
+            "accepted": [
+              "ligament triangulaire droit"
+            ]
+          },
+          {
+            "id": "p65-2-10",
+            "num": 10,
+            "label": "lobe droit",
+            "accepted": [
+              "lobe droit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "number": "Planche 66",
+    "title": "coupe para sagittale de l'abdomen",
+    "subtitle": "Cette coupe verticale passe à droite de la ligne médiane",
+    "image": "images/planche_066.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p66-1-1",
+            "num": 1,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p66-1-2",
+            "num": 2,
+            "label": "hiatus de Winslow (= orifice d'entrée dans l'arrière cavité des épiploons ou bourse omentale)",
+            "accepted": [
+              "hiatus de Winslow (= orifice d'entrée dans l'arrière cavité des épiploons ou bourse omentale)",
+              "hiatus de winslow (= orifice d'entree dans l'arriere cavite des epiploons ou bourse omentale)",
+              "= orifice d'entrée dans l'arrière cavité des épiploons ou bourse omentale",
+              "hiatus de winslow (= orifice d'entrée dans l'arrière cavité des épiploons ou bourse omentale)",
+              "= orifice d'entree dans l'arriere cavite des epiploons ou bourse omentale",
+              "hiatus de winslow"
+            ],
+            "hint": "hiatus de Winslow (= orifice d'entrée dans l'arrière cavité des épiploons ou bourse omentale)"
+          },
+          {
+            "id": "p66-1-3",
+            "num": 3,
+            "label": "premier duodénum (D1)",
+            "accepted": [
+              "d1",
+              "premier duodenum (d1)",
+              "premier duodénum",
+              "premier duodénum (d1)",
+              "premier duodénum (D1)",
+              "premier duodenum"
+            ]
+          },
+          {
+            "id": "p66-1-4",
+            "num": 4,
+            "label": "fascia de Treitz (accolement du bloc duodéno-pancréatique au péritoine pariétal postérieur)",
+            "accepted": [
+              "fascia de treitz (accolement du bloc duodéno-pancréatique au péritoine pariétal postérieur)",
+              "accolement du bloc duodéno-pancréatique au péritoine pariétal postérieur",
+              "accolement du bloc duodeno-pancreatique au peritoine parietal posterieur",
+              "fascia de treitz (accolement du bloc duodeno-pancreatique au peritoine parietal posterieur)",
+              "fascia de Treitz (accolement du bloc duodéno-pancréatique au péritoine pariétal postérieur)",
+              "fascia de treitz"
+            ],
+            "hint": "fascia de Treitz (accolement du bloc duodéno-pancréatique au péritoine pariétal postérieur)"
+          },
+          {
+            "id": "p66-1-5",
+            "num": 5,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p66-1-6",
+            "num": 6,
+            "label": "troisième duodénum",
+            "accepted": [
+              "troisieme duodenum",
+              "troisième duodénum"
+            ]
+          },
+          {
+            "id": "p66-1-7",
+            "num": 7,
+            "label": "péritoine pariétal postérieur",
+            "accepted": [
+              "peritoine parietal posterieur",
+              "péritoine pariétal postérieur"
+            ]
+          },
+          {
+            "id": "p66-1-8",
+            "num": 8,
+            "label": "tête du pancréas",
+            "accepted": [
+              "tête du pancréas",
+              "tete du pancreas"
+            ]
+          },
+          {
+            "id": "p66-1-9",
+            "num": 9,
+            "label": "colon transverse",
+            "accepted": [
+              "colon transverse"
+            ]
+          },
+          {
+            "id": "p66-1-10",
+            "num": 10,
+            "label": "lobe droit du foie",
+            "accepted": [
+              "lobe droit du foie"
+            ]
+          },
+          {
+            "id": "p66-1-11",
+            "num": 11,
+            "label": "veine porte",
+            "accepted": [
+              "veine porte"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "number": "Planche 67",
+    "title": "la rate et sa situation",
+    "subtitle": "",
+    "image": "images/planche_067.webp",
+    "sections": [
+      {
+        "name": "A : Vue latérale gauche",
+        "items": [
+          {
+            "id": "p67-1-1",
+            "num": 1,
+            "label": "10ềmc côte gauche (ou côte splénique)",
+            "accepted": [
+              "ou cote splenique",
+              "10ềmc côte gauche (ou côte splénique)",
+              "10emc cote gauche (ou cote splenique)",
+              "10emc cote gauche",
+              "10ềmc côte gauche",
+              "ou côte splénique"
+            ]
+          },
+          {
+            "id": "p67-1-2",
+            "num": 2,
+            "label": "angle colique gauche (ou angle splénique)",
+            "accepted": [
+              "ou angle splenique",
+              "ou angle splénique",
+              "angle colique gauche (ou angle splenique)",
+              "angle colique gauche",
+              "angle colique gauche (ou angle splénique)"
+            ],
+            "hint": "angle colique gauche (ou angle splénique)"
+          },
+          {
+            "id": "p67-1-3",
+            "num": 3,
+            "label": "limite de projection de la rate",
+            "accepted": [
+              "limite de projection de la rate"
+            ]
+          },
+          {
+            "id": "p67-1-4",
+            "num": 4,
+            "label": "projection du poumon",
+            "accepted": [
+              "projection du poumon"
+            ]
+          },
+          {
+            "id": "p67-1-5",
+            "num": 5,
+            "label": "projection de la plèvre pariétale",
+            "accepted": [
+              "projection de la plevre parietale",
+              "projection de la plèvre pariétale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue postérieure (vue de dos)",
+        "items": [
+          {
+            "id": "p67-2-1",
+            "num": 1,
+            "label": "limite de projection de la rate",
+            "accepted": [
+              "limite de projection de la rate"
+            ]
+          },
+          {
+            "id": "p67-2-3",
+            "num": 3,
+            "label": "glande surrénale gauche",
+            "accepted": [
+              "glande surrénale gauche",
+              "glande surrenale gauche"
+            ]
+          },
+          {
+            "id": "p67-2-6",
+            "num": 6,
+            "label": "projection du diaphragme",
+            "accepted": [
+              "projection du diaphragme"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "number": "Planche 68",
+    "title": "coupe transversale de l'abdomen",
+    "subtitle": "passant par la rate",
+    "image": "images/planche_068.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p68-1-1",
+            "num": 1,
+            "label": "péritoine pariétal",
+            "accepted": [
+              "péritoine pariétal",
+              "peritoine parietal"
+            ]
+          },
+          {
+            "id": "p68-1-2",
+            "num": 2,
+            "label": "foie",
+            "accepted": [
+              "foie"
+            ]
+          },
+          {
+            "id": "p68-1-3",
+            "num": 3,
+            "label": "premier duodénum",
+            "accepted": [
+              "premier duodénum",
+              "premier duodenum"
+            ]
+          },
+          {
+            "id": "p68-1-4",
+            "num": 4,
+            "label": "fascia de Treitz (accolement du péritoine pariétal au péritoine viscéral)",
+            "accepted": [
+              "accolement du péritoine pariétal au péritoine viscéral",
+              "accolement du peritoine parietal au peritoine visceral",
+              "fascia de treitz",
+              "fascia de treitz (accolement du péritoine pariétal au péritoine viscéral)",
+              "fascia de treitz (accolement du peritoine parietal au peritoine visceral)",
+              "fascia de Treitz (accolement du péritoine pariétal au péritoine viscéral)"
+            ],
+            "hint": "fascia de Treitz (accolement du péritoine pariétal au péritoine viscéral)"
+          },
+          {
+            "id": "p68-1-5",
+            "num": 5,
+            "label": "perite cave icéricure",
+            "accepted": [
+              "perite cave icéricure",
+              "perite cave icericure"
+            ]
+          },
+          {
+            "id": "p68-1-7",
+            "num": 7,
+            "label": "rein droit",
+            "accepted": [
+              "rein droit"
+            ]
+          },
+          {
+            "id": "p68-1-8",
+            "num": 8,
+            "label": "artère et veine mésentérique supérieure",
+            "accepted": [
+              "artère et veine mésentérique supérieure",
+              "artere et veine mesenterique superieure"
+            ]
+          },
+          {
+            "id": "p68-1-9",
+            "num": 9,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          },
+          {
+            "id": "p68-1-10",
+            "num": 10,
+            "label": "muscles de la sangle abdominale",
+            "accepted": [
+              "muscles de la sangle abdominale"
+            ]
+          },
+          {
+            "id": "p68-1-11",
+            "num": 11,
+            "label": "rein gauche",
+            "accepted": [
+              "rein gauche"
+            ]
+          },
+          {
+            "id": "p68-1-12",
+            "num": 12,
+            "label": "fascia de Treitz",
+            "accepted": [
+              "fascia de Treitz",
+              "fascia de treitz"
+            ]
+          },
+          {
+            "id": "p68-1-13",
+            "num": 13,
+            "label": "rate",
+            "accepted": [
+              "rate"
+            ]
+          },
+          {
+            "id": "p68-1-14",
+            "num": 14,
+            "label": "arrière cavité des épiploons (bourse omentale)",
+            "accepted": [
+              "arrière cavité des épiploons (bourse omentale)",
+              "arriere cavite des epiploons",
+              "arrière cavité des épiploons",
+              "bourse omentale",
+              "arriere cavite des epiploons (bourse omentale)"
+            ],
+            "hint": "arrière cavité des épiploons (bourse omentale)"
+          },
+          {
+            "id": "p68-1-15",
+            "num": 15,
+            "label": "estomac",
+            "accepted": [
+              "estomac"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "number": "Planche 69",
+    "title": "vue antérieure des reins",
+    "subtitle": "",
+    "image": "images/planche_069.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p69-1-1",
+            "num": 1,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          },
+          {
+            "id": "p69-1-2",
+            "num": 2,
+            "label": "tronc coeliaque",
+            "accepted": [
+              "tronc coeliaque"
+            ]
+          },
+          {
+            "id": "p69-1-3",
+            "num": 3,
+            "label": "artère phrénique (diaphragmatique)",
+            "accepted": [
+              "artere phrenique (diaphragmatique)",
+              "diaphragmatique",
+              "artere phrenique",
+              "artère phrénique",
+              "artère phrénique (diaphragmatique)"
+            ]
+          },
+          {
+            "id": "p69-1-4",
+            "num": 4,
+            "label": "cercle artériel péri rénal",
+            "accepted": [
+              "cercle arteriel peri renal",
+              "cercle artériel péri rénal"
+            ]
+          },
+          {
+            "id": "p69-1-5",
+            "num": 5,
+            "label": "glande surrénale gauche",
+            "accepted": [
+              "glande surrénale gauche",
+              "glande surrenale gauche"
+            ]
+          },
+          {
+            "id": "p69-1-6",
+            "num": 6,
+            "label": "veine surrénalienne gauche",
+            "accepted": [
+              "veine surrenalienne gauche",
+              "veine surrénalienne gauche"
+            ]
+          },
+          {
+            "id": "p69-1-7",
+            "num": 7,
+            "label": "artère rénale gauche",
+            "accepted": [
+              "artere renale gauche",
+              "artère rénale gauche"
+            ]
+          },
+          {
+            "id": "p69-1-8",
+            "num": 8,
+            "label": "veine rénale gauche",
+            "accepted": [
+              "veine renale gauche",
+              "veine rénale gauche"
+            ]
+          },
+          {
+            "id": "p69-1-9",
+            "num": 9,
+            "label": "artère lombaire (destinée aux muscles de la paroi postérieure de l'abdomen)",
+            "accepted": [
+              "artère lombaire",
+              "destinée aux muscles de la paroi postérieure de l'abdomen",
+              "artère lombaire (destinée aux muscles de la paroi postérieure de l'abdomen)",
+              "artere lombaire",
+              "destinee aux muscles de la paroi posterieure de l'abdomen",
+              "artere lombaire (destinee aux muscles de la paroi posterieure de l'abdomen)"
+            ],
+            "hint": "artère lombaire (destinée aux muscles de la paroi postérieure de l'abdomen)"
+          },
+          {
+            "id": "p69-1-10",
+            "num": 10,
+            "label": "veine gonadique (testiculaire ou ovarienne) gauche",
+            "accepted": [
+              "testiculaire ou ovarienne",
+              "veine gonadique",
+              "veine gonadique (testiculaire ou ovarienne) gauche"
+            ],
+            "hint": "veine gonadique (testiculaire ou ovarienne) gauche"
+          },
+          {
+            "id": "p69-1-11",
+            "num": 11,
+            "label": "artère gonadique (testiculaire ou ovarienne) gauche",
+            "accepted": [
+              "artère gonadique (testiculaire ou ovarienne) gauche",
+              "artere gonadique (testiculaire ou ovarienne) gauche",
+              "artère gonadique",
+              "testiculaire ou ovarienne",
+              "artere gonadique"
+            ],
+            "hint": "artère gonadique (testiculaire ou ovarienne) gauche"
+          },
+          {
+            "id": "p69-1-12",
+            "num": 12,
+            "label": "uretère gauche",
+            "accepted": [
+              "uretère gauche",
+              "uretere gauche"
+            ]
+          },
+          {
+            "id": "p69-1-13",
+            "num": 13,
+            "label": "artère rénale droite",
+            "accepted": [
+              "artere renale droite",
+              "artère rénale droite"
+            ]
+          },
+          {
+            "id": "p69-1-14",
+            "num": 14,
+            "label": "veine rénale droite sectionnée",
+            "accepted": [
+              "veine renale droite sectionnee",
+              "veine rénale droite sectionnée"
+            ]
+          },
+          {
+            "id": "p69-1-15",
+            "num": 15,
+            "label": "glande surrénale droite",
+            "accepted": [
+              "glande surrénale droite",
+              "glande surrenale droite"
+            ]
+          },
+          {
+            "id": "p69-1-16",
+            "num": 16,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "number": "Planche 70",
+    "title": "structure du rein",
+    "subtitle": "",
+    "image": "images/planche_070.webp",
+    "sections": [
+      {
+        "name": "A : Coupe longitudinale du rein",
+        "items": [
+          {
+            "id": "p70-1-1",
+            "num": 1,
+            "label": "pôle supérieur du rein",
+            "accepted": [
+              "pôle supérieur du rein",
+              "pole superieur du rein"
+            ]
+          },
+          {
+            "id": "p70-1-2",
+            "num": 2,
+            "label": "bord médial du rein",
+            "accepted": [
+              "bord medial du rein",
+              "bord médial du rein"
+            ]
+          },
+          {
+            "id": "p70-1-3",
+            "num": 3,
+            "label": "artère rénale",
+            "accepted": [
+              "artere renale",
+              "artère rénale"
+            ]
+          },
+          {
+            "id": "p70-1-4",
+            "num": 4,
+            "label": "veine rénale",
+            "accepted": [
+              "veine rénale",
+              "veine renale"
+            ]
+          },
+          {
+            "id": "p70-1-5",
+            "num": 5,
+            "label": "uretère",
+            "accepted": [
+              "uretère",
+              "uretere"
+            ]
+          },
+          {
+            "id": "p70-1-6",
+            "num": 6,
+            "label": "pôle inférieur",
+            "accepted": [
+              "pôle inférieur",
+              "pole inferieur"
+            ]
+          },
+          {
+            "id": "p70-1-7",
+            "num": 7,
+            "label": "bord latéral",
+            "accepted": [
+              "bord latéral",
+              "bord lateral"
+            ]
+          },
+          {
+            "id": "p70-1-8",
+            "num": 8,
+            "label": "calice majeur (grand calice)",
+            "accepted": [
+              "grand calice",
+              "calice majeur (grand calice)",
+              "calice majeur"
+            ]
+          },
+          {
+            "id": "p70-1-9",
+            "num": 9,
+            "label": "pyramide rénale",
+            "accepted": [
+              "pyramide renale",
+              "pyramide rénale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe longitudinale du rein",
+        "items": [
+          {
+            "id": "p70-2-1",
+            "num": 1,
+            "label": "cortex rénal (substance corticale)",
+            "accepted": [
+              "substance corticale",
+              "cortex renal",
+              "cortex rénal (substance corticale)",
+              "cortex rénal",
+              "cortex renal (substance corticale)"
+            ]
+          },
+          {
+            "id": "p70-2-2",
+            "num": 2,
+            "label": "médulla rénale (substance médullaire)",
+            "accepted": [
+              "médulla rénale (substance médullaire)",
+              "médulla rénale",
+              "medulla renale",
+              "substance médullaire",
+              "substance medullaire",
+              "medulla renale (substance medullaire)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Le bassinet",
+        "items": [
+          {
+            "id": "p70-3-1",
+            "num": 1,
+            "label": "calice mineur (petit calice)",
+            "accepted": [
+              "calice mineur",
+              "calice mineur (petit calice)",
+              "petit calice"
+            ]
+          },
+          {
+            "id": "p70-3-2",
+            "num": 2,
+            "label": "bassinet en réplétion",
+            "accepted": [
+              "bassinet en repletion",
+              "bassinet en réplétion"
+            ]
+          },
+          {
+            "id": "p70-3-3",
+            "num": 3,
+            "label": "calice majeur (grand calice)",
+            "accepted": [
+              "grand calice",
+              "calice majeur (grand calice)",
+              "calice majeur"
+            ]
+          },
+          {
+            "id": "p70-3-4",
+            "num": 4,
+            "label": "bassinet vide",
+            "accepted": [
+              "bassinet vide"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "number": "Planche 71",
+    "title": "vue postérieure des reins",
+    "subtitle": "",
+    "image": "images/planche_071.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p71-1-1",
+            "num": 1,
+            "label": "limite du poumon",
+            "accepted": [
+              "limite du poumon"
+            ]
+          },
+          {
+            "id": "p71-1-2",
+            "num": 2,
+            "label": "limite de la plèvre pariétale",
+            "accepted": [
+              "limite de la plevre parietale",
+              "limite de la plèvre pariétale"
+            ]
+          },
+          {
+            "id": "p71-1-3",
+            "num": 3,
+            "label": "rein gauche",
+            "accepted": [
+              "rein gauche"
+            ]
+          },
+          {
+            "id": "p71-1-4",
+            "num": 4,
+            "label": "12ème côte gauche (dans la variété longue de cette côte)",
+            "accepted": [
+              "12ème côte gauche",
+              "dans la variete longue de cette cote",
+              "12ème côte gauche (dans la variété longue de cette côte)",
+              "12eme cote gauche",
+              "dans la variété longue de cette côte",
+              "12eme cote gauche (dans la variete longue de cette cote)"
+            ],
+            "hint": "12ème côte gauche (dans la variété longue de cette côte)"
+          },
+          {
+            "id": "p71-1-5",
+            "num": 5,
+            "label": "limite du bord latéral du muscle psoas",
+            "accepted": [
+              "limite du bord latéral du muscle psoas",
+              "limite du bord lateral du muscle psoas"
+            ]
+          },
+          {
+            "id": "p71-1-6",
+            "num": 6,
+            "label": "uretère gauche",
+            "accepted": [
+              "uretère gauche",
+              "uretere gauche"
+            ]
+          },
+          {
+            "id": "p71-1-7",
+            "num": 7,
+            "label": "crête iliaque",
+            "accepted": [
+              "crête iliaque",
+              "crete iliaque"
+            ]
+          },
+          {
+            "id": "p71-1-8",
+            "num": 8,
+            "label": "12°me côte droite (dans la variété courte de cette côte)",
+            "accepted": [
+              "12°me cote droite",
+              "dans la variété courte de cette côte",
+              "dans la variete courte de cette cote",
+              "12°me cote droite (dans la variete courte de cette cote)",
+              "12°me côte droite",
+              "12°me côte droite (dans la variété courte de cette côte)"
+            ],
+            "hint": "12°me côte droite (dans la variété courte de cette côte)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "number": "Planche 72",
+    "title": "coupe para sagittale de l'abdomen",
+    "subtitle": "passant par la loge rénale",
+    "image": "images/planche_072.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p72-1-1",
+            "num": 1,
+            "label": "paroi thoracique postérieure",
+            "accepted": [
+              "paroi thoracique posterieure",
+              "paroi thoracique postérieure"
+            ]
+          },
+          {
+            "id": "p72-1-2",
+            "num": 2,
+            "label": "glande surrénale",
+            "accepted": [
+              "glande surrenale",
+              "glande surrénale"
+            ]
+          },
+          {
+            "id": "p72-1-3",
+            "num": 3,
+            "label": "rein",
+            "accepted": [
+              "rein"
+            ]
+          },
+          {
+            "id": "p72-1-4",
+            "num": 4,
+            "label": "loge rénale",
+            "accepted": [
+              "loge rénale",
+              "loge renale"
+            ]
+          },
+          {
+            "id": "p72-1-5",
+            "num": 5,
+            "label": "paroi lombaire",
+            "accepted": [
+              "paroi lombaire"
+            ]
+          },
+          {
+            "id": "p72-1-6",
+            "num": 6,
+            "label": "espace rétro péritonéal",
+            "accepted": [
+              "espace rétro péritonéal",
+              "espace retro peritoneal"
+            ]
+          },
+          {
+            "id": "p72-1-7",
+            "num": 7,
+            "label": "os coxal (os iliaque)",
+            "accepted": [
+              "os coxal (os iliaque)",
+              "os iliaque",
+              "os coxal"
+            ]
+          },
+          {
+            "id": "p72-1-8",
+            "num": 8,
+            "label": "péritoine pariétal postérieur",
+            "accepted": [
+              "peritoine parietal posterieur",
+              "péritoine pariétal postérieur"
+            ]
+          },
+          {
+            "id": "p72-1-9",
+            "num": 9,
+            "label": "péritoine pariétal antérieur",
+            "accepted": [
+              "peritoine parietal anterieur",
+              "péritoine pariétal antérieur"
+            ]
+          },
+          {
+            "id": "p72-1-10",
+            "num": 10,
+            "label": "cavité péritonéale",
+            "accepted": [
+              "cavite peritoneale",
+              "cavité péritonéale"
+            ]
+          },
+          {
+            "id": "p72-1-11",
+            "num": 11,
+            "label": "paroi abdominale antérieure",
+            "accepted": [
+              "paroi abdominale anterieure",
+              "paroi abdominale antérieure"
+            ]
+          },
+          {
+            "id": "p72-1-12",
+            "num": 12,
+            "label": "diaphragme",
+            "accepted": [
+              "diaphragme"
+            ]
+          },
+          {
+            "id": "p72-1-13",
+            "num": 13,
+            "label": "cavité thoracique",
+            "accepted": [
+              "cavite thoracique",
+              "cavité thoracique"
+            ]
+          },
+          {
+            "id": "p72-1-14",
+            "num": 14,
+            "label": "paroi thoracique antérieure",
+            "accepted": [
+              "paroi thoracique anterieure",
+              "paroi thoracique antérieure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "number": "Planche 73",
+    "title": "coupe transversale de l'abdomen",
+    "subtitle": "passant par les reins",
+    "image": "images/planche_073.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p73-1-1",
+            "num": 1,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p73-1-2",
+            "num": 2,
+            "label": "artère mésentérique supérieure",
+            "accepted": [
+              "artere mesenterique superieure",
+              "artère mésentérique supérieure"
+            ]
+          },
+          {
+            "id": "p73-1-3",
+            "num": 3,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          },
+          {
+            "id": "p73-1-4",
+            "num": 4,
+            "label": "veine rénale gauche",
+            "accepted": [
+              "veine renale gauche",
+              "veine rénale gauche"
+            ]
+          },
+          {
+            "id": "p73-1-5",
+            "num": 5,
+            "label": "artère rénale gauche",
+            "accepted": [
+              "artere renale gauche",
+              "artère rénale gauche"
+            ]
+          },
+          {
+            "id": "p73-1-6",
+            "num": 6,
+            "label": "bassinet",
+            "accepted": [
+              "bassinet"
+            ]
+          },
+          {
+            "id": "p73-1-7",
+            "num": 7,
+            "label": "calice principal",
+            "accepted": [
+              "calice principal"
+            ]
+          },
+          {
+            "id": "p73-1-8",
+            "num": 8,
+            "label": "loge rénale",
+            "accepted": [
+              "loge rénale",
+              "loge renale"
+            ]
+          },
+          {
+            "id": "p73-1-9",
+            "num": 9,
+            "label": "muscle carré des lombes",
+            "accepted": [
+              "muscle carré des lombes",
+              "muscle carre des lombes"
+            ]
+          },
+          {
+            "id": "p73-1-10",
+            "num": 10,
+            "label": "muscles des gouttières para vertébrales",
+            "accepted": [
+              "muscles des gouttieres para vertebrales",
+              "muscles des gouttières para vertébrales"
+            ]
+          },
+          {
+            "id": "p73-1-11",
+            "num": 11,
+            "label": "muscle psoas",
+            "accepted": [
+              "muscle psoas"
+            ]
+          },
+          {
+            "id": "p73-1-12",
+            "num": 12,
+            "label": "fascia transversalis",
+            "accepted": [
+              "fascia transversalis"
+            ]
+          },
+          {
+            "id": "p73-1-13",
+            "num": 13,
+            "label": "muscle grand dorsal",
+            "accepted": [
+              "muscle grand dorsal"
+            ]
+          },
+          {
+            "id": "p73-1-14",
+            "num": 14,
+            "label": "muscle oblique externe (grand oblique)",
+            "accepted": [
+              "muscle oblique externe (grand oblique)",
+              "muscle oblique externe",
+              "grand oblique"
+            ]
+          },
+          {
+            "id": "p73-1-15",
+            "num": 15,
+            "label": "muscle oblique interne (petit oblique)",
+            "accepted": [
+              "muscle oblique interne (petit oblique)",
+              "petit oblique",
+              "muscle oblique interne"
+            ]
+          },
+          {
+            "id": "p73-1-16",
+            "num": 16,
+            "label": "muscle transverse",
+            "accepted": [
+              "muscle transverse"
+            ]
+          },
+          {
+            "id": "p73-1-17",
+            "num": 17,
+            "label": "péritoine pariétal postérieur",
+            "accepted": [
+              "peritoine parietal posterieur",
+              "péritoine pariétal postérieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "number": "Planche 74",
+    "title": "vue antérieure de",
+    "subtitle": "l'appareil urinaire",
+    "image": "images/planche_074.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p74-1-1",
+            "num": 1,
+            "label": "veine cave inférieure",
+            "accepted": [
+              "veine cave inferieure",
+              "veine cave inférieure"
+            ]
+          },
+          {
+            "id": "p74-1-2",
+            "num": 2,
+            "label": "glande surrénale droite",
+            "accepted": [
+              "glande surrénale droite",
+              "glande surrenale droite"
+            ]
+          },
+          {
+            "id": "p74-1-3",
+            "num": 3,
+            "label": "artère rénale droite",
+            "accepted": [
+              "artere renale droite",
+              "artère rénale droite"
+            ]
+          },
+          {
+            "id": "p74-1-4",
+            "num": 4,
+            "label": "veine rénale droite",
+            "accepted": [
+              "veine renale droite",
+              "veine rénale droite"
+            ]
+          },
+          {
+            "id": "p74-1-5",
+            "num": 5,
+            "label": "artère gonadique droite",
+            "accepted": [
+              "artère gonadique droite",
+              "artere gonadique droite"
+            ]
+          },
+          {
+            "id": "p74-1-6",
+            "num": 6,
+            "label": "veine gonadique droite",
+            "accepted": [
+              "veine gonadique droite"
+            ]
+          },
+          {
+            "id": "p74-1-7",
+            "num": 7,
+            "label": "uretère dans sa portion lombaire",
+            "accepted": [
+              "uretere dans sa portion lombaire",
+              "uretère dans sa portion lombaire"
+            ]
+          },
+          {
+            "id": "p74-1-8",
+            "num": 8,
+            "label": "uretère dans sa portion pelvienne",
+            "accepted": [
+              "uretere dans sa portion pelvienne",
+              "uretère dans sa portion pelvienne"
+            ]
+          },
+          {
+            "id": "p74-1-9",
+            "num": 9,
+            "label": "artère iliaque interne (hypogastrique)",
+            "accepted": [
+              "hypogastrique",
+              "artere iliaque interne",
+              "artère iliaque interne (hypogastrique)",
+              "artere iliaque interne (hypogastrique)",
+              "artère iliaque interne"
+            ]
+          },
+          {
+            "id": "p74-1-10",
+            "num": 10,
+            "label": "artère iliaque externe",
+            "accepted": [
+              "artere iliaque externe",
+              "artère iliaque externe"
+            ]
+          },
+          {
+            "id": "p74-1-11",
+            "num": 11,
+            "label": "artère mésentérique inférieure",
+            "accepted": [
+              "artère mésentérique inférieure",
+              "artere mesenterique inferieure"
+            ]
+          },
+          {
+            "id": "p74-1-12",
+            "num": 12,
+            "label": "veine gonadique gauche",
+            "accepted": [
+              "veine gonadique gauche"
+            ]
+          },
+          {
+            "id": "p74-1-13",
+            "num": 13,
+            "label": "veine rénale gauche",
+            "accepted": [
+              "veine renale gauche",
+              "veine rénale gauche"
+            ]
+          },
+          {
+            "id": "p74-1-14",
+            "num": 14,
+            "label": "artère mésentérique supérieure",
+            "accepted": [
+              "artere mesenterique superieure",
+              "artère mésentérique supérieure"
+            ]
+          },
+          {
+            "id": "p74-1-15",
+            "num": 15,
+            "label": "tronc coeliaque",
+            "accepted": [
+              "tronc coeliaque"
+            ]
+          },
+          {
+            "id": "p74-1-16",
+            "num": 16,
+            "label": "glande surrénale gauche",
+            "accepted": [
+              "glande surrénale gauche",
+              "glande surrenale gauche"
+            ]
+          },
+          {
+            "id": "p74-1-17",
+            "num": 17,
+            "label": "ganglion nerveux du plexus solaire (semi-lunaire)",
+            "accepted": [
+              "ganglion nerveux du plexus solaire",
+              "semi-lunaire",
+              "ganglion nerveux du plexus solaire (semi-lunaire)"
+            ],
+            "hint": "ganglion nerveux du plexus solaire (semi-lunaire)"
+          },
+          {
+            "id": "p74-1-18",
+            "num": 18,
+            "label": "nerf pneumogastrique droit",
+            "accepted": [
+              "nerf pneumogastrique droit"
+            ]
+          },
+          {
+            "id": "p74-1-19",
+            "num": 19,
+            "label": "aorte abdominale",
+            "accepted": [
+              "aorte abdominale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "number": "Planche 75",
+    "title": "la vessie et ses capacités de",
+    "subtitle": "remplissage. Le trigone vésical",
+    "image": "images/planche_075.webp",
+    "sections": [
+      {
+        "name": "A : La vessie et ses capacités de remplissage.",
+        "items": [
+          {
+            "id": "p75-1-1",
+            "num": 1,
+            "label": "ligament ombilical médian (ligament rond ou ligament suspenseur de la vessie)",
+            "accepted": [
+              "ligament ombilical median (ligament rond ou ligament suspenseur de la vessie)",
+              "ligament ombilical médian",
+              "ligament rond ou ligament suspenseur de la vessie",
+              "ligament ombilical médian (ligament rond ou ligament suspenseur de la vessie)",
+              "ligament ombilical median"
+            ],
+            "hint": "ligament ombilical médian (ligament rond ou ligament suspenseur de la vessie)"
+          },
+          {
+            "id": "p75-1-2",
+            "num": 2,
+            "label": "symphyse pubienne",
+            "accepted": [
+              "symphyse pubienne"
+            ]
+          },
+          {
+            "id": "p75-1-3",
+            "num": 3,
+            "label": "urètre",
+            "accepted": [
+              "uretre",
+              "urètre"
+            ]
+          },
+          {
+            "id": "p75-1-4",
+            "num": 4,
+            "label": "paroi abdominale (ligne blanche de l'abdomen)",
+            "accepted": [
+              "paroi abdominale",
+              "ligne blanche de l'abdomen",
+              "paroi abdominale (ligne blanche de l'abdomen)"
+            ],
+            "hint": "paroi abdominale (ligne blanche de l'abdomen)"
+          }
+        ]
+      },
+      {
+        "name": "B : Le trigone vésical",
+        "items": [
+          {
+            "id": "p75-2-1",
+            "num": 1,
+            "label": "uretère droit",
+            "accepted": [
+              "uretere droit",
+              "uretère droit"
+            ]
+          },
+          {
+            "id": "p75-2-2",
+            "num": 2,
+            "label": "ostium de l'uretère (méat urétéral)",
+            "accepted": [
+              "ostium de l'uretère",
+              "meat ureteral",
+              "ostium de l'uretère (méat urétéral)",
+              "ostium de l'uretere (meat ureteral)",
+              "ostium de l'uretere",
+              "méat urétéral"
+            ]
+          },
+          {
+            "id": "p75-2-3",
+            "num": 3,
+            "label": "ostium interne de l'urètre",
+            "accepted": [
+              "ostium interne de l'uretre",
+              "ostium interne de l'urètre"
+            ]
+          },
+          {
+            "id": "p75-2-4",
+            "num": 4,
+            "label": "urètre",
+            "accepted": [
+              "uretre",
+              "urètre"
+            ]
+          },
+          {
+            "id": "p75-2-5",
+            "num": 5,
+            "label": "paroi musculaire de la vessie (détrusor)",
+            "accepted": [
+              "paroi musculaire de la vessie (detrusor)",
+              "paroi musculaire de la vessie (détrusor)",
+              "détrusor",
+              "paroi musculaire de la vessie",
+              "detrusor"
+            ]
+          },
+          {
+            "id": "p75-2-6",
+            "num": 6,
+            "label": "trigone vésical",
+            "accepted": [
+              "trigone vésical",
+              "trigone vesical"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "number": "Planche 76",
+    "title": "les voies spermatiques",
+    "subtitle": "en coupe sagittale",
+    "image": "images/planche_076.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p76-1-1",
+            "num": 1,
+            "label": "symphyse pubienne urètre péniel",
+            "accepted": [
+              "symphyse pubienne uretre peniel",
+              "symphyse pubienne urètre péniel"
+            ]
+          },
+          {
+            "id": "p76-1-4",
+            "num": 4,
+            "label": "testicule",
+            "accepted": [
+              "testicule"
+            ]
+          },
+          {
+            "id": "p76-1-7",
+            "num": 7,
+            "label": "urètre membraneux",
+            "accepted": [
+              "uretre membraneux",
+              "urètre membraneux"
+            ]
+          },
+          {
+            "id": "p76-1-8",
+            "num": 8,
+            "label": "urètre prostatique",
+            "accepted": [
+              "urètre prostatique",
+              "uretre prostatique"
+            ]
+          },
+          {
+            "id": "p76-1-9",
+            "num": 9,
+            "label": "conduit éjaculateur",
+            "accepted": [
+              "conduit ejaculateur",
+              "conduit éjaculateur"
+            ]
+          },
+          {
+            "id": "p76-1-10",
+            "num": 10,
+            "label": "vésicule séminale",
+            "accepted": [
+              "vésicule séminale",
+              "vesicule seminale"
+            ]
+          },
+          {
+            "id": "p76-1-11",
+            "num": 11,
+            "label": "vessie",
+            "accepted": [
+              "vessie"
+            ]
+          },
+          {
+            "id": "p76-1-12",
+            "num": 12,
+            "label": "conduit (canal) déférent",
+            "accepted": [
+              "conduit",
+              "canal",
+              "conduit (canal) deferent",
+              "conduit (canal) déférent"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "number": "Planche 77",
+    "title": "appareil génital masculin",
+    "subtitle": "",
+    "image": "images/planche_077.webp",
+    "sections": [
+      {
+        "name": "A : Structure du testicule et de l'épididyme",
+        "items": [
+          {
+            "id": "p77-1-1",
+            "num": 1,
+            "label": "albuginée",
+            "accepted": [
+              "albuginee",
+              "albuginée"
+            ]
+          },
+          {
+            "id": "p77-1-2",
+            "num": 2,
+            "label": "cloison",
+            "accepted": [
+              "cloison"
+            ]
+          },
+          {
+            "id": "p77-1-3",
+            "num": 3,
+            "label": "lobule",
+            "accepted": [
+              "lobule"
+            ]
+          },
+          {
+            "id": "p77-1-4",
+            "num": 4,
+            "label": "tube séminifère contourné",
+            "accepted": [
+              "tube séminifère contourné",
+              "tube seminifere contourne"
+            ]
+          },
+          {
+            "id": "p77-1-5",
+            "num": 5,
+            "label": "tube séminifère droit",
+            "accepted": [
+              "tube séminifère droit",
+              "tube seminifere droit"
+            ]
+          },
+          {
+            "id": "p77-1-6",
+            "num": 6,
+            "label": "rété testis dans le médiastinum testis",
+            "accepted": [
+              "rété testis dans le médiastinum testis",
+              "rete testis dans le mediastinum testis"
+            ]
+          },
+          {
+            "id": "p77-1-7",
+            "num": 7,
+            "label": "canalicule efférent",
+            "accepted": [
+              "canalicule efférent",
+              "canalicule efferent"
+            ]
+          },
+          {
+            "id": "p77-1-8",
+            "num": 8,
+            "label": "canal épididymaire",
+            "accepted": [
+              "canal epididymaire",
+              "canal épididymaire"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Terminaison du canal déférent et de la vésicule",
+        "items": [
+          {
+            "id": "p77-2-1",
+            "num": 1,
+            "label": "canal déférent",
+            "accepted": [
+              "canal déférent",
+              "canal deferent"
+            ]
+          },
+          {
+            "id": "p77-2-3",
+            "num": 3,
+            "label": "ori aime pucanal éjaculateur",
+            "accepted": [
+              "ori aime pucanal ejaculateur",
+              "ori aime pucanal éjaculateur"
+            ]
+          },
+          {
+            "id": "p77-2-4",
+            "num": 4,
+            "label": "vésicule séminale",
+            "accepted": [
+              "vésicule séminale",
+              "vesicule seminale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Vue latérale de la prostate",
+        "items": [
+          {
+            "id": "p77-3-1",
+            "num": 1,
+            "label": "base, versant vésical",
+            "accepted": [
+              "base, versant vesical",
+              "base, versant vésical"
+            ]
+          },
+          {
+            "id": "p77-3-2",
+            "num": 2,
+            "label": "base, versant séminal",
+            "accepted": [
+              "base, versant séminal",
+              "base, versant seminal"
+            ]
+          },
+          {
+            "id": "p77-3-3",
+            "num": 3,
+            "label": "sommet",
+            "accepted": [
+              "sommet"
+            ]
+          },
+          {
+            "id": "p77-3-4",
+            "num": 4,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          },
+          {
+            "id": "p77-3-5",
+            "num": 5,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p77-3-6",
+            "num": 6,
+            "label": "face latérale",
+            "accepted": [
+              "face laterale",
+              "face latérale"
+            ]
+          },
+          {
+            "id": "p77-3-7",
+            "num": 7,
+            "label": "urètre",
+            "accepted": [
+              "uretre",
+              "urètre"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "number": "Planche 78",
+    "title": "la prostate",
+    "subtitle": "",
+    "image": "images/planche_078.webp",
+    "sections": [
+      {
+        "name": "A : Vue supérieure de la base de la prostate",
+        "items": [
+          {
+            "id": "p78-1-1",
+            "num": 1,
+            "label": "versant vésical",
+            "accepted": [
+              "versant vesical",
+              "versant vésical"
+            ]
+          },
+          {
+            "id": "p78-1-2",
+            "num": 2,
+            "label": "ostium interne de l'urètre",
+            "accepted": [
+              "ostium interne de l'uretre",
+              "ostium interne de l'urètre"
+            ]
+          },
+          {
+            "id": "p78-1-3",
+            "num": 3,
+            "label": "sphincter lisse",
+            "accepted": [
+              "sphincter lisse"
+            ]
+          },
+          {
+            "id": "p78-1-4",
+            "num": 4,
+            "label": "zone d'adhérence de la vessie",
+            "accepted": [
+              "zone d'adherence de la vessie",
+              "zone d'adhérence de la vessie"
+            ]
+          },
+          {
+            "id": "p78-1-5",
+            "num": 5,
+            "label": "sphincter strié",
+            "accepted": [
+              "sphincter strie",
+              "sphincter strié"
+            ]
+          },
+          {
+            "id": "p78-1-6",
+            "num": 6,
+            "label": "versant séminal",
+            "accepted": [
+              "versant seminal",
+              "versant séminal"
+            ]
+          },
+          {
+            "id": "p78-1-7",
+            "num": 7,
+            "label": "vésicule séminale",
+            "accepted": [
+              "vésicule séminale",
+              "vesicule seminale"
+            ]
+          },
+          {
+            "id": "p78-1-8",
+            "num": 8,
+            "label": "canal déférent",
+            "accepted": [
+              "canal déférent",
+              "canal deferent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe frontale passant par la partie prostatique de",
+        "items": [
+          {
+            "id": "p78-2-1",
+            "num": 1,
+            "label": "paroi vésicale",
+            "accepted": [
+              "paroi vésicale",
+              "paroi vesicale"
+            ]
+          },
+          {
+            "id": "p78-2-2",
+            "num": 2,
+            "label": "sphincter lisse de l'urètre",
+            "accepted": [
+              "sphincter lisse de l'uretre",
+              "sphincter lisse de l'urètre"
+            ]
+          },
+          {
+            "id": "p78-2-3",
+            "num": 3,
+            "label": "prostate",
+            "accepted": [
+              "prostate"
+            ]
+          },
+          {
+            "id": "p78-2-4",
+            "num": 4,
+            "label": "colliculus séminal",
+            "accepted": [
+              "colliculus seminal",
+              "colliculus séminal"
+            ]
+          },
+          {
+            "id": "p78-2-5",
+            "num": 5,
+            "label": "ostium d'un canal éjaculateur",
+            "accepted": [
+              "ostium d'un canal ejaculateur",
+              "ostium d'un canal éjaculateur"
+            ]
+          },
+          {
+            "id": "p78-2-6",
+            "num": 6,
+            "label": "ostium de l'utricule prostatique",
+            "accepted": [
+              "ostium de l'utricule prostatique"
+            ]
+          },
+          {
+            "id": "p78-2-7",
+            "num": 7,
+            "label": "ostia des canalicules prostatiques",
+            "accepted": [
+              "ostia des canalicules prostatiques"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Vue transversale du pénis",
+        "items": [
+          {
+            "id": "p78-3-1",
+            "num": 1,
+            "label": "peau",
+            "accepted": [
+              "peau"
+            ]
+          },
+          {
+            "id": "p78-3-2",
+            "num": 2,
+            "label": "fascia superficiel",
+            "accepted": [
+              "fascia superficiel"
+            ]
+          },
+          {
+            "id": "p78-3-3",
+            "num": 3,
+            "label": "fascia profond",
+            "accepted": [
+              "fascia profond"
+            ]
+          },
+          {
+            "id": "p78-3-4",
+            "num": 4,
+            "label": "corps caverneux",
+            "accepted": [
+              "corps caverneux"
+            ]
+          },
+          {
+            "id": "p78-3-5",
+            "num": 5,
+            "label": "corps spongieux",
+            "accepted": [
+              "corps spongieux"
+            ]
+          },
+          {
+            "id": "p78-3-6",
+            "num": 6,
+            "label": "urètre pénien",
+            "accepted": [
+              "uretre penien",
+              "urètre pénien"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "number": "Planche 79",
+    "title": "Planche 79",
+    "subtitle": "",
+    "image": "images/planche_079.webp",
+    "sections": [
+      {
+        "name": "A : Vue postérieure des organes génitaux internes féminins",
+        "items": [
+          {
+            "id": "p79-1-1",
+            "num": 1,
+            "label": "fond de l'utérus",
+            "accepted": [
+              "fond de l'uterus",
+              "fond de l'utérus"
+            ]
+          },
+          {
+            "id": "p79-1-2",
+            "num": 2,
+            "label": "ligament rond de l'utérus",
+            "accepted": [
+              "ligament rond de l'utérus",
+              "ligament rond de l'uterus"
+            ]
+          },
+          {
+            "id": "p79-1-3",
+            "num": 3,
+            "label": "isthme de la trompe utérine",
+            "accepted": [
+              "isthme de la trompe utérine",
+              "isthme de la trompe uterine"
+            ]
+          },
+          {
+            "id": "p79-1-4",
+            "num": 4,
+            "label": "ampoule de la trompe utérine",
+            "accepted": [
+              "ampoule de la trompe utérine",
+              "ampoule de la trompe uterine"
+            ]
+          },
+          {
+            "id": "p79-1-5",
+            "num": 5,
+            "label": "ostium abdominal de la trompe utérine",
+            "accepted": [
+              "ostium abdominal de la trompe uterine",
+              "ostium abdominal de la trompe utérine"
+            ]
+          },
+          {
+            "id": "p79-1-6",
+            "num": 6,
+            "label": "pavillon de la trompe utérine",
+            "accepted": [
+              "pavillon de la trompe utérine",
+              "pavillon de la trompe uterine"
+            ]
+          },
+          {
+            "id": "p79-1-7",
+            "num": 7,
+            "label": "ligament tubo-ovarique",
+            "accepted": [
+              "ligament tubo-ovarique"
+            ]
+          },
+          {
+            "id": "p79-1-8",
+            "num": 8,
+            "label": "frange ovarique",
+            "accepted": [
+              "frange ovarique"
+            ]
+          },
+          {
+            "id": "p79-1-9",
+            "num": 9,
+            "label": "ligament suspenseur de l'ovaire (ligament lombo-ovarien)",
+            "accepted": [
+              "ligament suspenseur de l'ovaire",
+              "ligament suspenseur de l'ovaire (ligament lombo-ovarien)",
+              "ligament lombo-ovarien"
+            ],
+            "hint": "ligament suspenseur de l'ovaire (ligament lombo-ovarien)"
+          },
+          {
+            "id": "p79-1-10",
+            "num": 10,
+            "label": "ovaire",
+            "accepted": [
+              "ovaire"
+            ]
+          },
+          {
+            "id": "p79-1-11",
+            "num": 11,
+            "label": "zone d'insertion du vagin autour de l'utérus ( = fornix)",
+            "accepted": [
+              "zone d'insertion du vagin autour de l'utérus",
+              "= fornix",
+              "zone d'insertion du vagin autour de l'uterus ( = fornix)",
+              "zone d'insertion du vagin autour de l'uterus",
+              "zone d'insertion du vagin autour de l'utérus ( = fornix)"
+            ],
+            "hint": "zone d'insertion du vagin autour de l'utérus ( = fornix)"
+          },
+          {
+            "id": "p79-1-12",
+            "num": 12,
+            "label": "ligament propre de l'ovaire",
+            "accepted": [
+              "ligament propre de l'ovaire"
+            ]
+          },
+          {
+            "id": "p79-1-13",
+            "num": 13,
+            "label": "col de l'utérus",
+            "accepted": [
+              "col de l'utérus",
+              "col de l'uterus"
+            ]
+          },
+          {
+            "id": "p79-1-14",
+            "num": 14,
+            "label": "isthme du corps de l'utérus",
+            "accepted": [
+              "isthme du corps de l'uterus",
+              "isthme du corps de l'utérus"
+            ]
+          },
+          {
+            "id": "p79-1-15",
+            "num": 15,
+            "label": "corps de l'utérus",
+            "accepted": [
+              "corps de l'uterus",
+              "corps de l'utérus"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe sagittale du ligament large de l'utérus",
+        "items": [
+          {
+            "id": "p79-2-1",
+            "num": 1,
+            "label": "trompe utérine",
+            "accepted": [
+              "trompe utérine",
+              "trompe uterine"
+            ]
+          },
+          {
+            "id": "p79-2-2",
+            "num": 2,
+            "label": "ovaire",
+            "accepted": [
+              "ovaire"
+            ]
+          },
+          {
+            "id": "p79-2-3",
+            "num": 3,
+            "label": "ligament rond de l'utérus",
+            "accepted": [
+              "ligament rond de l'utérus",
+              "ligament rond de l'uterus"
+            ]
+          },
+          {
+            "id": "p79-2-4",
+            "num": 4,
+            "label": "mésosalpynx",
+            "accepted": [
+              "mésosalpynx",
+              "mesosalpynx"
+            ]
+          },
+          {
+            "id": "p79-2-5",
+            "num": 5,
+            "label": "feuillet antérieur du ligament large",
+            "accepted": [
+              "feuillet anterieur du ligament large",
+              "feuillet antérieur du ligament large"
+            ]
+          },
+          {
+            "id": "p79-2-6",
+            "num": 6,
+            "label": "feuillet postérieur du ligament large",
+            "accepted": [
+              "feuillet postérieur du ligament large",
+              "feuillet posterieur du ligament large"
+            ]
+          },
+          {
+            "id": "p79-2-7",
+            "num": 7,
+            "label": "méso du ligament rond",
+            "accepted": [
+              "meso du ligament rond",
+              "méso du ligament rond"
+            ]
+          },
+          {
+            "id": "p79-2-8",
+            "num": 8,
+            "label": "mésovarium",
+            "accepted": [
+              "mesovarium",
+              "mésovarium"
+            ]
+          },
+          {
+            "id": "p79-2-9",
+            "num": 9,
+            "label": "base du ligament large",
+            "accepted": [
+              "base du ligament large"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "number": "Planche 80",
+    "title": "coupe frontale de l'utérus, du",
+    "subtitle": "vagin et de la vulve",
+    "image": "images/planche_080.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p80-1-1",
+            "num": 1,
+            "label": "Fond de l'utérus",
+            "accepted": [
+              "Fond de l'utérus",
+              "fond de l'uterus",
+              "fond de l'utérus"
+            ]
+          },
+          {
+            "id": "p80-1-2",
+            "num": 2,
+            "label": "trompe utérine",
+            "accepted": [
+              "trompe utérine",
+              "trompe uterine"
+            ]
+          },
+          {
+            "id": "p80-1-3",
+            "num": 3,
+            "label": "ligament propre de l'ovaire (utéro-ovarien)",
+            "accepted": [
+              "ligament propre de l'ovaire (utéro-ovarien)",
+              "utéro-ovarien",
+              "ligament propre de l'ovaire (utero-ovarien)",
+              "utero-ovarien",
+              "ligament propre de l'ovaire"
+            ],
+            "hint": "ligament propre de l'ovaire (utéro-ovarien)"
+          },
+          {
+            "id": "p80-1-4",
+            "num": 4,
+            "label": "corps de l'utérus (ici : bord latéral)",
+            "accepted": [
+              "corps de l'uterus",
+              "ici : bord latéral",
+              "ici : bord lateral",
+              "corps de l'uterus (ici : bord lateral)",
+              "corps de l'utérus (ici : bord latéral)",
+              "corps de l'utérus"
+            ]
+          },
+          {
+            "id": "p80-1-5",
+            "num": 5,
+            "label": "isthme de l'utérus",
+            "accepted": [
+              "isthme de l'uterus",
+              "isthme de l'utérus"
+            ]
+          },
+          {
+            "id": "p80-1-6",
+            "num": 6,
+            "label": "col de l'utérus",
+            "accepted": [
+              "col de l'utérus",
+              "col de l'uterus"
+            ]
+          },
+          {
+            "id": "p80-1-7",
+            "num": 7,
+            "label": "portion vaginale du col",
+            "accepted": [
+              "portion vaginale du col"
+            ]
+          },
+          {
+            "id": "p80-1-8",
+            "num": 8,
+            "label": "petite lèvre",
+            "accepted": [
+              "petite levre",
+              "petite lèvre"
+            ]
+          },
+          {
+            "id": "p80-1-9",
+            "num": 9,
+            "label": "grande lèvre",
+            "accepted": [
+              "grande levre",
+              "grande lèvre"
+            ]
+          },
+          {
+            "id": "p80-1-10",
+            "num": 10,
+            "label": "vestibule du vagin",
+            "accepted": [
+              "vestibule du vagin"
+            ]
+          },
+          {
+            "id": "p80-1-11",
+            "num": 11,
+            "label": "glande vestibulaire majeure (de Bartholin)",
+            "accepted": [
+              "de bartholin",
+              "glande vestibulaire majeure (de bartholin)",
+              "glande vestibulaire majeure",
+              "glande vestibulaire majeure (de Bartholin)"
+            ],
+            "hint": "glande vestibulaire majeure (de Bartholin)"
+          },
+          {
+            "id": "p80-1-12",
+            "num": 12,
+            "label": "vagin",
+            "accepted": [
+              "vagin"
+            ]
+          },
+          {
+            "id": "p80-1-13",
+            "num": 13,
+            "label": "ostium externe du col",
+            "accepted": [
+              "ostium externe du col"
+            ]
+          },
+          {
+            "id": "p80-1-14",
+            "num": 14,
+            "label": "fornix",
+            "accepted": [
+              "fornix"
+            ]
+          },
+          {
+            "id": "p80-1-15",
+            "num": 15,
+            "label": "canal cervical",
+            "accepted": [
+              "canal cervical"
+            ]
+          },
+          {
+            "id": "p80-1-16",
+            "num": 16,
+            "label": "portion supra vaginale du col",
+            "accepted": [
+              "portion supra vaginale du col"
+            ]
+          },
+          {
+            "id": "p80-1-17",
+            "num": 17,
+            "label": "ostium interne du col",
+            "accepted": [
+              "ostium interne du col"
+            ]
+          },
+          {
+            "id": "p80-1-18",
+            "num": 18,
+            "label": "corps de l'utérus",
+            "accepted": [
+              "corps de l'uterus",
+              "corps de l'utérus"
+            ]
+          },
+          {
+            "id": "p80-1-19",
+            "num": 19,
+            "label": "cavité du corps de l'utérus",
+            "accepted": [
+              "cavité du corps de l'utérus",
+              "cavite du corps de l'uterus"
+            ]
+          },
+          {
+            "id": "p80-1-20",
+            "num": 20,
+            "label": "partie utérine de la trompe",
+            "accepted": [
+              "partie uterine de la trompe",
+              "partie utérine de la trompe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "number": "Planche 81",
+    "title": "vascularisation de l'utérus",
+    "subtitle": "",
+    "image": "images/planche_081.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p81-1-1",
+            "num": 1,
+            "label": "artère iliaque externe",
+            "accepted": [
+              "artere iliaque externe",
+              "artère iliaque externe"
+            ]
+          },
+          {
+            "id": "p81-1-2",
+            "num": 2,
+            "label": "artère =iliaque interne (hypogastrique)",
+            "accepted": [
+              "hypogastrique",
+              "artere =iliaque interne (hypogastrique)",
+              "artère =iliaque interne",
+              "artere =iliaque interne",
+              "artère =iliaque interne (hypogastrique)"
+            ]
+          },
+          {
+            "id": "p81-1-3",
+            "num": 3,
+            "label": "artère utérine",
+            "accepted": [
+              "artere uterine",
+              "artère utérine"
+            ]
+          },
+          {
+            "id": "p81-1-4",
+            "num": 4,
+            "label": "artère vaginale longue",
+            "accepted": [
+              "artère vaginale longue",
+              "artere vaginale longue"
+            ]
+          },
+          {
+            "id": "p81-1-5",
+            "num": 5,
+            "label": "uretère",
+            "accepted": [
+              "uretère",
+              "uretere"
+            ]
+          },
+          {
+            "id": "p81-1-6",
+            "num": 6,
+            "label": "artère ovarienne (gonadique de la femme)",
+            "accepted": [
+              "artere ovarienne (gonadique de la femme)",
+              "gonadique de la femme",
+              "artere ovarienne",
+              "artère ovarienne",
+              "artère ovarienne (gonadique de la femme)"
+            ]
+          },
+          {
+            "id": "p81-1-7",
+            "num": 7,
+            "label": "arcade tubaire",
+            "accepted": [
+              "arcade tubaire"
+            ]
+          },
+          {
+            "id": "p81-1-8",
+            "num": 8,
+            "label": "noeuds lymphatiques de la bifurcation iliaque",
+            "accepted": [
+              "noeuds lymphatiques de la bifurcation iliaque"
+            ]
+          },
+          {
+            "id": "p81-1-9",
+            "num": 9,
+            "label": "noeuds lymphatiques de la bifurcation aortique",
+            "accepted": [
+              "noeuds lymphatiques de la bifurcation aortique"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "number": "Planche 82",
+    "title": "Planche 82",
+    "subtitle": "",
+    "image": "images/planche_082.webp",
+    "sections": [
+      {
+        "name": "A : La vulve en position gynécologique",
+        "items": [
+          {
+            "id": "p82-1-1",
+            "num": 1,
+            "label": "mont de pubis",
+            "accepted": [
+              "mont de pubis"
+            ]
+          },
+          {
+            "id": "p82-1-2",
+            "num": 2,
+            "label": "grande lèvre",
+            "accepted": [
+              "grande levre",
+              "grande lèvre"
+            ]
+          },
+          {
+            "id": "p82-1-3",
+            "num": 3,
+            "label": "petite lèvre",
+            "accepted": [
+              "petite levre",
+              "petite lèvre"
+            ]
+          },
+          {
+            "id": "p82-1-4",
+            "num": 4,
+            "label": "gland du clitoris",
+            "accepted": [
+              "gland du clitoris"
+            ]
+          },
+          {
+            "id": "p82-1-5",
+            "num": 5,
+            "label": "prépuce du clitoris",
+            "accepted": [
+              "prepuce du clitoris",
+              "prépuce du clitoris"
+            ]
+          },
+          {
+            "id": "p82-1-6",
+            "num": 6,
+            "label": "ostium externe de l'urètre",
+            "accepted": [
+              "ostium externe de l'uretre",
+              "ostium externe de l'urètre"
+            ]
+          },
+          {
+            "id": "p82-1-7",
+            "num": 7,
+            "label": "vestibule du vagin",
+            "accepted": [
+              "vestibule du vagin"
+            ]
+          },
+          {
+            "id": "p82-1-8",
+            "num": 8,
+            "label": "hymen",
+            "accepted": [
+              "hymen"
+            ]
+          },
+          {
+            "id": "p82-1-9",
+            "num": 9,
+            "label": "ostium du canal excréteur de la glande vestibulaire majeure",
+            "accepted": [
+              "ostium du canal excréteur de la glande vestibulaire majeure",
+              "ostium du canal excreteur de la glande vestibulaire majeure"
+            ]
+          },
+          {
+            "id": "p82-1-10",
+            "num": 10,
+            "label": "anus",
+            "accepted": [
+              "anus"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe sagittale passant par la glande mammaire",
+        "items": [
+          {
+            "id": "p82-2-1",
+            "num": 1,
+            "label": "zème côte",
+            "accepted": [
+              "zeme cote",
+              "zème côte"
+            ]
+          },
+          {
+            "id": "p82-2-2",
+            "num": 2,
+            "label": "Tème côte",
+            "accepted": [
+              "teme cote",
+              "tème côte",
+              "Tème côte"
+            ]
+          },
+          {
+            "id": "p82-2-3",
+            "num": 3,
+            "label": "muscles intercostaux",
+            "accepted": [
+              "muscles intercostaux"
+            ]
+          },
+          {
+            "id": "p82-2-4",
+            "num": 4,
+            "label": "clavicule",
+            "accepted": [
+              "clavicule"
+            ]
+          },
+          {
+            "id": "p82-2-5",
+            "num": 5,
+            "label": "muscle sub-clavier",
+            "accepted": [
+              "muscle sub-clavier"
+            ]
+          },
+          {
+            "id": "p82-2-6",
+            "num": 6,
+            "label": "muscle petit pectoral",
+            "accepted": [
+              "muscle petit pectoral"
+            ]
+          },
+          {
+            "id": "p82-2-7",
+            "num": 7,
+            "label": "muscle grand pectoral",
+            "accepted": [
+              "muscle grand pectoral"
+            ]
+          },
+          {
+            "id": "p82-2-8",
+            "num": 8,
+            "label": "couche graisseuse rétro-mammaire",
+            "accepted": [
+              "couche graisseuse retro-mammaire",
+              "couche graisseuse rétro-mammaire"
+            ]
+          },
+          {
+            "id": "p82-2-9",
+            "num": 9,
+            "label": "couche graisseuse pré-mammaire",
+            "accepted": [
+              "couche graisseuse pré-mammaire",
+              "couche graisseuse pre-mammaire"
+            ]
+          },
+          {
+            "id": "p82-2-10",
+            "num": 10,
+            "label": "aréole",
+            "accepted": [
+              "aréole",
+              "areole"
+            ]
+          },
+          {
+            "id": "p82-2-11",
+            "num": 11,
+            "label": "mamelon",
+            "accepted": [
+              "mamelon"
+            ]
+          },
+          {
+            "id": "p82-2-12",
+            "num": 12,
+            "label": "conduit lactifère",
+            "accepted": [
+              "conduit lactifère",
+              "conduit lactifere"
+            ]
+          },
+          {
+            "id": "p82-2-13",
+            "num": 13,
+            "label": "lobe",
+            "accepted": [
+              "lobe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "number": "Planche 83",
+    "title": "appareil endocrinien",
+    "subtitle": "",
+    "image": "images/planche_083.webp",
+    "sections": [
+      {
+        "name": "A : Les glandes endocrines",
+        "items": [
+          {
+            "id": "p83-1-1",
+            "num": 1,
+            "label": "hypophyse",
+            "accepted": [
+              "hypophyse"
+            ]
+          },
+          {
+            "id": "p83-1-2",
+            "num": 2,
+            "label": "glande pinéale",
+            "accepted": [
+              "glande pineale",
+              "glande pinéale"
+            ]
+          },
+          {
+            "id": "p83-1-3",
+            "num": 3,
+            "label": "glandes parathyroïdes",
+            "accepted": [
+              "glandes parathyroïdes",
+              "glandes parathyroides"
+            ]
+          },
+          {
+            "id": "p83-1-4",
+            "num": 4,
+            "label": "glande thyroïde",
+            "accepted": [
+              "glande thyroïde",
+              "glande thyroide"
+            ]
+          },
+          {
+            "id": "p83-1-6",
+            "num": 6,
+            "label": "glandes surrénales",
+            "accepted": [
+              "glandes surrenales",
+              "glandes surrénales"
+            ]
+          },
+          {
+            "id": "p83-1-7",
+            "num": 7,
+            "label": "îlots pancréatiques",
+            "accepted": [
+              "ilots pancreatiques",
+              "îlots pancréatiques"
+            ]
+          },
+          {
+            "id": "p83-1-8",
+            "num": 8,
+            "label": "testicules ou",
+            "accepted": [
+              "testicules ou"
+            ]
+          },
+          {
+            "id": "p83-1-9",
+            "num": 9,
+            "label": "ovaires",
+            "accepted": [
+              "ovaires"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe sagittale médiane (partielle) de l'encéphale",
+        "items": [
+          {
+            "id": "p83-2-1",
+            "num": 1,
+            "label": "noyaux neurosécrétoires de l'hypothalamus",
+            "accepted": [
+              "noyaux neurosecretoires de l'hypothalamus",
+              "noyaux neurosécrétoires de l'hypothalamus"
+            ]
+          },
+          {
+            "id": "p83-2-2",
+            "num": 2,
+            "label": "Zème ventricule",
+            "accepted": [
+              "zème ventricule",
+              "Zème ventricule",
+              "zeme ventricule"
+            ]
+          },
+          {
+            "id": "p83-2-3",
+            "num": 3,
+            "label": "glande pinéale",
+            "accepted": [
+              "glande pineale",
+              "glande pinéale"
+            ]
+          },
+          {
+            "id": "p83-2-4",
+            "num": 4,
+            "label": "cervelet",
+            "accepted": [
+              "cervelet"
+            ]
+          },
+          {
+            "id": "p83-2-5",
+            "num": 5,
+            "label": "gème ventricule",
+            "accepted": [
+              "geme ventricule",
+              "gème ventricule"
+            ]
+          },
+          {
+            "id": "p83-2-6",
+            "num": 6,
+            "label": "moelle allongée",
+            "accepted": [
+              "moelle allongée",
+              "moelle allongee"
+            ]
+          },
+          {
+            "id": "p83-2-7",
+            "num": 7,
+            "label": "pont",
+            "accepted": [
+              "pont"
+            ]
+          },
+          {
+            "id": "p83-2-8",
+            "num": 8,
+            "label": "selle turcique",
+            "accepted": [
+              "selle turcique"
+            ]
+          },
+          {
+            "id": "p83-2-9",
+            "num": 9,
+            "label": "hypophyse",
+            "accepted": [
+              "hypophyse"
+            ]
+          },
+          {
+            "id": "p83-2-10",
+            "num": 10,
+            "label": "sinus sphénoïdal",
+            "accepted": [
+              "sinus sphenoidal",
+              "sinus sphénoïdal"
+            ]
+          },
+          {
+            "id": "p83-2-11",
+            "num": 11,
+            "label": "chiasma optique",
+            "accepted": [
+              "chiasma optique"
+            ]
+          },
+          {
+            "id": "p83-2-12",
+            "num": 12,
+            "label": "cortex cérébral",
+            "accepted": [
+              "cortex cérébral",
+              "cortex cerebral"
+            ]
+          },
+          {
+            "id": "p83-2-13",
+            "num": 13,
+            "label": "corps calleux",
+            "accepted": [
+              "corps calleux"
+            ]
+          },
+          {
+            "id": "p83-2-14",
+            "num": 14,
+            "label": "colliculus supérieur",
+            "accepted": [
+              "colliculus supérieur",
+              "colliculus superieur"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Coupe sagittale médiane de l'hypophyse",
+        "items": [
+          {
+            "id": "p83-3-1",
+            "num": 1,
+            "label": "tige hypophysaire",
+            "accepted": [
+              "tige hypophysaire"
+            ]
+          },
+          {
+            "id": "p83-3-4",
+            "num": 4,
+            "label": "partie intermédiaire",
+            "accepted": [
+              "partie intermédiaire",
+              "partie intermediaire"
+            ]
+          },
+          {
+            "id": "p83-3-5",
+            "num": 5,
+            "label": "partie distale",
+            "accepted": [
+              "partie distale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "number": "Planche 84",
+    "title": "appareil endocrinien",
+    "subtitle": "",
+    "image": "images/planche_084.webp",
+    "sections": [
+      {
+        "name": "A : Vue antérieure de la glande thyroïde",
+        "items": [
+          {
+            "id": "p84-1-1",
+            "num": 1,
+            "label": "cartilage thyroïde",
+            "accepted": [
+              "cartilage thyroïde",
+              "cartilage thyroide"
+            ]
+          },
+          {
+            "id": "p84-1-2",
+            "num": 2,
+            "label": "lobe pyramidal",
+            "accepted": [
+              "lobe pyramidal"
+            ]
+          },
+          {
+            "id": "p84-1-3",
+            "num": 3,
+            "label": "lobe gauche",
+            "accepted": [
+              "lobe gauche"
+            ]
+          },
+          {
+            "id": "p84-1-4",
+            "num": 4,
+            "label": "trachée",
+            "accepted": [
+              "trachée",
+              "trachee"
+            ]
+          },
+          {
+            "id": "p84-1-5",
+            "num": 5,
+            "label": "pôle inférieur du lobe droit",
+            "accepted": [
+              "pôle inférieur du lobe droit",
+              "pole inferieur du lobe droit"
+            ]
+          },
+          {
+            "id": "p84-1-6",
+            "num": 6,
+            "label": "isthme",
+            "accepted": [
+              "isthme"
+            ]
+          },
+          {
+            "id": "p84-1-7",
+            "num": 7,
+            "label": "lobe droit",
+            "accepted": [
+              "lobe droit"
+            ]
+          },
+          {
+            "id": "p84-1-8",
+            "num": 8,
+            "label": "pôle supérieur du lobe droit",
+            "accepted": [
+              "pôle supérieur du lobe droit",
+              "pole superieur du lobe droit"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Vue postérieure de l'axe pharyngo-oesophagien et",
+        "items": [
+          {
+            "id": "p84-2-1",
+            "num": 1,
+            "label": "pharynx",
+            "accepted": [
+              "pharynx"
+            ]
+          },
+          {
+            "id": "p84-2-2",
+            "num": 2,
+            "label": "lobe droit de la glande thyroïde",
+            "accepted": [
+              "lobe droit de la glande thyroide",
+              "lobe droit de la glande thyroïde"
+            ]
+          },
+          {
+            "id": "p84-2-3",
+            "num": 3,
+            "label": "glande parathyroïde supérieure droite",
+            "accepted": [
+              "glande parathyroide superieure droite",
+              "glande parathyroïde supérieure droite"
+            ]
+          },
+          {
+            "id": "p84-2-4",
+            "num": 4,
+            "label": "glande parathyroïde inférieure droite",
+            "accepted": [
+              "glande parathyroïde inférieure droite",
+              "glande parathyroide inferieure droite"
+            ]
+          },
+          {
+            "id": "p84-2-5",
+            "num": 5,
+            "label": "œsophage",
+            "accepted": [
+              "œsophage"
+            ]
+          },
+          {
+            "id": "p84-2-6",
+            "num": 6,
+            "label": "lobe gauche de la glande thyroïde",
+            "accepted": [
+              "lobe gauche de la glande thyroide",
+              "lobe gauche de la glande thyroïde"
+            ]
+          },
+          {
+            "id": "p84-2-7",
+            "num": 7,
+            "label": "glande parathyroïde supérieure gauche",
+            "accepted": [
+              "glande parathyroïde supérieure gauche",
+              "glande parathyroide superieure gauche"
+            ]
+          },
+          {
+            "id": "p84-2-8",
+            "num": 8,
+            "label": "glande parathyroïde inférieure gauche",
+            "accepted": [
+              "glande parathyroïde inférieure gauche",
+              "glande parathyroide inferieure gauche"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C : Vue antérieure de la glande thyroïde et du thymus",
+        "items": [
+          {
+            "id": "p84-3-1",
+            "num": 1,
+            "label": "cartilage thyroïde",
+            "accepted": [
+              "cartilage thyroïde",
+              "cartilage thyroide"
+            ]
+          },
+          {
+            "id": "p84-3-2",
+            "num": 2,
+            "label": "glande thyroïde",
+            "accepted": [
+              "glande thyroïde",
+              "glande thyroide"
+            ]
+          },
+          {
+            "id": "p84-3-3",
+            "num": 3,
+            "label": "veine jugulaire interne gauche",
+            "accepted": [
+              "veine jugulaire interne gauche"
+            ]
+          },
+          {
+            "id": "p84-3-4",
+            "num": 4,
+            "label": "trachée",
+            "accepted": [
+              "trachée",
+              "trachee"
+            ]
+          },
+          {
+            "id": "p84-3-5",
+            "num": 5,
+            "label": "veine subclavière gauche",
+            "accepted": [
+              "veine subclavière gauche",
+              "veine subclaviere gauche"
+            ]
+          },
+          {
+            "id": "p84-3-6",
+            "num": 6,
+            "label": "veine brachiocéphalique gauche",
+            "accepted": [
+              "veine brachiocéphalique gauche",
+              "veine brachiocephalique gauche"
+            ]
+          },
+          {
+            "id": "p84-3-7",
+            "num": 7,
+            "label": "lobe gauche du thymus",
+            "accepted": [
+              "lobe gauche du thymus"
+            ]
+          },
+          {
+            "id": "p84-3-8",
+            "num": 8,
+            "label": "veine cave supérieure",
+            "accepted": [
+              "veine cave supérieure",
+              "veine cave superieure"
+            ]
+          },
+          {
+            "id": "p84-3-9",
+            "num": 9,
+            "label": "lobe droit du thymus",
+            "accepted": [
+              "lobe droit du thymus"
+            ]
+          },
+          {
+            "id": "p84-3-10",
+            "num": 10,
+            "label": "veine brachiocéphalique droite",
+            "accepted": [
+              "veine brachiocéphalique droite",
+              "veine brachiocephalique droite"
+            ]
+          },
+          {
+            "id": "p84-3-11",
+            "num": 11,
+            "label": "veine subclavière droite",
+            "accepted": [
+              "veine subclavière droite",
+              "veine subclaviere droite"
+            ]
+          },
+          {
+            "id": "p84-3-12",
+            "num": 12,
+            "label": "veine jugulaire interne droite",
+            "accepted": [
+              "veine jugulaire interne droite"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D : Vue antérieure des glandes surrénales",
+        "items": [
+          {
+            "id": "p84-4-1",
+            "num": 1,
+            "label": "glande surrénale droite",
+            "accepted": [
+              "glande surrénale droite",
+              "glande surrenale droite"
+            ]
+          },
+          {
+            "id": "p84-4-2",
+            "num": 2,
+            "label": "rein droit",
+            "accepted": [
+              "rein droit"
+            ]
+          },
+          {
+            "id": "p84-4-3",
+            "num": 3,
+            "label": "glande surrénale gauche",
+            "accepted": [
+              "glande surrénale gauche",
+              "glande surrenale gauche"
+            ]
+          },
+          {
+            "id": "p84-4-4",
+            "num": 4,
+            "label": "rein gauche",
+            "accepted": [
+              "rein gauche"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "E : Coupe sagittale d'une glande surrénale",
+        "items": [
+          {
+            "id": "p84-5-1",
+            "num": 1,
+            "label": "médulla (médullo-surrénale)",
+            "accepted": [
+              "medullo-surrenale",
+              "médulla (médullo-surrénale)",
+              "medulla",
+              "médullo-surrénale",
+              "medulla (medullo-surrenale)",
+              "médulla"
+            ]
+          },
+          {
+            "id": "p84-5-2",
+            "num": 2,
+            "label": "cortex (cortico-surrénale)",
+            "accepted": [
+              "cortex (cortico-surrenale)",
+              "cortico-surrenale",
+              "cortico-surrénale",
+              "cortex",
+              "cortex (cortico-surrénale)"
+            ]
+          },
+          {
+            "id": "p84-5-3",
+            "num": 3,
+            "label": "rein",
+            "accepted": [
+              "rein"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "number": "Planche 85",
+    "title": "le tissu nerveux",
+    "subtitle": "",
+    "image": "images/planche_085.webp",
+    "sections": [
+      {
+        "name": "A : Structure d'un neurone amyélinisé (amyélinique)",
+        "items": [
+          {
+            "id": "p85-1-1",
+            "num": 1,
+            "label": "dendrites",
+            "accepted": [
+              "dendrites"
+            ]
+          },
+          {
+            "id": "p85-1-2",
+            "num": 2,
+            "label": "corps cellulaire (péricaryon)",
+            "accepted": [
+              "pericaryon",
+              "corps cellulaire",
+              "corps cellulaire (péricaryon)",
+              "corps cellulaire (pericaryon)",
+              "péricaryon"
+            ]
+          },
+          {
+            "id": "p85-1-3",
+            "num": 3,
+            "label": "corps de Nissl",
+            "accepted": [
+              "corps de Nissl",
+              "corps de nissl"
+            ]
+          },
+          {
+            "id": "p85-1-4",
+            "num": 4,
+            "label": "collatérale de l'axone",
+            "accepted": [
+              "collaterale de l'axone",
+              "collatérale de l'axone"
+            ]
+          },
+          {
+            "id": "p85-1-5",
+            "num": 5,
+            "label": "terminaisons nerveuses",
+            "accepted": [
+              "terminaisons nerveuses"
+            ]
+          },
+          {
+            "id": "p85-1-6",
+            "num": 6,
+            "label": "collatérale de l'axone",
+            "accepted": [
+              "collaterale de l'axone",
+              "collatérale de l'axone"
+            ]
+          },
+          {
+            "id": "p85-1-7",
+            "num": 7,
+            "label": "axone (cylindraxe)",
+            "accepted": [
+              "cylindraxe",
+              "axone (cylindraxe)",
+              "axone"
+            ]
+          },
+          {
+            "id": "p85-1-8",
+            "num": 8,
+            "label": "neurofibrilles",
+            "accepted": [
+              "neurofibrilles"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Exemples de neurones bipolaires",
+        "items": []
+      },
+      {
+        "name": "C: Exemples de synapses axo-dendritiques",
+        "items": []
+      },
+      {
+        "name": "D : Structure d'un neurone myélinisé",
+        "items": [
+          {
+            "id": "p85-4-1",
+            "num": 1,
+            "label": "péricaryon",
+            "accepted": [
+              "pericaryon",
+              "péricaryon"
+            ]
+          },
+          {
+            "id": "p85-4-2",
+            "num": 2,
+            "label": "dendrites",
+            "accepted": [
+              "dendrites"
+            ]
+          },
+          {
+            "id": "p85-4-3",
+            "num": 3,
+            "label": "neurolemnocyte (cellule de Schwann)",
+            "accepted": [
+              "neurolemnocyte",
+              "neurolemnocyte (cellule de schwann)",
+              "cellule de schwann",
+              "neurolemnocyte (cellule de Schwann)"
+            ]
+          },
+          {
+            "id": "p85-4-4",
+            "num": 4,
+            "label": "nœud neurofibrillaire",
+            "accepted": [
+              "nœud neurofibrillaire"
+            ]
+          },
+          {
+            "id": "p85-4-5",
+            "num": 5,
+            "label": "axone",
+            "accepted": [
+              "axone"
+            ]
+          },
+          {
+            "id": "p85-4-6",
+            "num": 6,
+            "label": "collatérale de l'axone",
+            "accepted": [
+              "collaterale de l'axone",
+              "collatérale de l'axone"
+            ]
+          },
+          {
+            "id": "p85-4-7",
+            "num": 7,
+            "label": "neurolemnocyte",
+            "accepted": [
+              "neurolemnocyte"
+            ]
+          },
+          {
+            "id": "p85-4-8",
+            "num": 8,
+            "label": "noyau du lemnocyte",
+            "accepted": [
+              "noyau du lemnocyte"
+            ]
+          },
+          {
+            "id": "p85-4-9",
+            "num": 9,
+            "label": "couche de myéline",
+            "accepted": [
+              "couche de myeline",
+              "couche de myéline"
+            ]
+          },
+          {
+            "id": "p85-4-10",
+            "num": 10,
+            "label": "axone",
+            "accepted": [
+              "axone"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "number": "Planche 86",
+    "title": "Planche 86",
+    "subtitle": "Disposition générale du système central ou névraxe",
+    "image": "images/planche_086.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p86-1-1",
+            "num": 1,
+            "label": "cerveau",
+            "accepted": [
+              "cerveau"
+            ]
+          },
+          {
+            "id": "p86-1-2",
+            "num": 2,
+            "label": "cervelet",
+            "accepted": [
+              "cervelet"
+            ]
+          },
+          {
+            "id": "p86-1-3",
+            "num": 3,
+            "label": "filum terminale",
+            "accepted": [
+              "filum terminale"
+            ]
+          },
+          {
+            "id": "p86-1-4",
+            "num": 4,
+            "label": "cône médullaire",
+            "accepted": [
+              "cône médullaire",
+              "cone medullaire"
+            ]
+          },
+          {
+            "id": "p86-1-5",
+            "num": 5,
+            "label": "intumescence lombale (renflement lombaire)",
+            "accepted": [
+              "intumescence lombale (renflement lombaire)",
+              "renflement lombaire",
+              "intumescence lombale"
+            ],
+            "hint": "intumescence lombale (renflement lombaire)"
+          },
+          {
+            "id": "p86-1-6",
+            "num": 6,
+            "label": "partie thoracique de la moelle spinale",
+            "accepted": [
+              "partie thoracique de la moelle spinale"
+            ]
+          },
+          {
+            "id": "p86-1-7",
+            "num": 7,
+            "label": "intumescence cervicale (renflement cervical) partie cervicale de la moelle spinale",
+            "accepted": [
+              "renflement cervical",
+              "intumescence cervicale (renflement cervical) partie cervicale de la moelle spinale",
+              "intumescence cervicale"
+            ],
+            "hint": "intumescence cervicale (renflement cervical) partie cervicale de la moelle spinale"
+          },
+          {
+            "id": "p86-1-9",
+            "num": 9,
+            "label": "tronc cérébral (9a. Moelle allongée, 9b. Pont, 9c. Mésencéphale)",
+            "accepted": [
+              "tronc cérébral (9a. moelle allongée, 9b. pont, 9c. mésencéphale)",
+              "tronc cerebral (9a. moelle allongee, 9b. pont, 9c. mesencephale)",
+              "tronc cérébral (9a. Moelle allongée, 9b. Pont, 9c. Mésencéphale)",
+              "9a. moelle allongee, 9b. pont, 9c. mesencephale",
+              "9a. moelle allongée, 9b. pont, 9c. mésencéphale",
+              "tronc cérébral",
+              "tronc cerebral"
+            ],
+            "hint": "tronc cérébral (9a. Moelle allongée, 9b. Pont, 9c. Mésencéphale)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "number": "Planche 87",
+    "title": "coupe transversale de",
+    "subtitle": "la moelle spinale",
+    "image": "images/planche_087.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p87-1-1",
+            "num": 1,
+            "label": "nerf spinal",
+            "accepted": [
+              "nerf spinal"
+            ]
+          },
+          {
+            "id": "p87-1-2",
+            "num": 2,
+            "label": "ganglion spinal",
+            "accepted": [
+              "ganglion spinal"
+            ]
+          },
+          {
+            "id": "p87-1-3",
+            "num": 3,
+            "label": "racine dorsale",
+            "accepted": [
+              "racine dorsale"
+            ]
+          },
+          {
+            "id": "p87-1-4",
+            "num": 4,
+            "label": "cordon latéral",
+            "accepted": [
+              "cordon lateral",
+              "cordon latéral"
+            ]
+          },
+          {
+            "id": "p87-1-5",
+            "num": 5,
+            "label": "radicules dorsales",
+            "accepted": [
+              "radicules dorsales"
+            ]
+          },
+          {
+            "id": "p87-1-6",
+            "num": 6,
+            "label": "sillon paramédian dorsal",
+            "accepted": [
+              "sillon paramedian dorsal",
+              "sillon paramédian dorsal"
+            ]
+          },
+          {
+            "id": "p87-1-7",
+            "num": 7,
+            "label": "cordon dorsal",
+            "accepted": [
+              "cordon dorsal"
+            ]
+          },
+          {
+            "id": "p87-1-8",
+            "num": 8,
+            "label": "canal central (canal de l'épendyme)",
+            "accepted": [
+              "canal de l'ependyme",
+              "canal de l'épendyme",
+              "canal central",
+              "canal central (canal de l'épendyme)",
+              "canal central (canal de l'ependyme)"
+            ]
+          },
+          {
+            "id": "p87-1-9",
+            "num": 9,
+            "label": "sillon médian dorsal",
+            "accepted": [
+              "sillon median dorsal",
+              "sillon médian dorsal"
+            ]
+          },
+          {
+            "id": "p87-1-10",
+            "num": 10,
+            "label": "faisceau gracile",
+            "accepted": [
+              "faisceau gracile"
+            ]
+          },
+          {
+            "id": "p87-1-11",
+            "num": 11,
+            "label": "commissure grise dorsale",
+            "accepted": [
+              "commissure grise dorsale"
+            ]
+          },
+          {
+            "id": "p87-1-12",
+            "num": 12,
+            "label": "faisceau cunéiforme",
+            "accepted": [
+              "faisceau cuneiforme",
+              "faisceau cunéiforme"
+            ]
+          },
+          {
+            "id": "p87-1-13",
+            "num": 13,
+            "label": "corne dorsale de la substance grise (13a. Base, 13b. Isthme, 13c. Apex)",
+            "accepted": [
+              "corne dorsale de la substance grise",
+              "13a. base, 13b. isthme, 13c. apex",
+              "corne dorsale de la substance grise (13a. base, 13b. isthme, 13c. apex)",
+              "corne dorsale de la substance grise (13a. Base, 13b. Isthme, 13c. Apex)"
+            ],
+            "hint": "corne dorsale de la substance grise (13a. Base, 13b. Isthme, 13c. Apex)"
+          },
+          {
+            "id": "p87-1-14",
+            "num": 14,
+            "label": "sillon latéral dorsal",
+            "accepted": [
+              "sillon lateral dorsal",
+              "sillon latéral dorsal"
+            ]
+          },
+          {
+            "id": "p87-1-15",
+            "num": 15,
+            "label": "corne latérale de la substance grise",
+            "accepted": [
+              "corne laterale de la substance grise",
+              "corne latérale de la substance grise"
+            ]
+          },
+          {
+            "id": "p87-1-16",
+            "num": 16,
+            "label": "substance intermédiaire centrale (région intermédio-latérale)",
+            "accepted": [
+              "substance intermédiaire centrale",
+              "région intermédio-latérale",
+              "substance intermediaire centrale (region intermedio-laterale)",
+              "region intermedio-laterale",
+              "substance intermediaire centrale",
+              "substance intermédiaire centrale (région intermédio-latérale)"
+            ],
+            "hint": "substance intermédiaire centrale (région intermédio-latérale)"
+          },
+          {
+            "id": "p87-1-17",
+            "num": 17,
+            "label": "sillon latéral ventral",
+            "accepted": [
+              "sillon lateral ventral",
+              "sillon latéral ventral"
+            ]
+          },
+          {
+            "id": "p87-1-18",
+            "num": 18,
+            "label": "corne ventrale (18d. Base, 18e. Apex)",
+            "accepted": [
+              "corne ventrale (18d. Base, 18e. Apex)",
+              "18d. base, 18e. apex",
+              "corne ventrale (18d. base, 18e. apex)",
+              "corne ventrale"
+            ]
+          },
+          {
+            "id": "p87-1-19",
+            "num": 19,
+            "label": "comissure grise ventrale",
+            "accepted": [
+              "comissure grise ventrale"
+            ]
+          },
+          {
+            "id": "p87-1-20",
+            "num": 20,
+            "label": "fissure médiane ventrale",
+            "accepted": [
+              "fissure mediane ventrale",
+              "fissure médiane ventrale"
+            ]
+          },
+          {
+            "id": "p87-1-21",
+            "num": 21,
+            "label": "cordon ventral",
+            "accepted": [
+              "cordon ventral"
+            ]
+          },
+          {
+            "id": "p87-1-22",
+            "num": 22,
+            "label": "radicules ventrales",
+            "accepted": [
+              "radicules ventrales"
+            ]
+          },
+          {
+            "id": "p87-1-23",
+            "num": 23,
+            "label": "racine ventrale",
+            "accepted": [
+              "racine ventrale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "number": "Planche 88",
+    "title": "Planche 88",
+    "subtitle": "",
+    "image": "images/planche_088.webp",
+    "sections": [
+      {
+        "name": "A : Le nerf spinal",
+        "items": [
+          {
+            "id": "p88-1-1",
+            "num": 1,
+            "label": "canal vertébral (canal rachidien)",
+            "accepted": [
+              "canal vertebral (canal rachidien)",
+              "canal vertebral",
+              "canal rachidien",
+              "canal vertébral",
+              "canal vertébral (canal rachidien)"
+            ]
+          },
+          {
+            "id": "p88-1-2",
+            "num": 2,
+            "label": "moelle spinale",
+            "accepted": [
+              "moelle spinale"
+            ]
+          },
+          {
+            "id": "p88-1-3",
+            "num": 3,
+            "label": "racine dorsale",
+            "accepted": [
+              "racine dorsale"
+            ]
+          },
+          {
+            "id": "p88-1-4",
+            "num": 4,
+            "label": "ganglion spinal",
+            "accepted": [
+              "ganglion spinal"
+            ]
+          },
+          {
+            "id": "p88-1-5",
+            "num": 5,
+            "label": "rameau dorsal du nerf spinal",
+            "accepted": [
+              "rameau dorsal du nerf spinal"
+            ]
+          },
+          {
+            "id": "p88-1-6",
+            "num": 6,
+            "label": "m. extenseurs de la colonne vertébrale (muscles des \"gouttières vertébrales\")",
+            "accepted": [
+              "m. extenseurs de la colonne vertébrale",
+              "m. extenseurs de la colonne vertebrale (muscles des \"gouttieres vertebrales\")",
+              "m. extenseurs de la colonne vertebrale",
+              "muscles des \"gouttieres vertebrales\"",
+              "m. extenseurs de la colonne vertébrale (muscles des \"gouttières vertébrales\")",
+              "muscles des \"gouttières vertébrales\""
+            ],
+            "hint": "m. extenseurs de la colonne vertébrale (muscles des \"gouttières vertébrales\")"
+          },
+          {
+            "id": "p88-1-7",
+            "num": 7,
+            "label": "articulation costo-transversaire",
+            "accepted": [
+              "articulation costo-transversaire"
+            ]
+          },
+          {
+            "id": "p88-1-8",
+            "num": 8,
+            "label": "rameau ventral du nerf spinal",
+            "accepted": [
+              "rameau ventral du nerf spinal"
+            ]
+          },
+          {
+            "id": "p88-1-9",
+            "num": 9,
+            "label": "nerf spinal thoracique (nerf intercostal)",
+            "accepted": [
+              "nerf spinal thoracique (nerf intercostal)",
+              "nerf spinal thoracique",
+              "nerf intercostal"
+            ],
+            "hint": "nerf spinal thoracique (nerf intercostal)"
+          },
+          {
+            "id": "p88-1-10",
+            "num": 10,
+            "label": "racine ventrale",
+            "accepted": [
+              "racine ventrale"
+            ]
+          },
+          {
+            "id": "p88-1-11",
+            "num": 11,
+            "label": "vertèbre thoracique (dorsale)",
+            "accepted": [
+              "vertebre thoracique (dorsale)",
+              "dorsale",
+              "vertèbre thoracique",
+              "vertèbre thoracique (dorsale)",
+              "vertebre thoracique"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Les voies du réflexe médullaire (monosynaptique)",
+        "items": [
+          {
+            "id": "p88-2-1",
+            "num": 1,
+            "label": "neurone sensitif (esthésioneure)",
+            "accepted": [
+              "neurone sensitif (esthesioneure)",
+              "esthesioneure",
+              "esthésioneure",
+              "neurone sensitif (esthésioneure)",
+              "neurone sensitif"
+            ]
+          },
+          {
+            "id": "p88-2-2",
+            "num": 2,
+            "label": "motoneurone (neurone moteur)",
+            "accepted": [
+              "motoneurone (neurone moteur)",
+              "motoneurone",
+              "neurone moteur"
+            ]
+          },
+          {
+            "id": "p88-2-3",
+            "num": 3,
+            "label": "racine ventrale",
+            "accepted": [
+              "racine ventrale"
+            ]
+          },
+          {
+            "id": "p88-2-4",
+            "num": 4,
+            "label": "fibre somatique motrice (centrifuge)",
+            "accepted": [
+              "fibre somatique motrice",
+              "centrifuge",
+              "fibre somatique motrice (centrifuge)"
+            ]
+          },
+          {
+            "id": "p88-2-5",
+            "num": 5,
+            "label": "fibre somatique sensitive (centripète)",
+            "accepted": [
+              "fibre somatique sensitive",
+              "centripète",
+              "centripete",
+              "fibre somatique sensitive (centripete)",
+              "fibre somatique sensitive (centripète)"
+            ]
+          },
+          {
+            "id": "p88-2-6",
+            "num": 6,
+            "label": "nerf spinal",
+            "accepted": [
+              "nerf spinal"
+            ]
+          },
+          {
+            "id": "p88-2-7",
+            "num": 7,
+            "label": "racine dorsale",
+            "accepted": [
+              "racine dorsale"
+            ]
+          },
+          {
+            "id": "p88-2-8",
+            "num": 8,
+            "label": "ganglion spinal",
+            "accepted": [
+              "ganglion spinal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C: Structure schématique du nerf périphérique type",
+        "items": [
+          {
+            "id": "p88-3-1",
+            "num": 1,
+            "label": "vasa nervorum (vaisseaux du nerf)",
+            "accepted": [
+              "vasa nervorum (vaisseaux du nerf)",
+              "vaisseaux du nerf",
+              "vasa nervorum"
+            ]
+          },
+          {
+            "id": "p88-3-2",
+            "num": 2,
+            "label": "fibre nerveuse (neurofibre)",
+            "accepted": [
+              "fibre nerveuse",
+              "neurofibre",
+              "fibre nerveuse (neurofibre)"
+            ]
+          },
+          {
+            "id": "p88-3-3",
+            "num": 3,
+            "label": "épinèvre",
+            "accepted": [
+              "epinevre",
+              "épinèvre"
+            ]
+          },
+          {
+            "id": "p88-3-4",
+            "num": 4,
+            "label": "périnèvre (enveloppe du fascicule)",
+            "accepted": [
+              "périnèvre",
+              "périnèvre (enveloppe du fascicule)",
+              "perinevre (enveloppe du fascicule)",
+              "perinevre",
+              "enveloppe du fascicule"
+            ]
+          },
+          {
+            "id": "p88-3-5",
+            "num": 5,
+            "label": "artère du nerf",
+            "accepted": [
+              "artere du nerf",
+              "artère du nerf"
+            ]
+          },
+          {
+            "id": "p88-3-6",
+            "num": 6,
+            "label": "endonèvre",
+            "accepted": [
+              "endonevre",
+              "endonèvre"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "number": "Planche 89",
+    "title": "Planche 89",
+    "subtitle": "",
+    "image": "images/planche_089.webp",
+    "sections": [
+      {
+        "name": "A : Coupe transversale du canal vertébral montrant les",
+        "items": [
+          {
+            "id": "p89-1-1",
+            "num": 1,
+            "label": "cavum subarachnoïdien",
+            "accepted": [
+              "cavum subarachnoidien",
+              "cavum subarachnoïdien"
+            ]
+          },
+          {
+            "id": "p89-1-2",
+            "num": 2,
+            "label": "racine ventrale",
+            "accepted": [
+              "racine ventrale"
+            ]
+          },
+          {
+            "id": "p89-1-3",
+            "num": 3,
+            "label": "nerf spinal",
+            "accepted": [
+              "nerf spinal"
+            ]
+          },
+          {
+            "id": "p89-1-4",
+            "num": 4,
+            "label": "gaine durale du nerf spinal",
+            "accepted": [
+              "gaine durale du nerf spinal"
+            ]
+          },
+          {
+            "id": "p89-1-5",
+            "num": 5,
+            "label": "foramen intervertébral",
+            "accepted": [
+              "foramen intervertebral",
+              "foramen intervertébral"
+            ]
+          },
+          {
+            "id": "p89-1-6",
+            "num": 6,
+            "label": "racine dorsale",
+            "accepted": [
+              "racine dorsale"
+            ]
+          },
+          {
+            "id": "p89-1-7",
+            "num": 7,
+            "label": "pie-mère",
+            "accepted": [
+              "pie-mère",
+              "pie-mere"
+            ]
+          },
+          {
+            "id": "p89-1-8",
+            "num": 8,
+            "label": "dure-mère, doublée par l'aracchnoïde",
+            "accepted": [
+              "re-mere, doublee par l'aracchnoide",
+              "dure-mère, doublée par l'aracchnoïde",
+              "dure-mere, doublee par l'aracchnoide",
+              "re-mère, doublée par l'aracchnoïde"
+            ]
+          },
+          {
+            "id": "p89-1-9",
+            "num": 9,
+            "label": "pie-mère",
+            "accepted": [
+              "pie-mère",
+              "pie-mere"
+            ]
+          },
+          {
+            "id": "p89-1-10",
+            "num": 10,
+            "label": "ligament dentelé",
+            "accepted": [
+              "ligament dentelé",
+              "ligament dentele"
+            ]
+          },
+          {
+            "id": "p89-1-11",
+            "num": 11,
+            "label": "ganglion spinal",
+            "accepted": [
+              "ganglion spinal"
+            ]
+          },
+          {
+            "id": "p89-1-12",
+            "num": 12,
+            "label": "rameau dorsal du nerf spinal",
+            "accepted": [
+              "rameau dorsal du nerf spinal"
+            ]
+          },
+          {
+            "id": "p89-1-13",
+            "num": 13,
+            "label": "rameau ventral du nerf spinal",
+            "accepted": [
+              "rameau ventral du nerf spinal"
+            ]
+          },
+          {
+            "id": "p89-1-14",
+            "num": 14,
+            "label": "rameau méningé",
+            "accepted": [
+              "rameau méningé",
+              "rameau meninge"
+            ]
+          },
+          {
+            "id": "p89-1-15",
+            "num": 15,
+            "label": "rameau communicant blanc",
+            "accepted": [
+              "rameau communicant blanc"
+            ]
+          },
+          {
+            "id": "p89-1-16",
+            "num": 16,
+            "label": "ganglion sympathique",
+            "accepted": [
+              "ganglion sympathique"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Dure-mère et queue de cheval",
+        "items": [
+          {
+            "id": "p89-2-1",
+            "num": 1,
+            "label": "dure-mère (fourreau dural)",
+            "accepted": [
+              "dure-mère",
+              "dure-mère (fourreau dural)",
+              "dure-mere",
+              "dure-mere (fourreau dural)",
+              "re-mère (fourreau dural)",
+              "fourreau dural",
+              "re-mere (fourreau dural)"
+            ]
+          },
+          {
+            "id": "p89-2-2",
+            "num": 2,
+            "label": "cône médullaire",
+            "accepted": [
+              "cône médullaire",
+              "cone medullaire"
+            ]
+          },
+          {
+            "id": "p89-2-3",
+            "num": 3,
+            "label": "racines de la queue de cheval",
+            "accepted": [
+              "racines de la queue de cheval"
+            ]
+          },
+          {
+            "id": "p89-2-4",
+            "num": 4,
+            "label": "filum terminale",
+            "accepted": [
+              "filum terminale"
+            ]
+          },
+          {
+            "id": "p89-2-5",
+            "num": 5,
+            "label": "plexus pudendal (honteux)",
+            "accepted": [
+              "plexus pudendal",
+              "plexus pudendal (honteux)",
+              "honteux"
+            ]
+          },
+          {
+            "id": "p89-2-6",
+            "num": 6,
+            "label": "plexus sacré",
+            "accepted": [
+              "plexus sacre",
+              "plexus sacré"
+            ]
+          },
+          {
+            "id": "p89-2-7",
+            "num": 7,
+            "label": "sacrum",
+            "accepted": [
+              "sacrum"
+            ]
+          },
+          {
+            "id": "p89-2-8",
+            "num": 8,
+            "label": "plexus lombal (lombaire)",
+            "accepted": [
+              "plexus lombal (lombaire)",
+              "plexus lombal",
+              "lombaire"
+            ]
+          },
+          {
+            "id": "p89-2-9",
+            "num": 9,
+            "label": "colonne vertébrale",
+            "accepted": [
+              "colonne vertebrale",
+              "colonne vertébrale"
+            ]
+          },
+          {
+            "id": "p89-2-10",
+            "num": 10,
+            "label": "12ème nerf thoracique",
+            "accepted": [
+              "12eme nerf thoracique",
+              "12ème nerf thoracique"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "number": "Planche 90",
+    "title": "le tronc cérébral (vue ventrale)",
+    "subtitle": "",
+    "image": "images/planche_090.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p90-1-1",
+            "num": 1,
+            "label": "chiasma optique",
+            "accepted": [
+              "chiasma optique"
+            ]
+          },
+          {
+            "id": "p90-1-2",
+            "num": 2,
+            "label": "pédoncule hypophysaire (tige pituitaire)",
+            "accepted": [
+              "tige pituitaire",
+              "pedoncule hypophysaire",
+              "pédoncule hypophysaire (tige pituitaire)",
+              "pédoncule hypophysaire",
+              "pedoncule hypophysaire (tige pituitaire)"
+            ]
+          },
+          {
+            "id": "p90-1-3",
+            "num": 3,
+            "label": "corps mamillaire (tubercule mamillaire)",
+            "accepted": [
+              "corps mamillaire (tubercule mamillaire)",
+              "tubercule mamillaire",
+              "corps mamillaire"
+            ]
+          },
+          {
+            "id": "p90-1-4",
+            "num": 4,
+            "label": "4ème nerf crânien (nerf trochléaire) (pathétique)",
+            "accepted": [
+              "nerf trochleaire",
+              "4eme nerf cranien",
+              "4ème nerf crânien",
+              "nerf trochléaire",
+              "4ème nerf crânien (nerf trochléaire) (pathétique)",
+              "4eme nerf cranien (nerf trochleaire) (pathetique)"
+            ],
+            "hint": "4ème nerf crânien (nerf trochléaire) (pathétique)"
+          },
+          {
+            "id": "p90-1-5",
+            "num": 5,
+            "label": "nerf trijumeau (V)",
+            "accepted": [
+              "nerf trijumeau (v)",
+              "nerf trijumeau (V)",
+              "v",
+              "nerf trijumeau"
+            ]
+          },
+          {
+            "id": "p90-1-6",
+            "num": 6,
+            "label": "gouttière de l'artère basilaire (tronc basilaire)",
+            "accepted": [
+              "gouttiere de l'artere basilaire (tronc basilaire)",
+              "tronc basilaire",
+              "gouttiere de l'artere basilaire",
+              "gouttière de l'artère basilaire (tronc basilaire)",
+              "gouttière de l'artère basilaire"
+            ],
+            "hint": "gouttière de l'artère basilaire (tronc basilaire)"
+          },
+          {
+            "id": "p90-1-7",
+            "num": 7,
+            "label": "sillon bulbo-pontique (sillon bulbo-protubérantiel)",
+            "accepted": [
+              "sillon bulbo-pontique",
+              "sillon bulbo-protubérantiel",
+              "sillon bulbo-pontique (sillon bulbo-protubérantiel)",
+              "sillon bulbo-protuberantiel",
+              "sillon bulbo-pontique (sillon bulbo-protuberantiel)"
+            ],
+            "hint": "sillon bulbo-pontique (sillon bulbo-protubérantiel)"
+          },
+          {
+            "id": "p90-1-8",
+            "num": 8,
+            "label": "pyramide de la moelle allongée (pyramide antérieure du bulbe)",
+            "accepted": [
+              "pyramide de la moelle allongee (pyramide anterieure du bulbe)",
+              "pyramide antérieure du bulbe",
+              "pyramide anterieure du bulbe",
+              "pyramide de la moelle allongée (pyramide antérieure du bulbe)",
+              "pyramide de la moelle allongée",
+              "pyramide de la moelle allongee"
+            ],
+            "hint": "pyramide de la moelle allongée (pyramide antérieure du bulbe)"
+          },
+          {
+            "id": "p90-1-9",
+            "num": 9,
+            "label": "sillon des nerfs mixtes",
+            "accepted": [
+              "sillon des nerfs mixtes"
+            ]
+          },
+          {
+            "id": "p90-1-10",
+            "num": 10,
+            "label": "olive bulbaire",
+            "accepted": [
+              "olive bulbaire"
+            ]
+          },
+          {
+            "id": "p90-1-11",
+            "num": 11,
+            "label": "sillon préolivaire",
+            "accepted": [
+              "sillon preolivaire",
+              "sillon préolivaire"
+            ]
+          },
+          {
+            "id": "p90-1-12",
+            "num": 12,
+            "label": "fissure médiane (sillon médian antérieur)",
+            "accepted": [
+              "sillon median anterieur",
+              "fissure mediane",
+              "sillon médian antérieur",
+              "fissure mediane (sillon median anterieur)",
+              "fissure médiane",
+              "fissure médiane (sillon médian antérieur)"
+            ],
+            "hint": "fissure médiane (sillon médian antérieur)"
+          },
+          {
+            "id": "p90-1-13",
+            "num": 13,
+            "label": "décussation des pyramides",
+            "accepted": [
+              "decussation des pyramides",
+              "décussation des pyramides"
+            ]
+          },
+          {
+            "id": "p90-1-14",
+            "num": 14,
+            "label": "nerf hypoglosse (XII)",
+            "accepted": [
+              "nerf hypoglosse (xii)",
+              "xii",
+              "nerf hypoglosse (XII)",
+              "nerf hypoglosse"
+            ]
+          },
+          {
+            "id": "p90-1-15",
+            "num": 15,
+            "label": "nerf accessoire (spinal) (XI)",
+            "accepted": [
+              "nerf accessoire",
+              "spinal",
+              "nerf accessoire (spinal) (XI)",
+              "nerf accessoire (spinal) (xi)"
+            ]
+          },
+          {
+            "id": "p90-1-16",
+            "num": 16,
+            "label": "nerf vague (pneumogastrique) (*)",
+            "accepted": [
+              "pneumogastrique",
+              "nerf vague (pneumogastrique) (*)",
+              "nerf vague"
+            ]
+          },
+          {
+            "id": "p90-1-18",
+            "num": 18,
+            "label": "nerf vestibulo-cochléaire (nerf auditif) (VIII)",
+            "accepted": [
+              "nerf vestibulo-cochléaire",
+              "nerf vestibulo-cochléaire (nerf auditif) (VIII)",
+              "nerf vestibulo-cochleaire",
+              "nerf auditif",
+              "nerf vestibulo-cochléaire (nerf auditif) (viii)",
+              "nerf vestibulo-cochleaire (nerf auditif) (viii)"
+            ],
+            "hint": "nerf vestibulo-cochléaire (nerf auditif) (VIII)"
+          },
+          {
+            "id": "p90-1-20",
+            "num": 20,
+            "label": "nerf abducens (nerf moteur oculaire externe) (VI)",
+            "accepted": [
+              "nerf abducens (nerf moteur oculaire externe) (VI)",
+              "nerf abducens (nerf moteur oculaire externe) (vi)",
+              "nerf moteur oculaire externe",
+              "nerf abducens"
+            ],
+            "hint": "nerf abducens (nerf moteur oculaire externe) (VI)"
+          },
+          {
+            "id": "p90-1-21",
+            "num": 21,
+            "label": "sillon ponto-mésencéphalique",
+            "accepted": [
+              "sillon ponto-mesencephalique",
+              "sillon ponto-mésencéphalique"
+            ]
+          },
+          {
+            "id": "p90-1-22",
+            "num": 22,
+            "label": "substance perforée postérieure",
+            "accepted": [
+              "substance perforée postérieure",
+              "substance perforee posterieure"
+            ]
+          },
+          {
+            "id": "p90-1-23",
+            "num": 23,
+            "label": "pédoncule cérébral",
+            "accepted": [
+              "pédoncule cérébral",
+              "pedoncule cerebral"
+            ]
+          },
+          {
+            "id": "p90-1-24",
+            "num": 24,
+            "label": "nerf oculomoteur (moteur oculaire) (III)",
+            "accepted": [
+              "nerf oculomoteur (moteur oculaire) (III)",
+              "nerf oculomoteur",
+              "nerf oculomoteur (moteur oculaire) (iii)",
+              "moteur oculaire"
+            ]
+          },
+          {
+            "id": "p90-1-25",
+            "num": 25,
+            "label": "tractus optique (bandelette optique)",
+            "accepted": [
+              "bandelette optique",
+              "tractus optique (bandelette optique)",
+              "tractus optique"
+            ]
+          },
+          {
+            "id": "p90-1-26",
+            "num": 26,
+            "label": "plancher du diencéphale",
+            "accepted": [
+              "plancher du diencéphale",
+              "plancher du diencephale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A: Mésencéphale",
+        "items": []
+      },
+      {
+        "name": "B : Pont",
+        "items": []
+      },
+      {
+        "name": "C : Moelle allongée",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "number": "Planche 91",
+    "title": "vue latérale droite du",
+    "subtitle": "tronc cérébral",
+    "image": "images/planche_091.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p91-1-1",
+            "num": 1,
+            "label": "corps géniculé latéral (corps genouillé externe)",
+            "accepted": [
+              "corps genouille externe",
+              "corps genouillé externe",
+              "corps géniculé latéral (corps genouillé externe)",
+              "corps genicule lateral (corps genouille externe)",
+              "corps géniculé latéral",
+              "corps genicule lateral"
+            ],
+            "hint": "corps géniculé latéral (corps genouillé externe)"
+          },
+          {
+            "id": "p91-1-2",
+            "num": 2,
+            "label": "corps géniculé médial (corps genouillé interne)",
+            "accepted": [
+              "corps géniculé médial (corps genouillé interne)",
+              "corps genouille interne",
+              "corps genouillé interne",
+              "corps géniculé médial",
+              "corps genicule medial (corps genouille interne)",
+              "corps genicule medial"
+            ],
+            "hint": "corps géniculé médial (corps genouillé interne)"
+          },
+          {
+            "id": "p91-1-3",
+            "num": 3,
+            "label": "bras du colliculus rostral (supérieur)",
+            "accepted": [
+              "superieur",
+              "bras du colliculus rostral (supérieur)",
+              "bras du colliculus rostral (superieur)",
+              "bras du colliculus rostral",
+              "supérieur"
+            ]
+          },
+          {
+            "id": "p91-1-4",
+            "num": 4,
+            "label": "colliculus rostral (supérieur) (tubercule quadrijumeau antérieur)",
+            "accepted": [
+              "superieur",
+              "colliculus rostral",
+              "colliculus rostral (superieur) (tubercule quadrijumeau anterieur)",
+              "colliculus rostral (supérieur) (tubercule quadrijumeau antérieur)",
+              "supérieur"
+            ],
+            "hint": "colliculus rostral (supérieur) (tubercule quadrijumeau antérieur)"
+          },
+          {
+            "id": "p91-1-5",
+            "num": 5,
+            "label": "colliculus caudal (inférieur) (tubercule quadrijumeau postérieur)",
+            "accepted": [
+              "inférieur",
+              "colliculus caudal",
+              "colliculus caudal (inferieur) (tubercule quadrijumeau posterieur)",
+              "colliculus caudal (inférieur) (tubercule quadrijumeau postérieur)",
+              "inferieur"
+            ],
+            "hint": "colliculus caudal (inférieur) (tubercule quadrijumeau postérieur)"
+          },
+          {
+            "id": "p91-1-6",
+            "num": 6,
+            "label": "pédoncule cérébelleux supérieur",
+            "accepted": [
+              "pedoncule cerebelleux superieur",
+              "pédoncule cérébelleux supérieur"
+            ]
+          },
+          {
+            "id": "p91-1-7",
+            "num": 7,
+            "label": "pédoncule cérébelleux moyen",
+            "accepted": [
+              "pedoncule cerebelleux moyen",
+              "pédoncule cérébelleux moyen"
+            ]
+          },
+          {
+            "id": "p91-1-8",
+            "num": 8,
+            "label": "pédoncule cérébelleux inférieur",
+            "accepted": [
+              "pedoncule cerebelleux inferieur",
+              "pédoncule cérébelleux inférieur"
+            ]
+          },
+          {
+            "id": "p91-1-9",
+            "num": 9,
+            "label": "pyramide bulbaire",
+            "accepted": [
+              "pyramide bulbaire"
+            ]
+          },
+          {
+            "id": "p91-1-10",
+            "num": 10,
+            "label": "sillon latéral dorsal (sillon des nerfs mixtes)",
+            "accepted": [
+              "sillon latéral dorsal (sillon des nerfs mixtes)",
+              "sillon des nerfs mixtes",
+              "sillon lateral dorsal",
+              "sillon lateral dorsal (sillon des nerfs mixtes)",
+              "sillon latéral dorsal"
+            ],
+            "hint": "sillon latéral dorsal (sillon des nerfs mixtes)"
+          },
+          {
+            "id": "p91-1-11",
+            "num": 11,
+            "label": "nerf accessoire (spinal) (XI)",
+            "accepted": [
+              "nerf accessoire",
+              "spinal",
+              "nerf accessoire (spinal) (XI)",
+              "nerf accessoire (spinal) (xi)"
+            ]
+          },
+          {
+            "id": "p91-1-12",
+            "num": 12,
+            "label": "nerf hypoglosse (grand hypoglosse) XII)",
+            "accepted": [
+              "nerf hypoglosse (grand hypoglosse) XII)",
+              "nerf hypoglosse (grand hypoglosse) xii)",
+              "grand hypoglosse",
+              "nerf hypoglosse"
+            ]
+          },
+          {
+            "id": "p91-1-13",
+            "num": 13,
+            "label": "olive bulbaire",
+            "accepted": [
+              "olive bulbaire"
+            ]
+          },
+          {
+            "id": "p91-1-14",
+            "num": 14,
+            "label": "sillon latéral ventral (sillon préolivaire)",
+            "accepted": [
+              "sillon lateral ventral",
+              "sillon préolivaire",
+              "sillon latéral ventral",
+              "sillon lateral ventral (sillon preolivaire)",
+              "sillon latéral ventral (sillon préolivaire)",
+              "sillon preolivaire"
+            ],
+            "hint": "sillon latéral ventral (sillon préolivaire)"
+          },
+          {
+            "id": "p91-1-15",
+            "num": 15,
+            "label": "nerf vague (X)",
+            "accepted": [
+              "nerf vague (X)",
+              "nerf vague (x)",
+              "x",
+              "nerf vague"
+            ]
+          },
+          {
+            "id": "p91-1-16",
+            "num": 16,
+            "label": "nerf glosso-pharyngien (IX)",
+            "accepted": [
+              "nerf glosso-pharyngien (IX)",
+              "nerf glosso-pharyngien (ix)",
+              "ix",
+              "nerf glosso-pharyngien"
+            ]
+          },
+          {
+            "id": "p91-1-17",
+            "num": 17,
+            "label": "nerf abducens (moteur oculaire externe) (VI)",
+            "accepted": [
+              "nerf abducens",
+              "moteur oculaire externe",
+              "nerf abducens (moteur oculaire externe) (VI)",
+              "nerf abducens (moteur oculaire externe) (vi)"
+            ],
+            "hint": "nerf abducens (moteur oculaire externe) (VI)"
+          },
+          {
+            "id": "p91-1-18",
+            "num": 18,
+            "label": "nerf facial (VII)",
+            "accepted": [
+              "vii",
+              "nerf facial",
+              "nerf facial (VII)",
+              "nerf facial (vii)"
+            ]
+          },
+          {
+            "id": "p91-1-19",
+            "num": 19,
+            "label": "nerf vestibulocochléaire (nerf auditif) (VIII)",
+            "accepted": [
+              "nerf vestibulocochleaire (nerf auditif) (viii)",
+              "nerf vestibulocochléaire (nerf auditif) (VIII)",
+              "nerf vestibulocochléaire (nerf auditif) (viii)",
+              "nerf auditif",
+              "nerf vestibulocochleaire",
+              "nerf vestibulocochléaire"
+            ],
+            "hint": "nerf vestibulocochléaire (nerf auditif) (VIII)"
+          },
+          {
+            "id": "p91-1-20",
+            "num": 20,
+            "label": "sillon bulbo-pontique (bulbo-protubérantiel)",
+            "accepted": [
+              "bulbo-protuberantiel",
+              "sillon bulbo-pontique",
+              "bulbo-protubérantiel",
+              "sillon bulbo-pontique (bulbo-protuberantiel)",
+              "sillon bulbo-pontique (bulbo-protubérantiel)"
+            ],
+            "hint": "sillon bulbo-pontique (bulbo-protubérantiel)"
+          },
+          {
+            "id": "p91-1-21",
+            "num": 21,
+            "label": "pont (protubérance annulaire)",
+            "accepted": [
+              "pont",
+              "protuberance annulaire",
+              "pont (protubérance annulaire)",
+              "pont (protuberance annulaire)",
+              "protubérance annulaire"
+            ]
+          },
+          {
+            "id": "p91-1-22",
+            "num": 22,
+            "label": "nerf trijumeau (V)",
+            "accepted": [
+              "nerf trijumeau (v)",
+              "nerf trijumeau (V)",
+              "v",
+              "nerf trijumeau"
+            ]
+          },
+          {
+            "id": "p91-1-23",
+            "num": 23,
+            "label": "nerf trochléaire (pathétique) (IV)",
+            "accepted": [
+              "pathétique",
+              "nerf trochleaire",
+              "nerf trochleaire (pathetique) (iv)",
+              "nerf trochléaire",
+              "nerf trochléaire (pathétique) (IV)",
+              "nerf trochléaire (pathétique) (iv)",
+              "pathetique"
+            ]
+          },
+          {
+            "id": "p91-1-24",
+            "num": 24,
+            "label": "sillon ponto-mésencéphalique",
+            "accepted": [
+              "sillon ponto-mesencephalique",
+              "sillon ponto-mésencéphalique"
+            ]
+          },
+          {
+            "id": "p91-1-25",
+            "num": 25,
+            "label": "bras du colliculus caudal (inférieur)",
+            "accepted": [
+              "inférieur",
+              "bras du colliculus caudal (inférieur)",
+              "bras du colliculus caudal (inferieur)",
+              "bras du colliculus caudal",
+              "inferieur"
+            ]
+          },
+          {
+            "id": "p91-1-26",
+            "num": 26,
+            "label": "nerf oculomoteur (moteur oculaire commun) (III)",
+            "accepted": [
+              "nerf oculomoteur (moteur oculaire commun) (III)",
+              "nerf oculomoteur",
+              "moteur oculaire commun",
+              "nerf oculomoteur (moteur oculaire commun) (iii)"
+            ],
+            "hint": "nerf oculomoteur (moteur oculaire commun) (III)"
+          },
+          {
+            "id": "p91-1-27",
+            "num": 27,
+            "label": "pédoncule cérébral",
+            "accepted": [
+              "pédoncule cérébral",
+              "pedoncule cerebral"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A : Mésencéphale",
+        "items": []
+      },
+      {
+        "name": "B : Pont",
+        "items": []
+      },
+      {
+        "name": "C : Moelle allongée",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "number": "Planche 92",
+    "title": "vue dorsale du tronc cérébral",
+    "subtitle": "montrant le plancher du IVème ventricule",
+    "image": "images/planche_092.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p92-1-1",
+            "num": 1,
+            "label": "Corps pinéal (glande pinéale, épiphyse)",
+            "accepted": [
+              "glande pineale, epiphyse",
+              "corps pinéal",
+              "corps pineal (glande pineale, epiphyse)",
+              "glande pinéale, épiphyse",
+              "Corps pinéal (glande pinéale, épiphyse)",
+              "corps pinéal (glande pinéale, épiphyse)",
+              "corps pineal"
+            ]
+          },
+          {
+            "id": "p92-1-2",
+            "num": 2,
+            "label": "sillon cruciforme",
+            "accepted": [
+              "sillon cruciforme"
+            ]
+          },
+          {
+            "id": "p92-1-3",
+            "num": 3,
+            "label": "bras du colliculus rostral (supérieur)",
+            "accepted": [
+              "superieur",
+              "bras du colliculus rostral (supérieur)",
+              "bras du colliculus rostral (superieur)",
+              "bras du colliculus rostral",
+              "supérieur"
+            ]
+          },
+          {
+            "id": "p92-1-4",
+            "num": 4,
+            "label": "bras du colliculus caudal (inférieur)",
+            "accepted": [
+              "inférieur",
+              "bras du colliculus caudal (inférieur)",
+              "bras du colliculus caudal (inferieur)",
+              "bras du colliculus caudal",
+              "inferieur"
+            ]
+          },
+          {
+            "id": "p92-1-5",
+            "num": 5,
+            "label": "nerf trochléaire (pathétique)",
+            "accepted": [
+              "pathétique",
+              "nerf trochleaire",
+              "nerf trochléaire (pathétique)",
+              "nerf trochleaire (pathetique)",
+              "nerf trochléaire",
+              "pathetique"
+            ]
+          },
+          {
+            "id": "p92-1-6",
+            "num": 6,
+            "label": "pédoncule cérébelleux supérieur",
+            "accepted": [
+              "pedoncule cerebelleux superieur",
+              "pédoncule cérébelleux supérieur"
+            ]
+          },
+          {
+            "id": "p92-1-7",
+            "num": 7,
+            "label": "pédoncule cérébelleux moyen",
+            "accepted": [
+              "pedoncule cerebelleux moyen",
+              "pédoncule cérébelleux moyen"
+            ]
+          },
+          {
+            "id": "p92-1-8",
+            "num": 8,
+            "label": "pédoncule cérébelleux inférieur",
+            "accepted": [
+              "pedoncule cerebelleux inferieur",
+              "pédoncule cérébelleux inférieur"
+            ]
+          },
+          {
+            "id": "p92-1-9",
+            "num": 9,
+            "label": "trigone du XII",
+            "accepted": [
+              "trigone du xii",
+              "trigone du XII"
+            ]
+          },
+          {
+            "id": "p92-1-10",
+            "num": 10,
+            "label": "corps restiforme",
+            "accepted": [
+              "corps restiforme"
+            ]
+          },
+          {
+            "id": "p92-1-11",
+            "num": 11,
+            "label": "sillon paramédian dorsal",
+            "accepted": [
+              "sillon paramedian dorsal",
+              "sillon paramédian dorsal"
+            ]
+          },
+          {
+            "id": "p92-1-12",
+            "num": 12,
+            "label": "faisceau cunéiforme",
+            "accepted": [
+              "faisceau cuneiforme",
+              "faisceau cunéiforme"
+            ]
+          },
+          {
+            "id": "p92-1-13",
+            "num": 13,
+            "label": "faisceau gracile",
+            "accepted": [
+              "faisceau gracile"
+            ]
+          },
+          {
+            "id": "p92-1-14",
+            "num": 14,
+            "label": "sillon médian (tige du calamus scriptorius)",
+            "accepted": [
+              "tige du calamus scriptorius",
+              "sillon médian (tige du calamus scriptorius)",
+              "sillon median (tige du calamus scriptorius)",
+              "sillon median",
+              "sillon médian"
+            ],
+            "hint": "sillon médian (tige du calamus scriptorius)"
+          },
+          {
+            "id": "p92-1-15",
+            "num": 15,
+            "label": "tubercule du noyau cunéiforme (noyau du Burdach)",
+            "accepted": [
+              "tubercule du noyau cunéiforme (noyau du Burdach)",
+              "tubercule du noyau cuneiforme",
+              "noyau du burdach",
+              "tubercule du noyau cunéiforme",
+              "tubercule du noyau cunéiforme (noyau du burdach)",
+              "tubercule du noyau cuneiforme (noyau du burdach)"
+            ],
+            "hint": "tubercule du noyau cunéiforme (noyau du Burdach)"
+          },
+          {
+            "id": "p92-1-16",
+            "num": 16,
+            "label": "tubercule du noyau gracile (noyau de Goll)",
+            "accepted": [
+              "tubercule du noyau gracile",
+              "tubercule du noyau gracile (noyau de goll)",
+              "noyau de goll",
+              "tubercule du noyau gracile (noyau de Goll)"
+            ],
+            "hint": "tubercule du noyau gracile (noyau de Goll)"
+          },
+          {
+            "id": "p92-1-17",
+            "num": 17,
+            "label": "fovea inférior",
+            "accepted": [
+              "fovea inferior",
+              "fovea inférior"
+            ]
+          },
+          {
+            "id": "p92-1-18",
+            "num": 18,
+            "label": "stries médullaires (stries acoustiques)",
+            "accepted": [
+              "stries medullaires (stries acoustiques)",
+              "stries acoustiques",
+              "stries médullaires",
+              "stries medullaires",
+              "stries médullaires (stries acoustiques)"
+            ]
+          },
+          {
+            "id": "p92-1-19",
+            "num": 19,
+            "label": "sillon médian",
+            "accepted": [
+              "sillon median",
+              "sillon médian"
+            ]
+          },
+          {
+            "id": "p92-1-20",
+            "num": 20,
+            "label": "aire vestibulaire",
+            "accepted": [
+              "aire vestibulaire"
+            ]
+          },
+          {
+            "id": "p92-1-21",
+            "num": 21,
+            "label": "colliculus du VII (eminentia teres)",
+            "accepted": [
+              "colliculus du vii (eminentia teres)",
+              "colliculus du vii",
+              "colliculus du VII (eminentia teres)",
+              "eminentia teres"
+            ]
+          },
+          {
+            "id": "p92-1-22",
+            "num": 22,
+            "label": "fovea superior (locus coeruleus)",
+            "accepted": [
+              "fovea superior",
+              "fovea superior (locus coeruleus)",
+              "locus coeruleus"
+            ]
+          },
+          {
+            "id": "p92-1-23",
+            "num": 23,
+            "label": "éminence médiale (funiculus teres)",
+            "accepted": [
+              "éminence médiale",
+              "eminence mediale",
+              "eminence mediale (funiculus teres)",
+              "éminence médiale (funiculus teres)",
+              "funiculus teres"
+            ]
+          },
+          {
+            "id": "p92-1-24",
+            "num": 24,
+            "label": "colliculus caudal (inférieur)",
+            "accepted": [
+              "inférieur",
+              "colliculus caudal",
+              "colliculus caudal (inférieur)",
+              "colliculus caudal (inferieur)",
+              "inferieur"
+            ]
+          },
+          {
+            "id": "p92-1-25",
+            "num": 25,
+            "label": "corps géniculé médial",
+            "accepted": [
+              "corps genicule medial",
+              "corps géniculé médial"
+            ]
+          },
+          {
+            "id": "p92-1-26",
+            "num": 26,
+            "label": "corps géniculé latéral",
+            "accepted": [
+              "corps géniculé latéral",
+              "corps genicule lateral"
+            ]
+          },
+          {
+            "id": "p92-1-27",
+            "num": 27,
+            "label": "colliculus rostral (crânial ou supérieur) (tubercule quadrijumeau antérieur)",
+            "accepted": [
+              "colliculus rostral",
+              "colliculus rostral (cranial ou superieur) (tubercule quadrijumeau anterieur)",
+              "crânial ou supérieur",
+              "colliculus rostral (crânial ou supérieur) (tubercule quadrijumeau antérieur)",
+              "cranial ou superieur"
+            ],
+            "hint": "colliculus rostral (crânial ou supérieur) (tubercule quadrijumeau antérieur)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "number": "Planche 93",
+    "title": "Planche 93",
+    "subtitle": "",
+    "image": "images/planche_093.webp",
+    "sections": [
+      {
+        "name": "A : Vue latérale des ventricules de l'encéphale",
+        "items": [
+          {
+            "id": "p93-1-1",
+            "num": 1,
+            "label": "foramen interventriculaire (trou de Monro)",
+            "accepted": [
+              "foramen interventriculaire",
+              "foramen interventriculaire (trou de monro)",
+              "trou de monro",
+              "foramen interventriculaire (trou de Monro)"
+            ],
+            "hint": "foramen interventriculaire (trou de Monro)"
+          },
+          {
+            "id": "p93-1-2",
+            "num": 2,
+            "label": "corne antérieure du ventricule latéral",
+            "accepted": [
+              "corne anterieure du ventricule lateral",
+              "corne antérieure du ventricule latéral"
+            ]
+          },
+          {
+            "id": "p93-1-3",
+            "num": 3,
+            "label": "ème ventricule",
+            "accepted": [
+              "ème ventricule",
+              "eme ventricule"
+            ]
+          },
+          {
+            "id": "p93-1-4",
+            "num": 4,
+            "label": "corne inférieure du ventricule latéral",
+            "accepted": [
+              "corne inférieure du ventricule latéral",
+              "corne inferieure du ventricule lateral"
+            ]
+          },
+          {
+            "id": "p93-1-5",
+            "num": 5,
+            "label": "canal central (canal de l'épendyme)",
+            "accepted": [
+              "canal de l'ependyme",
+              "canal de l'épendyme",
+              "canal central",
+              "canal central (canal de l'épendyme)",
+              "canal central (canal de l'ependyme)"
+            ]
+          },
+          {
+            "id": "p93-1-6",
+            "num": 6,
+            "label": "4ème ventricule",
+            "accepted": [
+              "4eme ventricule",
+              "4ème ventricule"
+            ]
+          },
+          {
+            "id": "p93-1-7",
+            "num": 7,
+            "label": "aqueduc du mésencéphale (aqueduc de Sylvius)",
+            "accepted": [
+              "aqueduc du mésencéphale (aqueduc de sylvius)",
+              "aqueduc de sylvius",
+              "aqueduc du mesencephale",
+              "aqueduc du mésencéphale",
+              "aqueduc du mésencéphale (aqueduc de Sylvius)",
+              "aqueduc du mesencephale (aqueduc de sylvius)"
+            ],
+            "hint": "aqueduc du mésencéphale (aqueduc de Sylvius)"
+          },
+          {
+            "id": "p93-1-8",
+            "num": 8,
+            "label": "corne postérieure du ventricule latéral",
+            "accepted": [
+              "corne postérieure du ventricule latéral",
+              "corne posterieure du ventricule lateral"
+            ]
+          },
+          {
+            "id": "p93-1-9",
+            "num": 9,
+            "label": "ventricule latéral",
+            "accepted": [
+              "ventricule lateral",
+              "ventricule latéral"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe sagittale du tronc cérébral montrant les cavités",
+        "items": [
+          {
+            "id": "p93-2-1",
+            "num": 1,
+            "label": "colliculi (tubercules quadrijumeaux)",
+            "accepted": [
+              "colliculi (tubercules quadrijumeaux)",
+              "tubercules quadrijumeaux",
+              "colliculi"
+            ]
+          },
+          {
+            "id": "p93-2-2",
+            "num": 2,
+            "label": "voile médullaire supérieur",
+            "accepted": [
+              "voile médullaire supérieur",
+              "voile medullaire superieur"
+            ]
+          },
+          {
+            "id": "p93-2-3",
+            "num": 3,
+            "label": "cervelet",
+            "accepted": [
+              "cervelet"
+            ]
+          },
+          {
+            "id": "p93-2-4",
+            "num": 4,
+            "label": "voile médullaire inférieur",
+            "accepted": [
+              "voile médullaire inférieur",
+              "voile medullaire inferieur"
+            ]
+          },
+          {
+            "id": "p93-2-5",
+            "num": 5,
+            "label": "toile choroïdienne du 4ème ventricule",
+            "accepted": [
+              "toile choroidienne du 4eme ventricule",
+              "toile choroïdienne du 4ème ventricule"
+            ]
+          },
+          {
+            "id": "p93-2-6",
+            "num": 6,
+            "label": "ouverture médiane du 4ème ventricule (trou de Magendie)",
+            "accepted": [
+              "ouverture médiane du 4ème ventricule",
+              "ouverture médiane du 4ème ventricule (trou de magendie)",
+              "ouverture mediane du 4eme ventricule",
+              "trou de magendie",
+              "ouverture mediane du 4eme ventricule (trou de magendie)",
+              "ouverture médiane du 4ème ventricule (trou de Magendie)"
+            ],
+            "hint": "ouverture médiane du 4ème ventricule (trou de Magendie)"
+          },
+          {
+            "id": "p93-2-7",
+            "num": 7,
+            "label": "canal central (canal de l'épendyme)",
+            "accepted": [
+              "canal de l'ependyme",
+              "canal de l'épendyme",
+              "canal central",
+              "canal central (canal de l'épendyme)",
+              "canal central (canal de l'ependyme)"
+            ]
+          },
+          {
+            "id": "p93-2-8",
+            "num": 8,
+            "label": "moelle allongée (bulbe)",
+            "accepted": [
+              "moelle allongée",
+              "bulbe",
+              "moelle allongée (bulbe)",
+              "moelle allongee",
+              "moelle allongee (bulbe)"
+            ]
+          },
+          {
+            "id": "p93-2-9",
+            "num": 9,
+            "label": "4eme ventricule",
+            "accepted": [
+              "4eme ventricule"
+            ]
+          },
+          {
+            "id": "p93-2-10",
+            "num": 10,
+            "label": "pont (protubérance annulaire)",
+            "accepted": [
+              "pont",
+              "protuberance annulaire",
+              "pont (protubérance annulaire)",
+              "pont (protuberance annulaire)",
+              "protubérance annulaire"
+            ]
+          },
+          {
+            "id": "p93-2-11",
+            "num": 11,
+            "label": "aqueduc du mésencéphale (aqueduc de Sylvius)",
+            "accepted": [
+              "aqueduc du mésencéphale (aqueduc de sylvius)",
+              "aqueduc de sylvius",
+              "aqueduc du mesencephale",
+              "aqueduc du mésencéphale",
+              "aqueduc du mésencéphale (aqueduc de Sylvius)",
+              "aqueduc du mesencephale (aqueduc de sylvius)"
+            ],
+            "hint": "aqueduc du mésencéphale (aqueduc de Sylvius)"
+          },
+          {
+            "id": "p93-2-12",
+            "num": 12,
+            "label": "3eme ventricule",
+            "accepted": [
+              "3eme ventricule"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "number": "Planche 94",
+    "title": "Planche 94",
+    "subtitle": "",
+    "image": "images/planche_094.webp",
+    "sections": [
+      {
+        "name": "A : Le cervelet (coupe transversale passant par le pont)",
+        "items": [
+          {
+            "id": "p94-1-1",
+            "num": 1,
+            "label": "noyau du pont",
+            "accepted": [
+              "noyau du pont"
+            ]
+          },
+          {
+            "id": "p94-1-2",
+            "num": 2,
+            "label": "pont (protubérance annulaire)",
+            "accepted": [
+              "pont",
+              "protuberance annulaire",
+              "pont (protubérance annulaire)",
+              "pont (protuberance annulaire)",
+              "protubérance annulaire"
+            ]
+          },
+          {
+            "id": "p94-1-3",
+            "num": 3,
+            "label": "cavité du 4ème ventricule",
+            "accepted": [
+              "cavite du 4eme ventricule",
+              "cavité du 4ème ventricule"
+            ]
+          },
+          {
+            "id": "p94-1-4",
+            "num": 4,
+            "label": "noyau fastigial",
+            "accepted": [
+              "noyau fastigial"
+            ]
+          },
+          {
+            "id": "p94-1-5",
+            "num": 5,
+            "label": "noyau denté",
+            "accepted": [
+              "noyau denté",
+              "noyau dente"
+            ]
+          },
+          {
+            "id": "p94-1-6",
+            "num": 6,
+            "label": "substance blanche centrale",
+            "accepted": [
+              "substance blanche centrale"
+            ]
+          },
+          {
+            "id": "p94-1-7",
+            "num": 7,
+            "label": "cortex cérébelleux",
+            "accepted": [
+              "cortex cerebelleux",
+              "cortex cérébelleux"
+            ]
+          },
+          {
+            "id": "p94-1-8",
+            "num": 8,
+            "label": "noyau globuleux (globulus)",
+            "accepted": [
+              "globulus",
+              "noyau globuleux (globulus)",
+              "noyau globuleux"
+            ]
+          },
+          {
+            "id": "p94-1-9",
+            "num": 9,
+            "label": "vermis",
+            "accepted": [
+              "vermis"
+            ]
+          },
+          {
+            "id": "p94-1-10",
+            "num": 10,
+            "label": "noyau emboliforme (embolus)",
+            "accepted": [
+              "embolus",
+              "noyau emboliforme (embolus)",
+              "noyau emboliforme"
+            ]
+          },
+          {
+            "id": "p94-1-11",
+            "num": 11,
+            "label": "hémisphère cérébelleux",
+            "accepted": [
+              "hemisphere cerebelleux",
+              "hémisphère cérébelleux"
+            ]
+          },
+          {
+            "id": "p94-1-12",
+            "num": 12,
+            "label": "pédoncule cérébelleux moyen",
+            "accepted": [
+              "pedoncule cerebelleux moyen",
+              "pédoncule cérébelleux moyen"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Origines réelle et apparente du trijumeau",
+        "items": [
+          {
+            "id": "p94-2-1",
+            "num": 1,
+            "label": "pont (protubérance annulaire)",
+            "accepted": [
+              "pont",
+              "protuberance annulaire",
+              "pont (protubérance annulaire)",
+              "pont (protuberance annulaire)",
+              "protubérance annulaire"
+            ]
+          },
+          {
+            "id": "p94-2-2",
+            "num": 2,
+            "label": "noyaux d'origine du V (origines réelles du sème nerf crânien)",
+            "accepted": [
+              "origines reelles du seme nerf cranien",
+              "origines réelles du sème nerf crânien",
+              "noyaux d'origine du v",
+              "noyaux d'origine du v (origines reelles du seme nerf cranien)",
+              "noyaux d'origine du V (origines réelles du sème nerf crânien)",
+              "noyaux d'origine du v (origines réelles du sème nerf crânien)"
+            ],
+            "hint": "noyaux d'origine du V (origines réelles du sème nerf crânien)"
+          },
+          {
+            "id": "p94-2-3",
+            "num": 3,
+            "label": "cervelet",
+            "accepted": [
+              "cervelet"
+            ]
+          },
+          {
+            "id": "p94-2-4",
+            "num": 4,
+            "label": "cavité du 4ème ventricule",
+            "accepted": [
+              "cavite du 4eme ventricule",
+              "cavité du 4ème ventricule"
+            ]
+          },
+          {
+            "id": "p94-2-5",
+            "num": 5,
+            "label": "origine apparente du V",
+            "accepted": [
+              "origine apparente du v",
+              "origine apparente du V"
+            ]
+          },
+          {
+            "id": "p94-2-6",
+            "num": 6,
+            "label": "nerf trijumeau",
+            "accepted": [
+              "nerf trijumeau"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "number": "Planche 95",
+    "title": "vue latérale du cerveau",
+    "subtitle": "",
+    "image": "images/planche_095.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p95-1-1",
+            "num": 1,
+            "label": "gyrus précentral (circonvolution frontale ascendante)",
+            "accepted": [
+              "gyrus precentral (circonvolution frontale ascendante)",
+              "circonvolution frontale ascendante",
+              "gyrus precentral",
+              "gyrus précentral",
+              "gyrus précentral (circonvolution frontale ascendante)"
+            ],
+            "hint": "gyrus précentral (circonvolution frontale ascendante)"
+          },
+          {
+            "id": "p95-1-2",
+            "num": 2,
+            "label": "gyrus posteentral (circonvolution pariétale ascendante)",
+            "accepted": [
+              "gyrus posteentral (circonvolution pariétale ascendante)",
+              "circonvolution parietale ascendante",
+              "circonvolution pariétale ascendante",
+              "gyrus posteentral (circonvolution parietale ascendante)",
+              "gyrus posteentral"
+            ],
+            "hint": "gyrus posteentral (circonvolution pariétale ascendante)"
+          },
+          {
+            "id": "p95-1-3",
+            "num": 3,
+            "label": "lobe pariétal",
+            "accepted": [
+              "lobe parietal",
+              "lobe pariétal"
+            ]
+          },
+          {
+            "id": "p95-1-4",
+            "num": 4,
+            "label": "sillon pariéto-occipital (scissure perpendiculaire externe)",
+            "accepted": [
+              "sillon pariéto-occipital",
+              "sillon parieto-occipital",
+              "scissure perpendiculaire externe",
+              "sillon parieto-occipital (scissure perpendiculaire externe)",
+              "sillon pariéto-occipital (scissure perpendiculaire externe)"
+            ],
+            "hint": "sillon pariéto-occipital (scissure perpendiculaire externe)"
+          },
+          {
+            "id": "p95-1-5",
+            "num": 5,
+            "label": "lobe occipital",
+            "accepted": [
+              "lobe occipital"
+            ]
+          },
+          {
+            "id": "p95-1-6",
+            "num": 6,
+            "label": "sillon latéral (scissure de Sylvius)",
+            "accepted": [
+              "sillon latéral",
+              "sillon latéral (scissure de Sylvius)",
+              "scissure de sylvius",
+              "sillon lateral",
+              "sillon lateral (scissure de sylvius)",
+              "sillon latéral (scissure de sylvius)"
+            ]
+          },
+          {
+            "id": "p95-1-7",
+            "num": 7,
+            "label": "lobe temporal",
+            "accepted": [
+              "lobe temporal"
+            ]
+          },
+          {
+            "id": "p95-1-8",
+            "num": 8,
+            "label": "lobe frontal",
+            "accepted": [
+              "lobe frontal"
+            ]
+          },
+          {
+            "id": "p95-1-9",
+            "num": 9,
+            "label": "sillon central (scissure de Rolando)",
+            "accepted": [
+              "sillon central (scissure de Rolando)",
+              "sillon central",
+              "sillon central (scissure de rolando)",
+              "scissure de rolando"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "number": "Planche 96",
+    "title": "vue inférieure de l'encéphale",
+    "subtitle": "Le lobe temporal gauche est récliné, selon le sens de la fleche, afin de dégager",
+    "image": "images/planche_096.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p96-1-1",
+            "num": 1,
+            "label": "lobe frontal",
+            "accepted": [
+              "lobe frontal"
+            ]
+          },
+          {
+            "id": "p96-1-2",
+            "num": 2,
+            "label": "bulbe olfactif",
+            "accepted": [
+              "bulbe olfactif"
+            ]
+          },
+          {
+            "id": "p96-1-3",
+            "num": 3,
+            "label": "nerf optique (I)",
+            "accepted": [
+              "nerf optique (I)",
+              "i",
+              "nerf optique",
+              "nerf optique (i)"
+            ]
+          },
+          {
+            "id": "p96-1-4",
+            "num": 4,
+            "label": "tractus (bandelette) optique",
+            "accepted": [
+              "tractus (bandelette) optique",
+              "bandelette",
+              "tractus"
+            ]
+          },
+          {
+            "id": "p96-1-5",
+            "num": 5,
+            "label": "corps (tubercule) mamillaire",
+            "accepted": [
+              "corps",
+              "corps (tubercule) mamillaire",
+              "tubercule"
+            ]
+          },
+          {
+            "id": "p96-1-6",
+            "num": 6,
+            "label": "tronc cérébral sectionné",
+            "accepted": [
+              "tronc cérébral sectionné",
+              "tronc cerebral sectionne"
+            ]
+          },
+          {
+            "id": "p96-1-7",
+            "num": 7,
+            "label": "lobe temporal",
+            "accepted": [
+              "lobe temporal"
+            ]
+          },
+          {
+            "id": "p96-1-8",
+            "num": 8,
+            "label": "lobe occipital",
+            "accepted": [
+              "lobe occipital"
+            ]
+          },
+          {
+            "id": "p96-1-9",
+            "num": 9,
+            "label": "fissure longitudinale (scissure inter hémisphérique)",
+            "accepted": [
+              "fissure longitudinale",
+              "fissure longitudinale (scissure inter hémisphérique)",
+              "scissure inter hémisphérique",
+              "fissure longitudinale (scissure inter hemispherique)",
+              "scissure inter hemispherique"
+            ],
+            "hint": "fissure longitudinale (scissure inter hémisphérique)"
+          },
+          {
+            "id": "p96-1-10",
+            "num": 10,
+            "label": "tige (ou pédoncule) hypophysaire (tige pituitaire)",
+            "accepted": [
+              "ou pedoncule",
+              "tige (ou pédoncule) hypophysaire (tige pituitaire)",
+              "tige",
+              "tige (ou pedoncule) hypophysaire (tige pituitaire)",
+              "ou pédoncule"
+            ],
+            "hint": "tige (ou pédoncule) hypophysaire (tige pituitaire)"
+          },
+          {
+            "id": "p96-1-11",
+            "num": 11,
+            "label": "chiasma optique",
+            "accepted": [
+              "chiasma optique"
+            ]
+          },
+          {
+            "id": "p96-1-12",
+            "num": 12,
+            "label": "fissure du cerveau longitudinale (scissure inter hémisphérique)",
+            "accepted": [
+              "fissure du cerveau longitudinale",
+              "fissure du cerveau longitudinale (scissure inter hemispherique)",
+              "scissure inter hémisphérique",
+              "fissure du cerveau longitudinale (scissure inter hémisphérique)",
+              "scissure inter hemispherique"
+            ],
+            "hint": "fissure du cerveau longitudinale (scissure inter hémisphérique)"
+          },
+          {
+            "id": "p96-1-13",
+            "num": 13,
+            "label": "sillon olfactif",
+            "accepted": [
+              "sillon olfactif"
+            ]
+          },
+          {
+            "id": "p96-1-14",
+            "num": 14,
+            "label": "strie olfactive médiale",
+            "accepted": [
+              "strie olfactive mediale",
+              "strie olfactive médiale"
+            ]
+          },
+          {
+            "id": "p96-1-15",
+            "num": 15,
+            "label": "strie olfactive latérale",
+            "accepted": [
+              "strie olfactive laterale",
+              "strie olfactive latérale"
+            ]
+          },
+          {
+            "id": "p96-1-16",
+            "num": 16,
+            "label": "sillon collatéral",
+            "accepted": [
+              "sillon collateral",
+              "sillon collatéral"
+            ]
+          },
+          {
+            "id": "p96-1-18",
+            "num": 18,
+            "label": "gyrus occipito-temporal",
+            "accepted": [
+              "gyrus occipito-temporal"
+            ]
+          },
+          {
+            "id": "p96-1-19",
+            "num": 19,
+            "label": "gyrus temporal inférieur",
+            "accepted": [
+              "gyrus temporal inférieur",
+              "gyrus temporal inferieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "number": "Planche 97",
+    "title": "coupe frontale du cerveau",
+    "subtitle": "",
+    "image": "images/planche_097.webp",
+    "sections": [
+      {
+        "name": "A : Télencéphale (hémisphères droit et gauche)",
+        "items": []
+      },
+      {
+        "name": "B : Diencéphale",
+        "items": [
+          {
+            "id": "p97-2-1",
+            "num": 1,
+            "label": "fissure longitudinale du cerveau (scissure inter hémisphérique)",
+            "accepted": [
+              "fissure longitudinale du cerveau (scissure inter hémisphérique)",
+              "fissure longitudinale du cerveau (scissure inter hemispherique)",
+              "scissure inter hémisphérique",
+              "fissure longitudinale du cerveau",
+              "scissure inter hemispherique"
+            ],
+            "hint": "fissure longitudinale du cerveau (scissure inter hémisphérique)"
+          },
+          {
+            "id": "p97-2-2",
+            "num": 2,
+            "label": "centre semi-ovale",
+            "accepted": [
+              "centre semi-ovale"
+            ]
+          },
+          {
+            "id": "p97-2-3",
+            "num": 3,
+            "label": "ventricule latéral",
+            "accepted": [
+              "ventricule lateral",
+              "ventricule latéral"
+            ]
+          },
+          {
+            "id": "p97-2-4",
+            "num": 4,
+            "label": "noyau caudé",
+            "accepted": [
+              "noyau caude",
+              "noyau caudé"
+            ]
+          },
+          {
+            "id": "p97-2-5",
+            "num": 5,
+            "label": "cortex de l'insula",
+            "accepted": [
+              "cortex de l'insula"
+            ]
+          },
+          {
+            "id": "p97-2-6",
+            "num": 6,
+            "label": "capsule interne",
+            "accepted": [
+              "capsule interne"
+            ]
+          },
+          {
+            "id": "p97-2-7",
+            "num": 7,
+            "label": "capsule externe",
+            "accepted": [
+              "capsule externe"
+            ]
+          },
+          {
+            "id": "p97-2-8",
+            "num": 8,
+            "label": "capsule extrême",
+            "accepted": [
+              "capsule extrême",
+              "capsule extreme"
+            ]
+          },
+          {
+            "id": "p97-2-9",
+            "num": 9,
+            "label": "thalamus",
+            "accepted": [
+              "thalamus"
+            ]
+          },
+          {
+            "id": "p97-2-10",
+            "num": 10,
+            "label": "noyau caudé",
+            "accepted": [
+              "noyau caude",
+              "noyau caudé"
+            ]
+          },
+          {
+            "id": "p97-2-11",
+            "num": 11,
+            "label": "ventricule latéral (corne temporale ou inférieure)",
+            "accepted": [
+              "ventricule latéral (corne temporale ou inférieure)",
+              "corne temporale ou inférieure",
+              "ventricule latéral",
+              "corne temporale ou inferieure",
+              "ventricule lateral (corne temporale ou inferieure)",
+              "ventricule lateral"
+            ],
+            "hint": "ventricule latéral (corne temporale ou inférieure)"
+          },
+          {
+            "id": "p97-2-12",
+            "num": 12,
+            "label": "зeme ventricule",
+            "accepted": [
+              "зeme ventricule"
+            ]
+          },
+          {
+            "id": "p97-2-13",
+            "num": 13,
+            "label": "cortex de l'hippocampe",
+            "accepted": [
+              "cortex de l'hippocampe"
+            ]
+          },
+          {
+            "id": "p97-2-14",
+            "num": 14,
+            "label": "hypothalamus",
+            "accepted": [
+              "hypothalamus"
+            ]
+          },
+          {
+            "id": "p97-2-15",
+            "num": 15,
+            "label": "noyau lenticulaire :",
+            "accepted": [
+              "noyau lenticulaire :"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A : putamen",
+        "items": []
+      },
+      {
+        "name": "B : pallidum (glomus pallidus)",
+        "items": [
+          {
+            "id": "p97-4-16",
+            "num": 16,
+            "label": "claustrum",
+            "accepted": [
+              "claustrum"
+            ]
+          },
+          {
+            "id": "p97-4-18",
+            "num": 18,
+            "label": "fornix",
+            "accepted": [
+              "fornix"
+            ]
+          },
+          {
+            "id": "p97-4-19",
+            "num": 19,
+            "label": "septum pellucidum",
+            "accepted": [
+              "septum pellucidum"
+            ]
+          },
+          {
+            "id": "p97-4-20",
+            "num": 20,
+            "label": "substance blanche",
+            "accepted": [
+              "substance blanche"
+            ]
+          },
+          {
+            "id": "p97-4-21",
+            "num": 21,
+            "label": "cortex",
+            "accepted": [
+              "cortex"
+            ]
+          },
+          {
+            "id": "p97-4-22",
+            "num": 22,
+            "label": "corps calleux",
+            "accepted": [
+              "corps calleux"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "number": "Planche 98",
+    "title": "coupe sagittale médiane du cerveau",
+    "subtitle": "passant par le diencéphale",
+    "image": "images/planche_098.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p98-1-1",
+            "num": 1,
+            "label": "adhérence interthalamique (commissure grise)",
+            "accepted": [
+              "adhérence interthalamique",
+              "commissure grise",
+              "adherence interthalamique (commissure grise)",
+              "adhérence interthalamique (commissure grise)",
+              "adherence interthalamique"
+            ],
+            "hint": "adhérence interthalamique (commissure grise)"
+          },
+          {
+            "id": "p98-1-2",
+            "num": 2,
+            "label": "face latérale du 3ème ventricule",
+            "accepted": [
+              "face laterale du 3eme ventricule",
+              "face latérale du 3ème ventricule"
+            ]
+          },
+          {
+            "id": "p98-1-3",
+            "num": 3,
+            "label": "fissure transverse du cerveau (fente de Bichât)",
+            "accepted": [
+              "fente de bichat",
+              "fissure transverse du cerveau",
+              "fissure transverse du cerveau (fente de Bichât)",
+              "fente de bichât",
+              "fissure transverse du cerveau (fente de bichat)",
+              "fissure transverse du cerveau (fente de bichât)"
+            ],
+            "hint": "fissure transverse du cerveau (fente de Bichât)"
+          },
+          {
+            "id": "p98-1-4",
+            "num": 4,
+            "label": "splénium du corps calleux",
+            "accepted": [
+              "splénium du corps calleux",
+              "splenium du corps calleux"
+            ]
+          },
+          {
+            "id": "p98-1-5",
+            "num": 5,
+            "label": "corps pinéal (glande pinéale ou épiphyse)",
+            "accepted": [
+              "glande pinéale ou épiphyse",
+              "corps pinéal",
+              "corps pineal (glande pineale ou epiphyse)",
+              "corps pinéal (glande pinéale ou épiphyse)",
+              "glande pineale ou epiphyse",
+              "corps pineal"
+            ],
+            "hint": "corps pinéal (glande pinéale ou épiphyse)"
+          },
+          {
+            "id": "p98-1-6",
+            "num": 6,
+            "label": "commissure postérieure",
+            "accepted": [
+              "commissure posterieure",
+              "commissure postérieure"
+            ]
+          },
+          {
+            "id": "p98-1-7",
+            "num": 7,
+            "label": "aqueduc du mésencéphale (aqueduc de Sylvius)",
+            "accepted": [
+              "aqueduc du mésencéphale (aqueduc de sylvius)",
+              "aqueduc de sylvius",
+              "aqueduc du mesencephale",
+              "aqueduc du mésencéphale",
+              "aqueduc du mésencéphale (aqueduc de Sylvius)",
+              "aqueduc du mesencephale (aqueduc de sylvius)"
+            ],
+            "hint": "aqueduc du mésencéphale (aqueduc de Sylvius)"
+          },
+          {
+            "id": "p98-1-8",
+            "num": 8,
+            "label": "corps mamillaire (tubercule mamillaire)",
+            "accepted": [
+              "corps mamillaire (tubercule mamillaire)",
+              "tubercule mamillaire",
+              "corps mamillaire"
+            ]
+          },
+          {
+            "id": "p98-1-9",
+            "num": 9,
+            "label": "hypothalamus",
+            "accepted": [
+              "hypothalamus"
+            ]
+          },
+          {
+            "id": "p98-1-10",
+            "num": 10,
+            "label": "infundibulum de l'hypothalamus",
+            "accepted": [
+              "infundibulum de l'hypothalamus"
+            ]
+          },
+          {
+            "id": "p98-1-11",
+            "num": 11,
+            "label": "chiasma optique",
+            "accepted": [
+              "chiasma optique"
+            ]
+          },
+          {
+            "id": "p98-1-12",
+            "num": 12,
+            "label": "stries olfactives",
+            "accepted": [
+              "stries olfactives"
+            ]
+          },
+          {
+            "id": "p98-1-13",
+            "num": 13,
+            "label": "colonne du fornix",
+            "accepted": [
+              "colonne du fornix"
+            ]
+          },
+          {
+            "id": "p98-1-14",
+            "num": 14,
+            "label": "bulbe olfactif",
+            "accepted": [
+              "bulbe olfactif"
+            ]
+          },
+          {
+            "id": "p98-1-15",
+            "num": 15,
+            "label": "commissure antérieure",
+            "accepted": [
+              "commissure anterieure",
+              "commissure antérieure"
+            ]
+          },
+          {
+            "id": "p98-1-16",
+            "num": 16,
+            "label": "rostrum du corps calleux",
+            "accepted": [
+              "rostrum du corps calleux"
+            ]
+          },
+          {
+            "id": "p98-1-18",
+            "num": 18,
+            "label": "foramen inter-ventriculaire (trou de Monro)",
+            "accepted": [
+              "foramen inter-ventriculaire (trou de monro)",
+              "foramen inter-ventriculaire (trou de Monro)",
+              "trou de monro",
+              "foramen inter-ventriculaire"
+            ],
+            "hint": "foramen inter-ventriculaire (trou de Monro)"
+          },
+          {
+            "id": "p98-1-19",
+            "num": 19,
+            "label": "septum pellucidum",
+            "accepted": [
+              "septum pellucidum"
+            ]
+          },
+          {
+            "id": "p98-1-20",
+            "num": 20,
+            "label": "fornix (trigone)",
+            "accepted": [
+              "fornix (trigone)",
+              "trigone",
+              "fornix"
+            ]
+          },
+          {
+            "id": "p98-1-21",
+            "num": 21,
+            "label": "sillon calcarin",
+            "accepted": [
+              "sillon calcarin"
+            ]
+          },
+          {
+            "id": "p98-1-23",
+            "num": 23,
+            "label": "cuneus",
+            "accepted": [
+              "cuneus"
+            ]
+          },
+          {
+            "id": "p98-1-24",
+            "num": 24,
+            "label": "sillon pariéto-occipital",
+            "accepted": [
+              "sillon pariéto-occipital",
+              "sillon parieto-occipital"
+            ]
+          },
+          {
+            "id": "p98-1-25",
+            "num": 25,
+            "label": "précuneus (lobe quadrilatère)",
+            "accepted": [
+              "lobe quadrilatère",
+              "précuneus (lobe quadrilatère)",
+              "precuneus (lobe quadrilatere)",
+              "précuneus",
+              "precuneus",
+              "lobe quadrilatere"
+            ]
+          },
+          {
+            "id": "p98-1-26",
+            "num": 26,
+            "label": "lobule oparacentral",
+            "accepted": [
+              "lobule oparacentral"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "number": "Planche 99",
+    "title": "Planche 99",
+    "subtitle": "",
+    "image": "images/planche_099.webp",
+    "sections": [
+      {
+        "name": "A : Coupe frontale des méninges",
+        "items": [
+          {
+            "id": "p99-1-1",
+            "num": 1,
+            "label": "sinus sagittal supérieur (sinus longitudinal supérieur)",
+            "accepted": [
+              "sinus sagittal supérieur",
+              "sinus sagittal superieur",
+              "sinus sagittal supérieur (sinus longitudinal supérieur)",
+              "sinus longitudinal superieur",
+              "sinus longitudinal supérieur",
+              "sinus sagittal superieur (sinus longitudinal superieur)"
+            ],
+            "hint": "sinus sagittal supérieur (sinus longitudinal supérieur)"
+          },
+          {
+            "id": "p99-1-2",
+            "num": 2,
+            "label": "granulation arachnoïdienne",
+            "accepted": [
+              "granulation arachnoidienne",
+              "granulation arachnoïdienne"
+            ]
+          },
+          {
+            "id": "p99-1-3",
+            "num": 3,
+            "label": "table externe",
+            "accepted": [
+              "table externe"
+            ]
+          },
+          {
+            "id": "p99-1-4",
+            "num": 4,
+            "label": "diploë",
+            "accepted": [
+              "diploë",
+              "diploe"
+            ]
+          },
+          {
+            "id": "p99-1-5",
+            "num": 5,
+            "label": "table interne",
+            "accepted": [
+              "table interne"
+            ]
+          },
+          {
+            "id": "p99-1-6",
+            "num": 6,
+            "label": "arachnoïde",
+            "accepted": [
+              "arachnoide",
+              "arachnoïde"
+            ]
+          },
+          {
+            "id": "p99-1-7",
+            "num": 7,
+            "label": "pie-mère",
+            "accepted": [
+              "pie-mère",
+              "pie-mere"
+            ]
+          },
+          {
+            "id": "p99-1-8",
+            "num": 8,
+            "label": "cortex cérébral",
+            "accepted": [
+              "cortex cérébral",
+              "cortex cerebral"
+            ]
+          },
+          {
+            "id": "p99-1-9",
+            "num": 9,
+            "label": "substance blanche cérébrale",
+            "accepted": [
+              "substance blanche cerebrale",
+              "substance blanche cérébrale"
+            ]
+          },
+          {
+            "id": "p99-1-10",
+            "num": 10,
+            "label": "faux du cerveau",
+            "accepted": [
+              "faux du cerveau"
+            ]
+          },
+          {
+            "id": "p99-1-11",
+            "num": 11,
+            "label": "cavum subarachnoïdien",
+            "accepted": [
+              "cavum subarachnoidien",
+              "cavum subarachnoïdien"
+            ]
+          },
+          {
+            "id": "p99-1-12",
+            "num": 12,
+            "label": "arachnoïde + cavum subarachnoïdien",
+            "accepted": [
+              "arachnoide + cavum subarachnoidien",
+              "arachnoïde + cavum subarachnoïdien"
+            ]
+          },
+          {
+            "id": "p99-1-13",
+            "num": 13,
+            "label": "dure-mère",
+            "accepted": [
+              "dure-mere",
+              "re-mere",
+              "dure-mère",
+              "re-mère"
+            ]
+          },
+          {
+            "id": "p99-1-14",
+            "num": 14,
+            "label": "cavum épidural",
+            "accepted": [
+              "cavum epidural",
+              "cavum épidural"
+            ]
+          },
+          {
+            "id": "p99-1-15",
+            "num": 15,
+            "label": "galea aponévrotique",
+            "accepted": [
+              "galea aponévrotique",
+              "galea aponevrotique"
+            ]
+          },
+          {
+            "id": "p99-1-16",
+            "num": 16,
+            "label": "derme du cuir chevelu",
+            "accepted": [
+              "derme du cuir chevelu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B : Coupe frontale de la tête montrant la disposition",
+        "items": [
+          {
+            "id": "p99-2-1",
+            "num": 1,
+            "label": "calvaria (voûte du crâne)",
+            "accepted": [
+              "voûte du crâne",
+              "calvaria (voute du crane)",
+              "calvaria",
+              "voute du crane",
+              "calvaria (voûte du crâne)"
+            ]
+          },
+          {
+            "id": "p99-2-2",
+            "num": 2,
+            "label": "sinus sagittal inférieur (sinus longitudinal inférieur)",
+            "accepted": [
+              "sinus sagittal inférieur (sinus longitudinal inférieur)",
+              "sinus sagittal inférieur",
+              "sinus sagittal inferieur",
+              "sinus longitudinal inférieur",
+              "sinus sagittal inferieur (sinus longitudinal inferieur)",
+              "sinus longitudinal inferieur"
+            ],
+            "hint": "sinus sagittal inférieur (sinus longitudinal inférieur)"
+          },
+          {
+            "id": "p99-2-3",
+            "num": 3,
+            "label": "tente du cervelet",
+            "accepted": [
+              "tente du cervelet"
+            ]
+          },
+          {
+            "id": "p99-2-4",
+            "num": 4,
+            "label": "base du crâne",
+            "accepted": [
+              "base du crâne",
+              "base du crane"
+            ]
+          },
+          {
+            "id": "p99-2-5",
+            "num": 5,
+            "label": "moelle allongée (bulbe) traversant le foramen magnum (trou occipital)",
+            "accepted": [
+              "moelle allongée",
+              "bulbe",
+              "moelle allongee",
+              "moelle allongee (bulbe) traversant le foramen magnum (trou occipital)",
+              "moelle allongée (bulbe) traversant le foramen magnum (trou occipital)"
+            ],
+            "hint": "moelle allongée (bulbe) traversant le foramen magnum (trou occipital)"
+          },
+          {
+            "id": "p99-2-6",
+            "num": 6,
+            "label": "moelle spinale",
+            "accepted": [
+              "moelle spinale"
+            ]
+          },
+          {
+            "id": "p99-2-7",
+            "num": 7,
+            "label": "dure-mère spinale (dure-mère rachidienne)",
+            "accepted": [
+              "dure-mère spinale (dure-mère rachidienne)",
+              "dure-mère spinale",
+              "re-mère spinale (dure-mère rachidienne)",
+              "dure-mere rachidienne",
+              "dure-mère rachidienne",
+              "dure-mere spinale (dure-mere rachidienne)",
+              "dure-mere spinale",
+              "re-mere spinale (dure-mere rachidienne)"
+            ],
+            "hint": "dure-mère spinale (dure-mère rachidienne)"
+          },
+          {
+            "id": "p99-2-8",
+            "num": 8,
+            "label": "atlas",
+            "accepted": [
+              "atlas"
+            ]
+          },
+          {
+            "id": "p99-2-9",
+            "num": 9,
+            "label": "cervelet",
+            "accepted": [
+              "cervelet"
+            ]
+          },
+          {
+            "id": "p99-2-10",
+            "num": 10,
+            "label": "sinus transverse (sinus latéral)",
+            "accepted": [
+              "sinus lateral",
+              "sinus latéral",
+              "sinus transverse (sinus latéral)",
+              "sinus transverse (sinus lateral)",
+              "sinus transverse"
+            ]
+          },
+          {
+            "id": "p99-2-11",
+            "num": 11,
+            "label": "hémisphère cérébral",
+            "accepted": [
+              "hemisphere cerebral",
+              "hémisphère cérébral"
+            ]
+          },
+          {
+            "id": "p99-2-12",
+            "num": 12,
+            "label": "dure-mère crânienne",
+            "accepted": [
+              "re-mère crânienne",
+              "dure-mere cranienne",
+              "re-mere cranienne",
+              "dure-mère crânienne"
+            ]
+          },
+          {
+            "id": "p99-2-13",
+            "num": 13,
+            "label": "faux du cerveau",
+            "accepted": [
+              "faux du cerveau"
+            ]
+          },
+          {
+            "id": "p99-2-14",
+            "num": 14,
+            "label": "sinus sagittal supérieur (sinus longitudinal supérieur)",
+            "accepted": [
+              "sinus sagittal supérieur",
+              "sinus sagittal superieur",
+              "sinus sagittal supérieur (sinus longitudinal supérieur)",
+              "sinus longitudinal superieur",
+              "sinus longitudinal supérieur",
+              "sinus sagittal superieur (sinus longitudinal superieur)"
+            ],
+            "hint": "sinus sagittal supérieur (sinus longitudinal supérieur)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "number": "Planche 100",
+    "title": "les voies motrices pyramidales",
+    "subtitle": "(schéma général)",
+    "image": "images/planche_100.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p100-1-1",
+            "num": 1,
+            "label": "neurone central",
+            "accepted": [
+              "neurone central"
+            ]
+          },
+          {
+            "id": "p100-1-2",
+            "num": 2,
+            "label": "aire corticale somato-motrice (gyrus précentral)",
+            "accepted": [
+              "aire corticale somato-motrice (gyrus precentral)",
+              "aire corticale somato-motrice (gyrus précentral)",
+              "gyrus precentral",
+              "aire corticale somato-motrice",
+              "gyrus précentral"
+            ],
+            "hint": "aire corticale somato-motrice (gyrus précentral)"
+          },
+          {
+            "id": "p100-1-3",
+            "num": 3,
+            "label": "centre semi-ovale",
+            "accepted": [
+              "centre semi-ovale"
+            ]
+          },
+          {
+            "id": "p100-1-4",
+            "num": 4,
+            "label": "capsule interne",
+            "accepted": [
+              "capsule interne"
+            ]
+          },
+          {
+            "id": "p100-1-5",
+            "num": 5,
+            "label": "colliculi (tubercules quadrijumeaux)",
+            "accepted": [
+              "colliculi (tubercules quadrijumeaux)",
+              "tubercules quadrijumeaux",
+              "colliculi"
+            ]
+          },
+          {
+            "id": "p100-1-6",
+            "num": 6,
+            "label": "olive bulbaire",
+            "accepted": [
+              "olive bulbaire"
+            ]
+          },
+          {
+            "id": "p100-1-7",
+            "num": 7,
+            "label": "décussation des pyramides",
+            "accepted": [
+              "decussation des pyramides",
+              "décussation des pyramides"
+            ]
+          },
+          {
+            "id": "p100-1-8",
+            "num": 8,
+            "label": "faisceau cortico-spinal ventral (1/5 des fibres)",
+            "accepted": [
+              "faisceau cortico-spinal ventral (1/5 des fibres)",
+              "1/5 des fibres",
+              "faisceau cortico-spinal ventral"
+            ],
+            "hint": "faisceau cortico-spinal ventral (1/5 des fibres)"
+          },
+          {
+            "id": "p100-1-9",
+            "num": 9,
+            "label": "étage médullaire",
+            "accepted": [
+              "étage médullaire",
+              "etage medullaire"
+            ]
+          },
+          {
+            "id": "p100-1-10",
+            "num": 10,
+            "label": "cordon latéral de la moelle",
+            "accepted": [
+              "cordon latéral de la moelle",
+              "cordon lateral de la moelle"
+            ]
+          },
+          {
+            "id": "p100-1-11",
+            "num": 11,
+            "label": "motoneurone",
+            "accepted": [
+              "motoneurone"
+            ]
+          },
+          {
+            "id": "p100-1-12",
+            "num": 12,
+            "label": "cordon ventral de la moelle",
+            "accepted": [
+              "cordon ventral de la moelle"
+            ]
+          },
+          {
+            "id": "p100-1-13",
+            "num": 13,
+            "label": "faisceau cortico-spinal latéral (4/5 des fibres)",
+            "accepted": [
+              "faisceau cortico-spinal latéral",
+              "4/5 des fibres",
+              "faisceau cortico-spinal latéral (4/5 des fibres)",
+              "faisceau cortico-spinal lateral",
+              "faisceau cortico-spinal lateral (4/5 des fibres)"
+            ],
+            "hint": "faisceau cortico-spinal latéral (4/5 des fibres)"
+          },
+          {
+            "id": "p100-1-14",
+            "num": 14,
+            "label": "étage bulbaire",
+            "accepted": [
+              "etage bulbaire",
+              "étage bulbaire"
+            ]
+          },
+          {
+            "id": "p100-1-15",
+            "num": 15,
+            "label": "pyramide bulbaire",
+            "accepted": [
+              "pyramide bulbaire"
+            ]
+          },
+          {
+            "id": "p100-1-16",
+            "num": 16,
+            "label": "4ème ventricule",
+            "accepted": [
+              "4eme ventricule",
+              "4ème ventricule"
+            ]
+          },
+          {
+            "id": "p100-1-17",
+            "num": 17,
+            "label": "étage pontique",
+            "accepted": [
+              "étage pontique",
+              "etage pontique"
+            ]
+          },
+          {
+            "id": "p100-1-18",
+            "num": 18,
+            "label": "noyaux du pont",
+            "accepted": [
+              "noyaux du pont"
+            ]
+          },
+          {
+            "id": "p100-1-19",
+            "num": 19,
+            "label": "étage mésencéphalique",
+            "accepted": [
+              "etage mesencephalique",
+              "étage mésencéphalique"
+            ]
+          },
+          {
+            "id": "p100-1-20",
+            "num": 20,
+            "label": "substance noire",
+            "accepted": [
+              "substance noire"
+            ]
+          },
+          {
+            "id": "p100-1-21",
+            "num": 21,
+            "label": "pédoncule cérébral",
+            "accepted": [
+              "pédoncule cérébral",
+              "pedoncule cerebral"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "number": "Planche 101",
+    "title": "un exemple des voies de la",
+    "subtitle": "sensibilité : les voies spino-thalamo-corticales",
+    "image": "images/planche_101.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p101-1-1",
+            "num": 1,
+            "label": "gyrus postcentral (circonvolution pariétale ascendante)",
+            "accepted": [
+              "gyrus postcentral (circonvolution pariétale ascendante)",
+              "gyrus postcentral",
+              "circonvolution pariétale ascendante",
+              "gyrus postcentral (circonvolution parietale ascendante)",
+              "circonvolution parietale ascendante"
+            ],
+            "hint": "gyrus postcentral (circonvolution pariétale ascendante)"
+          },
+          {
+            "id": "p101-1-2",
+            "num": 2,
+            "label": "neurone thalamo-cortical",
+            "accepted": [
+              "neurone thalamo-cortical"
+            ]
+          },
+          {
+            "id": "p101-1-3",
+            "num": 3,
+            "label": "noyau latéro-ventral postérieur du thalamus",
+            "accepted": [
+              "noyau latero-ventral posterieur du thalamus",
+              "noyau latéro-ventral postérieur du thalamus"
+            ]
+          },
+          {
+            "id": "p101-1-4",
+            "num": 4,
+            "label": ". deutoneurone",
+            "accepted": [
+              ". deutoneurone"
+            ]
+          },
+          {
+            "id": "p101-1-5",
+            "num": 5,
+            "label": "faisceau spino-thalamique latéral (sensibilité thermo-algésique)",
+            "accepted": [
+              "faisceau spino-thalamique lateral",
+              "faisceau spino-thalamique lateral (sensibilite thermo-algesique)",
+              "sensibilité thermo-algésique",
+              "faisceau spino-thalamique latéral (sensibilité thermo-algésique)",
+              "sensibilite thermo-algesique",
+              "faisceau spino-thalamique latéral"
+            ],
+            "hint": "faisceau spino-thalamique latéral (sensibilité thermo-algésique)"
+          },
+          {
+            "id": "p101-1-6",
+            "num": 6,
+            "label": "cordon latéral de la moelle spinale",
+            "accepted": [
+              "cordon lateral de la moelle spinale",
+              "cordon latéral de la moelle spinale"
+            ]
+          },
+          {
+            "id": "p101-1-7",
+            "num": 7,
+            "label": "apex de la corne dorsale de la moelle spinale",
+            "accepted": [
+              "apex de la corne dorsale de la moelle spinale"
+            ]
+          },
+          {
+            "id": "p101-1-8",
+            "num": 8,
+            "label": "protoneurone ganglionnaire",
+            "accepted": [
+              "protoneurone ganglionnaire"
+            ]
+          },
+          {
+            "id": "p101-1-9",
+            "num": 9,
+            "label": "commissure grise ventrale",
+            "accepted": [
+              "commissure grise ventrale"
+            ]
+          },
+          {
+            "id": "p101-1-10",
+            "num": 10,
+            "label": "faisceau spino-thalamique ventral (tact protopathique)",
+            "accepted": [
+              "faisceau spino-thalamique ventral (tact protopathique)",
+              "faisceau spino-thalamique ventral",
+              "tact protopathique"
+            ],
+            "hint": "faisceau spino-thalamique ventral (tact protopathique)"
+          },
+          {
+            "id": "p101-1-11",
+            "num": 11,
+            "label": "deutoneurone",
+            "accepted": [
+              "deutoneurone"
+            ]
+          },
+          {
+            "id": "p101-1-12",
+            "num": 12,
+            "label": "étage bulbaire",
+            "accepted": [
+              "etage bulbaire",
+              "étage bulbaire"
+            ]
+          },
+          {
+            "id": "p101-1-13",
+            "num": 13,
+            "label": "étage pontique",
+            "accepted": [
+              "étage pontique",
+              "etage pontique"
+            ]
+          },
+          {
+            "id": "p101-1-14",
+            "num": 14,
+            "label": "étage mésencéphalique",
+            "accepted": [
+              "etage mesencephalique",
+              "étage mésencéphalique"
+            ]
+          },
+          {
+            "id": "p101-1-15",
+            "num": 15,
+            "label": "thalamus",
+            "accepted": [
+              "thalamus"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "number": "Planche 102",
+    "title": "organisation générale du système",
+    "subtitle": "nerveux végétatif",
+    "image": "images/planche_102.webp",
+    "sections": [
+      {
+        "name": "",
+        "items": [
+          {
+            "id": "p102-1-1",
+            "num": 1,
+            "label": "noyau du X (centre végétatif parasympathique crânien du tronc cérébral)",
+            "accepted": [
+              "noyau du x",
+              "centre végétatif parasympathique crânien du tronc cérébral",
+              "centre vegetatif parasympathique cranien du tronc cerebral",
+              "noyau du x (centre vegetatif parasympathique cranien du tronc cerebral)",
+              "noyau du x (centre végétatif parasympathique crânien du tronc cérébral)",
+              "noyau du X (centre végétatif parasympathique crânien du tronc cérébral)"
+            ],
+            "hint": "noyau du X (centre végétatif parasympathique crânien du tronc cérébral)"
+          },
+          {
+            "id": "p102-1-2",
+            "num": 2,
+            "label": "centre médullaire orthosympathique)",
+            "accepted": [
+              "centre medullaire orthosympathique)",
+              "centre médullaire orthosympathique)"
+            ]
+          },
+          {
+            "id": "p102-1-3",
+            "num": 3,
+            "label": "parasympathique pelvien (moelle sacrée)",
+            "accepted": [
+              "parasympathique pelvien (moelle sacree)",
+              "moelle sacree",
+              "parasympathique pelvien",
+              "moelle sacrée",
+              "parasympathique pelvien (moelle sacrée)"
+            ]
+          },
+          {
+            "id": "p102-1-4",
+            "num": 4,
+            "label": "neurones parasympathiques pré ganglionnaires empruntant le trajet des nerfs érecteurs d'Eckart",
+            "accepted": [
+              "neurones parasympathiques pré ganglionnaires empruntant le trajet des nerfs érecteurs d'eckart",
+              "neurones parasympathiques pre ganglionnaires empruntant le trajet des nerfs erecteurs d'eckart",
+              "neurones parasympathiques pré ganglionnaires empruntant le trajet des nerfs érecteurs d'Eckart"
+            ]
+          },
+          {
+            "id": "p102-1-5",
+            "num": 5,
+            "label": "",
+            "accepted": [
+              ""
+            ]
+          },
+          {
+            "id": "p102-1-7",
+            "num": 7,
+            "label": "",
+            "accepted": [
+              ""
+            ]
+          },
+          {
+            "id": "p102-1-8",
+            "num": 8,
+            "label": "",
+            "accepted": [
+              ""
+            ]
+          },
+          {
+            "id": "p102-1-9",
+            "num": 9,
+            "label": "ganglion ciliaire (ganglion ophtalmique)",
+            "accepted": [
+              "ganglion ophtalmique",
+              "ganglion ciliaire",
+              "ganglion ciliaire (ganglion ophtalmique)"
+            ]
+          },
+          {
+            "id": "p102-1-10",
+            "num": 10,
+            "label": "ganglion ptérygo-palatin (ganglion sphéno-palatin)",
+            "accepted": [
+              "ganglion ptérygo-palatin (ganglion sphéno-palatin)",
+              "ganglion ptérygo-palatin",
+              "ganglion sphéno-palatin",
+              "ganglion spheno-palatin",
+              "ganglion pterygo-palatin (ganglion spheno-palatin)",
+              "ganglion pterygo-palatin"
+            ],
+            "hint": "ganglion ptérygo-palatin (ganglion sphéno-palatin)"
+          },
+          {
+            "id": "p102-1-11",
+            "num": 11,
+            "label": "ganglions submandibulaire et sublingual",
+            "accepted": [
+              "ganglions submandibulaire et sublingual"
+            ]
+          },
+          {
+            "id": "p102-1-12",
+            "num": 12,
+            "label": "ganglion otique",
+            "accepted": [
+              "ganglion otique"
+            ]
+          },
+          {
+            "id": "p102-1-13",
+            "num": 13,
+            "label": "neurone pré ganglionnaire parasympathique",
+            "accepted": [
+              "neurone pre ganglionnaire parasympathique",
+              "neurone pré ganglionnaire parasympathique"
+            ]
+          },
+          {
+            "id": "p102-1-14",
+            "num": 14,
+            "label": "nerf vague (pneumogastrique) appartenant au système para sympathique",
+            "accepted": [
+              "pneumogastrique",
+              "nerf vague (pneumogastrique) appartenant au système para sympathique",
+              "nerf vague (pneumogastrique) appartenant au systeme para sympathique",
+              "nerf vague"
+            ],
+            "hint": "nerf vague (pneumogastrique) appartenant au système para sympathique"
+          },
+          {
+            "id": "p102-1-15",
+            "num": 15,
+            "label": "neurone pré ganglionnaire parasympathique",
+            "accepted": [
+              "neurone pre ganglionnaire parasympathique",
+              "neurone pré ganglionnaire parasympathique"
+            ]
+          },
+          {
+            "id": "p102-1-16",
+            "num": 16,
+            "label": "nerfs splanchniques",
+            "accepted": [
+              "nerfs splanchniques"
+            ]
+          },
+          {
+            "id": "p102-1-18",
+            "num": 18,
+            "label": "nerfs viscéraux abdominaux",
+            "accepted": [
+              "nerfs viscéraux abdominaux",
+              "nerfs visceraux abdominaux"
+            ]
+          },
+          {
+            "id": "p102-1-19",
+            "num": 19,
+            "label": "ganglions mésentériques (plexus végétatif pré vertébral)",
+            "accepted": [
+              "ganglions mesenteriques",
+              "ganglions mésentériques (plexus végétatif pré vertébral)",
+              "ganglions mesenteriques (plexus vegetatif pre vertebral)",
+              "plexus végétatif pré vertébral",
+              "ganglions mésentériques",
+              "plexus vegetatif pre vertebral"
+            ],
+            "hint": "ganglions mésentériques (plexus végétatif pré vertébral)"
+          },
+          {
+            "id": "p102-1-20",
+            "num": 20,
+            "label": "plexus hypogastrique inférieur",
+            "accepted": [
+              "plexus hypogastrique inférieur",
+              "plexus hypogastrique inferieur"
+            ]
+          },
+          {
+            "id": "p102-1-21",
+            "num": 21,
+            "label": "nerf viscéral pelvien",
+            "accepted": [
+              "nerf visceral pelvien",
+              "nerf viscéral pelvien"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "number": "Planche 103",
+    "title": "OSTEOLOGIE DU MEMBRE THORACIQUE",
+    "subtitle": "",
+    "image": "images/planche_103.webp",
+    "sections": [
+      {
+        "name": "Fig 5 : Squelette du membre",
+        "items": [
+          {
+            "id": "p103-1-1",
+            "num": 1,
+            "label": "clavicule",
+            "accepted": [
+              "clavicule"
+            ]
+          },
+          {
+            "id": "p103-1-2",
+            "num": 2,
+            "label": "scapula",
+            "accepted": [
+              "scapula"
+            ]
+          },
+          {
+            "id": "p103-1-3",
+            "num": 3,
+            "label": "humérus",
+            "accepted": [
+              "humerus",
+              "humérus"
+            ]
+          },
+          {
+            "id": "p103-1-4",
+            "num": 4,
+            "label": "radius",
+            "accepted": [
+              "radius"
+            ]
+          },
+          {
+            "id": "p103-1-5",
+            "num": 5,
+            "label": "ulna",
+            "accepted": [
+              "ulna"
+            ]
+          },
+          {
+            "id": "p103-1-6",
+            "num": 6,
+            "label": "carpe",
+            "accepted": [
+              "carpe"
+            ]
+          },
+          {
+            "id": "p103-1-7",
+            "num": 7,
+            "label": "métacarpe",
+            "accepted": [
+              "métacarpe",
+              "metacarpe"
+            ]
+          },
+          {
+            "id": "p103-1-8",
+            "num": 8,
+            "label": "phalanges",
+            "accepted": [
+              "phalanges"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "number": "Planche 104",
+    "title": "CLAVICULE",
+    "subtitle": "",
+    "image": "images/planche_104.webp",
+    "sections": [
+      {
+        "name": "Fig. 6 : Clavicule droite, vue supérieure.",
+        "items": [
+          {
+            "id": "p104-1-1",
+            "num": 1,
+            "label": "corps",
+            "accepted": [
+              "corps"
+            ]
+          },
+          {
+            "id": "p104-1-2",
+            "num": 2,
+            "label": "extrémité sternale",
+            "accepted": [
+              "extrémité sternale",
+              "extremite sternale"
+            ]
+          },
+          {
+            "id": "p104-1-3",
+            "num": 3,
+            "label": "extrémité acromiale",
+            "accepted": [
+              "extrémité acromiale",
+              "extremite acromiale"
+            ]
+          },
+          {
+            "id": "p104-1-4",
+            "num": 4,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p104-1-5",
+            "num": 5,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord postérieur",
+              "bord posterieur"
+            ]
+          },
+          {
+            "id": "p104-1-6",
+            "num": 6,
+            "label": "surface articulaire sternale",
+            "accepted": [
+              "surface articulaire sternale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fig. 7 : Clavicule droite, vue inférieure.",
+        "items": [
+          {
+            "id": "p104-2-1",
+            "num": 1,
+            "label": "corps",
+            "accepted": [
+              "corps"
+            ]
+          },
+          {
+            "id": "p104-2-2",
+            "num": 2,
+            "label": "extrémité sternale",
+            "accepted": [
+              "extrémité sternale",
+              "extremite sternale"
+            ]
+          },
+          {
+            "id": "p104-2-3",
+            "num": 3,
+            "label": "extrémité acromiale",
+            "accepted": [
+              "extrémité acromiale",
+              "extremite acromiale"
+            ]
+          },
+          {
+            "id": "p104-2-4",
+            "num": 4,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p104-2-5",
+            "num": 5,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord postérieur",
+              "bord posterieur"
+            ]
+          },
+          {
+            "id": "p104-2-6",
+            "num": 6,
+            "label": "gouttière du m. subclavier",
+            "accepted": [
+              "gouttière du m. subclavier",
+              "gouttiere du m. subclavier"
+            ]
+          },
+          {
+            "id": "p104-2-7",
+            "num": 7,
+            "label": "tubercule conoïde",
+            "accepted": [
+              "tubercule conoïde",
+              "tubercule conoide"
+            ]
+          },
+          {
+            "id": "p104-2-8",
+            "num": 8,
+            "label": "ligne trapézoïde",
+            "accepted": [
+              "ligne trapézoïde",
+              "ligne trapezoide"
+            ]
+          },
+          {
+            "id": "p104-2-9",
+            "num": 9,
+            "label": "surface articulaire sternale",
+            "accepted": [
+              "surface articulaire sternale"
+            ]
+          },
+          {
+            "id": "p104-2-10",
+            "num": 10,
+            "label": "surface articulaire acromiale",
+            "accepted": [
+              "surface articulaire acromiale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "number": "Planche 105",
+    "title": "SCAPULA",
+    "subtitle": "",
+    "image": "images/planche_105.webp",
+    "sections": [
+      {
+        "name": "Fig. 8 : Scapula droite, vue antérieure : face costale",
+        "items": [
+          {
+            "id": "p105-1-1",
+            "num": 1,
+            "label": "fosse subscapulaire",
+            "accepted": [
+              "fosse subscapulaire"
+            ]
+          },
+          {
+            "id": "p105-1-2",
+            "num": 2,
+            "label": "crêtes d'insertion du m. subscapulaire",
+            "accepted": [
+              "crêtes d'insertion du m. subscapulaire",
+              "cretes d'insertion du m. subscapulaire"
+            ]
+          },
+          {
+            "id": "p105-1-3",
+            "num": 3,
+            "label": "pilier",
+            "accepted": [
+              "pilier"
+            ]
+          },
+          {
+            "id": "p105-1-4",
+            "num": 4,
+            "label": "acromion",
+            "accepted": [
+              "acromion"
+            ]
+          },
+          {
+            "id": "p105-1-5",
+            "num": 5,
+            "label": "surface articulaire de l'acromion",
+            "accepted": [
+              "surface articulaire de l'acromion"
+            ]
+          },
+          {
+            "id": "p105-1-6",
+            "num": 6,
+            "label": "bord latéral",
+            "accepted": [
+              "bord latéral",
+              "bord lateral"
+            ]
+          },
+          {
+            "id": "p105-1-7",
+            "num": 7,
+            "label": "tubercule infraglénoïdal",
+            "accepted": [
+              "tubercule infraglenoidal",
+              "tubercule infraglénoïdal"
+            ]
+          },
+          {
+            "id": "p105-1-8",
+            "num": 8,
+            "label": "col de la scapula",
+            "accepted": [
+              "col de la scapula"
+            ]
+          },
+          {
+            "id": "p105-1-9",
+            "num": 9,
+            "label": "bord médial",
+            "accepted": [
+              "bord médial",
+              "bord medial"
+            ]
+          },
+          {
+            "id": "p105-1-10",
+            "num": 10,
+            "label": "bord supérieur",
+            "accepted": [
+              "bord superieur",
+              "bord supérieur"
+            ]
+          },
+          {
+            "id": "p105-1-11",
+            "num": 11,
+            "label": "incisure scapulaire",
+            "accepted": [
+              "incisure scapulaire"
+            ]
+          },
+          {
+            "id": "p105-1-12",
+            "num": 12,
+            "label": "angle latéral",
+            "accepted": [
+              "angle latéral",
+              "angle lateral"
+            ]
+          },
+          {
+            "id": "p105-1-13",
+            "num": 13,
+            "label": "cavité glenoïdale",
+            "accepted": [
+              "cavité glenoïdale",
+              "cavite glenoidale"
+            ]
+          },
+          {
+            "id": "p105-1-14",
+            "num": 14,
+            "label": "tubercule supraglénoïdal",
+            "accepted": [
+              "tubercule supraglenoidal",
+              "tubercule supraglénoïdal"
+            ]
+          },
+          {
+            "id": "p105-1-15",
+            "num": 15,
+            "label": "processus coracoïde",
+            "accepted": [
+              "processus coracoide",
+              "processus coracoïde"
+            ]
+          },
+          {
+            "id": "p105-1-16",
+            "num": 16,
+            "label": "angle supérieur",
+            "accepted": [
+              "angle superieur",
+              "angle supérieur"
+            ]
+          },
+          {
+            "id": "p105-1-17",
+            "num": 17,
+            "label": "angle inférieur",
+            "accepted": [
+              "angle inferieur",
+              "angle inférieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "number": "Planche 106",
+    "title": "scapula",
+    "subtitle": "",
+    "image": "images/planche_106.webp",
+    "sections": [
+      {
+        "name": "Fig.9 : Scapula droite, vue postérieure face dorso-latérale.",
+        "items": [
+          {
+            "id": "p106-1-1",
+            "num": 1,
+            "label": "épine scapulaire",
+            "accepted": [
+              "épine scapulaire",
+              "epine scapulaire"
+            ]
+          },
+          {
+            "id": "p106-1-2",
+            "num": 2,
+            "label": "fosse supra-épineuse",
+            "accepted": [
+              "fosse supra-epineuse",
+              "fosse supra-épineuse"
+            ]
+          },
+          {
+            "id": "p106-1-3",
+            "num": 3,
+            "label": "fosse infra-épineuse",
+            "accepted": [
+              "fosse infra-épineuse",
+              "fosse infra-epineuse"
+            ]
+          },
+          {
+            "id": "p106-1-4",
+            "num": 4,
+            "label": "acromion",
+            "accepted": [
+              "acromion"
+            ]
+          },
+          {
+            "id": "p106-1-5",
+            "num": 5,
+            "label": "surface articulaire de l'acromion",
+            "accepted": [
+              "surface articulaire de l'acromion"
+            ]
+          },
+          {
+            "id": "p106-1-6",
+            "num": 6,
+            "label": "bord latéral",
+            "accepted": [
+              "bord latéral",
+              "bord lateral"
+            ]
+          },
+          {
+            "id": "p106-1-7",
+            "num": 7,
+            "label": "bord médial",
+            "accepted": [
+              "bord médial",
+              "bord medial"
+            ]
+          },
+          {
+            "id": "p106-1-8",
+            "num": 8,
+            "label": "bord supérieur",
+            "accepted": [
+              "bord superieur",
+              "bord supérieur"
+            ]
+          },
+          {
+            "id": "p106-1-9",
+            "num": 9,
+            "label": "incisure scapulaire",
+            "accepted": [
+              "incisure scapulaire"
+            ]
+          },
+          {
+            "id": "p106-1-10",
+            "num": 10,
+            "label": "angle latéral",
+            "accepted": [
+              "angle latéral",
+              "angle lateral"
+            ]
+          },
+          {
+            "id": "p106-1-11",
+            "num": 11,
+            "label": "cavité glénoïde",
+            "accepted": [
+              "cavite glenoide",
+              "cavité glénoïde"
+            ]
+          },
+          {
+            "id": "p106-1-12",
+            "num": 12,
+            "label": "processus coracoïde",
+            "accepted": [
+              "processus coracoide",
+              "processus coracoïde"
+            ]
+          },
+          {
+            "id": "p106-1-13",
+            "num": 13,
+            "label": "angle supérieur",
+            "accepted": [
+              "angle superieur",
+              "angle supérieur"
+            ]
+          },
+          {
+            "id": "p106-1-14",
+            "num": 14,
+            "label": "angle inférieur",
+            "accepted": [
+              "angle inferieur",
+              "angle inférieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "number": "Planche 107",
+    "title": "HUMERUS",
+    "subtitle": "",
+    "image": "images/planche_107.webp",
+    "sections": [
+      {
+        "name": "Fig. 10 : Humérus droit, vue antérieure",
+        "items": [
+          {
+            "id": "p107-1-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p107-1-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p107-1-3",
+            "num": 3,
+            "label": "épiphyse distale ou condyle",
+            "accepted": [
+              "epiphyse distale ou condyle",
+              "épiphyse distale ou condyle"
+            ]
+          },
+          {
+            "id": "p107-1-4",
+            "num": 4,
+            "label": "face antéro- latérale",
+            "accepted": [
+              "face antero- laterale",
+              "face antéro- latérale"
+            ]
+          },
+          {
+            "id": "p107-1-5",
+            "num": 5,
+            "label": "tubérosité deltoïdienne",
+            "accepted": [
+              "tuberosite deltoidienne",
+              "tubérosité deltoïdienne"
+            ]
+          },
+          {
+            "id": "p107-1-6",
+            "num": 6,
+            "label": "face antéro-médiale",
+            "accepted": [
+              "face antéro-médiale",
+              "face antero-mediale"
+            ]
+          },
+          {
+            "id": "p107-1-7",
+            "num": 7,
+            "label": "trou nourricier",
+            "accepted": [
+              "trou nourricier"
+            ]
+          },
+          {
+            "id": "p107-1-8",
+            "num": 8,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p107-1-9",
+            "num": 9,
+            "label": "fosse coronoïdienne",
+            "accepted": [
+              "fosse coronoïdienne",
+              "fosse coronoidienne"
+            ]
+          },
+          {
+            "id": "p107-1-10",
+            "num": 10,
+            "label": "bord latéral",
+            "accepted": [
+              "bord latéral",
+              "bord lateral"
+            ]
+          },
+          {
+            "id": "p107-1-11",
+            "num": 11,
+            "label": "bord médial",
+            "accepted": [
+              "bord médial",
+              "bord medial"
+            ]
+          },
+          {
+            "id": "p107-1-12",
+            "num": 12,
+            "label": "tête humérale",
+            "accepted": [
+              "tete humerale",
+              "tête humérale"
+            ]
+          },
+          {
+            "id": "p107-1-13",
+            "num": 13,
+            "label": "tubercule majeur",
+            "accepted": [
+              "tubercule majeur"
+            ]
+          },
+          {
+            "id": "p107-1-14",
+            "num": 14,
+            "label": "tubercule mineur",
+            "accepted": [
+              "tubercule mineur"
+            ]
+          },
+          {
+            "id": "p107-1-15",
+            "num": 15,
+            "label": "col anatomique",
+            "accepted": [
+              "col anatomique"
+            ]
+          },
+          {
+            "id": "p107-1-16",
+            "num": 16,
+            "label": "sillon intertuberculaire",
+            "accepted": [
+              "sillon intertuberculaire"
+            ]
+          },
+          {
+            "id": "p107-1-17",
+            "num": 17,
+            "label": "col chirurgical",
+            "accepted": [
+              "col chirurgical"
+            ]
+          },
+          {
+            "id": "p107-1-18",
+            "num": 18,
+            "label": "trochlée",
+            "accepted": [
+              "trochlée",
+              "trochlee"
+            ]
+          },
+          {
+            "id": "p107-1-19",
+            "num": 19,
+            "label": "gorge de la trochlée",
+            "accepted": [
+              "gorge de la trochlee",
+              "gorge de la trochlée"
+            ]
+          },
+          {
+            "id": "p107-1-20",
+            "num": 20,
+            "label": "joue latéral de la trochlée",
+            "accepted": [
+              "joue lateral de la trochlee",
+              "joue latéral de la trochlée"
+            ]
+          },
+          {
+            "id": "p107-1-21",
+            "num": 21,
+            "label": "joue médiale de la trochlée",
+            "accepted": [
+              "joue médiale de la trochlée",
+              "joue mediale de la trochlee"
+            ]
+          },
+          {
+            "id": "p107-1-22",
+            "num": 22,
+            "label": "capitulum",
+            "accepted": [
+              "capitulum"
+            ]
+          },
+          {
+            "id": "p107-1-23",
+            "num": 23,
+            "label": "fosse radiale",
+            "accepted": [
+              "fosse radiale"
+            ]
+          },
+          {
+            "id": "p107-1-24",
+            "num": 24,
+            "label": "zône capitulo-trochléenne",
+            "accepted": [
+              "zône capitulo-trochléenne",
+              "zone capitulo-trochleenne"
+            ]
+          },
+          {
+            "id": "p107-1-25",
+            "num": 25,
+            "label": "épicondyle médiale",
+            "accepted": [
+              "epicondyle mediale",
+              "épicondyle médiale"
+            ]
+          },
+          {
+            "id": "p107-1-26",
+            "num": 26,
+            "label": "épicondyle latéral",
+            "accepted": [
+              "epicondyle lateral",
+              "épicondyle latéral"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fig. 11 : Humérus droit, vue postérieure",
+        "items": [
+          {
+            "id": "p107-2-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p107-2-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p107-2-3",
+            "num": 3,
+            "label": "épiphyse distale ou condyle",
+            "accepted": [
+              "epiphyse distale ou condyle",
+              "épiphyse distale ou condyle"
+            ]
+          },
+          {
+            "id": "p107-2-4",
+            "num": 4,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p107-2-5",
+            "num": 5,
+            "label": "sillon nerf radial",
+            "accepted": [
+              "sillon nerf radial"
+            ]
+          },
+          {
+            "id": "p107-2-6",
+            "num": 6,
+            "label": "bord latéral",
+            "accepted": [
+              "bord latéral",
+              "bord lateral"
+            ]
+          },
+          {
+            "id": "p107-2-7",
+            "num": 7,
+            "label": "bord médial",
+            "accepted": [
+              "bord médial",
+              "bord medial"
+            ]
+          },
+          {
+            "id": "p107-2-8",
+            "num": 8,
+            "label": "tête humérale",
+            "accepted": [
+              "tete humerale",
+              "tête humérale"
+            ]
+          },
+          {
+            "id": "p107-2-9",
+            "num": 9,
+            "label": "col anatomique",
+            "accepted": [
+              "col anatomique"
+            ]
+          },
+          {
+            "id": "p107-2-10",
+            "num": 10,
+            "label": "tubercule majeur",
+            "accepted": [
+              "tubercule majeur"
+            ]
+          },
+          {
+            "id": "p107-2-11",
+            "num": 11,
+            "label": "trochlée",
+            "accepted": [
+              "trochlée",
+              "trochlee"
+            ]
+          },
+          {
+            "id": "p107-2-12",
+            "num": 12,
+            "label": "fosse olécranienne",
+            "accepted": [
+              "fosse olécranienne",
+              "fosse olecranienne"
+            ]
+          },
+          {
+            "id": "p107-2-13",
+            "num": 13,
+            "label": "épicondyle médial",
+            "accepted": [
+              "épicondyle médial",
+              "epicondyle medial"
+            ]
+          },
+          {
+            "id": "p107-2-14",
+            "num": 14,
+            "label": "sillon du nerf ulnaire",
+            "accepted": [
+              "sillon du nerf ulnaire"
+            ]
+          },
+          {
+            "id": "p107-2-15",
+            "num": 15,
+            "label": "épicondyle latéral",
+            "accepted": [
+              "epicondyle lateral",
+              "épicondyle latéral"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "number": "Planche 108",
+    "title": "",
+    "subtitle": "",
+    "image": "images/planche_108.webp",
+    "sections": [
+      {
+        "name": "Fig. 12 : Humérus droit, épiphyse proximale, vue antérieure",
+        "items": [
+          {
+            "id": "p108-1-1",
+            "num": 1,
+            "label": "tête humérale",
+            "accepted": [
+              "tete humerale",
+              "tête humérale"
+            ]
+          },
+          {
+            "id": "p108-1-2",
+            "num": 2,
+            "label": "tubercule majeur",
+            "accepted": [
+              "tubercule majeur"
+            ]
+          },
+          {
+            "id": "p108-1-3",
+            "num": 3,
+            "label": "tubercule mineur",
+            "accepted": [
+              "tubercule mineur"
+            ]
+          },
+          {
+            "id": "p108-1-4",
+            "num": 4,
+            "label": "col anatomique",
+            "accepted": [
+              "col anatomique"
+            ]
+          },
+          {
+            "id": "p108-1-5",
+            "num": 5,
+            "label": "sillon intertuberculaire",
+            "accepted": [
+              "sillon intertuberculaire"
+            ]
+          },
+          {
+            "id": "p108-1-6",
+            "num": 6,
+            "label": "col chirurgical",
+            "accepted": [
+              "col chirurgical"
+            ]
+          },
+          {
+            "id": "p108-1-7",
+            "num": 7,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p108-1-8",
+            "num": 8,
+            "label": "axe de la tête",
+            "accepted": [
+              "axe de la tete",
+              "axe de la tête"
+            ]
+          },
+          {
+            "id": "p108-1-9",
+            "num": 9,
+            "label": "axe de la diaphyse",
+            "accepted": [
+              "axe de la diaphyse"
+            ]
+          },
+          {
+            "id": "p108-1-10",
+            "num": 10,
+            "label": "angle d'inclinaison",
+            "accepted": [
+              "angle d'inclinaison"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "number": "Planche 109",
+    "title": "humérus",
+    "subtitle": "",
+    "image": "images/planche_109.webp",
+    "sections": [
+      {
+        "name": "Fig. 13 : Humérus droit, projection supérieure",
+        "items": [
+          {
+            "id": "p109-1-1",
+            "num": 1,
+            "label": "tête humérale",
+            "accepted": [
+              "tete humerale",
+              "tête humérale"
+            ]
+          },
+          {
+            "id": "p109-1-2",
+            "num": 2,
+            "label": "tubercule majeur",
+            "accepted": [
+              "tubercule majeur"
+            ]
+          },
+          {
+            "id": "p109-1-3",
+            "num": 3,
+            "label": "tubercule mineur",
+            "accepted": [
+              "tubercule mineur"
+            ]
+          },
+          {
+            "id": "p109-1-4",
+            "num": 4,
+            "label": "épicondyle médial",
+            "accepted": [
+              "épicondyle médial",
+              "epicondyle medial"
+            ]
+          },
+          {
+            "id": "p109-1-5",
+            "num": 5,
+            "label": "épicondyle latéral",
+            "accepted": [
+              "epicondyle lateral",
+              "épicondyle latéral"
+            ]
+          },
+          {
+            "id": "p109-1-6",
+            "num": 6,
+            "label": "trochlée",
+            "accepted": [
+              "trochlée",
+              "trochlee"
+            ]
+          },
+          {
+            "id": "p109-1-7",
+            "num": 7,
+            "label": "capitulum",
+            "accepted": [
+              "capitulum"
+            ]
+          },
+          {
+            "id": "p109-1-8",
+            "num": 8,
+            "label": "axe de la tête",
+            "accepted": [
+              "axe de la tete",
+              "axe de la tête"
+            ]
+          },
+          {
+            "id": "p109-1-9",
+            "num": 9,
+            "label": "grand axe de l'épiphyse distale",
+            "accepted": [
+              "grand axe de l'epiphyse distale",
+              "grand axe de l'épiphyse distale"
+            ]
+          },
+          {
+            "id": "p109-1-10",
+            "num": 10,
+            "label": "angle de déclinaison",
+            "accepted": [
+              "angle de déclinaison",
+              "angle de declinaison"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "number": "Planche 110",
+    "title": "RADIUS",
+    "subtitle": "",
+    "image": "images/planche_110.webp",
+    "sections": [
+      {
+        "name": "Fig. 14 : Radius droit, vue antérieure",
+        "items": [
+          {
+            "id": "p110-1-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p110-1-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p110-1-3",
+            "num": 3,
+            "label": "épiphyse distale",
+            "accepted": [
+              "épiphyse distale",
+              "epiphyse distale"
+            ]
+          },
+          {
+            "id": "p110-1-4",
+            "num": 4,
+            "label": "sommet de la courbure pronatrice",
+            "accepted": [
+              "sommet de la courbure pronatrice"
+            ]
+          },
+          {
+            "id": "p110-1-5",
+            "num": 5,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          },
+          {
+            "id": "p110-1-6",
+            "num": 6,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p110-1-7",
+            "num": 7,
+            "label": "tubérosité du radius",
+            "accepted": [
+              "tuberosite du radius",
+              "tubérosité du radius"
+            ]
+          },
+          {
+            "id": "p110-1-8",
+            "num": 8,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p110-1-9",
+            "num": 9,
+            "label": "tête du radius",
+            "accepted": [
+              "tete du radius",
+              "tête du radius"
+            ]
+          },
+          {
+            "id": "p110-1-10",
+            "num": 10,
+            "label": "fovea radiale",
+            "accepted": [
+              "fovea radiale"
+            ]
+          },
+          {
+            "id": "p110-1-11",
+            "num": 11,
+            "label": "circonférence articulaire",
+            "accepted": [
+              "circonférence articulaire",
+              "circonference articulaire"
+            ]
+          },
+          {
+            "id": "p110-1-12",
+            "num": 12,
+            "label": "biseau de la tête radiale",
+            "accepted": [
+              "biseau de la tête radiale",
+              "biseau de la tete radiale"
+            ]
+          },
+          {
+            "id": "p110-1-13",
+            "num": 13,
+            "label": "col du radius",
+            "accepted": [
+              "col du radius"
+            ]
+          },
+          {
+            "id": "p110-1-14",
+            "num": 14,
+            "label": "surface articulaire avec le carpe",
+            "accepted": [
+              "surface articulaire avec le carpe"
+            ]
+          },
+          {
+            "id": "p110-1-15",
+            "num": 15,
+            "label": "face latérale",
+            "accepted": [
+              "face laterale",
+              "face latérale"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fig. 15 : Radius droit, vue postérieure",
+        "items": [
+          {
+            "id": "p110-2-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p110-2-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p110-2-3",
+            "num": 3,
+            "label": "épiphyse distale",
+            "accepted": [
+              "épiphyse distale",
+              "epiphyse distale"
+            ]
+          },
+          {
+            "id": "p110-2-4",
+            "num": 4,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p110-2-5",
+            "num": 5,
+            "label": "face latérale",
+            "accepted": [
+              "face laterale",
+              "face latérale"
+            ]
+          },
+          {
+            "id": "p110-2-6",
+            "num": 6,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          },
+          {
+            "id": "p110-2-7",
+            "num": 7,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p110-2-8",
+            "num": 8,
+            "label": "tête du radius",
+            "accepted": [
+              "tete du radius",
+              "tête du radius"
+            ]
+          },
+          {
+            "id": "p110-2-9",
+            "num": 9,
+            "label": "fovea radiale",
+            "accepted": [
+              "fovea radiale"
+            ]
+          },
+          {
+            "id": "p110-2-10",
+            "num": 10,
+            "label": "circonférence articulaire",
+            "accepted": [
+              "circonférence articulaire",
+              "circonference articulaire"
+            ]
+          },
+          {
+            "id": "p110-2-11",
+            "num": 11,
+            "label": "col du radius",
+            "accepted": [
+              "col du radius"
+            ]
+          },
+          {
+            "id": "p110-2-12",
+            "num": 12,
+            "label": "tubérosité du radius",
+            "accepted": [
+              "tuberosite du radius",
+              "tubérosité du radius"
+            ]
+          },
+          {
+            "id": "p110-2-13",
+            "num": 13,
+            "label": "incisure ulnaire",
+            "accepted": [
+              "incisure ulnaire"
+            ]
+          },
+          {
+            "id": "p110-2-14",
+            "num": 14,
+            "label": "processus styloïde",
+            "accepted": [
+              "processus styloide",
+              "processus styloïde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "number": "Planche 111",
+    "title": "RADIUS",
+    "subtitle": "",
+    "image": "images/planche_111.webp",
+    "sections": [
+      {
+        "name": "Fig. 16 : Radius droit, vue interne",
+        "items": [
+          {
+            "id": "p111-1-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p111-1-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p111-1-3",
+            "num": 3,
+            "label": "épiphyse distale",
+            "accepted": [
+              "épiphyse distale",
+              "epiphyse distale"
+            ]
+          },
+          {
+            "id": "p111-1-4",
+            "num": 4,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          },
+          {
+            "id": "p111-1-5",
+            "num": 5,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p111-1-6",
+            "num": 6,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p111-1-7",
+            "num": 7,
+            "label": "tête du radius",
+            "accepted": [
+              "tete du radius",
+              "tête du radius"
+            ]
+          },
+          {
+            "id": "p111-1-8",
+            "num": 8,
+            "label": "fovea radiale",
+            "accepted": [
+              "fovea radiale"
+            ]
+          },
+          {
+            "id": "p111-1-9",
+            "num": 9,
+            "label": "circonférence articulaire",
+            "accepted": [
+              "circonférence articulaire",
+              "circonference articulaire"
+            ]
+          },
+          {
+            "id": "p111-1-10",
+            "num": 10,
+            "label": "col du radius",
+            "accepted": [
+              "col du radius"
+            ]
+          },
+          {
+            "id": "p111-1-11",
+            "num": 11,
+            "label": "tubérosité du radius",
+            "accepted": [
+              "tuberosite du radius",
+              "tubérosité du radius"
+            ]
+          },
+          {
+            "id": "p111-1-12",
+            "num": 12,
+            "label": "incisure ulnaire",
+            "accepted": [
+              "incisure ulnaire"
+            ]
+          },
+          {
+            "id": "p111-1-13",
+            "num": 13,
+            "label": "processus styloïde",
+            "accepted": [
+              "processus styloide",
+              "processus styloïde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "number": "Planche 112",
+    "title": "avant-bras",
+    "subtitle": "",
+    "image": "images/planche_112.webp",
+    "sections": [
+      {
+        "name": "Fig. 17 : Coupe transversale des deux os de l'avant-bras, segment distal",
+        "items": [
+          {
+            "id": "p112-1-1",
+            "num": 1,
+            "label": "radius",
+            "accepted": [
+              "radius"
+            ]
+          },
+          {
+            "id": "p112-1-2",
+            "num": 2,
+            "label": "ulna",
+            "accepted": [
+              "ulna"
+            ]
+          },
+          {
+            "id": "p112-1-3",
+            "num": 3,
+            "label": "membrane interosseuse antébrachiale",
+            "accepted": [
+              "membrane interosseuse antébrachiale",
+              "membrane interosseuse antebrachiale"
+            ]
+          },
+          {
+            "id": "p112-1-4",
+            "num": 4,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          },
+          {
+            "id": "p112-1-5",
+            "num": 5,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p112-1-6",
+            "num": 6,
+            "label": "face latérale",
+            "accepted": [
+              "face laterale",
+              "face latérale"
+            ]
+          },
+          {
+            "id": "p112-1-7",
+            "num": 7,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p112-1-8",
+            "num": 8,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          },
+          {
+            "id": "p112-1-9",
+            "num": 9,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p112-1-10",
+            "num": 10,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          },
+          {
+            "id": "p112-1-11",
+            "num": 11,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p112-1-12",
+            "num": 12,
+            "label": "crête longitudinale",
+            "accepted": [
+              "crete longitudinale",
+              "crête longitudinale"
+            ]
+          },
+          {
+            "id": "p112-1-13",
+            "num": 13,
+            "label": "tace médiale",
+            "accepted": [
+              "tace mediale",
+              "tace médiale"
+            ]
+          },
+          {
+            "id": "p112-1-14",
+            "num": 14,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p112-1-15",
+            "num": 15,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p112-1-16",
+            "num": 16,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "number": "Planche 113",
+    "title": "ULNA",
+    "subtitle": "",
+    "image": "images/planche_113.webp",
+    "sections": [
+      {
+        "name": "Fig. 18 : Ulna droit, vue antérieure",
+        "items": [
+          {
+            "id": "p113-1-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p113-1-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p113-1-3",
+            "num": 3,
+            "label": "épiphyse distale",
+            "accepted": [
+              "épiphyse distale",
+              "epiphyse distale"
+            ]
+          },
+          {
+            "id": "p113-1-4",
+            "num": 4,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          },
+          {
+            "id": "p113-1-5",
+            "num": 5,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p113-1-6",
+            "num": 6,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p113-1-7",
+            "num": 7,
+            "label": "olécrane",
+            "accepted": [
+              "olecrane",
+              "olécrane"
+            ]
+          },
+          {
+            "id": "p113-1-8",
+            "num": 8,
+            "label": "processus coronoïde",
+            "accepted": [
+              "processus coronoïde",
+              "processus coronoide"
+            ]
+          },
+          {
+            "id": "p113-1-9",
+            "num": 9,
+            "label": "incisure trochléaire",
+            "accepted": [
+              "incisure trochleaire",
+              "incisure trochléaire"
+            ]
+          },
+          {
+            "id": "p113-1-10",
+            "num": 10,
+            "label": "bec de l'olécrane",
+            "accepted": [
+              "bec de l'olécrane",
+              "bec de l'olecrane"
+            ]
+          },
+          {
+            "id": "p113-1-11",
+            "num": 11,
+            "label": "bec du processus coronoïde",
+            "accepted": [
+              "bec du processus coronoide",
+              "bec du processus coronoïde"
+            ]
+          },
+          {
+            "id": "p113-1-12",
+            "num": 12,
+            "label": "tubérosité ulnaire",
+            "accepted": [
+              "tuberosite ulnaire",
+              "tubérosité ulnaire"
+            ]
+          },
+          {
+            "id": "p113-1-13",
+            "num": 13,
+            "label": "incisure radiale",
+            "accepted": [
+              "incisure radiale"
+            ]
+          },
+          {
+            "id": "p113-1-14",
+            "num": 14,
+            "label": "tête de l'ulna",
+            "accepted": [
+              "tête de l'ulna",
+              "tete de l'ulna"
+            ]
+          },
+          {
+            "id": "p113-1-15",
+            "num": 15,
+            "label": "processus styloïde",
+            "accepted": [
+              "processus styloide",
+              "processus styloïde"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fig. 19 : Ulna droit, vue postérieure",
+        "items": [
+          {
+            "id": "p113-2-1",
+            "num": 1,
+            "label": "diaphyse",
+            "accepted": [
+              "diaphyse"
+            ]
+          },
+          {
+            "id": "p113-2-2",
+            "num": 2,
+            "label": "épiphyse proximale",
+            "accepted": [
+              "épiphyse proximale",
+              "epiphyse proximale"
+            ]
+          },
+          {
+            "id": "p113-2-3",
+            "num": 3,
+            "label": "épiphyse distale",
+            "accepted": [
+              "épiphyse distale",
+              "epiphyse distale"
+            ]
+          },
+          {
+            "id": "p113-2-4",
+            "num": 4,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p113-2-5",
+            "num": 5,
+            "label": "face médiale",
+            "accepted": [
+              "face médiale",
+              "face mediale"
+            ]
+          },
+          {
+            "id": "p113-2-6",
+            "num": 6,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          },
+          {
+            "id": "p113-2-7",
+            "num": 7,
+            "label": "olécrane",
+            "accepted": [
+              "olecrane",
+              "olécrane"
+            ]
+          },
+          {
+            "id": "p113-2-8",
+            "num": 8,
+            "label": "processus styloïde",
+            "accepted": [
+              "processus styloide",
+              "processus styloïde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "number": "Planche 114",
+    "title": "ULNA",
+    "subtitle": "",
+    "image": "images/planche_114.webp",
+    "sections": [
+      {
+        "name": "Fig. 20 : Ulna droit, vue médiale",
+        "items": [
+          {
+            "id": "p114-1-1",
+            "num": 1,
+            "label": "face médiale",
+            "accepted": [
+              "face médiale",
+              "face mediale"
+            ]
+          },
+          {
+            "id": "p114-1-2",
+            "num": 2,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p114-1-3",
+            "num": 3,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          },
+          {
+            "id": "p114-1-4",
+            "num": 4,
+            "label": "olécrane",
+            "accepted": [
+              "olecrane",
+              "olécrane"
+            ]
+          },
+          {
+            "id": "p114-1-5",
+            "num": 5,
+            "label": "bec de l'olécrane",
+            "accepted": [
+              "bec de l'olécrane",
+              "bec de l'olecrane"
+            ]
+          },
+          {
+            "id": "p114-1-6",
+            "num": 6,
+            "label": "processus coronoïde",
+            "accepted": [
+              "processus coronoïde",
+              "processus coronoide"
+            ]
+          },
+          {
+            "id": "p114-1-7",
+            "num": 7,
+            "label": "bec du processus coronoïde",
+            "accepted": [
+              "bec du processus coronoide",
+              "bec du processus coronoïde"
+            ]
+          },
+          {
+            "id": "p114-1-8",
+            "num": 8,
+            "label": "tubérosité ulnaire",
+            "accepted": [
+              "tuberosite ulnaire",
+              "tubérosité ulnaire"
+            ]
+          },
+          {
+            "id": "p114-1-9",
+            "num": 9,
+            "label": "tête de l'ulna",
+            "accepted": [
+              "tête de l'ulna",
+              "tete de l'ulna"
+            ]
+          },
+          {
+            "id": "p114-1-10",
+            "num": 10,
+            "label": "processus styloïde",
+            "accepted": [
+              "processus styloide",
+              "processus styloïde"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "number": "Planche 115",
+    "title": "ulna",
+    "subtitle": "",
+    "image": "images/planche_115.webp",
+    "sections": [
+      {
+        "name": "Fig. 21 : Ulna droit, vue latérale",
+        "items": [
+          {
+            "id": "p115-1-1",
+            "num": 1,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p115-1-2",
+            "num": 2,
+            "label": "crête longitudinale",
+            "accepted": [
+              "crete longitudinale",
+              "crête longitudinale"
+            ]
+          },
+          {
+            "id": "p115-1-3",
+            "num": 3,
+            "label": "bord interosseux",
+            "accepted": [
+              "bord interosseux"
+            ]
+          },
+          {
+            "id": "p115-1-4",
+            "num": 4,
+            "label": "bord postérieur",
+            "accepted": [
+              "bord posterieur",
+              "bord postérieur"
+            ]
+          },
+          {
+            "id": "p115-1-5",
+            "num": 5,
+            "label": "olécrane",
+            "accepted": [
+              "olecrane",
+              "olécrane"
+            ]
+          },
+          {
+            "id": "p115-1-6",
+            "num": 6,
+            "label": "bec de l'olécrane",
+            "accepted": [
+              "bec de l'olécrane",
+              "bec de l'olecrane"
+            ]
+          },
+          {
+            "id": "p115-1-7",
+            "num": 7,
+            "label": "processus coronoïde",
+            "accepted": [
+              "processus coronoïde",
+              "processus coronoide"
+            ]
+          },
+          {
+            "id": "p115-1-8",
+            "num": 8,
+            "label": "bec du processus coronoïde",
+            "accepted": [
+              "bec du processus coronoide",
+              "bec du processus coronoïde"
+            ]
+          },
+          {
+            "id": "p115-1-9",
+            "num": 9,
+            "label": "tubérosité ulnaire",
+            "accepted": [
+              "tuberosite ulnaire",
+              "tubérosité ulnaire"
+            ]
+          },
+          {
+            "id": "p115-1-10",
+            "num": 10,
+            "label": "incisure trochléaire",
+            "accepted": [
+              "incisure trochleaire",
+              "incisure trochléaire"
+            ]
+          },
+          {
+            "id": "p115-1-11",
+            "num": 11,
+            "label": "incisure radiale",
+            "accepted": [
+              "incisure radiale"
+            ]
+          },
+          {
+            "id": "p115-1-12",
+            "num": 12,
+            "label": "tête de l'ulna",
+            "accepted": [
+              "tête de l'ulna",
+              "tete de l'ulna"
+            ]
+          },
+          {
+            "id": "p115-1-13",
+            "num": 13,
+            "label": "processus styloïde",
+            "accepted": [
+              "processus styloide",
+              "processus styloïde"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fig.22 : Vue antérieure de l'extrémité inférieure",
+        "items": [
+          {
+            "id": "p115-2-1",
+            "num": 1,
+            "label": "radius",
+            "accepted": [
+              "radius"
+            ]
+          },
+          {
+            "id": "p115-2-2",
+            "num": 2,
+            "label": "ulna",
+            "accepted": [
+              "ulna"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "number": "Planche 116",
+    "title": "SQUELETTE DE LA MAIN",
+    "subtitle": "",
+    "image": "images/planche_116.webp",
+    "sections": [
+      {
+        "name": "Fig.23 : Squelette de la main, vue antérieure",
+        "items": [
+          {
+            "id": "p116-1-1",
+            "num": 1,
+            "label": "carpe",
+            "accepted": [
+              "carpe"
+            ]
+          },
+          {
+            "id": "p116-1-2",
+            "num": 2,
+            "label": "métacarpe",
+            "accepted": [
+              "métacarpe",
+              "metacarpe"
+            ]
+          },
+          {
+            "id": "p116-1-3",
+            "num": 3,
+            "label": "phalanges",
+            "accepted": [
+              "phalanges"
+            ]
+          },
+          {
+            "id": "p116-1-4",
+            "num": 4,
+            "label": "scaphoide",
+            "accepted": [
+              "scaphoide"
+            ]
+          },
+          {
+            "id": "p116-1-5",
+            "num": 5,
+            "label": "lunatum ou semi-lunaire",
+            "accepted": [
+              "lunatum ou semi-lunaire"
+            ]
+          },
+          {
+            "id": "p116-1-6",
+            "num": 6,
+            "label": "triquetrum ou pyramidal",
+            "accepted": [
+              "triquetrum ou pyramidal"
+            ]
+          },
+          {
+            "id": "p116-1-7",
+            "num": 7,
+            "label": "pisiforme",
+            "accepted": [
+              "pisiforme"
+            ]
+          },
+          {
+            "id": "p116-1-8",
+            "num": 8,
+            "label": "trapeze",
+            "accepted": [
+              "trapeze"
+            ]
+          },
+          {
+            "id": "p116-1-9",
+            "num": 9,
+            "label": "trapézoïde",
+            "accepted": [
+              "trapezoide",
+              "trapézoïde"
+            ]
+          },
+          {
+            "id": "p116-1-10",
+            "num": 10,
+            "label": "capitum",
+            "accepted": [
+              "capitum"
+            ]
+          },
+          {
+            "id": "p116-1-11",
+            "num": 11,
+            "label": "hamatum ou os crochu",
+            "accepted": [
+              "hamatum ou os crochu"
+            ]
+          },
+          {
+            "id": "p116-1-12",
+            "num": 12,
+            "label": "premier métacarpien",
+            "accepted": [
+              "premier metacarpien",
+              "premier métacarpien"
+            ]
+          },
+          {
+            "id": "p116-1-13",
+            "num": 13,
+            "label": "phalange proximale",
+            "accepted": [
+              "phalange proximale"
+            ]
+          },
+          {
+            "id": "p116-1-14",
+            "num": 14,
+            "label": "phalange moyenne",
+            "accepted": [
+              "phalange moyenne"
+            ]
+          },
+          {
+            "id": "p116-1-15",
+            "num": 15,
+            "label": "phalange distale",
+            "accepted": [
+              "phalange distale"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "number": "Planche 117",
+    "title": "canal carpien",
+    "subtitle": "",
+    "image": "images/planche_117.webp",
+    "sections": [
+      {
+        "name": "Fig.24 : Coupe transversale passant par le canal carpien",
+        "items": [
+          {
+            "id": "p117-1-1",
+            "num": 1,
+            "label": "trapèze",
+            "accepted": [
+              "trapèze",
+              "trapeze"
+            ]
+          },
+          {
+            "id": "p117-1-2",
+            "num": 2,
+            "label": "trapézoïde",
+            "accepted": [
+              "trapezoide",
+              "trapézoïde"
+            ]
+          },
+          {
+            "id": "p117-1-3",
+            "num": 3,
+            "label": "capitatum",
+            "accepted": [
+              "capitatum"
+            ]
+          },
+          {
+            "id": "p117-1-4",
+            "num": 4,
+            "label": "hamatum ou os crochu",
+            "accepted": [
+              "hamatum ou os crochu"
+            ]
+          },
+          {
+            "id": "p117-1-5",
+            "num": 5,
+            "label": "rétinaculum des fléchisseurs",
+            "accepted": [
+              "rétinaculum des fléchisseurs",
+              "retinaculum des flechisseurs"
+            ]
+          },
+          {
+            "id": "p117-1-6",
+            "num": 6,
+            "label": "canal carpien",
+            "accepted": [
+              "canal carpien"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "number": "Planche 118",
+    "title": "MEMBRE PELVIEN DROIT",
+    "subtitle": "",
+    "image": "images/planche_118.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p118-1-1",
+            "num": 1,
+            "label": "os coxal",
+            "accepted": [
+              "os coxal"
+            ]
+          },
+          {
+            "id": "p118-1-2",
+            "num": 2,
+            "label": "sacrum",
+            "accepted": [
+              "sacrum"
+            ]
+          },
+          {
+            "id": "p118-1-3",
+            "num": 3,
+            "label": "coccyx",
+            "accepted": [
+              "coccyx"
+            ]
+          },
+          {
+            "id": "p118-1-4",
+            "num": 4,
+            "label": "rachis lombaire",
+            "accepted": [
+              "rachis lombaire"
+            ]
+          },
+          {
+            "id": "p118-1-5",
+            "num": 5,
+            "label": "fémur",
+            "accepted": [
+              "fémur",
+              "femur"
+            ]
+          },
+          {
+            "id": "p118-1-6",
+            "num": 6,
+            "label": "patella",
+            "accepted": [
+              "patella"
+            ]
+          },
+          {
+            "id": "p118-1-7",
+            "num": 7,
+            "label": "tibia",
+            "accepted": [
+              "tibia"
+            ]
+          },
+          {
+            "id": "p118-1-8",
+            "num": 8,
+            "label": "fibula",
+            "accepted": [
+              "fibula"
+            ]
+          },
+          {
+            "id": "p118-1-9",
+            "num": 9,
+            "label": "squelette du pied",
+            "accepted": [
+              "squelette du pied"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "number": "Planche 119",
+    "title": "VUE LATERALE DU MEMBRE PELVIEN",
+    "subtitle": "",
+    "image": "images/planche_119.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p119-1-1",
+            "num": 1,
+            "label": "05 coxal",
+            "accepted": [
+              "05 coxal"
+            ]
+          },
+          {
+            "id": "p119-1-3",
+            "num": 3,
+            "label": "coccyx",
+            "accepted": [
+              "coccyx"
+            ]
+          },
+          {
+            "id": "p119-1-4",
+            "num": 4,
+            "label": "rachis lombaire",
+            "accepted": [
+              "rachis lombaire"
+            ]
+          },
+          {
+            "id": "p119-1-5",
+            "num": 5,
+            "label": "fémur",
+            "accepted": [
+              "fémur",
+              "femur"
+            ]
+          },
+          {
+            "id": "p119-1-6",
+            "num": 6,
+            "label": "patella",
+            "accepted": [
+              "patella"
+            ]
+          },
+          {
+            "id": "p119-1-7",
+            "num": 7,
+            "label": "tibia",
+            "accepted": [
+              "tibia"
+            ]
+          },
+          {
+            "id": "p119-1-8",
+            "num": 8,
+            "label": "fibula",
+            "accepted": [
+              "fibula"
+            ]
+          },
+          {
+            "id": "p119-1-9",
+            "num": 9,
+            "label": "squelette du pied",
+            "accepted": [
+              "squelette du pied"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "number": "Planche 120",
+    "title": "MEMBRE PELVIEN",
+    "subtitle": "Vue de face",
+    "image": "images/planche_120.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p120-1-1",
+            "num": 1,
+            "label": "rachis lombaire",
+            "accepted": [
+              "rachis lombaire",
+              "colonne lombaire",
+              "vertèbres lombaires",
+              "vertebres lombaires"
+            ]
+          },
+          {
+            "id": "p120-1-2",
+            "num": 2,
+            "label": "sacrum",
+            "accepted": [
+              "sacrum",
+              "os sacrum"
+            ]
+          },
+          {
+            "id": "p120-1-3",
+            "num": 3,
+            "label": "os coxal",
+            "accepted": [
+              "os coxal",
+              "coxal",
+              "os iliaque"
+            ]
+          },
+          {
+            "id": "p120-1-4",
+            "num": 4,
+            "label": "articulation de la hanche (articulation coxo-fémorale)",
+            "accepted": [
+              "articulation de la hanche",
+              "articulation coxo-fémorale",
+              "articulation coxo-femorale",
+              "articulation coxofémorale",
+              "articulation coxofemorale",
+              "hanche",
+              "articulation coxo fémorale"
+            ]
+          },
+          {
+            "id": "p120-1-5",
+            "num": 5,
+            "label": "fémur",
+            "accepted": [
+              "fémur",
+              "femur",
+              "os fémur",
+              "os femur"
+            ]
+          },
+          {
+            "id": "p120-1-6",
+            "num": 6,
+            "label": "articulation du genou",
+            "accepted": [
+              "articulation du genou",
+              "genou"
+            ]
+          },
+          {
+            "id": "p120-1-7",
+            "num": 7,
+            "label": "tibia",
+            "accepted": [
+              "tibia",
+              "os tibia"
+            ]
+          },
+          {
+            "id": "p120-1-8",
+            "num": 8,
+            "label": "fibula",
+            "accepted": [
+              "fibula",
+              "péroné",
+              "perone"
+            ]
+          },
+          {
+            "id": "p120-1-9",
+            "num": 9,
+            "label": "articulation de la cheville (articulation talo-crurale)",
+            "accepted": [
+              "articulation de la cheville",
+              "articulation talo-crurale",
+              "articulation talocrurale",
+              "articulation talo crurale",
+              "cheville"
+            ]
+          },
+          {
+            "id": "p120-1-10",
+            "num": 10,
+            "label": "tarse",
+            "accepted": [
+              "tarse",
+              "os du tarse"
+            ]
+          },
+          {
+            "id": "p120-1-11",
+            "num": 11,
+            "label": "métatarse",
+            "accepted": [
+              "métatarse",
+              "metatarse",
+              "métatarsiens",
+              "metatarsiens"
+            ]
+          },
+          {
+            "id": "p120-1-12",
+            "num": 12,
+            "label": "phalanges",
+            "accepted": [
+              "phalanges",
+              "phalanges des orteils",
+              "orteils"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "number": "Planche 121",
+    "title": "OS COXAL",
+    "subtitle": "Morphologie générale, faces latérale, médiale et vue antérieure",
+    "image": "images/planche_121.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p121-1-1",
+            "num": 1,
+            "label": "épine iliaque antéro-supérieure (EIAS)",
+            "accepted": [
+              "épine iliaque antéro-supérieure",
+              "epine iliaque antero-superieure",
+              "épine iliaque antérosupérieure",
+              "epine iliaque anterosuperieure",
+              "épine iliaque antéro supérieure",
+              "epine iliaque antero superieure",
+              "EIAS",
+              "eias"
+            ]
+          },
+          {
+            "id": "p121-1-2",
+            "num": 2,
+            "label": "échancrure innominée",
+            "accepted": [
+              "échancrure innominée",
+              "echancrure innominee",
+              "échancrure inominée",
+              "echancrure inominee",
+              "incisure innominée",
+              "incisure innominee",
+              "incisure inominée",
+              "incisure inominee"
+            ]
+          },
+          {
+            "id": "p121-1-3",
+            "num": 3,
+            "label": "épine iliaque antéro-inférieure (EIAI)",
+            "accepted": [
+              "épine iliaque antéro-inférieure",
+              "epine iliaque antero-inferieure",
+              "épine iliaque antéroinférieure",
+              "epine iliaque anteroinferieure",
+              "épine iliaque antéro inférieure",
+              "epine iliaque antero inferieure",
+              "EIAI",
+              "eiai"
+            ]
+          },
+          {
+            "id": "p121-1-4",
+            "num": 4,
+            "label": "échancrure du muscle ilio-psoas",
+            "accepted": [
+              "échancrure du muscle ilio-psoas",
+              "echancrure du muscle ilio-psoas",
+              "échancrure du muscle iliopsoas",
+              "echancrure du muscle iliopsoas",
+              "échancrure de l'ilio-psoas",
+              "echancrure de l'ilio-psoas",
+              "échancrure de l'iliopsoas",
+              "incisure de l'ilio-psoas",
+              "incisure de l'iliopsoas",
+              "gouttière de l'ilio-psoas",
+              "gouttière de l'iliopsoas",
+              "sillon de l'ilio-psoas",
+              "sillon de l'iliopsoas",
+              "échancrure du psoas",
+              "incisure ilio-pubienne",
+              "ilio-psoas",
+              "iliopsoas"
+            ]
+          },
+          {
+            "id": "p121-1-5",
+            "num": 5,
+            "label": "éminence ilio-pubienne (éminence iliopectinée)",
+            "accepted": [
+              "éminence ilio-pubienne",
+              "eminence ilio-pubienne",
+              "éminence iliopubienne",
+              "eminence iliopubienne",
+              "éminence ilio pubienne",
+              "eminence ilio pubienne",
+              "éminence iliopectinée",
+              "eminence iliopectinee",
+              "éminence ilio-pectinée",
+              "eminence ilio-pectinee"
+            ]
+          },
+          {
+            "id": "p121-1-6",
+            "num": 6,
+            "label": "pecten du pubis (crête pectinéale)",
+            "accepted": [
+              "pecten du pubis",
+              "pecten",
+              "crête pectinéale",
+              "crete pectineale",
+              "crête pectinée",
+              "crete pectinee"
+            ]
+          },
+          {
+            "id": "p121-1-7",
+            "num": 7,
+            "label": "tubercule pubien (épine du pubis)",
+            "accepted": [
+              "tubercule pubien",
+              "tubercule du pubis",
+              "épine du pubis",
+              "epine du pubis"
+            ]
+          },
+          {
+            "id": "p121-1-8",
+            "num": 8,
+            "label": "angle du pubis",
+            "accepted": [
+              "angle du pubis",
+              "angle pubien"
+            ]
+          },
+          {
+            "id": "p121-1-9",
+            "num": 9,
+            "label": "crête iliaque",
+            "accepted": [
+              "crête iliaque",
+              "crete iliaque"
+            ]
+          },
+          {
+            "id": "p121-1-10",
+            "num": 10,
+            "label": "tubercule des muscles fessiers (tubercule glutéal)",
+            "accepted": [
+              "tubercule des muscles fessiers",
+              "tubercule des fessiers",
+              "tubercule glutéal",
+              "tubercule gluteal",
+              "tubercule du moyen fessier",
+              "tubercule iliaque"
+            ]
+          },
+          {
+            "id": "p121-1-11",
+            "num": 11,
+            "label": "ligne glutéale postérieure",
+            "accepted": [
+              "ligne glutéale postérieure",
+              "ligne gluteale posterieure",
+              "ligne fessière postérieure",
+              "ligne fessiere posterieure",
+              "ligne demi-circulaire postérieure"
+            ]
+          },
+          {
+            "id": "p121-1-12",
+            "num": 12,
+            "label": "ligne glutéale antérieure",
+            "accepted": [
+              "ligne glutéale antérieure",
+              "ligne gluteale anterieure",
+              "ligne fessière antérieure",
+              "ligne fessiere anterieure",
+              "ligne demi-circulaire antérieure"
+            ]
+          },
+          {
+            "id": "p121-1-13",
+            "num": 13,
+            "label": "épine iliaque postéro-supérieure (EIPS)",
+            "accepted": [
+              "épine iliaque postéro-supérieure",
+              "epine iliaque postero-superieure",
+              "épine iliaque postérosupérieure",
+              "epine iliaque posterosuperieure",
+              "épine iliaque postéro supérieure",
+              "epine iliaque postero superieure",
+              "EIPS",
+              "eips"
+            ]
+          },
+          {
+            "id": "p121-1-14",
+            "num": 14,
+            "label": "échancrure inter-épineuse",
+            "accepted": [
+              "échancrure inter-épineuse",
+              "echancrure inter-epineuse",
+              "échancrure interépineuse",
+              "echancrure interepineuse",
+              "échancrure inter épineuse",
+              "incisure inter-épineuse",
+              "incisure inter-epineuse",
+              "incisure interépineuse",
+              "incisure interepineuse"
+            ]
+          },
+          {
+            "id": "p121-1-15",
+            "num": 15,
+            "label": "épine iliaque postéro-inférieure (EIPI)",
+            "accepted": [
+              "épine iliaque postéro-inférieure",
+              "epine iliaque postero-inferieure",
+              "épine iliaque postéroinférieure",
+              "epine iliaque posteroinferieure",
+              "épine iliaque postéro inférieure",
+              "epine iliaque postero inferieure",
+              "EIPI",
+              "eipi",
+              "épine iliaque postéro-supérieure"
+            ]
+          },
+          {
+            "id": "p121-1-16",
+            "num": 16,
+            "label": "grande échancrure ischiatique (grande incisure ischiatique)",
+            "accepted": [
+              "grande échancrure ischiatique",
+              "grande echancrure ischiatique",
+              "grande incisure ischiatique",
+              "grande échancrure sciatique",
+              "grande echancrure sciatique",
+              "grande incisure sciatique",
+              "grande échancrure",
+              "grande echancrure",
+              "grande incisure"
+            ]
+          },
+          {
+            "id": "p121-1-17",
+            "num": 17,
+            "label": "épine ischiatique (épine sciatique)",
+            "accepted": [
+              "épine ischiatique",
+              "epine ischiatique",
+              "épine sciatique",
+              "epine sciatique"
+            ]
+          },
+          {
+            "id": "p121-1-18",
+            "num": 18,
+            "label": "petite échancrure ischiatique (petite incisure ischiatique)",
+            "accepted": [
+              "petite échancrure ischiatique",
+              "petite echancrure ischiatique",
+              "petite incisure ischiatique",
+              "petite échancrure sciatique",
+              "petite echancrure sciatique",
+              "petite incisure sciatique",
+              "petite échancrure",
+              "petite echancrure",
+              "petite incisure"
+            ]
+          },
+          {
+            "id": "p121-1-19",
+            "num": 19,
+            "label": "tubérosité ischiatique",
+            "accepted": [
+              "tubérosité ischiatique",
+              "tuberosite ischiatique",
+              "tubérosité de l'ischion"
+            ]
+          },
+          {
+            "id": "p121-1-20",
+            "num": 20,
+            "label": "branche de l'ischium (branche ischio-pubienne)",
+            "accepted": [
+              "branche de l'ischium",
+              "branche de l ischium",
+              "branche ischiatique",
+              "corps de l'ischium",
+              "branche de l'ischion",
+              "branche ischio-pubienne",
+              "ischium",
+              "ischion"
+            ]
+          },
+          {
+            "id": "p121-1-21",
+            "num": 21,
+            "label": "branche inférieure du pubis",
+            "accepted": [
+              "branche inférieure du pubis",
+              "branche inferieure du pubis",
+              "branche descendante du pubis",
+              "branche inférieure",
+              "branche inferieure"
+            ]
+          },
+          {
+            "id": "p121-1-22",
+            "num": 22,
+            "label": "foramen obturé (trou obturateur)",
+            "accepted": [
+              "foramen obturé",
+              "foramen obture",
+              "foramen obturateur",
+              "trou obturateur",
+              "trou obturé",
+              "trou ischio-pubien"
+            ]
+          },
+          {
+            "id": "p121-1-23",
+            "num": 23,
+            "label": "sillon supra-acétabulaire (gouttière sus-cotyloïdienne)",
+            "accepted": [
+              "sillon supra-acétabulaire",
+              "sillon supra-acetabulaire",
+              "sillon supraacétabulaire",
+              "sillon supraacetabulaire",
+              "sillon supra acétabulaire",
+              "gouttière sus-cotyloïdienne",
+              "gouttiere sus-cotyloidienne",
+              "sillon acétabulaire"
+            ]
+          },
+          {
+            "id": "p121-1-24",
+            "num": 24,
+            "label": "surface semi-lunaire (croissant articulaire)",
+            "accepted": [
+              "surface semi-lunaire",
+              "surface semi lunaire",
+              "surface semilunaire",
+              "surface lunaire",
+              "facies lunata",
+              "croissant articulaire"
+            ]
+          },
+          {
+            "id": "p121-1-25",
+            "num": 25,
+            "label": "fosse acétabulaire (arrière-fond de l'acétabulum)",
+            "accepted": [
+              "fosse acétabulaire",
+              "fosse acetabulaire",
+              "arrière-fond acétabulaire",
+              "arriere-fond acetabulaire",
+              "arrière-fond de l'acétabulum",
+              "arriere-fond de l'acetabulum",
+              "fond acétabulaire",
+              "arrière-fond de la cavité cotyloïde"
+            ]
+          },
+          {
+            "id": "p121-1-26",
+            "num": 26,
+            "label": "surface auriculaire",
+            "accepted": [
+              "surface auriculaire",
+              "facette auriculaire"
+            ]
+          },
+          {
+            "id": "p121-1-27",
+            "num": 27,
+            "label": "surface symphysaire (facette pubienne)",
+            "accepted": [
+              "surface symphysaire",
+              "facette symphysaire",
+              "facette pubienne",
+              "surface de la symphyse"
+            ]
+          },
+          {
+            "id": "p121-1-28",
+            "num": 28,
+            "label": "ligne arquée de l'ilium (ligne innominée)",
+            "accepted": [
+              "ligne arquée de l'ilium",
+              "ligne arquee de l'ilium",
+              "ligne arquée",
+              "ligne arquee",
+              "ligne innominée",
+              "ligne inominee"
+            ]
+          },
+          {
+            "id": "p121-1-29",
+            "num": 29,
+            "label": "fosse iliaque (fosse iliaque interne)",
+            "accepted": [
+              "fosse iliaque",
+              "fosse iliaque interne"
+            ]
+          },
+          {
+            "id": "p121-1-30",
+            "num": 30,
+            "label": "face glutéale (fosse iliaque externe)",
+            "accepted": [
+              "face glutéale",
+              "face gluteale",
+              "fosse iliaque externe",
+              "face fessière"
+            ]
+          },
+          {
+            "id": "p121-1-31",
+            "num": 31,
+            "label": "tubérosité iliaque",
+            "accepted": [
+              "tubérosité iliaque",
+              "tuberosite iliaque"
+            ]
+          },
+          {
+            "id": "p121-1-32",
+            "num": 32,
+            "label": "acétabulum (cotyle)",
+            "accepted": [
+              "acétabulum",
+              "acetabulum",
+              "cotyle",
+              "cavité cotyloïde",
+              "cavite cotyloide"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "number": "Planche 122",
+    "title": "FEMUR",
+    "subtitle": "Vues antérieure, postérieure, latérale et médiale",
+    "image": "images/planche_122.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p122-1-1",
+            "num": 1,
+            "label": "tête (tête fémorale)",
+            "accepted": [
+              "tête",
+              "tete",
+              "tête fémorale",
+              "tete femorale",
+              "tête du fémur",
+              "tete du femur"
+            ]
+          },
+          {
+            "id": "p122-1-2",
+            "num": 2,
+            "label": "col anatomique (col du fémur)",
+            "accepted": [
+              "col anatomique",
+              "col du fémur",
+              "col du femur",
+              "col"
+            ]
+          },
+          {
+            "id": "p122-1-3",
+            "num": 3,
+            "label": "ligne intertrochantérique",
+            "accepted": [
+              "ligne intertrochantérique",
+              "ligne intertrochanterique",
+              "ligne inter-trochantérique",
+              "ligne inter-trochanterique",
+              "ligne inter trochantérique"
+            ]
+          },
+          {
+            "id": "p122-1-4",
+            "num": 4,
+            "label": "crête intertrochantérique",
+            "accepted": [
+              "crête intertrochantérique",
+              "crete intertrochanterique",
+              "crête inter-trochantérique",
+              "crete inter-trochanterique",
+              "crête inter trochantérique"
+            ]
+          },
+          {
+            "id": "p122-1-5",
+            "num": 5,
+            "label": "petit trochanter",
+            "accepted": [
+              "petit trochanter"
+            ]
+          },
+          {
+            "id": "p122-1-6",
+            "num": 6,
+            "label": "corps ou diaphyse (diaphyse fémorale)",
+            "accepted": [
+              "corps ou diaphyse",
+              "diaphyse",
+              "corps",
+              "corps du fémur",
+              "diaphyse du fémur",
+              "diaphyse fémorale",
+              "diaphyse femorale"
+            ]
+          },
+          {
+            "id": "p122-1-7",
+            "num": 7,
+            "label": "épicondyle médial",
+            "accepted": [
+              "épicondyle médial",
+              "epicondyle medial",
+              "tubérosité médiale",
+              "tuberosite mediale"
+            ]
+          },
+          {
+            "id": "p122-1-8",
+            "num": 8,
+            "label": "épicondyle latéral",
+            "accepted": [
+              "épicondyle latéral",
+              "epicondyle lateral",
+              "tubérosité latérale",
+              "tuberosite laterale"
+            ]
+          },
+          {
+            "id": "p122-1-9",
+            "num": 9,
+            "label": "trochlée (surface patellaire)",
+            "accepted": [
+              "trochlée",
+              "trochlee",
+              "trochlée fémorale",
+              "trochlee femorale",
+              "surface patellaire",
+              "gorge de la trochlée"
+            ]
+          },
+          {
+            "id": "p122-1-10",
+            "num": 10,
+            "label": "condyle latéral",
+            "accepted": [
+              "condyle latéral",
+              "condyle lateral",
+              "condyle fémoral latéral",
+              "condyle femoral lateral"
+            ]
+          },
+          {
+            "id": "p122-1-11",
+            "num": 11,
+            "label": "condyle médial",
+            "accepted": [
+              "condyle médial",
+              "condyle medial",
+              "condyle fémoral médial",
+              "condyle femoral medial"
+            ]
+          },
+          {
+            "id": "p122-1-12",
+            "num": 12,
+            "label": "fosse intercondylaire (échancrure intercondylienne)",
+            "accepted": [
+              "fosse intercondylaire",
+              "fosse intercondylienne",
+              "échancrure intercondylienne",
+              "echancrure intercondylienne",
+              "fosse inter-condylaire",
+              "incisure intercondylaire"
+            ]
+          },
+          {
+            "id": "p122-1-13",
+            "num": 13,
+            "label": "grand trochanter",
+            "accepted": [
+              "grand trochanter"
+            ]
+          },
+          {
+            "id": "p122-1-14",
+            "num": 14,
+            "label": "fovéa capitis (fossette du ligament rond)",
+            "accepted": [
+              "fovéa capitis",
+              "fovea capitis",
+              "fossette du ligament rond",
+              "fossette de la tête fémorale",
+              "fovéa de la tête fémorale",
+              "fovea",
+              "fossette de la tête"
+            ]
+          },
+          {
+            "id": "p122-1-15",
+            "num": 15,
+            "label": "ligne âpre",
+            "accepted": [
+              "ligne âpre",
+              "ligne apre"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "number": "Planche 123",
+    "title": "LE FEMUR ET SES ORIENTATIONS",
+    "subtitle": "",
+    "image": "images/planche_123.webp",
+    "sections": [
+      {
+        "name": "Épiphyse proximale",
+        "items": [
+          {
+            "id": "p123-1-1",
+            "num": 1,
+            "label": "Tête (tête fémorale)",
+            "accepted": [
+              "tete",
+              "tete femorale",
+              "la tete",
+              "la tete femorale",
+              "tete du femur"
+            ]
+          },
+          {
+            "id": "p123-1-2",
+            "num": 2,
+            "label": "Col (col fémoral)",
+            "accepted": [
+              "col",
+              "col femoral",
+              "le col",
+              "le col femoral",
+              "col du femur"
+            ]
+          },
+          {
+            "id": "p123-1-3",
+            "num": 3,
+            "label": "Grand trochanter",
+            "accepted": [
+              "grand trochanter",
+              "trochanter",
+              "le grand trochanter"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Projection de l'épiphyse distale",
+        "items": [
+          {
+            "id": "p123-2-4",
+            "num": 4,
+            "label": "Condyle médial",
+            "accepted": [
+              "condyle medial",
+              "condyle interne",
+              "le condyle medial"
+            ]
+          },
+          {
+            "id": "p123-2-5",
+            "num": 5,
+            "label": "Condyle latéral",
+            "accepted": [
+              "condyle lateral",
+              "condyle externe",
+              "le condyle lateral"
+            ]
+          },
+          {
+            "id": "p123-2-6",
+            "num": 6,
+            "label": "Patella (rotule)",
+            "accepted": [
+              "patella",
+              "rotule",
+              "la patella",
+              "la rotule"
+            ]
+          },
+          {
+            "id": "p123-2-7",
+            "num": 7,
+            "label": "Acétabulum (acétabule / cotyle)",
+            "accepted": [
+              "acetabulum",
+              "acetabule",
+              "cotyle",
+              "cavite cotyloide",
+              "l'acetabulum",
+              "l'acetabule"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "number": "Planche 124",
+    "title": "FEMUR : STRUCTURE",
+    "subtitle": "",
+    "image": "images/planche_124.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p124-1-1",
+            "num": 1,
+            "label": "trabécules trochantériques",
+            "accepted": [
+              "trabécules trochantériques",
+              "trabecules trochanteriques"
+            ]
+          },
+          {
+            "id": "p124-1-2",
+            "num": 2,
+            "label": "trabécules céphalo-diaphysaires",
+            "accepted": [
+              "trabécules céphalo-diaphysaires",
+              "trabecules cephalo-diaphysaires"
+            ]
+          },
+          {
+            "id": "p124-1-3",
+            "num": 3,
+            "label": "trabécules trochantéro-diaphysaires",
+            "accepted": [
+              "trabécules trochantéro-diaphysaires",
+              "trabecules trochantero-diaphysaires"
+            ]
+          },
+          {
+            "id": "p124-1-4",
+            "num": 4,
+            "label": "trabécules céphalo-cervicales",
+            "accepted": [
+              "trabécules céphalo-cervicales",
+              "trabecules cephalo-cervicales"
+            ]
+          },
+          {
+            "id": "p124-1-5",
+            "num": 5,
+            "label": "0s compact",
+            "accepted": [
+              "0s compact"
+            ]
+          },
+          {
+            "id": "p124-1-6",
+            "num": 6,
+            "label": "cartilage hyalin de la tête",
+            "accepted": [
+              "cartilage hyalin de la tête",
+              "cartilage hyalin de la tete"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "number": "Planche 125",
+    "title": "FEMUR :",
+    "subtitle": "",
+    "image": "images/planche_125.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p125-1-1",
+            "num": 1,
+            "label": "artere obturatrice",
+            "accepted": [
+              "artere obturatrice"
+            ]
+          },
+          {
+            "id": "p125-1-2",
+            "num": 2,
+            "label": "artère fémorale",
+            "accepted": [
+              "artere femorale",
+              "artère fémorale"
+            ]
+          },
+          {
+            "id": "p125-1-3",
+            "num": 3,
+            "label": "artère fémorale profonde",
+            "accepted": [
+              "artère fémorale profonde",
+              "artere femorale profonde"
+            ]
+          },
+          {
+            "id": "p125-1-4",
+            "num": 4,
+            "label": "artère cervico-céphalique",
+            "accepted": [
+              "artere cervico-cephalique",
+              "artère cervico-céphalique"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "number": "Planche 126",
+    "title": "PATELLA",
+    "subtitle": "",
+    "image": "images/planche_126.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p126-1-1",
+            "num": 1,
+            "label": "base",
+            "accepted": [
+              "base"
+            ]
+          },
+          {
+            "id": "p126-1-2",
+            "num": 2,
+            "label": "surfaces articulaires fémorales",
+            "accepted": [
+              "surfaces articulaires fémorales",
+              "surfaces articulaires femorales"
+            ]
+          },
+          {
+            "id": "p126-1-3",
+            "num": 3,
+            "label": "apex (sommet)",
+            "accepted": [
+              "sommet",
+              "apex (sommet)",
+              "apex"
+            ]
+          },
+          {
+            "id": "p126-1-4",
+            "num": 4,
+            "label": "face antérieure",
+            "accepted": [
+              "face antérieure",
+              "face anterieure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "number": "Planche 127",
+    "title": "TIBIA",
+    "subtitle": "",
+    "image": "images/planche_127.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p127-1-1",
+            "num": 1,
+            "label": "surface glénoïdale latérale",
+            "accepted": [
+              "surface glénoïdale latérale",
+              "surface glenoidale laterale"
+            ]
+          },
+          {
+            "id": "p127-1-2",
+            "num": 2,
+            "label": "surface glénoïdale médiale",
+            "accepted": [
+              "surface glénoïdale médiale",
+              "surface glenoidale mediale"
+            ]
+          },
+          {
+            "id": "p127-1-3",
+            "num": 3,
+            "label": "tubercules intercondylaires",
+            "accepted": [
+              "tubercules intercondylaires"
+            ]
+          },
+          {
+            "id": "p127-1-4",
+            "num": 4,
+            "label": "tubérosité tibiale",
+            "accepted": [
+              "tuberosite tibiale",
+              "tubérosité tibiale"
+            ]
+          },
+          {
+            "id": "p127-1-5",
+            "num": 5,
+            "label": "bord antérieur",
+            "accepted": [
+              "bord antérieur",
+              "bord anterieur"
+            ]
+          },
+          {
+            "id": "p127-1-6",
+            "num": 6,
+            "label": "face antéro-médiale",
+            "accepted": [
+              "face antéro-médiale",
+              "face antero-mediale"
+            ]
+          },
+          {
+            "id": "p127-1-7",
+            "num": 7,
+            "label": "face antéro-latérale",
+            "accepted": [
+              "face antéro-latérale",
+              "face antero-laterale"
+            ]
+          },
+          {
+            "id": "p127-1-8",
+            "num": 8,
+            "label": "malléole médiale",
+            "accepted": [
+              "malléole médiale",
+              "malleole mediale"
+            ]
+          },
+          {
+            "id": "p127-1-9",
+            "num": 9,
+            "label": "facette fibulaire supérieure",
+            "accepted": [
+              "facette fibulaire supérieure",
+              "facette fibulaire superieure"
+            ]
+          },
+          {
+            "id": "p127-1-10",
+            "num": 10,
+            "label": "ligne du muscle soléaire",
+            "accepted": [
+              "ligne du muscle soleaire",
+              "ligne du muscle soléaire"
+            ]
+          },
+          {
+            "id": "p127-1-11",
+            "num": 11,
+            "label": "face postérieure",
+            "accepted": [
+              "face posterieure",
+              "face postérieure"
+            ]
+          },
+          {
+            "id": "p127-1-12",
+            "num": 12,
+            "label": "facette fibulaire inférieure",
+            "accepted": [
+              "facette fibulaire inferieure",
+              "facette fibulaire inférieure"
+            ]
+          },
+          {
+            "id": "p127-1-13",
+            "num": 13,
+            "label": "aire intercondylaire ant.",
+            "accepted": [
+              "aire intercondylaire ant."
+            ]
+          },
+          {
+            "id": "p127-1-14",
+            "num": 14,
+            "label": "aire intercondylaire post.",
+            "accepted": [
+              "aire intercondylaire post."
+            ]
+          },
+          {
+            "id": "p127-1-15",
+            "num": 15,
+            "label": "tubercule de GERDY",
+            "accepted": [
+              "tubercule de gerdy",
+              "tubercule de GERDY"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "number": "Planche 128",
+    "title": "FIBULA",
+    "subtitle": "",
+    "image": "images/planche_128.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p128-1-1",
+            "num": 1,
+            "label": "surface articulaire supérieure",
+            "accepted": [
+              "surface articulaire supérieure",
+              "surface articulaire superieure"
+            ]
+          },
+          {
+            "id": "p128-1-2",
+            "num": 2,
+            "label": "tête",
+            "accepted": [
+              "tete",
+              "tête"
+            ]
+          },
+          {
+            "id": "p128-1-3",
+            "num": 3,
+            "label": "col",
+            "accepted": [
+              "col"
+            ]
+          },
+          {
+            "id": "p128-1-4",
+            "num": 4,
+            "label": "nerf fibulaire commun",
+            "accepted": [
+              "nerf fibulaire commun"
+            ]
+          },
+          {
+            "id": "p128-1-5",
+            "num": 5,
+            "label": "corps",
+            "accepted": [
+              "corps"
+            ]
+          },
+          {
+            "id": "p128-1-6",
+            "num": 6,
+            "label": "malléole latérale",
+            "accepted": [
+              "malléole latérale",
+              "malleole laterale"
+            ]
+          },
+          {
+            "id": "p128-1-7",
+            "num": 7,
+            "label": "surface articulaire inférieure",
+            "accepted": [
+              "surface articulaire inférieure",
+              "surface articulaire inferieure"
+            ]
+          },
+          {
+            "id": "p128-1-8",
+            "num": 8,
+            "label": "gouttière des muscles péroniers",
+            "accepted": [
+              "gouttière des muscles péroniers",
+              "gouttiere des muscles peroniers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "number": "Planche 129",
+    "title": "SQUELETTE DU PIED",
+    "subtitle": "",
+    "image": "images/planche_129.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p129-1-1",
+            "num": 1,
+            "label": "talus",
+            "accepted": [
+              "talus"
+            ]
+          },
+          {
+            "id": "p129-1-2",
+            "num": 2,
+            "label": "calcanéus",
+            "accepted": [
+              "calcanéus",
+              "calcaneus"
+            ]
+          },
+          {
+            "id": "p129-1-3",
+            "num": 3,
+            "label": "os naviculaire (scaphoïde)",
+            "accepted": [
+              "os naviculaire (scaphoide)",
+              "os naviculaire",
+              "scaphoïde",
+              "os naviculaire (scaphoïde)",
+              "scaphoide"
+            ]
+          },
+          {
+            "id": "p129-1-4",
+            "num": 4,
+            "label": "cunéiforme latéral",
+            "accepted": [
+              "cuneiforme lateral",
+              "cunéiforme latéral"
+            ]
+          },
+          {
+            "id": "p129-1-5",
+            "num": 5,
+            "label": "cunéiforme intermédiaire",
+            "accepted": [
+              "cunéiforme intermédiaire",
+              "cuneiforme intermediaire"
+            ]
+          },
+          {
+            "id": "p129-1-6",
+            "num": 6,
+            "label": "cunéiforme médial",
+            "accepted": [
+              "cuneiforme medial",
+              "cunéiforme médial"
+            ]
+          },
+          {
+            "id": "p129-1-7",
+            "num": 7,
+            "label": "1º métatarsien (M1)",
+            "accepted": [
+              "1º métatarsien (m1)",
+              "m1",
+              "1º metatarsien",
+              "1º metatarsien (m1)",
+              "1º métatarsien",
+              "1º métatarsien (M1)"
+            ]
+          },
+          {
+            "id": "p129-1-8",
+            "num": 8,
+            "label": "5º métatarsien (M5)",
+            "accepted": [
+              "5º métatarsien (M5)",
+              "5º métatarsien (m5)",
+              "m5",
+              "5º metatarsien",
+              "5º metatarsien (m5)",
+              "5º métatarsien"
+            ]
+          },
+          {
+            "id": "p129-1-9",
+            "num": 9,
+            "label": "phalanges",
+            "accepted": [
+              "phalanges"
+            ]
+          },
+          {
+            "id": "p129-1-10",
+            "num": 10,
+            "label": "sustentaculum tali",
+            "accepted": [
+              "sustentaculum tali"
+            ]
+          },
+          {
+            "id": "p129-1-11",
+            "num": 11,
+            "label": "cuboïde",
+            "accepted": [
+              "cuboïde",
+              "cuboide"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "number": "Planche 130",
+    "title": "",
+    "subtitle": "",
+    "image": "images/planche_130.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p130-1-1",
+            "num": 1,
+            "label": "phalange distale",
+            "accepted": [
+              "phalange distale"
+            ]
+          },
+          {
+            "id": "p130-1-2",
+            "num": 2,
+            "label": "phalange intermédiaire",
+            "accepted": [
+              "phalange intermediaire",
+              "phalange intermédiaire"
+            ]
+          },
+          {
+            "id": "p130-1-3",
+            "num": 3,
+            "label": "phalange proximale",
+            "accepted": [
+              "phalange proximale"
+            ]
+          },
+          {
+            "id": "p130-1-4",
+            "num": 4,
+            "label": "MS",
+            "accepted": [
+              "ms",
+              "MS"
+            ]
+          },
+          {
+            "id": "p130-1-5",
+            "num": 5,
+            "label": "MI",
+            "accepted": [
+              "mi",
+              "MI"
+            ]
+          },
+          {
+            "id": "p130-1-6",
+            "num": 6,
+            "label": "cunéiforme médial",
+            "accepted": [
+              "cuneiforme medial",
+              "cunéiforme médial"
+            ]
+          },
+          {
+            "id": "p130-1-7",
+            "num": 7,
+            "label": "cunéiforme intermédiaire",
+            "accepted": [
+              "cunéiforme intermédiaire",
+              "cuneiforme intermediaire"
+            ]
+          },
+          {
+            "id": "p130-1-8",
+            "num": 8,
+            "label": "cunéitorme latéral",
+            "accepted": [
+              "cuneitorme lateral",
+              "cunéitorme latéral"
+            ]
+          },
+          {
+            "id": "p130-1-9",
+            "num": 9,
+            "label": "naviculaire (scaphoïde)",
+            "accepted": [
+              "naviculaire (scaphoïde)",
+              "naviculaire (scaphoide)",
+              "naviculaire",
+              "scaphoïde",
+              "scaphoide"
+            ]
+          },
+          {
+            "id": "p130-1-10",
+            "num": 10,
+            "label": "cuboïde",
+            "accepted": [
+              "cuboïde",
+              "cuboide"
+            ]
+          },
+          {
+            "id": "p130-1-11",
+            "num": 11,
+            "label": "tête du talus",
+            "accepted": [
+              "tête du talus",
+              "tete du talus"
+            ]
+          },
+          {
+            "id": "p130-1-12",
+            "num": 12,
+            "label": "trochlée du talus",
+            "accepted": [
+              "trochlee du talus",
+              "trochlée du talus"
+            ]
+          },
+          {
+            "id": "p130-1-13",
+            "num": 13,
+            "label": "calcanéus",
+            "accepted": [
+              "calcanéus",
+              "calcaneus"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "number": "Planche 131",
+    "title": "SQUELETTE DU PIED",
+    "subtitle": "",
+    "image": "images/planche_131.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p131-1-1",
+            "num": 1,
+            "label": "calcanéus",
+            "accepted": [
+              "calcanéus",
+              "calcaneus"
+            ]
+          },
+          {
+            "id": "p131-1-2",
+            "num": 2,
+            "label": "talus",
+            "accepted": [
+              "talus"
+            ]
+          },
+          {
+            "id": "p131-1-3",
+            "num": 3,
+            "label": "cuboïde",
+            "accepted": [
+              "cuboïde",
+              "cuboide"
+            ]
+          },
+          {
+            "id": "p131-1-4",
+            "num": 4,
+            "label": "naviculaire",
+            "accepted": [
+              "naviculaire"
+            ]
+          },
+          {
+            "id": "p131-1-5",
+            "num": 5,
+            "label": "cunéiforme médiale",
+            "accepted": [
+              "cunéiforme médiale",
+              "cuneiforme mediale"
+            ]
+          },
+          {
+            "id": "p131-1-6",
+            "num": 6,
+            "label": "cunéiforme intermédiaire",
+            "accepted": [
+              "cunéiforme intermédiaire",
+              "cuneiforme intermediaire"
+            ]
+          },
+          {
+            "id": "p131-1-7",
+            "num": 7,
+            "label": "cunéiforme latéral",
+            "accepted": [
+              "cuneiforme lateral",
+              "cunéiforme latéral"
+            ]
+          },
+          {
+            "id": "p131-1-8",
+            "num": 8,
+            "label": "M1",
+            "accepted": [
+              "M1",
+              "m1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "number": "Planche 132",
+    "title": "TALUS",
+    "subtitle": "",
+    "image": "images/planche_132.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p132-1-1",
+            "num": 1,
+            "label": "tête (surface articulaire naviculaire)",
+            "accepted": [
+              "tete",
+              "surface articulaire naviculaire",
+              "tête (surface articulaire naviculaire)",
+              "tete (surface articulaire naviculaire)",
+              "tête"
+            ]
+          },
+          {
+            "id": "p132-1-2",
+            "num": 2,
+            "label": "surface articulaire calcanéenne antérieure",
+            "accepted": [
+              "surface articulaire calcanéenne antérieure",
+              "surface articulaire calcaneenne anterieure"
+            ]
+          },
+          {
+            "id": "p132-1-3",
+            "num": 3,
+            "label": "surface articulaire calcanéenne postérieure",
+            "accepted": [
+              "surface articulaire calcanéenne postérieure",
+              "surface articulaire calcaneenne posterieure"
+            ]
+          },
+          {
+            "id": "p132-1-4",
+            "num": 4,
+            "label": "sillon de l'astragale",
+            "accepted": [
+              "sillon de l'astragale"
+            ]
+          },
+          {
+            "id": "p132-1-5",
+            "num": 5,
+            "label": "surface malléolaire médiale",
+            "accepted": [
+              "surface malleolaire mediale",
+              "surface malléolaire médiale"
+            ]
+          },
+          {
+            "id": "p132-1-6",
+            "num": 6,
+            "label": "col",
+            "accepted": [
+              "col"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "number": "Planche 133",
+    "title": "CALCANEUS",
+    "subtitle": "",
+    "image": "images/planche_133.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p133-1-1",
+            "num": 1,
+            "label": "grande apophyse (processus antérieur)",
+            "accepted": [
+              "grande apophyse",
+              "processus antérieur",
+              "processus anterieur"
+            ]
+          },
+          {
+            "id": "p133-1-2",
+            "num": 2,
+            "label": "surface articulaire talaire antérieure",
+            "accepted": [
+              "surface articulaire talaire antérieure",
+              "surface articulaire talaire anterieure",
+              "facette talaire antérieure",
+              "surface talaire antérieure"
+            ]
+          },
+          {
+            "id": "p133-1-3",
+            "num": 3,
+            "label": "surface articulaire talaire postérieure",
+            "accepted": [
+              "surface articulaire talaire postérieure",
+              "surface articulaire talaire posterieure",
+              "facette talaire postérieure",
+              "surface talaire postérieure"
+            ]
+          },
+          {
+            "id": "p133-1-4",
+            "num": 4,
+            "label": "tubérosité du calcanéus",
+            "accepted": [
+              "tubérosité du calcanéus",
+              "tuberosite du calcaneus",
+              "tubérosité calcanéenne",
+              "tubercule du calcanéus"
+            ]
+          },
+          {
+            "id": "p133-1-5",
+            "num": 5,
+            "label": "surface articulaire avec le cuboïde",
+            "accepted": [
+              "surface articulaire avec le cuboïde",
+              "surface articulaire avec le cuboide",
+              "surface articulaire cuboïdienne",
+              "surface pour le cuboïde",
+              "facette cuboïdienne"
+            ]
+          },
+          {
+            "id": "p133-1-6",
+            "num": 6,
+            "label": "sustentaculum tali",
+            "accepted": [
+              "sustentaculum tali",
+              "sustentaculum"
+            ]
+          },
+          {
+            "id": "p133-1-7",
+            "num": 7,
+            "label": "tubercule des péroniers (trochlée fibulaire)",
+            "accepted": [
+              "tubercule des péroniers",
+              "tubercule des peroniers",
+              "trochlée fibulaire",
+              "trochlee fibulaire"
+            ]
+          },
+          {
+            "id": "p133-1-8",
+            "num": 8,
+            "label": "zone d'insertion du ligament calcanéo-fibulaire",
+            "accepted": [
+              "zone d'insertion du ligament calcanéo-fibulaire",
+              "ligament calcanéo-fibulaire",
+              "ligament calcaneo-fibulaire",
+              "ligament calcanéo fibulaire",
+              "ligament péronéo-calcanéen"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "number": "Planche 134",
+    "title": "TARSE : AXES DU TALUS",
+    "subtitle": "",
+    "image": "images/planche_134.webp",
+    "sections": [
+      {
+        "name": "Légende du schéma",
+        "items": [
+          {
+            "id": "p134-1-1",
+            "num": 1,
+            "label": "corps",
+            "accepted": [
+              "corps"
+            ]
+          },
+          {
+            "id": "p134-1-2",
+            "num": 2,
+            "label": "col",
+            "accepted": [
+              "col"
+            ]
+          },
+          {
+            "id": "p134-1-3",
+            "num": 3,
+            "label": "tête",
+            "accepted": [
+              "tete",
+              "tête"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
